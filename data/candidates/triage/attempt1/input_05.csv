@@ -1,0 +1,26 @@
+candidate_id,name,website,hq_guess,suspected_type,note
+aternus-family-office,Aternus Family Office,,CZ,family_office,"In Seedtable Czech ranking (aggregator lead, name only, not verified)."
+czechinvest,CzechInvest,https://czechinvest.gov.cz,CZ,other,"Government agency; ellty.com says CZK 646M committed to about 260 startups in 2025 (grants / incubation). Expected exclusion as grant program. Domain confirmed by a czechinvest.gov.cz URL in search results. | State agency running startup programmes (CzechAccelerator, CzechStartups, ESA BIC). Expected exclusion (grant_or_program_only). Domain seen in a CzechInvest URL in search results."
+founder-institute-prague,Founder Institute Prague,,CZ,other,Accelerator chapter listed by Vestbee; equity terms not stated in fetched pages.
+impulse-ventures,Impulse Ventures,,CZ,vc,"Wikipedia list and AIN rank 14 (H1 2022); Lupa names Ondřej Tomek (Impulse Ventures) as a Spinoffy backer. Vestbee lists impulseventures.com (single source, not used)."
+jic-ventures,JIC Ventures,https://www.jic.cz/ventures/,CZ,vc,"Example deal: FaceUp (May 2026, fund's first investment; Fil Rouge Capital led). Also Elredo lead (Oct 2026), Aiviro (Dec 2025), Groundcom (Jun 2025). Brno; fund still raising (E15 Apr 2026: about 40 LPs); parent JIC agency invested from own money earlier. Website fetched. | Brno, CZK 400m pre-seed/seed fund launched 2026-04-07; managers Radim Kocourek and Miloš Sochor; backed by South Moravian Region, City of Brno, four universities, CTP, Česká spořitelna and others; not finally closed. Aiviro round Dec 2025 (Lupa). Website not identified."
+look-ai-ventures,Look AI Ventures,https://lookai.vc,CZ,vc,"Example deal: Lucida AI seed extension (Jun 2026). Also Sodex Innovations (Austria, Jul 2026), Embodied AI (Switzerland, Sep 2026), Digicust (Austria, Dec 2025). Called a Prague fund by Lupa. Website from Lupa links."
+novira-capital,Novira Capital,,CZ,vc,Smartlook exit investor alongside Reflex (Awards 2024; CzechCrunch headline names Reflex and Novira). HQ guessed CZ. Website not identified.
+purple-ventures,Purple Ventures,https://www.purple-ventures.com,CZ,vc,"Example deal: Flae Robotics (Oct 2026, with Garage Angels). Also Fether Labs (UK, May 2026), Delta Green (Oct 2025). Brno per CzechCrunch Apr 2024 fund report. Website from Lupa article links. | Brno; Delta Green investor (Awards 2025 impact); second fund targeting EUR 40m per CzechCrunch. Website not identified."
+seed-starter,Seed Starter (Ceska sporitelna),https://www.seedstarter.cz,CZ,cvc,"Example deal: Definic seed (Jun 2026). Also Repsense (Lithuania, Dec 2025). Corporate accelerator / investment vehicle of Ceska sporitelna. Website from Lupa article link. | Bank. Example deal: PalmApp (2025; CzechCrunch Jan 2026 says the bank is withdrawing). Also LP in JIC Ventures (E15 Apr 2026) and owner of Seed Starter. Included as borderline; likely excluded as bank. Website not identified without guessing."
+stratum-partners,Stratum Partners,https://stratum.eu,CZ,pe,"Prague 2. Growth equity and buyouts, EUR 2-6m, CZ/SK."
+united-founders,United Founders,,CZ,vc,"Example deal: first investments Wonderful.ai and EveryHealth (Nov 2025); also quantum-chip and drone plant-nutrition startups (Apr 2026, Lupa). Co-founded by Jakub Havrlant and Vit Horky; offices in many European cities incl. Prague, so location of the investment team needs checking. Website not found."
+alfa8,alfa8,,,vc,GA Drilling investor (Awards 2025). Identity and HQ not verified.
+diaspora-ventures,Diaspora Ventures,,,vc,"Named in CzechCrunch deal newsletter. Identity, HQ not verified."
+ipm,IPM,,,unknown,"Photoneo investor (Awards 2024). Ambiguous short name, identity unverified."
+one-peak,One Peak,,,pe,"IP Fabric investor (Awards 2024). Possibly One Peak Partners (growth equity, UK); not verified."
+up21,UP21,,,other,"Accelerator listed by Vestbee (up21.com, single source, not used); equity terms not stated."
+arctern-ventures,ArcTern Ventures,,CA,vc,"Woltair investor (Awards 2024). Canada is a guess from knowledge, not verified."
+creandum,Creandum,,SE,vc,Better Stack investor (Awards 2023 VC Deal CZ finalist).
+dtcp-growth,DTCP Growth,,DE,vc,"Example deal: Resistant AI Series B USD 25M (Oct 2025, lead). German investor per Lupa. Website not identified."
+fasanara-capital,Fasanara Capital,,GB,lender,"Example deal: EUR 30M debt financing line for Flowpay (Mar 2025). Debt provider, expected exclusion as lender. HQ from prior knowledge. Website not identified."
+innova-capital,Innova Capital,https://www.innovacap.com,PL,pe,"Warsaw. Expansion capital and buyouts, EUR 20-50m per CVCA profile."
+mid-europa-partners,Mid Europa Partners,https://www.mideuropa.com,GB,pe,"Brand MidEuropa. London address on CVCA profile. Large CEE buyouts, EUR 50-200m."
+point-nine,Point Nine,,DE,vc,"CloudTalk investor listed as Point Nine Management (Awards 2024, 2025)."
+snowflake-ventures,Snowflake Ventures,,US,cvc,"Example deal: Ataccama (Dec 2025, undisclosed). Corporate VC arm of Snowflake. Website not identified."
+viking-global-investors,Viking Global Investors,,US,other,"Keboola investor (Awards 2024). Large crossover / hedge fund manager, likely public_markets_only or out of scope."

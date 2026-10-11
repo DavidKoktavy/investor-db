@@ -1,0 +1,26 @@
+candidate_id,name,website,hq_guess,suspected_type,note
+bakala-capital,Bakala Capital,,CZ,private_holding,"In Seedtable Czech ranking (aggregator lead, name only, not verified)."
+dendis-capital,Dendis Capital,https://www.dendiscapital.com,CZ,private_holding,"Example deal: Carebot EUR 400k (Jan 2026). Also HTG Medical (Jul 2026, Vestbee). Led by the Dendis couple per Lupa. Website from Lupa link."
+ftmo,FTMO,,CZ,other,"Example deal: USD 1M into Zerohash (US, Oct 2025); also acquirer of Oanda (Dec 2025, headline). Operating company making strategic investments, not a fund. Website not identified without guessing."
+incomming-ventures,InCOMMing Ventures,,CZ,vc,"In Seedtable Czech ranking (aggregator lead, name only, not verified)."
+jsk-investments,JSK Investments,https://www.jskinvestments.cz,CZ,private_holding,"Prague 1. Investment group investing own capital: private/growth equity plus venture capital. Own site shows startup deals (e.g. Andromeda Surgical; dates not checked). Operates as SICAV. | Example deal: Elin.ai pre-seed (Dec 2024, EUR 420k of EUR 1M). Also iSono Health (US, Oct 2025), Vetstor (Dec 2025), Andromeda Surgical (US, Sep 2026). Investment company of Simona Kijonkova. Website domain from a Lupa link to a press release on that domain. | Named among new funds in VC Deals Report 2025 coverage (2026-03-24); Vetstor investor (Lupa 2025-12-09). Family investment group. Not the JSK advisory law firm of the Awards advisor category. Website per scout_cvca.csv (CVCA scout), not independently fetched here."
+lumus-investment-collective,LUMUS Investment Collective,,CZ,angel,"Women's investment collective; MultiplexDX investor (Awards 2025 impact). ellty lists lumusinvestment.com (single source, not used). Angel network, may be excluded."
+np-investments,NP Investments,,CZ,unknown,"In Seedtable Czech ranking (aggregator lead, name only, not verified)."
+purposetech,PurposeTech,,CZ,vc,"Prague, first pre-seed fund EUR 2.3m (Vestbee Q4 2024). Pale Fire news mentions a related seed fund (Purpose Ventures) per scout_cvca.csv. Website not identified."
+seed-starter-ceske-sporitelny,Seed Starter České spořitelny,,CZ,cvc,"Bank-run startup investment programme; a Slovak version (Seed Starter Slovenskej sporitelne) is also named. Česká spořitelna is also an LP in Tilia, i&i Bio and JIC Ventures. Website not identified."
+stredocesky-inovacni-centrum,Stredoceske inovacni centrum (SIC),,CZ,other,"Example deal: Elredo (Oct 2026, new investor alongside JIC Ventures and Bond Ventures). Regional innovation centre; unclear whether it invests equity itself. Website not identified."
+versute-investments,Versute Investments,https://versute.cz,CZ,pe,"Prague 1. Growth capital and LBO/MBO via open-end fund, EUR 1-5m; own site also presents it as an advisory company."
+alpha-intelligence-capital,Alpha Intelligence Capital,,,vc,Photoneo investor (Awards 2024). HQ not verified.
+dreamcraft-ventures,Dreamcraft Ventures,,,vc,"Listed in tech.eu top investors for Czech Republic H1 2025 (1 deal); the specific deal was not shown on the page, so no example deal. Aggregator lead only. Website and HQ not identified."
+irregular-expressions,Irregular Expressions,,,vc,"Example deal: TopK seed CZK 120M (Jul 2025, with Earlybird and Kaya). HQ and website not identified."
+rtp-global,RTP Global,,,vc,Example deal: PangeAI seed (Apr 2026 article). HQ and website not identified.
+vocal-vc,Vocal VC,,,vc,Example deal: PangeAI seed (Apr 2026 article). HQ and website not identified.
+arieli-capital,Arieli Capital,,IL,vc,Named as Powerful Medical investor in Newstream's 2023 winners article. HQ Israel is a guess from the name; not verified.
+crescendo-ventures,Crescendo Ventures,,RO,vc,"Example deal: Aiviro EUR 450k (Dec 2025, with Danube Angels and JIC Ventures). Romanian fund per Lupa. Website not identified. | Romanian fund in the Aiviro round (Lupa 2025-12-12)."
+earlybird,Earlybird,,DE,vc,"Example deal: TopK seed CZK 120M (Jul 2025, with Kaya and Irregular Expressions). HQ from prior knowledge (tech.eu also lists Earlybird Venture Capital). Website not identified."
+fifth-wall,Fifth Wall,,US,vc,Woltair investor (Awards 2024; written Fifthwall on the page).
+inovo-venture-partners,Inovo Venture Partners,,PL,vc,Listed on VC Beast Prague page; search results describe Inovo as Poland-based (not verified). Website not identified.
+movens-capital,Movens Capital,https://movenscapital.com,PL,vc,"Example deal: Grid.online EUR 4M (Jun 2026, co-lead). Polish per Lupa. Website from Lupa link. | The Village Network investor (Awards 2023 impact). Vestbee snippet mentions a EUR 60m CEE fund. HQ not verified."
+qq-capital,QQ Capital,,SK,vc,"Example deal: Groundcom earlier funding (article of Jun 2025), associated with Michal Stencl (Sygic founder). HQ is a guess from that association. Website not identified."
+sofia-angels-ventures,Sofia Angels Ventures,,BG,angel,"NOLD investor (Awards 2024 impact). Name suggests Bulgaria; angel network or fund, unverified."
+westly-group,Westly Group,,US,vc,Woltair investor (Awards 2024).
