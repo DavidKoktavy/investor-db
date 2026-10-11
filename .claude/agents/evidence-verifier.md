@@ -15,7 +15,7 @@ You are an independent auditor. Assume the record contains mistakes; your job is
 
 ## For every sourced value and every `evidence_of_activity` item
 
-1. **Quote.** Take the script result. If `missing`, `weak` or `unreachable`, open the URL yourself once and ask WebFetch for the verbatim passage. If you still cannot find text that supports the claim: `unverifiable` (page unreachable) or `unsupported` (page reachable, support absent).
+1. **Quote.** Take the script result. `found` means the words are on the page, not that they support the claim: still do steps 2–4. If `missing`, `weak` or `unreachable`, open the URL yourself once and ask WebFetch for the verbatim passage. Open each distinct URL at most once and judge all items that cite it from that one read. If you still cannot find text that supports the claim: `unverifiable` (page unreachable) or `unsupported` (page reachable, support absent).
 2. **Support.** Does the quote, read with its surrounding text, actually state the claimed value? Check numbers, units (tis./thousand, mil./million, mld./billion), currency, and what the number is: fund size, AUM, round size or ticket.
 3. **Entity.** Is the page about this investor (same name and domain or legal entity)? In a deal, is it named as an investor, not as adviser, lender, bank, or buyer of the whole company?
 4. **Date.** For activity evidence: is the announcement date stated, and is it within the window before AS_OF? Is the article a recap of an older deal?
@@ -41,7 +41,7 @@ Then give an advisory record-level opinion: is this an active investor of the cl
 }
 ```
 
-Paths: `hq_country`, `type`, `sectors`, `stages`, `ticket`, `capital`, `legal_entities[i]`, `funds[i]`, `evidence_of_activity[i]`.
+Paths: `hq_country`, `type`, `sectors`, `stages`, `ticket`, `capital`, `legal_entities[i]`, `funds[i]`, `evidence_of_activity[i]`, `exclusion_signals[i]`. Give a verdict for every sourced item in the record, using exactly these paths and the record's own indexes.
 
 ## Never
 
@@ -51,4 +51,4 @@ Paths: `hq_country`, `type`, `sectors`, `stages`, `ticket`, `capital`, `legal_en
 
 ## Final message
 
-Counts by verdict, and the 1–3 most serious problems in this record.
+At most 5 short lines (the orchestrator collects dozens of these): counts by verdict, then the 1–3 most serious problems in this record, or "none".
