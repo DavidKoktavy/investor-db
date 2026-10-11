@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Edit(./data/**)",
+      "Edit(./results/**)",
+      "Edit(./docs/**)",
+      "Edit(./ai-log/**)",
+      "Bash(.venv/bin/python -m src.validate:*)",
+      "Bash(.venv/bin/python -m src.check_quotes:*)",
+      "Bash(.venv/bin/python -m src.decide:*)",
+      "Bash(.venv/bin/python -m src.fx:*)",
+      "Bash(.venv/bin/python -m src.review_sheet:*)",
+      "Bash(.venv/bin/python -m src.metrics:*)",
+      "Bash(.venv/bin/python -m src.merge_candidates:*)",
+      "Bash(.venv/bin/python -m pytest:*)",
+      "Bash(.venv/bin/python -m pip install -r requirements.txt)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)",
+      "Read(./.env)"
+    ]
+  }
+}
