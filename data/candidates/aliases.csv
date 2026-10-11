@@ -1,0 +1,13 @@
+alias_id,canonical_id,reason
+n1-ventures,nation1,"N1 / Nation 1 is one brand (nation1.vc, n1.rocks)"
+nation-1-vc,nation1,"same brand, scout_programmes id"
+i-and-i-biotech-investments,i-and-i-biotech,"i&i Bio: one manager, several scout ids"
+i-i-biotech-fund,i-and-i-biotech,"i&i Bio fund, unit of record is the manager"
+i-and-i-biotech-fund,i-and-i-biotech,"i&i Bio fund, unit of record is the manager"
+j-and-t-ventures,j-t-ventures,"J&T Ventures, same domain jtventures.cz"
+genesis-capital-equity,genesis-capital,"Genesis Capital funds share one manager brand (genesis.cz)"
+genesis-capital-growth,genesis-capital,"Genesis Growth Equity Fund is a Genesis Capital fund"
+seed-starter-ceske-sporiteln,seed-starter,"Seed Starter České spořitelny, same unit"
+ceska-sporitelna,seed-starter,"bank seen in a deal through its Seed Starter programme"
+tachles-vc,tachles,"same fund"
+presto-tech-horizons,presto-ventures,"Tech Horizons is a Presto Ventures fund; unit of record is the manager"
