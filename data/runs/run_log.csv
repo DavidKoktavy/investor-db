@@ -1,0 +1,13 @@
+date,agent,model,id,tokens,tool_uses,duration_s,outcome
+2026-10-11,candidate-scout,sonnet,scout_cvca,175501,107,1489.6,ok
+2026-10-11,candidate-scout,sonnet,scout_deals,76062,219,3709.2,ok
+2026-10-11,candidate-scout,sonnet,scout_programmes,284471,172,1857.5,ok
+2026-10-11,candidate-triage,haiku,attempt1/batch_01,137285,51,780.2,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_02,195463,66,989.7,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_03,123532,40,443.2,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_04,107022,19,706.6,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_05,108607,21,711.1,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_06,121427,37,441.3,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_07,108698,20,711.6,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_08,114325,30,718.5,failed
+2026-10-11,candidate-triage,haiku,attempt1/batch_09,110833,22,712.3,failed

@@ -35,3 +35,18 @@ Každé rozhodnutí v bodě, který zadání nechává otevřený. Formát: datu
 ## D-009 · 2026-10-11 · Triáž před plnou extrakcí
 - Alternativy: plná extrakce všech 225 kandidátů (desítky hodin agentů, většina skončí jako zahraniční nebo jiný typ).
 - Proč: 82 kandidátů má podle scoutů zahraniční sídlo a desítky jsou zjevně PE, holdingy nebo kluby andělů. Levná triáž (model Haiku, jeden zdroj na kandidáta) odpovídá kroku „triáž“ v nákladovém modelu (PLAN §8). Plnou extrakci dostanou jen kandidáti, kteří podle triáže mohou být VC/CVC s týmem v ČR. Rozhodnutí z triáže dělá kód a jsou označená `decided_by=triage`; jejich chybovost měřím na vzorku v ruční kontrole.
+
+## D-010 · 2026-10-11 · Agenti běží v Claude Code na mém počítači, ne v cloudovém pracovním prostoru
+- Alternativy: pokračovat v cloudu po dávkách (každé kolo konverzace má jen 200 vyhledávání pro všechny agenty dohromady a každé stažení stránky mimo výsledky vyhledávání musím ručně schválit; skript na kontrolu citací tam nemá přístup na web).
+- Proč: na mém počítači má Claude Code přístup na web, oprávnění pro web a příkazy pipeline jsou nastavená jednou v `.claude/settings.json` a export konverzace (`/export`) je přesně to, co zadání žádá. Postup je v `CLAUDE.md` (Pilot runbook), každý krok jde přerušit a obnovit.
+
+## D-011 · 2026-10-11 · Rozšíření schématu o `exclusion_signals`
+- Alternativy: nechat extraktor nastavit typ `null` u poradců, bank apod.
+- Proč: kód potřebuje vědět, *proč* subjekt nepatří do databáze (jen dluh, poradce, platforma…), a ten důvod musí mít zdroj jako každý jiný údaj. Agent fakt zapíše, kód rozhodne; smíšené portfolio (dluh + doložená equity investice) zůstává zařazené.
+
+## D-012 · 2026-10-11 · Rozsah ruční kontroly
+- Alternativy: 100 % všech kandidátů (PLAN §7.2) — u 225 kandidátů by to byly jednotky hodin jen na vyřazené zahraniční fondy.
+- Proč: kontroluji všechny zařazené záznamy (pokud jich je víc než 40, náhodný vzorek 40), všechna vyřazení, o kterých rozhodla pipeline, a náhodný vzorek 15 vyřazení z triáže (seed 42). Odchylka od plánu, protože triáž v plánu nebyla.
+
+## D-013 · 2026-10-11 · Ověřovatel na modelu Opus, extraktor na Sonnetu, triáž na Haiku
+- Proč: ověřovatel má být nezávislý a přísnější než extraktor; triáž je levný první průchod jako v nákladovém modelu (PLAN §8). Pokud by Opus narazil na limit předplatného, ověřovatel poběží na Sonnetu a zapíšu to sem.

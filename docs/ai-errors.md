@@ -1,7 +1,11 @@
 # Chyby AI
 
-Každá chyba agenta, kterou zachytil skript, ověřovatel nebo ruční kontrola. Podklad pro sekci „Kde se AI mýlila“ v README.
+Každá chyba agenta, kterou zachytil skript, ověřovatel, orchestrátor nebo ruční kontrola. Podklad pro sekci „Kde se AI mýlila“ v README.
 
 | # | Datum | Agent | Záznam | Pole | Co bylo špatně | Jak zachyceno | Co jsem změnil |
 |---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| E-01 | 2026-10-11 | candidate-scout (deals) | ~70 zahraničních investorů | `hq_guess` | Sídlo zahraničních fondů vyplnil „z vlastní znalosti“, ne ze zdroje. Porušuje pravidlo „nikdy nehádej“, i když jde jen o nápovědu. | Agent to sám přiznal v závěrečné zprávě. | `hq_guess` se používá jen jako nápověda; sídlo každého kandidáta znovu zjišťuje triáž se zdrojem. |
+| E-02 | 2026-10-11 | candidate-scout (programmes) | finalisté CVCA Awards | seznam investorů | Seznamy finalistů převzal z výstupu WebFetch, což je shrnutí malého modelu, ne doslovný text stránky. | Agent to uvedl ve zprávě. | Kandidáti jsou jen tipy; extraktor každý údaj ověřuje znovu a citace kontroluje skript `check_quotes.py`. |
+| E-03 | 2026-10-11 | candidate-triage (všech 9 dávek) | 180 z 225 kandidátů | vše | Výsledek `unknown` u 80 % kandidátů. Příčina je infrastrukturní: agenti v cloudovém prostředí sdílejí limit 200 vyhledávání na jedno kolo konverzace (spotřebovali ho scouti) a stažení stránky, která nepřišla z výsledků vyhledávání, vyžaduje ruční schválení uživatelem, které nikdo nedal. | Souhrn výstupu (`attempt1/`) a zprávy agentů. | Běh agentů přesunut do Claude Code na mém počítači s projektovými oprávněními (`.claude/settings.json`), paralelismus snížen na 3–4, triáž poběží znovu. Neúspěšný pokus zůstává v `data/candidates/triage/attempt1/`. |
+| E-04 | 2026-10-11 | candidate-triage (batch 06) | InCOMMing | — | Titulek výsledku vyhledávání (Dealroom) obsahoval instrukci určenou jazykovým modelům (prompt injection). | Agent ji rozpoznal a ignoroval. | Nic; potvrzuje, že obsah stránek je třeba brát jako data, ne jako pokyny. |
+| E-05 | 2026-10-11 | candidate-scout (cvca) | Tilia Impact Ventures | `website` | Ne chyba AI, ale chyba ve zdroji: odkaz v profilu CVCA vede na skylimit.cz, ačkoli text uvádí tilia.vc. | Agent si nesouladu všiml. | Použita doména tilia.vc; příklad toho, proč ani asociační profil není tier-1 zdroj. |
