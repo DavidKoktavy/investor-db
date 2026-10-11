@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "id": "example-ventures",
+  "name": "Example Ventures (FICTIONAL - format illustration only)",
+  "website": "https://example.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://example.com/contact",
+      "tier": 2,
+      "publisher": "Example Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Our team is based in Prague and Brno.",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Example Ventures s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "00000000",
+      "role": "management_company",
+      "source": {
+        "url": "https://example.com/registry-entry",
+        "tier": 1,
+        "publisher": "Obchodní rejstřík",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Example Ventures s.r.o., IČO 00000000",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://example.com/about",
+      "tier": 2,
+      "publisher": "Example Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Example Ventures is an early-stage venture capital fund backing software founders in CEE.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": ["software_saas", "fintech"],
+    "raw": "B2B software and fintech",
+    "source": {
+      "url": "https://example.com/about",
+      "tier": 2,
+      "publisher": "Example Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We invest in B2B software and fintech.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": ["pre_seed", "seed"],
+    "raw": "pre-seed and seed",
+    "source": {
+      "url": "https://example.com/about",
+      "tier": 2,
+      "publisher": "Example Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We lead pre-seed and seed rounds.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": { "min": 100000, "max": 750000, "currency": "EUR" },
+    "source": {
+      "url": "https://example.com/about",
+      "tier": 2,
+      "publisher": "Example Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Our first cheque is typically EUR 100k to 750k.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only the size of Fund II is published; total capital is computed by code from funds[] if all sizes are known."
+  },
+  "funds": [
+    {
+      "name": "Example Ventures Fund II",
+      "vintage": 2025,
+      "size": { "amount": 40000000, "currency": "EUR", "close": "final" },
+      "source": {
+        "url": "https://example.com/news/fund-ii",
+        "tier": 2,
+        "publisher": "Example Ventures",
+        "published_date": "2025-03-04",
+        "accessed_date": "2026-10-12",
+        "quote": "Example Ventures held the final close of Fund II at EUR 40 million.",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Sample Robotics",
+      "company_website": "https://example.org",
+      "announced_date": "2026-05-20",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://example.net/news/sample-robotics-seed",
+        "tier": 3,
+        "publisher": "Example Tech News",
+        "published_date": "2026-05-20",
+        "accessed_date": "2026-10-12",
+        "quote": "Sample Robotics raised a seed round led by Example Ventures.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T10:15:00+02:00",
+    "candidate_source": "fictional",
+    "notes": "FICTIONAL RECORD. Shows the format only; do not copy values."
+  }
+}

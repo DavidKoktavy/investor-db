@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "investor.schema.json",
+  "title": "Investor record",
+  "description": "One investor at manager/brand level. Every non-null value carries its own source; unknown values are null with a reason. See PLAN.md section 3.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "website",
+    "hq_country",
+    "legal_entities",
+    "type",
+    "sectors",
+    "stages",
+    "ticket",
+    "capital",
+    "funds",
+    "evidence_of_activity",
+    "status",
+    "exclusion_reason",
+    "meta"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "id": {
+      "description": "Lowercase ASCII slug of the brand name, same as candidate_id.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "website": { "type": ["string", "null"], "pattern": "^https?://" },
+    "hq_country": {
+      "description": "Country where the investment team sits (ISO 3166-1 alpha-2), not where the fund vehicle is registered.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": { "type": ["string", "null"], "pattern": "^[A-Z]{2}$" },
+        "source": { "$ref": "#/$defs/source" },
+        "null_reason": { "$ref": "#/$defs/nullReason" },
+        "note": { "type": "string" }
+      },
+      "allOf": [{ "$ref": "#/$defs/sourcedRule" }]
+    },
+    "legal_entities": {
+      "description": "Legal persons behind the brand (management company, fund vehicles). Empty list allowed; K1 is checked by code.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "registry", "registry_id", "source"],
+        "properties": {
+          "name": { "type": "string" },
+          "registry": {
+            "description": "Registry identifier, e.g. CZ-OR (obchodni rejstrik), CZ-CNB-JERRS, US-SEC-IAPD, EU-ESMA-EUVECA, GB-CH.",
+            "type": "string"
+          },
+          "registry_id": { "type": "string", "description": "ICO, CRD, LEI, company number…" },
+          "role": { "enum": ["management_company", "fund_vehicle", "general_partner", "other", null] },
+          "source": { "$ref": "#/$defs/source" }
+        }
+      }
+    },
+    "type": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": { "enum": ["vc", "cvc", "pe", "family_office", "angel", "private_holding", null] },
+        "subtype": { "type": ["string", "null"], "description": "Free text, e.g. accelerator, impact, deeptech." },
+        "source": { "$ref": "#/$defs/source" },
+        "null_reason": { "$ref": "#/$defs/nullReason" },
+        "note": { "type": "string" }
+      },
+      "allOf": [{ "$ref": "#/$defs/sourcedRule" }]
+    },
+    "sectors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/sector" } }
+          ]
+        },
+        "raw": { "type": ["string", "null"], "description": "The investor's own wording, untranslated." },
+        "source": { "$ref": "#/$defs/source" },
+        "null_reason": { "$ref": "#/$defs/nullReason" },
+        "note": { "type": "string" }
+      },
+      "allOf": [{ "$ref": "#/$defs/sourcedRule" }]
+    },
+    "stages": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/stage" } }
+          ]
+        },
+        "raw": { "type": ["string", "null"] },
+        "source": { "$ref": "#/$defs/source" },
+        "null_reason": { "$ref": "#/$defs/nullReason" },
+        "note": { "type": "string" }
+      },
+      "allOf": [{ "$ref": "#/$defs/sourcedRule" }]
+    },
+    "ticket": {
+      "description": "Typical FIRST cheque of this investor (not the round size), original currency, plain units.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["min", "max", "currency"],
+              "properties": {
+                "min": { "type": ["number", "null"], "minimum": 0 },
+                "max": { "type": ["number", "null"], "minimum": 0 },
+                "currency": { "$ref": "#/$defs/currency" }
+              },
+              "anyOf": [
+                { "properties": { "min": { "type": "number" } } },
+                { "properties": { "max": { "type": "number" } } }
+              ]
+            }
+          ]
+        },
+        "source": { "$ref": "#/$defs/source" },
+        "null_reason": { "$ref": "#/$defs/nullReason" },
+        "note": { "type": "string" }
+      },
+      "allOf": [{ "$ref": "#/$defs/sourcedRule" }]
+    },
+    "capital": {
+      "description": "Total investment capital. basis says what the number actually is. sum_of_fund_sizes is only ever written by code.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["amount", "currency", "basis", "as_of"],
+              "properties": {
+                "amount": { "type": "number", "minimum": 0 },
+                "currency": { "$ref": "#/$defs/currency" },
+                "basis": { "enum": ["reported_aum", "sum_of_fund_sizes", "latest_fund_size"] },
+                "as_of": { "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] }
+              }
+            }
+          ]
+        },
+        "source": { "$ref": "#/$defs/source" },
+        "null_reason": { "$ref": "#/$defs/nullReason" },
+        "note": { "type": "string" }
+      },
+      "allOf": [{ "$ref": "#/$defs/sourcedRule" }]
+    },
+    "funds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "vintage", "size", "source"],
+        "properties": {
+          "name": { "type": "string" },
+          "vintage": { "type": ["integer", "null"], "minimum": 1980, "maximum": 2100 },
+          "size": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["amount", "currency", "close"],
+                "properties": {
+                  "amount": { "type": "number", "minimum": 0 },
+                  "currency": { "$ref": "#/$defs/currency" },
+                  "close": { "enum": ["first", "final", "target", "unknown"] }
+                }
+              }
+            ]
+          },
+          "source": { "$ref": "#/$defs/source" }
+        }
+      }
+    },
+    "evidence_of_activity": {
+      "description": "Investments into private companies, most recent first. Include the most recent one found even if outside the window.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["company", "announced_date", "role", "instrument", "source"],
+        "properties": {
+          "company": { "type": "string" },
+          "company_website": { "type": ["string", "null"] },
+          "announced_date": { "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] },
+          "role": { "enum": ["lead", "co_lead", "participant", "unknown"] },
+          "instrument": { "enum": ["equity", "convertible", "safe", "unknown"] },
+          "round": { "type": ["string", "null"], "description": "As stated, e.g. seed, series A." },
+          "source": { "$ref": "#/$defs/source" }
+        }
+      }
+    },
+    "status": {
+      "description": "Set by src/decide.py only. Agents write pending.",
+      "enum": ["pending", "active", "dormant", "excluded"]
+    },
+    "exclusion_reason": {
+      "description": "Set by src/decide.py only.",
+      "enum": [
+        null,
+        "no_recent_investment",
+        "advisor_or_intermediary",
+        "debt_only",
+        "fund_of_funds_or_lp_only",
+        "public_markets_only",
+        "real_estate_only",
+        "crowdfunding_platform",
+        "grant_or_program_only",
+        "not_found_or_defunct",
+        "duplicate",
+        "out_of_scope_geography",
+        "out_of_scope_type"
+      ]
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["extracted_by", "extracted_at"],
+      "properties": {
+        "extracted_by": { "type": "string", "description": "Agent name and model, e.g. investor-extractor/sonnet." },
+        "extracted_at": { "type": "string", "description": "ISO 8601 date-time." },
+        "candidate_source": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"], "description": "Conflicts between sources, doubts, borderline signals." }
+      }
+    }
+  },
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "nullReason": {
+      "enum": ["not_published", "not_found", "conflicting_sources", "not_applicable", "source_unreachable"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "tier", "publisher", "published_date", "accessed_date", "quote", "self_reported"],
+      "properties": {
+        "url": { "type": "string", "pattern": "^https?://" },
+        "tier": {
+          "description": "1 = regulator/registry, 2 = primary publication (the investor, the portfolio company, an LP), 3 = independent secondary (media, associations).",
+          "enum": [1, 2, 3]
+        },
+        "publisher": { "type": ["string", "null"] },
+        "published_date": { "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] },
+        "accessed_date": { "$ref": "#/$defs/date" },
+        "quote": {
+          "description": "Exact text from the page, max ~25 words. Checked by src/check_quotes.py.",
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 300
+        },
+        "self_reported": { "type": "boolean" }
+      }
+    },
+    "sourcedRule": {
+      "if": { "properties": { "value": { "type": "null" } } },
+      "then": { "required": ["null_reason"], "not": { "required": ["source"] } },
+      "else": { "required": ["source"], "not": { "required": ["null_reason"] } }
+    },
+    "sector": {
+      "enum": [
+        "generalist",
+        "software_saas",
+        "ai_data",
+        "fintech",
+        "health_biotech",
+        "medtech",
+        "deeptech_hardware",
+        "climate_energy",
+        "mobility_transport",
+        "consumer_ecommerce",
+        "edtech",
+        "proptech_construction",
+        "industrial_manufacturing",
+        "agri_food",
+        "cybersecurity_defense",
+        "media_gaming",
+        "hr_work",
+        "logistics_supply_chain",
+        "business_services",
+        "other"
+      ]
+    },
+    "stage": {
+      "enum": ["pre_seed", "seed", "series_a", "series_b_plus", "growth", "buyout"]
+    }
+  }
+}
