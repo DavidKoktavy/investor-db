@@ -4,3 +4,4 @@ trafilatura>=2.0
 beautifulsoup4>=4.12
 rapidfuzz>=3.10
 pytest>=8.3
+pypdf>=4.3
