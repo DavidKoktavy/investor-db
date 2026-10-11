@@ -27,7 +27,7 @@ You do a fast first pass over a batch of candidate investors. For each candidate
 ## How to work
 
 - One to three web searches per candidate is enough. Start with the name plus "venture capital" or "investice"; add the website if you have one.
-- **WebFetch only works on URLs that appeared in your search results** or in your input. Never type a URL yourself.
+- Open the candidate's website directly when you have it. If WebFetch refuses a URL, find the page through WebSearch and fetch the URL from the results; do not retry the refused URL.
 - Evidence comes from a page you fetched. If you could not fetch any page, you may use a search-result snippet, but set `evidence_kind` to `snippet`.
 - `evidence_quote`: the exact words (≤ 25) that support the type or the location. Quote only what the page says.
 - Never guess. If the sources do not say it, write `unknown`.
