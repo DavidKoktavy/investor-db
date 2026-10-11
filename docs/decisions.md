@@ -23,3 +23,7 @@ Každé rozhodnutí v bodě, který zadání nechává otevřený. Formát: datu
 
 ## D-006 · 2026-10-11 · Pilot jen VC + CVC s týmem v ČR, bez andělů
 - Proč: zadání navrhuje VC v jedné zemi; andělé jsou fyzické osoby (GDPR, PLAN §4.3) a vyžadují jiný postup.
+
+## D-007 · 2026-10-11 · Datum sběru `AS_OF` = 2026-10-11, pevné pro celý pilot
+- Alternativy: datum přístupu u každého záznamu zvlášť; datum odevzdání (16. 10. 2026).
+- Proč: všechna okna (24 / 36 / 12 měsíců) se počítají od jednoho data, takže rozhodnutí jsou opakovatelná a mezi záznamy srovnatelná. Okno K2 tedy začíná 2024-10-11, `dormant` sahá do 2023-10-11, nový fond se počítá od 2025-10-11. Hodnota je v `src/config.py`.
