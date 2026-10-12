@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "id": "czech-founders-vc",
+  "name": "Czech Founders VC",
+  "website": "https://czechfounders.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://czechfounders.vc",
+      "tier": 2,
+      "publisher": "Czech Founders VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Worklounge, Gen. Píky 430/26, 160 00, Prague 6, Czechia",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Czech Founders Ventures s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "17051835",
+      "role": "management_company",
+      "source": {
+        "url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=Czech+Founders+Ventures",
+        "tier": 1,
+        "publisher": "Obchodní rejstřík",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "founder-backed pre-seed fund",
+    "source": {
+      "url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2022-09-07",
+      "accessed_date": "2026-10-12",
+      "quote": "Do Czech Founders VC vložilo prostředky celkem 45 podnikatelů, kteří mají zkušenosti s budováním startupů.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Website lists criteria (strong founders, go to market, CEE region) but no sectors."
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "Pre-seed",
+    "source": {
+      "url": "https://czechfounders.vc",
+      "tier": 2,
+      "publisher": "Czech Founders VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-seed tickets. Typically €50-350k.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 50000,
+      "max": 350000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://czechfounders.vc",
+      "tier": 2,
+      "publisher": "Czech Founders VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-seed tickets. Typically €50-350k.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 10000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2022-09-07"
+    },
+    "source": {
+      "url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2022-09-07",
+      "accessed_date": "2026-10-12",
+      "quote": "složili dohromady deset milionů eur, přibližně čtvrt miliardy korun",
+      "self_reported": false
+    }
+  },
+  "funds": [
+    {
+      "name": "Czech Founders VC",
+      "vintage": 2022,
+      "size": {
+        "amount": 10000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2022-09-07",
+        "accessed_date": "2026-10-12",
+        "quote": "složili dohromady deset milionů eur, přibližně čtvrt miliardy korun",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Merchantee",
+      "company_website": null,
+      "announced_date": "2026-06-09",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "seed extension",
+      "source": {
+        "url": "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-06-09",
+        "accessed_date": "2026-10-12",
+        "quote": "Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Maxfusion",
+      "company_website": null,
+      "announced_date": "2026-01-14",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/umoznuji-hromadne-tvorit-videoreklamy-i-s-ai-herci-izraelci-buduji-startup-z-prahy-ziskali-investici/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-01-14",
+        "accessed_date": "2026-10-12",
+        "quote": "Kromě Czech Founders VC podpořil startup Maxfusion i jeden z prvních investorů miliardového jednorožce Mews Ory Weihs.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Legal entity register row read via or.justice.cz search page (name, IČO 17051835, seat Salvátorská 931/8 Praha 1); quote is the name field of the result row. Fund size EUR 10m is from a 2022 CzechCrunch article (45 founders pooled), not an AUM statement. Offices in Prague and Bratislava; team stated at Prague address. Merchantee: Reflex Capital led. Maxfusion deal: article cites EUR 350k from Czech Founders VC, angel and founders (combined), so not used as ticket. Flowlance (Nov 2024) also reported by CzechCrunch, not fetched."
+  }
+}

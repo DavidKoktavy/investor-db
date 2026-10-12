@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "id": "aspire11",
+  "name": "Aspire11",
+  "website": "https://www.aspire11cap.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/fond-aspire11-muchy-a-borkovce-poslal-skoro-pul-miliardy-do-platformy-vinted/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-06-23",
+      "accessed_date": "2026-10-12",
+      "quote": "Český fond Aspire11, který založil Pavel Mucha (Kaya VC) a Petr Borkovec (Partners)",
+      "self_reported": false
+    },
+    "note": "Described as a Czech fund by media; team location not stated on the investor's website."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "late-stage growth / pension-capital platform",
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Direct investments in late-stage and pre-IPO technology companies with enduring growth, market leadership, and long-term compounding potential.",
+      "self_reported": true
+    },
+    "note": "Borderline growth/PE; also a Tribes strategy investing in VC funds."
+  },
+  "sectors": {
+    "value": null,
+    "raw": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "raw": "late-stage and pre-IPO technology companies",
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Direct investments in late-stage and pre-IPO technology companies with enduring growth, market leadership, and long-term compounding potential.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 515000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "€515M",
+      "self_reported": true
+    },
+    "note": "Website shows stat '€515M' labelled 'Inaugural fund'."
+  },
+  "funds": [
+    {
+      "name": "Aspire11 inaugural fund",
+      "vintage": null,
+      "size": {
+        "amount": 515000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.aspire11cap.com",
+        "tier": 2,
+        "publisher": "Aspire11",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "€515M",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Vinted",
+      "company_website": "https://www.vinted.com",
+      "announced_date": "2026-06-23",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/fond-aspire11-muchy-a-borkovce-poslal-skoro-pul-miliardy-do-platformy-vinted/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-06-23",
+        "accessed_date": "2026-10-12",
+        "quote": "jde o přímou investici ve výši 20 milionů eur, tedy v přepočtu skoro půl miliardy korun",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Revolut",
+      "company_website": "https://www.revolut.com",
+      "announced_date": "2025-12-09",
+      "role": "participant",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/cesi-jsou-ve-velke-investorske-lize-penize-posilaji-do-revolutu/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2025-12-09",
+        "accessed_date": "2026-10-12",
+        "quote": "Česká investiční platforma Aspire11 investovala do fintechového Revolutu",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa link",
+    "notes": "No legal entity confirmed: ASP11 Services s.r.o. (IČO 17255384, Pavel Mucha jednatel) found on kurzy.cz but link to Aspire11 not proven, so omitted. Website canonical tag points to aspirecap11.com. Vinted: Dealroom calls it secondary purchase (not used as evidence); role unknown. Revolut role 'participant' inferred from round oversubscribed/a16z co-investing per Lupa; ticket not published. Fund size: website only, no close/date. Mixed strategy: direct late-stage plus fund-of-funds (Tribes); borderline growth/PE."
+  }
+}

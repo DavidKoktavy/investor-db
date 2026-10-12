@@ -24,3 +24,8 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,candidate-triage,haiku,batch_05_rerun,88189,61,199.4,ok
 2026-10-12,candidate-triage,haiku,batch_07_rerun,73353,54,190.6,ok
 2026-10-12,candidate-triage,haiku,batch_09,39415,28,104.4,rerun
+2026-10-12,candidate-triage,haiku,batch_09_rerun,58189,45,303.2,ok
+2026-10-12,investor-extractor,sonnet,aspire11,40426,15,63.2,rerun
+2026-10-12,investor-extractor,sonnet,credo-ventures,31744,15,62.7,rerun
+2026-10-12,investor-extractor,sonnet,czech-founders-vc,31833,15,66.9,rerun
+2026-10-12,investor-extractor,sonnet,depo-ventures,33926,22,195.5,rerun

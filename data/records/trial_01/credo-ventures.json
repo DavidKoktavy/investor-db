@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "id": "credo-ventures",
+  "name": "Credo Ventures",
+  "website": "https://www.credoventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Karlovo Náměstí 10, 120 00, Prague, Czech Republic",
+      "self_reported": true
+    },
+    "note": "Offices in Prague and Kraków; Prague listed first."
+  },
+  "legal_entities": [
+    {
+      "name": "Credo Ventures a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "28538137",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.podnikatel.cz/rejstrik/credo-ventures-a-s-28538137/",
+        "tier": 3,
+        "publisher": "podnikatel.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Credo Ventures a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "The fund of choice for CEE founders around the world building generational companies.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "software_saas"
+    ],
+    "raw": "mostly B2B software, but all tech-related investments are considered",
+    "source": {
+      "url": "https://www.vestbee.com/blog/articles/vc-of-the-month-credo-ventures",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2020-04-02",
+      "accessed_date": "2026-10-12",
+      "quote": "mostly B2B software, but all tech-related investments are considered",
+      "self_reported": false
+    },
+    "note": "2020 source; homepage lists no sector focus."
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "Pre-Seed",
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-Seed rounds",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 1000000,
+      "max": 5000000,
+      "currency": "USD"
+    },
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "$1M - $5M checks.",
+      "self_reported": true
+    },
+    "note": "Homepage states checks in dollars; currency taken as USD from the $ sign."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "No AUM stated; fund sizes in funds[]."
+  },
+  "funds": [
+    {
+      "name": "Credo Stage III",
+      "vintage": 2020,
+      "size": {
+        "amount": 100000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.vestbee.com/blog/articles/vc-of-the-month-credo-ventures",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2020-04-02",
+        "accessed_date": "2026-10-12",
+        "quote": "Credo Stage III, which at €100 million is almost triple the size of its previous fund.",
+        "self_reported": false
+      }
+    },
+    {
+      "name": "Credo fourth fund",
+      "vintage": 2022,
+      "size": {
+        "amount": 75000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://cc.cz/blaznivych-kol-ubylo-prilezitosti-ne-investujeme-ted-nejvic-v-historii-rika-ondrej-bartos-z-credo-ventures/",
+        "tier": 3,
+        "publisher": "cc.cz",
+        "published_date": "2022-10-17",
+        "accessed_date": "2026-10-12",
+        "quote": "Váš třetí fond měl velikost bezmála 100 milionů eur, čtvrtý pouze 75 milionů eur.",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Picogrid",
+      "company_website": "https://picogrid.com",
+      "announced_date": "2026-05-29",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": "Series A",
+      "source": {
+        "url": "https://buttondown.com/raisetrack/archive/angel-registry-update-may-29-2026/",
+        "tier": 3,
+        "publisher": "Raise Track",
+        "published_date": "2026-05-29",
+        "accessed_date": "2026-10-12",
+        "quote": "Investors: Bessemer Venture Partners, Washington Harbour, GSBackers, Initialized Capital, Starburst Ventures, Credo Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Web search budget ran out; Delta Green and Duvo.ai deals from hint not verified from a fetched page. Picogrid evidence is a newsletter listing (date = page date), no primary press release found. Fund IV name not confirmed. Homepage quotes may be paraphrased by fetch model; check_quotes should verify. Fund sizes 2020/2022 are old; homepage says 5 funds."
+  }
+}
