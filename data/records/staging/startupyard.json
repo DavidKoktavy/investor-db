@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "id": "startupyard",
+  "name": "StartupYard",
+  "website": "https://startupyard.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {"url": "https://startupyard.com/contact", "tier": 2, "publisher": "StartupYard", "published_date": null, "accessed_date": "2026-10-12", "quote": "Perlova 5 , Prague 1, Czech Republic", "self_reported": true}
+  },
+  "legal_entities": [
+    {
+      "name": "StartupYard Batch 15 s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "22266852",
+      "role": "other",
+      "source": {"url": "https://www.finmag.cz/obchodni-rejstrik/22266852-startupyard-batch-15-s-r-o", "tier": 3, "publisher": "finmag.cz (mirror of obchodni rejstrik)", "published_date": null, "accessed_date": "2026-10-12", "quote": "Společnost vznikla 14. 11. 2024 a sídlí na adrese Perlová 371/5, 110 00 Praha - Staré Město.", "self_reported": false}
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "accelerator",
+    "source": {"url": "https://startupyard.com/frequently-asked-questions-about-startupyard/", "tier": 2, "publisher": "StartupYard", "published_date": null, "accessed_date": "2026-10-12", "quote": "Central Europe's leading pre-seed and seed accelerator for technology startups.", "self_reported": true}
+  },
+  "sectors": {
+    "value": ["ai_data", "deeptech_hardware"],
+    "raw": "a sharp focus on AI and hard-to-replicate deep tech solutions",
+    "source": {"url": "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/", "tier": 2, "publisher": "StartupYard", "published_date": "2025-09-11", "accessed_date": "2026-10-12", "quote": "we're opening our 15th batch, this time with a sharp focus on AI and hard-to-replicate deep tech solutions.", "self_reported": true}
+  },
+  "stages": {
+    "value": ["pre_seed", "seed"],
+    "raw": "pre-seed and seed accelerator",
+    "source": {"url": "https://startupyard.com/frequently-asked-questions-about-startupyard/", "tier": 2, "publisher": "StartupYard", "published_date": null, "accessed_date": "2026-10-12", "quote": "Central Europe's leading pre-seed and seed accelerator for technology startups.", "self_reported": true}
+  },
+  "ticket": {
+    "value": {"min": 25000, "max": 25000, "currency": "EUR"},
+    "source": {"url": "https://startupyard.com/frequently-asked-questions-about-startupyard/", "tier": 2, "publisher": "StartupYard", "published_date": null, "accessed_date": "2026-10-12", "quote": "If your startup needs funding, you can receive €25,000 in cash", "self_reported": true}
+  },
+  "capital": {"value": null, "null_reason": "not_published"},
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Ydoca",
+      "company_website": null,
+      "announced_date": "2025-02-14",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {"url": "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/", "tier": 3, "publisher": "CzechCrunch", "published_date": "2025-02-14", "accessed_date": "2026-10-12", "quote": "DEPO Ventures podpořilo projekt částkou 1,8 milionu a StartupYard částkou 500 tisíc korun", "self_reported": false}
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Accelerator that invests via convertible note (FAQ: EUR 45,000 in-kind program plus optional EUR 25,000 cash; ~5% equity target); ticket set to the optional cash part only. Legal entity is a per-batch SPV (Batch 15 s.r.o.; other batches 5-14 have separate IČOs); no entity named plain StartupYard found; registry via tier-3 mirror, not ARES. Only one dated deal found (Ydoca, 2025-02-14, CZK 500k, instrument not stated, so unknown); the page says the 2025 cohort deals incl. Personeo.ai/Wopee.io have no investment statement. Batch 15 announcement (2025-09-11 per news archive) page prints no date; the sector quote date comes from the news archive listing. Founder blog posts Teamsharq (2026-06-15) and CaseLens (2026-04-30) do not state investment. Possible grant_or_program_only borderline: in-kind program, but cash convertible investment exists."
+  }
+}

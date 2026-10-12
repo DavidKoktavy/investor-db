@@ -60,3 +60,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,spinoffy,20959,8,40.7,ok
 2026-10-12,investor-extractor,sonnet,rockawayx,28961,16,72.7,ok
 2026-10-12,investor-extractor,sonnet,seed-starter,35504,16,78.1,ok
+2026-10-12,investor-extractor,sonnet,startguide-vc,36183,18,88.1,ok
+2026-10-12,investor-extractor,sonnet,soulmates-ventures,38127,21,232.6,ok
+2026-10-12,investor-extractor,sonnet,tachles,29912,20,93.5,ok
