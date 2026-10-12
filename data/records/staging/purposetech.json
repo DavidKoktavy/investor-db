@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "id": "purposetech",
+  "name": "PurposeTech",
+  "website": "https://purposetech.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Drtinova 557/10, 150 00 Prague",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "pre-seed, impact",
+    "source": {
+      "url": "https://purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "climate_energy",
+      "hr_work"
+    ],
+    "raw": "Health, Climate, and the Future of Work",
+    "source": {
+      "url": "https://purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We invest in founders reshaping Health, Climate, and the Future of Work.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "pre-seed fund",
+    "source": {
+      "url": "https://purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Website FAQ on typical investment amount is placeholder text; cc.cz gives only total support per company (0.5-1m EUR) for the planned second fund, not a first cheque."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "No AUM published."
+  },
+  "funds": [
+    {
+      "name": "PT Capital (second fund)",
+      "vintage": null,
+      "size": {
+        "amount": 10000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-02-10",
+        "accessed_date": "2026-10-12",
+        "quote": "Maximální velikost nového fondu PT Capital je deset milionů eur, tedy 240 milionů korun",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Auryx",
+      "company_website": null,
+      "announced_date": "2026-04-30",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://www.enterprise.cam.ac.uk/news/auryx-2m-earbuds-continuous-health-monitors/",
+        "tier": 3,
+        "publisher": "Cambridge Enterprise",
+        "published_date": "2026-04-30",
+        "accessed_date": "2026-10-12",
+        "quote": "with participation from EWOR, Cambridge Enterprise Ventures, Vento, PurposeTech",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Website purposetech.vc (hint had none). Legal entity PurposeTech, s.r.o. named on site but IČO not found in a registry within search budget; legal_entities left empty. Auryx round led by Celero Ventures (PurposeTech participant); Cambridge Enterprise page is the portfolio company's investor, tier 3. Other deals (Tingit Feb 2026, Lifeyear Jul 2025) seen only on tech.eu/CB Insights aggregators, not cited. Fund 1 reported as under CZK 60m at cc.cz (not recorded as fund: no name). 'Purpose Ventures' not confirmed as related. Vestbee 2.3m EUR fund size not found on fetched page."
+  }
+}

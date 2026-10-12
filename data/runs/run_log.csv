@@ -52,3 +52,8 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,novira-capital,27538,16,74.3,ok
 2026-10-12,investor-extractor,sonnet,patero,26320,17,77.4,ok
 2026-10-12,investor-extractor,sonnet,orbit-capital,36760,18,84.9,ok
+2026-10-12,investor-extractor,sonnet,presto-ventures,39533,20,97.1,ok
+2026-10-12,investor-extractor,sonnet,reflex-capital,33373,18,61.7,ok
+2026-10-12,investor-extractor,sonnet,purposetech,32085,20,92.2,ok
+2026-10-12,investor-extractor,sonnet,rockaway-ventures,36417,19,198.9,ok
+2026-10-12,investor-extractor,sonnet,purple-ventures,38499,18,208.5,ok
