@@ -1,6 +1,6 @@
 # Spolehlivá databáze investorů — pilot: VC fondy v Česku
 
-Řešení zadání A (Junior AI Developer). Cílem je databáze investorů, ve které je **každý záznam skutečný a aktivní investor** a **každý údaj má zdroj a datum**. Postup je ověřený na vzorku: venture kapitálové fondy s investičním týmem v Česku.
+Cílem je databáze investorů, ve které je **každý záznam skutečný a aktivní investor** a **každý údaj má zdroj a datum**. Postup je ověřený na vzorku: venture kapitálové fondy s investičním týmem v Česku.
 
 > **Stav k 12. 10. 2026:** plán, schéma, kód s testy a seznam kandidátů jsou hotové. Pilot běží po krocích R1–R8 (runbook v [`CLAUDE.md`](CLAUDE.md)): triáž je hotová z poloviny, extrakce, ověření a moje ruční kontrola následují. Čísla označená *čeká* doplním z [`results/accuracy.md`](results/accuracy.md) po dokončení, nejpozději 16. 10.
 
