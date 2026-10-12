@@ -16,13 +16,15 @@ Read `schema/investor.schema.json` and `schema/example.record.json` (fictional, 
 
 1. **Identity.** Open the website (about, team, contact, imprint/legal notice, "Kontakt", "O nás"). Find the legal entity and its registration number. For Czech companies the website imprint usually names the company and its IČO; confirm it in a registry if you can (search `"<company name>" IČO` or `site:or.justice.cz <name>`; `rejstrik-firem.kurzy.cz` and `firmy.cz` pages are acceptable tier-3 mirrors of the register). Regulated managers are in the ČNB JERRS register. Record where the investment team sits (`hq_country`).
 2. **Activity.** Find the most recent investments: the portfolio page, the investor's news, portfolio-company press releases, Czech and international tech/business media. Search in Czech and English, e.g. `"<name>" investice`, `"<name>" investoval`, `"<name>" led round`, `"<name>" seed`. Record up to 3 of the most recent deals, preferring sources that state the announcement date. Always record the single most recent deal you found, even if it is older than 24 months; code needs it to mark the investor dormant.
-3. **Profile.** `type`, `sectors` (map to the schema taxonomy and keep the investor's own wording in `raw`), `stages`, typical first `ticket`, `capital`, `funds`.
+   An undated page (e.g. the investor's own portfolio entry or blog post with no printed date) cannot prove a recent deal: for the newest deals, find a dated source (the portfolio company's press release, a media article, a dated news post) and cite that instead.
+3. **Profile.** `type`, `sectors` (map to the schema taxonomy and keep the investor's own wording in `raw`), `stages` (every stage the source names, not just the first one), typical first `ticket`, `capital`, `funds`.
 4. **Exclusion signals.** If a source shows the candidate is something the database excludes (PLAN §2.4) — it only lends, is an adviser or intermediary, a crowdfunding platform, a grant programme or accelerator without equity, invests only into other funds, only in real estate or only in listed shares — add an item to `exclusion_signals` with the code, a source and a one-line note. If the candidate cannot be found at all or has closed down, add `not_found_or_defunct` (source optional). Record the facts even when you also found investments: code weighs both.
 5. **Write** `data/records/staging/<candidate_id>.json` even when the candidate turns out not to be a venture investor, is foreign, or is defunct: a record with honest nulls and signals is how the exclusion gets decided and measured. It must validate against the schema: run `.venv/bin/python -m src.validate data/records/staging/<candidate_id>.json` and fix every error it prints. Set `status` to `"pending"` and `exclusion_reason` to `null`.
 
 ## Evidence rules
 
 - **Quotes:** the exact text fragment from the page, ≤ 25 words. WebFetch answers through a small model, so always ask it for verbatim text, e.g. "Return, verbatim and without paraphrasing, the exact sentences that mention <X>." Never quote a search-result snippet.
+- **A quote must show what the value is**, not just the value: "Inaugural fund: €515M", not "€515M"; "Typical ticket EUR 250-500k", not "250-500k". If the label and the number are not in one passage on the page, the value is `null` (`not_published`) and you explain it in `meta.notes`.
 - **One source per value.** Pick the most reliable (tier 1 > 2 > 3) and, among equals, the most recent.
 - **Tier:** 1 = regulator/registry; 2 = the investor itself, the portfolio company, or an LP (EIF, NRB); 3 = media, associations, other third parties.
 - **Dates:** `published_date` = the date printed on the page, else `null`. `accessed_date` = today.
@@ -43,6 +45,8 @@ Read `schema/investor.schema.json` and `schema/example.record.json` (fictional, 
 ## Budget
 
 About 15 tool calls is normally enough; stop at 30. A record with nulls is better than an endless search.
+
+**Web search is scarce:** every agent in the session shares one WebSearch budget. Use at most 6 WebSearch calls per candidate. Fetch the candidate's own pages first (home, portfolio, news, team, contact, imprint) and spend searches on what they cannot give you: a dated source for the newest deals and the registry entry. If WebSearch replies that the budget is used up, do not retry and do not work around it; finish with what you have and start `meta.notes` with `SEARCH_BUDGET_EXHAUSTED`.
 
 ## Final message
 
