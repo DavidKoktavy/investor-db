@@ -50,3 +50,7 @@ Každé rozhodnutí v bodě, který zadání nechává otevřený. Formát: datu
 
 ## D-013 · 2026-10-11 · Ověřovatel na modelu Opus, extraktor na Sonnetu, triáž na Haiku
 - Proč: ověřovatel má být nezávislý a přísnější než extraktor; triáž je levný první průchod jako v nákladovém modelu (PLAN §8). Pokud by Opus narazil na limit předplatného, ověřovatel poběží na Sonnetu a zapíšu to sem.
+
+## D-014 · 2026-10-12 · Pravidlo pro opakování triáže: neznámé sídlo u víc než třetiny dávky
+- Alternativy: počítat řádky s jakýmkoli `unknown` (sídlo nebo typ); počítat jen typ.
+- Proč: runbook říká „víc než třetina dávky je `unknown`“, ale neříká, které pole. Beru `hq_country`, protože právě sídlo vyřazuje nejvíc kandidátů levně (zahraniční fondy). Opakují se tedy dávky s > 8/25 neznámými sídly (01, 04, 05, 07), každá jen jednou. Platí výstup opakovaného běhu, i když je horší (u batch 01 18/25 místo 14/25). První výstupy jsou v `data/candidates/triage/rerun_first/`. Kandidát s neznámým sídlem nebo typem se nevyřazuje, jde do fronty extrakce.
