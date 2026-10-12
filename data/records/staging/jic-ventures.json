@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "id": "jic-ventures",
+  "name": "JIC Ventures",
+  "website": "https://www.jic.cz/ventures/",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/v-brne-vznikl-fond-pro-startupy-ktery-bude-investovat-i-penize-kraje/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-04-07",
+      "accessed_date": "2026-10-12",
+      "quote": "V Brně dnes odstartoval nový venture kapitálový fond",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "JIC Ventures 2 a.s., osoba rizikového kapitálu",
+      "registry": "CZ-OR",
+      "registry_id": "24320358",
+      "role": "other",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/24320358/jic-ventures-2-a-s-osoba-rizikoveho-kapitalu/",
+        "tier": 3,
+        "publisher": "Kurzy.cz (mirror of Obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "JIC Ventures 2 a.s., osoba rizikového kapitálu , Brno IČO 24320358",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.jic.cz/ventures/",
+      "tier": 2,
+      "publisher": "JIC Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "JIC Ventures is a Brno-born VC fund backing technology founders from pre-seed to exit.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "deeptech_hardware",
+      "software_saas"
+    ],
+    "raw": "Deep tech, SaaS, and other",
+    "source": {
+      "url": "https://www.jic.cz/ventures/",
+      "tier": 2,
+      "publisher": "JIC Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Deep tech, SaaS, and other",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "Pre-seed / Seed stage",
+    "source": {
+      "url": "https://www.jic.cz/ventures/",
+      "tier": 2,
+      "publisher": "JIC Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-seed / Seed stage",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": null,
+      "max": 1000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.jic.cz/ventures/",
+      "tier": 2,
+      "publisher": "JIC Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Tickets up to €1M",
+      "self_reported": true
+    },
+    "note": "Maximum ticket stated; no minimum or typical first cheque published."
+  },
+  "capital": {
+    "value": {
+      "amount": 400000000,
+      "currency": "CZK",
+      "basis": "latest_fund_size",
+      "as_of": "2026-04-07"
+    },
+    "source": {
+      "url": "https://ctp.eu/news/ctp-becomes-largest-investor-in-new-e16-million-jic-ventures-start-up-fund/",
+      "tier": 3,
+      "publisher": "CTP",
+      "published_date": "2026-04-07",
+      "accessed_date": "2026-10-12",
+      "quote": "The CZK 400 million (approx. €16.3 million) venture capital fund will invest in early-phase start-ups",
+      "self_reported": false
+    }
+  },
+  "funds": [
+    {
+      "name": "JIC Ventures fund",
+      "vintage": 2026,
+      "size": {
+        "amount": 400000000,
+        "currency": "CZK",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://ctp.eu/news/ctp-becomes-largest-investor-in-new-e16-million-jic-ventures-start-up-fund/",
+        "tier": 3,
+        "publisher": "CTP",
+        "published_date": "2026-04-07",
+        "accessed_date": "2026-10-12",
+        "quote": "The CZK 400 million (approx. €16.3 million) venture capital fund will invest in early-phase start-ups",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Elredo",
+      "company_website": null,
+      "announced_date": "2026-10-01",
+      "role": "lead",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-10-01",
+        "accessed_date": "2026-10-12",
+        "quote": "Vedoucím investorem je fond JIC Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "FaceUp",
+      "company_website": null,
+      "announced_date": "2026-05-19",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do",
+        "tier": 2,
+        "publisher": "JIC",
+        "published_date": "2026-05-19",
+        "accessed_date": "2026-10-12",
+        "quote": "The fund joined a Series A round totalling $5 million, led by Croatian fund Fil Rouge Capital",
+        "self_reported": true
+      }
+    },
+    {
+      "company": "Aiviro",
+      "company_website": null,
+      "announced_date": "2025-12-16",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/sleduje-vasi-praci-na-pocitaci-a-pak-ji-sama-opakuje-brnensky-startup-automatizuje-rutinni-procesy/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2025-12-16",
+        "accessed_date": "2026-10-12",
+        "quote": "a také fond tuzemské inovační agentury JIC Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Legal entity unconfirmed as the fund vehicle: kurzy.cz mirror of the register lists JIC Ventures 2 a.s., osoba rizikového kapitálu (IČO 24320358, founded 2026-01-05, Brno) and older JIC Ventures, s.r.o. (IČO 04156293, 2015); parent agency JIC zájmové sdružení IČO 71180478. No page explicitly links the new fund to the a.s., so role is 'other'. Fund size CZK 400m is the stated fund size (CTP release, 2026-04-07); fund not finally closed per press, close left 'unknown'. Elredo round and Aiviro are from CzechCrunch (tier 3); Aiviro article names JIC Ventures among investors, role participant. Search snippets mention a typical ticket of ~EUR 100k but it was not seen on a fetched page, so ticket max only. JIC Ventures fund team in Brno (Purkynova 127). Japanese JIC Venture Growth Investments is a namesake, not used."
+  }
+}

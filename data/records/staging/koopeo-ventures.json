@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "koopeo-ventures",
+  "name": "Koopeo Ventures",
+  "website": "https://koopeoventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.koopeoventures.com/portfolio/",
+      "tier": 2,
+      "publisher": "KOOPEO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Solniční 243/17",
+      "self_reported": true
+    },
+    "note": "Registered office Brno, offices in Prague and Bratislava; team page lists partners in Brno and Prague."
+  },
+  "legal_entities": [
+    {
+      "name": "KOOPEO Ventures SE",
+      "registry": "CZ-OR",
+      "registry_id": "05269113",
+      "role": "other",
+      "source": {
+        "url": "https://www.koopeoventures.com/en/home-english/",
+        "tier": 2,
+        "publisher": "KOOPEO Ventures",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "IČ: 05269113",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.koopeoventures.com/en/home-english/",
+      "tier": 2,
+      "publisher": "KOOPEO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We invest in innovative startups",
+      "self_reported": true
+    }
+  },
+  "sectors": {"value": null, "null_reason": "not_published", "note": "Website names no sectors; only third-party aggregator profiles do."},
+  "stages": {"value": null, "null_reason": "not_published", "note": "Website says only 'emerging projects with potential of high growth of revenues'; no named stage."},
+  "ticket": {"value": null, "null_reason": "not_published"},
+  "capital": {"value": null, "null_reason": "not_published"},
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "TRIFFT Loyalty",
+      "company_website": null,
+      "announced_date": "2025-07-17",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://tech.eu/2025/07/17/trifft-loyalty-raises-550k-pre-seed-to-scale-its-ai-driven-emotional-loyalty-platform/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2025-07-17",
+        "accessed_date": "2026-10-12",
+        "quote": "The pre-seed round was led by Lighthouse Ventures, with participation from BD Partners, Gi21 Capital and Koopeo.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Vestbee",
+    "notes": "Instrument not stated in source; set to unknown. IČO not confirmed in registry (search found no registry mirror); taken from the investor's own imprint. Portfolio page lists Trifft, Tipli, VimVic, Balik Plus, DEAFCOM, AIffinity, Localazy etc. without dates. Deafcom 2022 from hint not verified. Entity is an SE (Societas Europaea) seated in Brno."
+  }
+}
