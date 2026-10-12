@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "id": "tilia-impact-ventures",
+  "name": "Tilia Impact Ventures",
+  "website": "https://tilia.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://tilia.vc",
+      "tier": 2,
+      "publisher": "Tilia Impact Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Drtinova 557/10, 150 00 Prague",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "17848911",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17848911",
+        "tier": 1,
+        "publisher": "ARES",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "impact",
+    "source": {
+      "url": "https://tilia.vc",
+      "tier": 2,
+      "publisher": "Tilia Impact Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Tilia Impact Ventures backs Czech and CEE region founders to make systemic",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "raw": "Sector-agnostic, Impact-driven",
+    "source": {
+      "url": "https://tilia.vc",
+      "tier": 2,
+      "publisher": "Tilia Impact Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Sector-agnostic, Impact-driven",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Site says only 'Early stage', which does not map unambiguously to the stage taxonomy."
+  },
+  "ticket": {
+    "value": {
+      "min": 300000,
+      "max": 1200000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://tilia.vc",
+      "tier": 2,
+      "publisher": "Tilia Impact Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "0.3 - 1.2m EUR initial ticket",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "FaceUp",
+      "company_website": null,
+      "announced_date": "2026-05-19",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do",
+        "tier": 3,
+        "publisher": "JIC",
+        "published_date": "2026-05-19",
+        "accessed_date": "2026-10-12",
+        "quote": "Existing investors Jiří Hlavenka, Tilia Impact Ventures and Reflex Capital also took part",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue hint (CVCA)",
+    "notes": "Legal entity confirmed via ARES API (tier 1). Instrument for FaceUp not stated (unknown); round label Series A per JIC release context. Delta Green Oct 2025 round (Credo, Purple, Tilia) seen only in aggregators/undated pages, not cited. Fund II (~EUR 32m target, cc.cz article 2023-09-21) not recorded as funds[] because no verbatim figure was verified. Site says 21 portfolio companies."
+  }
+}

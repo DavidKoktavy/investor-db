@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "id": "zaka-vc",
+  "name": "Zaka VC",
+  "website": "https://zaka.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://cc.cz/trend-longevity-dorazil-i-k-domacim-zviratum-cesi-je-propojuji-s-veterinari-a-nabizi-vyzivu-na-miru/",
+      "tier": 3,
+      "publisher": "cc.cz",
+      "published_date": "2025-04-08",
+      "accessed_date": "2026-10-12",
+      "quote": "České fondy Zaka VC a Purple Ventures",
+      "self_reported": false
+    },
+    "note": "Team spread over Prague, Bratislava, London, Silicon Valley (website); Prague partner Andrej Petrus; media call it Czech. Exact HQ not stated by the firm."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://zaka.vc",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "industrial_manufacturing"
+    ],
+    "raw": "Health & Biotech and Industrial Tech",
+    "source": {
+      "url": "https://zaka.vc",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Especially looking for startups in the Health & Biotech and Industrial Tech verticals.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "seed & pre-seed",
+    "source": {
+      "url": "https://zaka.vc",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Website says only 'The minimum ticket is 130K' without currency or maximum."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [
+    {
+      "name": "ZAKA VC Fund I",
+      "vintage": null,
+      "size": {
+        "amount": 15000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://zaka.vc/our-story/",
+        "tier": 2,
+        "publisher": "ZAKA VC",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "with its first fund sized €15M; and successfully oversubscribed.",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "DeepSeq.AI",
+      "company_website": null,
+      "announced_date": "2026-02-16",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://itkey.media/zaka-vc-backs-deepseq-ais-functional-approach-to-protein-drug-discovery/",
+        "tier": 3,
+        "publisher": "ITKey Media",
+        "published_date": "2026-02-16",
+        "accessed_date": "2026-10-12",
+        "quote": "ZAKA VC is pleased to welcome DeepSeq.AI to its portfolio.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Nephrogen",
+      "company_website": null,
+      "announced_date": "2025-11-28",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://itkey.media/zaka-vc-backs-nephrogens-kidney-focused-gene-therapy-platform/",
+        "tier": 3,
+        "publisher": "ITKey Media",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "the startup closed its USD 2M pre-seed round with ZAKA VC as an announced investor.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Vetstor",
+      "company_website": null,
+      "announced_date": "2025-04-08",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://cc.cz/trend-longevity-dorazil-i-k-domacim-zviratum-cesi-je-propojuji-s-veterinari-a-nabizi-vyzivu-na-miru/",
+        "tier": 3,
+        "publisher": "cc.cz",
+        "published_date": "2025-04-08",
+        "accessed_date": "2026-10-12",
+        "quote": "České fondy Zaka VC a Purple Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa / Sifted (hint)",
+    "notes": "Legal entity not confirmed: website has no imprint/IČO; ZAKA Management s.r.o. (IČO 21053987, Praha, kurzy.cz) exists but no source ties it to ZAKA VC, so legal_entities left empty. Newer deals (ParcelBio May 2026, Cirrus Feb 2026, FinalDose Jul 2026, Readmio Feb 2026, Vetstor Dec 2025 seed) found only on undated/LinkedIn/blocked pages or without ZAKA tied to the round; not cited. Nephrogen date 2025-11-28 taken from article text ('on November 28, 2025'), page publish date unclear. DeepSeq.AI: article reportedly says ZAKA led; verbatim lead wording not verified, role unknown. Fund I vintage unknown (Sifted/Bridge Club say July 2024 launch; not fetched). Website table shows 17M (no currency), conflicting with EUR 15M story page; used the explicit EUR figure."
+  }
+}
