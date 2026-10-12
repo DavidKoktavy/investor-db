@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "id": "dendis-capital",
+  "name": "Dendis Capital",
+  "website": "https://www.dendiscapital.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.dendiscapital.com",
+      "tier": 2,
+      "publisher": "Dendis Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Zábrdovice, 602 00 Brno",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Dendis Capital nadační fond",
+      "registry": "CZ-OR",
+      "registry_id": "19786514",
+      "role": "other",
+      "source": {
+        "url": "https://www.dendiscapital.com",
+        "tier": 2,
+        "publisher": "Dendis Capital",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "IČ 19786514",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "family_office",
+    "subtype": "family foundation (nadační fond)",
+    "source": {
+      "url": "https://www.dendiscapital.com",
+      "tier": 2,
+      "publisher": "Dendis Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Jsme rodinný nadační fond, který vidí smysl v rozvoji a podpoře projektů pro příští generace.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "medtech",
+      "ai_data"
+    ],
+    "raw": "life science, diagnostice, medical devices",
+    "source": {
+      "url": "https://www.dendiscapital.com",
+      "tier": 2,
+      "publisher": "Dendis Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Zajímají nás především projekty aplikující inovativní technologie v life science, diagnostice, medical devices,",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "raw": "zavedené společnosti s růstovým potenciálem; začínající podniky",
+    "source": {
+      "url": "https://www.dendiscapital.com",
+      "tier": 2,
+      "publisher": "Dendis Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Investujeme do zavedených společností s růstovým potenciálem a podporujeme inovační prostředí",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "HTG Medical",
+      "company_website": "https://www.htgmedical.com",
+      "announced_date": "2026-07-14",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://www.ceskenoviny.cz/zpravy/jic-ventures-investuje-do-htg-medical-ktery-automatizuje-peci-na-jip/2850860",
+        "tier": 3,
+        "publisher": "České noviny",
+        "published_date": "2026-07-14",
+        "accessed_date": "2026-10-12",
+        "quote": "zapojili se do něj i stávající investoři Jinej fond a Dendis Capital.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa.cz",
+    "notes": "Legal entity is a nadační fond (family foundation) with its own capital, investing directly in companies (family_office type); registry number taken from the investor's own imprint, not confirmed in the registry. Stages: site also says it backs early-stage firms ('začínající podniky') without a clear stage label, so only growth mapped. Hint's Carebot deal not confirmed: a Forbes.cz report on Carebot's 2026 round names Garage Angels, Electron Capital, JIC Ventures, Gain Ventures, not Dendis Capital; only third-party trackers (not used) list Dendis in Carebot Sep 2025. Instrument for HTG not stated in source (equity assumed from 'kolo'); Dendis described as existing investor, so role participant. No ticket or AUM published."
+  }
+}

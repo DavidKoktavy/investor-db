@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "id": "bd-partners",
+  "name": "BD Partners",
+  "website": "https://bdpartners.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.finmag.cz/obchodni-rejstrik/ares/19286511-bd-partners-a-s",
+      "tier": 3,
+      "publisher": "Finmag (mirror of ARES)",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Generála Píky 430/26",
+      "self_reported": false
+    },
+    "note": "Registered seat in Prague; team location not stated explicitly."
+  },
+  "legal_entities": [
+    {
+      "name": "BD Partners a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "19286511",
+      "role": "other",
+      "source": {
+        "url": "https://www.finmag.cz/obchodni-rejstrik/ares/19286511-bd-partners-a-s",
+        "tier": 3,
+        "publisher": "Finmag (mirror of ARES)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "BD Partners a.s., IČO: 19286511",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "family_office",
+    "subtype": "joint family office / investment vehicle",
+    "source": {
+      "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2025-07-28",
+      "accessed_date": "2026-10-12",
+      "quote": "Jsme joint family office.",
+      "self_reported": false
+    },
+    "note": "Self-described as a joint family office of two individuals that invests in startups; could also be seen as private_holding."
+  },
+  "sectors": {
+    "value": [
+      "software_saas",
+      "deeptech_hardware"
+    ],
+    "raw": "technologické firmy, ať už zaměřené čistě na software, nebo na kombinaci software-hardware",
+    "source": {
+      "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2025-07-28",
+      "accessed_date": "2026-10-12",
+      "quote": "Koukáme primárně na technologické firmy, ať už zaměřené čistě na software, nebo na kombinaci software-hardware.",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Interview gives range 250k-2M EUR for typical investments incl. follow-ons; not clearly the first cheque."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Myriad AI",
+      "company_website": null,
+      "announced_date": "2025-09-16",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/cesky-startup-byvaleho-inzenyra-v-nvidii-a-googlu-ziskal-160-milionu-na-ai-pro-zvladani-byrokracie/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2025-09-16",
+        "accessed_date": "2026-10-12",
+        "quote": "Caesar VC, BD Partners a Preston-Werner Ventures.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "WanderWallet",
+      "company_website": null,
+      "announced_date": null,
+      "role": "co_lead",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://depoventures.cz/novinky/wanderwallet-raises-eur-430k-to-make-it-easier-for-tourists-to-pay-without-a-local-bank-account",
+        "tier": 2,
+        "publisher": "DEPO Ventures",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "The round was co-led by BDPartners alongside DEPO Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa article (hint)",
+    "notes": "bdpartners.cz is JavaScript-only (tagline only), so identity from registry mirror (Finmag; Jean-Pascal Duvieusart is on the board) and CzechCrunch interview (28 Jul 2025) with Ladislav Bartonicek, who describes BD Partners as joint family office with 1.2-2.5 bn CZK to invest in startups. WanderWallet pre-seed: DEPO page has no printed date; trackers (not cited) date it March 2026, so announced_date left null. Round size differs between sources (EUR 430k vs USD 500k); not recorded. Ticket 250k-2M EUR and ~20M EUR deployed appear in the interview but are not clearly first-cheque / AUM, so left null. Stages not stated."
+  }
+}

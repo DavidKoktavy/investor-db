@@ -71,3 +71,5 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,btcz-ventures,23793,9,44.3,ok
 2026-10-12,investor-extractor,sonnet,aternus-family-office,30729,11,61.4,ok
 2026-10-12,investor-extractor,sonnet,braiins,28516,15,66.6,ok
+2026-10-12,investor-extractor,sonnet,bd-partners,40405,21,92.0,ok
+2026-10-12,investor-extractor,sonnet,dendis-capital,34493,15,75.1,ok
