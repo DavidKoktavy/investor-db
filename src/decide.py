@@ -247,6 +247,11 @@ def triage_decision(row: dict) -> tuple[str, str | None]:
     itype = (row.get("investor_type") or "").strip()
     if hq and hq != "UNKNOWN" and hq != SEGMENT_COUNTRY:
         return "excluded", "out_of_scope_geography"
+    # Type alone excludes a possibly in-segment candidate only on strong evidence (D-015).
+    strong = ((row.get("evidence_kind") or "").strip() == "page"
+              and (row.get("confidence") or "").strip() == "high")
+    if not strong:
+        return "extract", None
     if itype in TRIAGE_TYPE_EXCLUSION:
         return "excluded", TRIAGE_TYPE_EXCLUSION[itype]
     if itype == "accelerator" and (row.get("equity_investor") or "").strip() == "no":

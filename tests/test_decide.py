@@ -173,15 +173,24 @@ def test_decided_record_validates_against_schema(rec):
     assert validate_record(out["record"], load_validator(), staging=False) == []
 
 
+STRONG = {"evidence_kind": "page", "confidence": "high"}
+
+
 @pytest.mark.parametrize("row,expected", [
     ({"hq_country": "US", "investor_type": "vc"}, ("excluded", "out_of_scope_geography")),
-    ({"hq_country": "CZ", "investor_type": "pe"}, ("excluded", "out_of_scope_type")),
-    ({"hq_country": "CZ", "investor_type": "lender"}, ("excluded", "debt_only")),
-    ({"hq_country": "CZ", "investor_type": "lp_only"}, ("excluded", "fund_of_funds_or_lp_only")),
-    ({"hq_country": "CZ", "investor_type": "accelerator", "equity_investor": "no"}, ("excluded", "grant_or_program_only")),
-    ({"hq_country": "CZ", "investor_type": "accelerator", "equity_investor": "yes"}, ("extract", None)),
-    ({"hq_country": "CZ", "investor_type": "vc"}, ("extract", None)),
+    ({"hq_country": "CZ", "investor_type": "pe", **STRONG}, ("excluded", "out_of_scope_type")),
+    ({"hq_country": "CZ", "investor_type": "lender", **STRONG}, ("excluded", "debt_only")),
+    ({"hq_country": "CZ", "investor_type": "lp_only", **STRONG}, ("excluded", "fund_of_funds_or_lp_only")),
+    ({"hq_country": "CZ", "investor_type": "accelerator", "equity_investor": "no", **STRONG},
+     ("excluded", "grant_or_program_only")),
+    ({"hq_country": "CZ", "investor_type": "accelerator", "equity_investor": "yes", **STRONG}, ("extract", None)),
+    ({"hq_country": "CZ", "investor_type": "vc", **STRONG}, ("extract", None)),
     ({"hq_country": "unknown", "investor_type": "unknown"}, ("extract", None)),
+    # D-015: weak type evidence never excludes a candidate that may be in the segment
+    ({"hq_country": "CZ", "investor_type": "private_holding", "evidence_kind": "page", "confidence": "medium"},
+     ("extract", None)),
+    ({"hq_country": "unknown", "investor_type": "pe", "evidence_kind": "snippet", "confidence": "high"},
+     ("extract", None)),
 ])
 def test_triage_rules(row, expected):
     assert triage_decision(row) == expected
