@@ -1,0 +1,26 @@
+candidate_id,name,website,hq_guess,suspected_type,note
+3ts-capital-partners,3TS Capital Partners,,,vc,TCEE Fund III and Technology in Central and Eastern Europe SICAR (EIF) and TCEE Fund IV (CEFoF); EIF names manager as 3TS Capital Partners Oy. Historic Czech activity (Lupa 2014 mentions 3TS Cisco Growth); current investment team location not checked. Website not identified.
+500-emerging-europe,500 Emerging Europe,,,vc,The Village Network investor (Awards 2023 impact). Fund status and HQ not checked.
+abris-capital,Abris Capital,https://www.abris-capital.com,PL,pe,"Abris Capital Partners. Warsaw office on CVCA profile. Buyout and expansion capital in CEE, 1 CZ deal listed."
+accel,Accel,https://www.accel.com,US,vc,"Example deal: Viktor USD 75M (May 2026, lead). HQ from prior knowledge. Website from Lupa link."
+accolade,Accolade,https://accolade.eu,CZ,other,"Prague 8. Owns industrial parks and Brno airport and runs a property fund (Accolade Fund SICAV). PLAN 2.4 cites it as the associate member that is a park owner, so likely real_estate_only. Added as a borderline test case."
+across-private-investments,Across Private Investments,,SK,unknown,SuperScale investor (Awards 2024). Identity and HQ not verified.
+ai-startup-incubator,AI Startup Incubator,,,other,"Listed by Vestbee with USD 150K-1.5M investment; suincubator.ai (single source, not used)."
+air-ventures,Air Ventures,https://airventures.eu,,vc,Listed by Papermark and Vestbee with airventures.eu; HQ not stated in either.
+airbridge,Airbridge,,,unknown,"Smartlook exit investor (Awards 2024). Identity, HQ and type not verified; name is ambiguous."
+akcelerator-vsem,Akcelerátor VŠEM,,CZ,other,Accelerator listed by Vestbee; equity terms not stated.
+alea-capital,Alea Capital Partners,https://aleacp.com,PT,vc,"Example deal: Choice USD 7.1M (Mar 2026, lead). Portuguese per Lupa. Website from Lupa link."
+alfa8,alfa8,,,vc,GA Drilling investor (Awards 2025). Identity and HQ not verified.
+alpha-intelligence-capital,Alpha Intelligence Capital,,,vc,Photoneo investor (Awards 2024). HQ not verified.
+angelinvest,Angelinvest,https://www.angelinvest.com,DE,vc,Example deal: Modeinspect (Jan 2026). German fund per Lupa. Website from Lupa link.
+arctern-ventures,ArcTern Ventures,,CA,vc,"Woltair investor (Awards 2024). Canada is a guess from knowledge, not verified."
+arieli-capital,Arieli Capital,,IL,vc,Named as Powerful Medical investor in Newstream's 2023 winners article. HQ Israel is a guess from the name; not verified.
+arx-equity-partners,ARX Equity Partners,https://www.arxequity.com,CZ,pe,"Prague 1 office. MBO/MBI and expansion capital per CVCA profile. | ARX CE V Cooperatief U.A., manager ARX Equity Partners B.V., Czech team (EIF Czechia list); Arx CEE III/IV also EIF-backed. Private equity, likely outside VC scope. Awards 2023 PE Fund Manager finalist. Website per scout_cvca.csv (CVCA scout), not independently fetched here."
+aspire11,Aspire11,https://www.aspire11cap.com,CZ,vc,"Example deal: Revolut (Dec 2025, first direct investment, hundreds of millions CZK per Lupa); Vinted (Jun 2026). Late-stage platform of Pavel Mucha (Kaya) and Petr Borkovec targeting EUR 500M; borderline growth/PE rather than VC. Website from Lupa link. | Czech investment platform with EUR 500m inaugural pension-backed fund (Vestbee Q3 2025); co-founded by Pavel Mucha (Kaya VC) and Petr Borkovec; EUR 20m in Vinted (Lupa 2026-06-23) and in the Revolut round (Lupa 2025-12-09); deals look late-stage, so type is uncertain. Website not identified."
+aternus-family-office,Aternus Family Office,,CZ,family_office,"In Seedtable Czech ranking (aggregator lead, name only, not verified)."
+atomico,Atomico,,GB,vc,"Example deal: Mews USD 300M (Jan 2026, new investor). HQ from prior knowledge. Website not identified."
+austrian-growth-capital-fund,Austrian Growth Capital Fund,,AT,other,"Fund named in CEFoF list; manager not stated. Austrian, probably outside scope. Website not identified."
+badideas-fund,BADideas.fund,,,vc,"Named in CzechCrunch deal newsletter. Identity, HQ not verified."
+bakala-capital,Bakala Capital,,CZ,private_holding,"In Seedtable Czech ranking (aggregator lead, name only, not verified)."
+battery-ventures,Battery Ventures,,US,vc,"Example deal: Mews USD 300M (Jan 2026, returning investor); also Mar 2025 round per Vestbee. HQ from prior knowledge. Website not identified."
+bd-partners,BD Partners,https://bdpartners.cz,CZ,vc,"Example deal: WanderWallet pre-seed (Mar 2026). Also Myriad AI (Sep 2025). CzechCrunch Oct 2023 described it as investment vehicle of two individuals, so may be private holding. Website per the Lupa article's link (domain taken from fetch summary)."
