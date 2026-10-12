@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "id": "presto-ventures",
+  "name": "Presto Tech Horizons (Tech Horizons)",
+  "website": "https://prestoventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://prestoventures.com",
+      "tier": 2,
+      "publisher": "Presto Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Slovanský dům, Senovážné náměstí 869/28 110 00 Prague 1, Czech Republic",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Presto Ventures II a.s., osoba rizikového kapitálu",
+      "registry": "CZ-OR",
+      "registry_id": "11678704",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://www.podnikatel.cz/rejstrik/presto-ventures-ii-a-s-osoba-rizikoveho-kapitalu-11678704/",
+        "tier": 3,
+        "publisher": "Podnikatel.cz",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Presto Ventures II a.s., osoba rizikového kapitálu - IČO 11678704",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://prestoventures.com",
+      "tier": 2,
+      "publisher": "Presto Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Since 2016, we’ve invested €40M from two funds.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "raw": null,
+    "null_reason": "not_published",
+    "note": "No verbatim sector statement captured; portfolio is mixed B2B plus defense/dual-use."
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "raw": "Seed TO SERIES A",
+    "source": {
+      "url": "https://prestoventures.com",
+      "tier": 2,
+      "publisher": "Presto Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Seed TO SERIES A",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 500000,
+      "max": 5000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://prestoventures.com",
+      "tier": 2,
+      "publisher": "Presto Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Tickets ranging from €500k to €5M.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "No AUM stated."
+  },
+  "funds": [
+    {
+      "name": "Presto Tech Horizons",
+      "vintage": 2024,
+      "size": {
+        "amount": 150000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://tech.eu/2024/10/25/presto-tech-horizons-fund-announces-investment-in-three-startups/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2024-10-25",
+        "accessed_date": "2026-10-12",
+        "quote": "The fund is investing €150 million in the most promising tech projects from NATO countries and their allies.",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Occam",
+      "company_website": null,
+      "announced_date": "2026-02-11",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://cc.cz/investori-v-cele-s-miliardarem-michalem-strnadem-posilaji-desitky-milionu-na-vyvoj-autonomnich-dronu/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-02-11",
+        "accessed_date": "2026-10-12",
+        "quote": "které vedl fond český Presto Tech Horizons",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Tur.ai",
+      "company_website": null,
+      "announced_date": "2024-10-25",
+      "role": "lead",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://tech.eu/2024/10/25/presto-tech-horizons-fund-announces-investment-in-three-startups/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2024-10-25",
+        "accessed_date": "2026-10-12",
+        "quote": "The company has raised $1.45 million with PTH as its lead investor.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Bavovna",
+      "company_website": null,
+      "announced_date": "2024-10-23",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://en.ain.ua/2024/10/23/presto-tech-horizons-invests-in-bavovna-vidar-turai",
+        "tier": 3,
+        "publisher": "AIN.UA",
+        "published_date": "2024-10-23",
+        "accessed_date": "2026-10-12",
+        "quote": "has added three new startups to its portfolio, including Vidar Systems, Bavovna, and Tur.ai.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": null,
+    "notes": "Brand covers Presto Ventures (Fund I/II/III) and Presto Tech Horizons (JV with CSG). Registry entity is Presto Ventures II a.s. (IČO 11678704), taken from the site footer and podnikatel.cz mirror; Tech Horizons vehicle itself not identified. Ticket 'Tickets ranging from EUR 500k to 5M' is the site's phrasing, may not be strictly first cheque. Founder Přemysl Rubeš detained by police 11 Mar 2026 (CzechCrunch headline, 'důvodem není podnikání'); firm says cooperation ended Sept 2025; not an exclusion signal. Choice Series A (Mar 2026) sources did not name Presto; Zerops 2026 round only on aggregator, not used. Ellipsis 'jenž' quote for Occam is a fragment; full round (EUR 3M pre-seed) per search snippet only."
+  }
+}

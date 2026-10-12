@@ -48,3 +48,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,nation1,33287,15,67.1,ok
 2026-10-12,investor-extractor,sonnet,miton,36088,17,76.2,ok
 2026-10-12,investor-extractor,sonnet,look-ai-ventures,36649,18,78.0,ok
+2026-10-12,investor-extractor,sonnet,longevitytech-fund,31237,13,81.8,ok
+2026-10-12,investor-extractor,sonnet,novira-capital,27538,16,74.3,ok
+2026-10-12,investor-extractor,sonnet,patero,26320,17,77.4,ok
+2026-10-12,investor-extractor,sonnet,orbit-capital,36760,18,84.9,ok
