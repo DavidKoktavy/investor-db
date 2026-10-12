@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "id": "rockawayx",
+  "name": "RockawayX",
+  "website": "https://www.rockawayx.com",
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Site names offices in London, Prague and Dubai, no single team location; Prague entity is the Czech registrant."
+  },
+  "legal_entities": [
+    {
+      "name": "Blockad s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "08006458",
+      "role": "other",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/08006458/blockad-sro/",
+        "tier": 3,
+        "publisher": "kurzy.cz",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "IČO: 08006458",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "crypto/blockchain, liquid funds and vault curation",
+    "source": {
+      "url": "https://www.rockawayx.com",
+      "tier": 2,
+      "publisher": "RockawayX",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We invest in early-stage projects, then build alongside them.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "other"
+    ],
+    "raw": "We run blockchains and provide liquidity to fuel protocols.",
+    "source": {
+      "url": "https://www.rockawayx.com",
+      "tier": 2,
+      "publisher": "RockawayX",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We run blockchains and provide liquidity to fuel protocols.",
+      "self_reported": true
+    },
+    "note": "Crypto/blockchain/DeFi has no taxonomy slot."
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only 'early-stage projects' stated; not mappable to schema stages."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Site shows '$2B+' Assets metric but not labelled as AUM; Lupa mention of USD 2B not fetched."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "OnRe",
+      "company_website": null,
+      "announced_date": "2026-05-05",
+      "role": "co_lead",
+      "instrument": "unknown",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.edgen.tech/zh/news/post/forward-industries-backs-onre-with-25m-bet-on-solana-rwa-growth",
+        "tier": 3,
+        "publisher": "Edgen",
+        "published_date": "2026-05-05",
+        "accessed_date": "2026-10-12",
+        "quote": "由 Forward Industries (NASDAQ: FWDI) 和数字资产公司 RockawayX 共同领投的 OnRe 500 万美元 A 轮融资",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "BetHog",
+      "company_website": null,
+      "announced_date": "2026-04-22",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.rockawayx.com/insights",
+        "tier": 2,
+        "publisher": "RockawayX",
+        "published_date": "2026-04-22",
+        "accessed_date": "2026-10-12",
+        "quote": "Our Investment in BetHog: An AI-Native Gaming Platform",
+        "self_reported": true
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Website found by search (rockawayx.com), brand formerly Rockaway Blockchain Fund. Legal entity Blockad s.r.o. (sole shareholder RockawayX a.s., IČO 17457009 per kurzy.cz); successors RockawayX Labs/Infra not verified on page. Own BetHog post says 'co-leading' but is undated; date taken from insights listing (April 22, 2026). OnRe: RockawayX's own post says co-led with Forward Industries but is undated, so dated Edgen article cited. Team of 45 across London, Prague, Dubai, so Czech base unproven. Crypto fund, liquid hedge strategies also (Relayer Capital acquisition Aug 2026)."
+  }
+}

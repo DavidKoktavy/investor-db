@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "id": "spinoffy",
+  "name": "Spinoffy",
+  "website": null,
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-03-02",
+      "accessed_date": "2026-10-12",
+      "self_reported": false,
+      "quote": "V Česku ohlásil svůj start nový investiční fond Spinoffy"
+    }
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-03-02",
+      "accessed_date": "2026-10-12",
+      "self_reported": false,
+      "quote": "nový investiční fond Spinoffy zaměřený na podporu technologických spin-offů"
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "proof of concept (ověření konceptu)",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-03-02",
+      "accessed_date": "2026-10-12",
+      "self_reported": false,
+      "quote": "zaměřený na podporu technologických spin-offů už ve fázi ověření konceptu"
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "No website found. Only source: Lupa.cz 2026-03-02 (tier 3). hq_country based on 'launched in Czechia' plus Czech primary market; team location not explicitly stated. No legal entity/IČO published (structure via J&T Banka and Amista investiční společnost). No portfolio deal found; fund size, ticket not stated (target value creation CZK 5bn over 6 years). Sector: technology spin-offs, not mapped. Stage pre_seed mapped from proof-of-concept."
+  }
+}

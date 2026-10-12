@@ -57,3 +57,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,purposetech,32085,20,92.2,ok
 2026-10-12,investor-extractor,sonnet,rockaway-ventures,36417,19,198.9,ok
 2026-10-12,investor-extractor,sonnet,purple-ventures,38499,18,208.5,ok
+2026-10-12,investor-extractor,sonnet,spinoffy,20959,8,40.7,ok
+2026-10-12,investor-extractor,sonnet,rockawayx,28961,16,72.7,ok
+2026-10-12,investor-extractor,sonnet,seed-starter,35504,16,78.1,ok

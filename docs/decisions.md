@@ -67,3 +67,7 @@ Každé rozhodnutí v bodě, který zadání nechává otevřený. Formát: datu
 ## D-017 · 2026-10-12 · Extrakce v tempu limitu vyhledávání; zkušební záznamy archivované
 - Alternativy: pustit všech 66 hned (extraktory by běžely bez vyhledávání a vyřadily by aktivní fondy pro chybějící datovaný důkaz); zkrátit frontu.
 - Proč: limit 200 vyhledávání na relaci se doplňuje ~100/h. Při ≤ 6 vyhledáváních na kandidáta pouštím 4 extraktory zhruba každých 15 minut. Záznam s příznakem `SEARCH_BUDGET_EXHAUSTED` po dokončení fronty extrahuji znovu. Čtyři zkušební záznamy podle runbooku nepoužívám; místo smazání jsou v `data/records/trial_01/` jako doklad iterace promptu.
+
+## D-018 · 2026-10-12 · `seed-starter-ceske-sporitelny` neextrahuji, je to duplicita `seed-starter`
+- Alternativy: extrahovat oba (dva záznamy o tomtéž programu, dvojí náklad); doplnit alias a znovu sloučit kandidáty (mění seznam kandidátů uprostřed pilotu).
+- Proč: oba řádky mají stejný web (seedstarter.cz) a popisují tentýž program České spořitelny; na shodu upozornila i triáž (batch 07). Extrahuji jen `seed-starter`. `aliases.csv` je ruční seznam, proto alias nepřidávám sám: navrhuji ho Davidovi k doplnění. Do té doby zůstane `seed-starter-ceske-sporitelny` v `cz_vc_decisions.csv` jako `pending`.
