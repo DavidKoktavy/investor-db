@@ -73,3 +73,5 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,braiins,28516,15,66.6,ok
 2026-10-12,investor-extractor,sonnet,bd-partners,40405,21,92.0,ok
 2026-10-12,investor-extractor,sonnet,dendis-capital,34493,15,75.1,ok
+2026-10-12,investor-extractor,sonnet,emun,,,,failed
+2026-10-12,investor-extractor,sonnet,jsk-investments,,,,failed
