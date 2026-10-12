@@ -32,7 +32,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,credo-ventures,33897,17,62.6,ok
 2026-10-12,investor-extractor,sonnet,czech-founders-vc,32256,13,64.9,ok
 2026-10-12,investor-extractor,sonnet,aspire11,32604,14,73.1,ok
-2026-10-12,investor-extractor,sonnet,depo-ventures,36545,19,199.0,ok
+2026-10-12,investor-extractor,sonnet,depo-ventures,38326,19,199.0,ok
 2026-10-12,investor-extractor,sonnet,founder-institute-prague,26365,8,42.4,ok
 2026-10-12,investor-extractor,sonnet,fazole-ventures,33669,15,69.6,ok
 2026-10-12,investor-extractor,sonnet,gi21-capital,38918,21,93.2,ok
@@ -44,3 +44,4 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,koopeo-ventures,32335,13,64.3,ok
 2026-10-12,investor-extractor,sonnet,j-t-ventures,33285,15,84.2,ok
 2026-10-12,investor-extractor,sonnet,jic-ventures,50672,31,155.6,ok
+2026-10-12,investor-extractor,sonnet,lighthouse-ventures,39729,20,205.1,ok
