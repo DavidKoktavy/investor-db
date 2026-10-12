@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "id": "impulse-ventures",
+  "name": "Impulse Ventures",
+  "website": null,
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-impulse-ventures-a-s-08841471",
+      "tier": 3,
+      "publisher": "mesec.cz (mirror of Czech register)",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Impulse Ventures, a.s., IČO (08841471), sídlo Praha",
+      "self_reported": false
+    },
+    "note": "Registered seat Praha; team location not stated on a page, inferred from Prague seat."
+  },
+  "legal_entities": [
+    {
+      "name": "Impulse Ventures, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "08841471",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.mesec.cz/rejstrik-firem/firma-impulse-ventures-a-s-08841471",
+        "tier": 3,
+        "publisher": "mesec.cz (mirror of Czech register)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Impulse Ventures, a.s., IČO (08841471), sídlo Praha",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.seznamzpravy.cz/clanek/novy-cesky-fond-nabizi-ctyri-miliardy-pro-technologicke-nadsence-118740",
+      "tier": 3,
+      "publisher": "Seznam Zprávy",
+      "published_date": "2020-09-09",
+      "accessed_date": "2026-10-12",
+      "quote": "Peníze investora a jednoho z nejbohatších Čechů Ondřeje Tomka začínají pohánět společnost Impulse Ventures.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "raw": "technologické startupy s působností ve středoevropském regionu",
+    "note": "Tech startups, no specific vertical; mapped to generalist.",
+    "source": {
+      "url": "https://www.seznamzpravy.cz/clanek/novy-cesky-fond-nabizi-ctyri-miliardy-pro-technologicke-nadsence-118740",
+      "tier": 3,
+      "publisher": "Seznam Zprávy",
+      "published_date": "2020-09-09",
+      "accessed_date": "2026-10-12",
+      "quote": "Primárně technologické startupy s působností ve středoevropském regionu.",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "raw": "Seed a Series A",
+    "source": {
+      "url": "https://www.seznamzpravy.cz/clanek/novy-cesky-fond-nabizi-ctyri-miliardy-pro-technologicke-nadsence-118740",
+      "tier": 3,
+      "publisher": "Seznam Zprávy",
+      "published_date": "2020-09-09",
+      "accessed_date": "2026-10-12",
+      "quote": "v rámci investičních kol Seed a Series A",
+      "self_reported": false
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only 'up to CZK 4 billion ready to invest' (2020), a statement of available capital, not AUM or a fund size."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Dataddo",
+      "company_website": null,
+      "announced_date": "2023-12-20",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": "fourth investment round",
+      "source": {
+        "url": "https://cc.cz/ceske-dataddo-ma-ctvrtou-investici-od-miliardare-ondreje-tomka-z-datoveho-startupu-se-stava-globalni-hrac/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2023-12-20",
+        "accessed_date": "2026-10-12",
+        "quote": "Pražský startup Dataddo teď uzavřel své čtvrté investiční kolo, a to opět od fondu Impulse Ventures.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Wikipedia list, AIN rank 14, Lupa",
+    "notes": "No working own website (impulseventures.com has a certificate for another host). Newest dated deal found is Dataddo 2023-12-20 (outside 24 months); a CzechCrunch 2025-08-05 article names Impulse Ventures among investors in an earlier (2022) round of Itera Technologies, not a new deal. No 2024-2026 deal found in 4 tool lookups. Registry source is a tier-3 mirror; company status not stated (only a trade licence marked active). Round size 1.4 mil. USD (31 mil. CZK) is round size, not ticket."
+  }
+}

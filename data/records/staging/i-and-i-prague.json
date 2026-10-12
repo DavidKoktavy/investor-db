@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "id": "i-and-i-prague",
+  "name": "i&i Prague",
+  "website": "https://www.iniprague.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://rejstrik-firem.kurzy.cz/hledej/?s=i%26i+Prague",
+      "tier": 3,
+      "publisher": "kurzy.cz (Obchodní rejstřík mirror)",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Adresa: Pobřežní 394/12, Karlín, 186 00 Praha",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "i&i Prague, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "06058485",
+      "role": "other",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/hledej/?s=i%26i+Prague",
+        "tier": 3,
+        "publisher": "kurzy.cz (Obchodní rejstřík mirror)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Subjekt: i&i Prague, s.r.o. IČO: 06058485",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Self-described as biotech incubator and venture builder; no source found stating equity investments by i&i Prague itself, so not typed as vc."
+  },
+  "sectors": {
+    "value": ["health_biotech"],
+    "raw": "biotech incubator and venture builder, lab to market",
+    "source": {
+      "url": "https://www.iniprague.com",
+      "tier": 2,
+      "publisher": "i&i Prague",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We are a biotech incubator and venture builder, helping groundbreaking ideas leap from lab to market.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "The i&i Biotech Fund (>EUR 45M, with EIF) is a separate vehicle covered in record i-and-i-biotech."
+  },
+  "funds": [],
+  "evidence_of_activity": [],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "No dated investment by i&i Prague itself found (site shows only 11 portfolio logos without names or dates). IOCB page (uochb.cz/en/ini-prague) says it provides pre-seed financing and co-established i&i Biotech Fund in 2021 with EIF, but nothing dated or verbatim-confirmed that it invests equity; may be incubator/adviser role to the fund. IČO taken from kurzy search results page (tier 3); direct company page not fetched. Team seat in Prague per same entry address."
+  }
+}

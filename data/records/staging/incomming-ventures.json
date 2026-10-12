@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "id": "incomming-ventures",
+  "name": "InCOMMing Ventures",
+  "website": null,
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.finmag.cz/obchodni-rejstrik/04991087-incomming-ventures-a-s",
+      "tier": 3,
+      "publisher": "finmag.cz (mirror of the Czech commercial register)",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Bílkova 855/19, 110 00 Praha - Staré Město",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "INCOMMING ventures a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "04991087",
+      "role": null,
+      "source": {
+        "url": "https://www.finmag.cz/obchodni-rejstrik/04991087-incomming-ventures-a-s",
+        "tier": 3,
+        "publisher": "finmag.cz (mirror of the Czech commercial register)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "INCOMMING ventures a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://altss.com/profile/incomming-ventures",
+      "tier": 3,
+      "publisher": "Altss",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "focuses on investing in innovative projects that have a vision for global expansion",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": ["consumer_ecommerce"],
+    "raw": "e-commerce",
+    "source": {
+      "url": "https://altss.com/profile/incomming-ventures",
+      "tier": 3,
+      "publisher": "Altss",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "focuses on investing in innovative projects that have a vision for global expansion",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": ["seed", "growth"],
+    "raw": "seed and later stage",
+    "source": {
+      "url": "https://150sec.com/new-vc-fund-appears-on-the-horizon-in-czech-republic-and-makes-its-first-investment/",
+      "tier": 3,
+      "publisher": "150sec",
+      "published_date": "2016-05-18",
+      "accessed_date": "2026-10-12",
+      "quote": "Incomming Ventures shall focus on the seed and later stage investments",
+      "self_reported": false
+    }
+  },
+  "ticket": {"value": null, "null_reason": "not_published"},
+  "capital": {"value": null, "null_reason": "not_published"},
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "CARZADA",
+      "company_website": null,
+      "announced_date": "2016-05-18",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://150sec.com/new-vc-fund-appears-on-the-horizon-in-czech-republic-and-makes-its-first-investment/",
+        "tier": 3,
+        "publisher": "150sec",
+        "published_date": "2016-05-18",
+        "accessed_date": "2026-10-12",
+        "quote": "announcing this week an investment into German startup company CARZADA",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [
+    {
+      "code": "not_found_or_defunct",
+      "note": "Website incomming.net does not resolve (DNS error); no investment found after 2016."
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Seedtable Czech ranking (aggregator lead)",
+    "notes": "No working website. Entity INCOMMING ventures a.s. IČO 04991087 matched by name via registry mirror (status not stated; extract dated 2026-01-10). hq_country from registered seat, team location not independently confirmed (Altss says Prague). Only deal found: CARZADA, May 2016 (article date from page byline); no ticket/fund data. Aggregator pages (Dealroom) not used. Sectors/stage quotes: Altss quote supports e-commerce focus via its description."
+  }
+}
