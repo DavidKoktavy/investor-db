@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "id": "look-ai-ventures",
+  "name": "Look AI Ventures",
+  "website": "https://lookai.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://lookai.vc",
+      "tier": 2,
+      "publisher": "Look AI Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "pre-Series A venture capital fund based in Prague, Czech Republic",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Look AI Ventures SICAV, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "17604087",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://or.justice.cz/ias/ui/rejstrik-$firma?ico=17604087",
+        "tier": 1,
+        "publisher": "Obchodní rejstřík",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Look AI Ventures SICAV, a.s.",
+        "self_reported": false
+      }
+    },
+    {
+      "name": "FTP Dimension investiční společnost, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "29659302",
+      "role": "management_company",
+      "source": {
+        "url": "https://lookai.vc",
+        "tier": 2,
+        "publisher": "Look AI Ventures",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "The Fund is managed by FTP Dimension investiční společnost, a.s., Company ID No.: 296 59 302",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "AI-focused",
+    "source": {
+      "url": "https://lookai.vc",
+      "tier": 2,
+      "publisher": "Look AI Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "is the first investment fund in the Czech Republic that focuses exclusively on AI startups worldwide",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "ai_data"
+    ],
+    "raw": "a broad set of core AI areas and AI-enabled businesses",
+    "source": {
+      "url": "https://lookai.vc",
+      "tier": 2,
+      "publisher": "Look AI Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "a broad set of core AI areas",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "seed"
+    ],
+    "raw": "pre-Series A",
+    "source": {
+      "url": "https://lookai.vc",
+      "tier": 2,
+      "publisher": "Look AI Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "pre-Series A venture capital fund based in Prague, Czech Republic",
+      "self_reported": true
+    },
+    "note": "Mapped pre-Series A to seed; the site gives no explicit pre-seed/seed wording."
+  },
+  "ticket": {
+    "value": {
+      "min": 250000,
+      "max": 250000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+      "tier": 3,
+      "publisher": "Tech.eu",
+      "published_date": "2023-04-13",
+      "accessed_date": "2026-10-12",
+      "quote": "The targeted investment amount in one start-up is €250,000 and mentorship will be provided.",
+      "self_reported": false
+    },
+    "note": "Launch-time target (2023), not a current stated range."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [
+    {
+      "name": "Look AI Ventures I Subfund",
+      "vintage": null,
+      "size": {
+        "amount": 20000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2023-04-13",
+        "accessed_date": "2026-10-12",
+        "quote": "It aims to raise €20 million which will be invested in early stage AI-driven companies.",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Sodex Innovations",
+      "company_website": null,
+      "announced_date": "2026-07-13",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "€4M round led by Capmont Technology",
+      "source": {
+        "url": "https://tech.eu/2026/07/13/sodex-innovations-secures-4m-to-bring-real-time-intelligence-to-construction-sites/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-07-13",
+        "accessed_date": "2026-10-12",
+        "quote": "The round also welcomed new investors Bloomhaus, Look AI Ventures and the German business angel group Superangels",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Lucida AI",
+      "company_website": null,
+      "announced_date": "2026-06-30",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "seed extension",
+      "source": {
+        "url": "https://tech.eu/2026/06/30/lucida-ai-closes-7m-seed-round-for-speech-to-speech-ai/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-06-30",
+        "accessed_date": "2026-10-12",
+        "quote": "with participation from Next Tier Ventures, Look AI Ventures, Bogazici Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Digicust",
+      "company_website": null,
+      "announced_date": "2025-12-03",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "pre-Series A",
+      "source": {
+        "url": "https://digicust.com/en/blog/digicust-pre-series-a-financing-round-finalized",
+        "tier": 2,
+        "publisher": "Digicust",
+        "published_date": "2025-12-03",
+        "accessed_date": "2026-10-12",
+        "quote": "the Look.AI Fund is contributing €250,000",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa",
+    "notes": "Registry entry IČO 17604087 (B 27644 Městský soud v Praze) read on or.justice.cz; quote is the company name. Embodied AI (Sep 2026) deal not confirmed by any fetched source, omitted. Ticket and fund size are from a 2023 launch article (target values). Lucida: Look AI Ventures role was participant behind Velocity Capital lead. Registry/sodex round dates: Sodex also reported 8 Jul 2026 by one aggregator; used tech.eu 13 Jul."
+  }
+}

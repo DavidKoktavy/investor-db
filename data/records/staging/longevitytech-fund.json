@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "id": "longevitytech-fund",
+  "name": "Longevitytech.fund",
+  "website": null,
+  "hq_country": {
+    "value": null,
+    "null_reason": "conflicting_sources",
+    "note": "cc.cz (2022-02-19): current fund based in Czechia, next in America; agetechworld (2022-08-26): headquartered in Palo Alto; press release dateline Miami. Team location unresolved."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "Described as a venture fund in secondary sources; no clean quote captured."
+  },
+  "sectors": {
+    "value": null,
+    "raw": null,
+    "null_reason": "not_found"
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "pre-seed and seed-stage investments",
+    "source": {
+      "url": "https://www.biospace.com/press-releases/advantage-therapeutics-inc-announces-formation-of-klothea-bio-inc-to-advance-research-and-development-of-klotho-protein-for-age-related-therapeutics",
+      "tier": 2,
+      "publisher": "BioSpace (Advantage Therapeutics press release)",
+      "published_date": "2024-11-25",
+      "accessed_date": "2026-10-12",
+      "quote": "pre-seed and seed-stage investments",
+      "self_reported": false
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Klothea Bio",
+      "company_website": null,
+      "announced_date": "2024-11-25",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.biospace.com/press-releases/advantage-therapeutics-inc-announces-formation-of-klothea-bio-inc-to-advance-research-and-development-of-klotho-protein-for-age-related-therapeutics",
+        "tier": 2,
+        "publisher": "BioSpace (Advantage Therapeutics press release)",
+        "published_date": "2024-11-25",
+        "accessed_date": "2026-10-12",
+        "quote": "seed funding led by Longevitytech.fund",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Occuity",
+      "company_website": "https://www.occuity.com",
+      "announced_date": "2021-09-27",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.occuity.com/post/longevitytech-fund-make-significant-investment-in-occuity",
+        "tier": 2,
+        "publisher": "Occuity",
+        "published_date": "2021-09-27",
+        "accessed_date": "2026-10-12",
+        "quote": "Longevitytech.fund is the latest investor to join Occuity",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "AIN rank 11 H1 2022",
+    "notes": "Website not found (longevitytech.fund returned unrelated content). No registry entry found. cc.cz article 2022-02-19 reports ~40 startups, fund USD 16m, but not captured as sourced values. PitchBook (not evidence) lists Klothea Bio 2026-05 and BE Therapeutics 2025-03 deals; unverified. Team may be US-based (Palo Alto/Miami/Boca Raton): possible out_of_scope_geography."
+  }
+}

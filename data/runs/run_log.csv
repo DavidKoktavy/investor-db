@@ -45,3 +45,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,j-t-ventures,33285,15,84.2,ok
 2026-10-12,investor-extractor,sonnet,jic-ventures,50672,31,155.6,ok
 2026-10-12,investor-extractor,sonnet,lighthouse-ventures,39729,20,205.1,ok
+2026-10-12,investor-extractor,sonnet,nation1,33287,15,67.1,ok
+2026-10-12,investor-extractor,sonnet,miton,36088,17,76.2,ok
+2026-10-12,investor-extractor,sonnet,look-ai-ventures,36649,18,78.0,ok

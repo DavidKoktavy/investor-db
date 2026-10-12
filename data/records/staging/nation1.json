@@ -1,0 +1,15 @@
+{
+ "schema_version":"1.0","id":"nation1","name":"N1 Ventures (formerly Nation 1)","website":"https://n1.rocks",
+ "hq_country":{"value":"CZ","note":"Offices in San Francisco, Prague and Luxembourg; Czech partners. Team split not stated.","source":{"url":"https://www.lupa.cz/aktuality/cesi-z-n1-investovali-do-startupu-ktery-vytvari-ai-filmy-stoji-za-nim-spolutvurce-instagram-stories/","tier":3,"publisher":"Lupa.cz","published_date":"2026-05-15","accessed_date":"2026-10-12","quote":"Český investiční fond N1 Ventures se zapojil do investice v americkém startupu Flick","self_reported":false}},
+ "legal_entities":[],
+ "type":{"value":"vc","subtype":null,"source":{"url":"https://n1.rocks/disclosure","tier":2,"publisher":"N1 Ventures","published_date":null,"accessed_date":"2026-10-12","quote":"An operator-led early-stage VC with one foot in Europe and the other in San Francisco.","self_reported":true}},
+ "sectors":{"value":["ai_data","health_biotech"],"raw":"AI and healthcare","source":{"url":"https://n1.rocks","tier":2,"publisher":"N1 Ventures","published_date":null,"accessed_date":"2026-10-12","quote":"Today, we manage $60M across two funds focused on AI and healthcare.","self_reported":true}},
+ "stages":{"value":null,"null_reason":"not_published","note":"Site says early-stage / from day zero; no explicit stage list verified."},
+ "ticket":{"value":null,"null_reason":"not_published"},
+ "capital":{"value":{"amount":60000000,"currency":"USD","basis":"reported_aum","as_of":null},"source":{"url":"https://n1.rocks","tier":2,"publisher":"N1 Ventures","published_date":null,"accessed_date":"2026-10-12","quote":"Today, we manage $60M across two funds focused on AI and healthcare.","self_reported":true}},
+ "funds":[],
+ "evidence_of_activity":[
+  {"company":"Flick","company_website":null,"announced_date":"2026-05-15","role":"participant","instrument":"equity","round":"seed","source":{"url":"https://www.lupa.cz/aktuality/cesi-z-n1-investovali-do-startupu-ktery-vytvari-ai-filmy-stoji-za-nim-spolutvurce-instagram-stories/","tier":3,"publisher":"Lupa.cz","published_date":"2026-05-15","accessed_date":"2026-10-12","quote":"Český investiční fond N1 Ventures se zapojil do investice v americkém startupu Flick","self_reported":false}}
+ ],
+ "status":"pending","exclusion_reason":null,
+ "meta":{"extracted_by":"investor-extractor/sonnet","extracted_at":"2026-10-12T12:00:00+02:00","candidate_source":"extract_queue","notes":"Legal entities: site disclosure names Luxembourg GPs (Nation 1 GP S.a r.l., Nation 1 GP II S.a r.l.) without registry numbers; Czech IČO not found, left empty. Human Archive seed (30 May 2026, theaiinsider) does not name N1 on the fetched page, so not recorded. Myriad AI 2024/2025 rounds only via search snippets, not fetched. Fund capital USD 60M is site-stated; newstream 2023 cites ~CZK 600m invested. Flick quote from Lupa 15.5.2026; round date 14 May per search."}}
