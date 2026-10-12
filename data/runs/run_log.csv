@@ -23,3 +23,4 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,candidate-triage,haiku,batch_08,92924,64,215.8,ok
 2026-10-12,candidate-triage,haiku,batch_05_rerun,88189,61,199.4,ok
 2026-10-12,candidate-triage,haiku,batch_07_rerun,73353,54,190.6,ok
+2026-10-12,candidate-triage,haiku,batch_09,39415,28,104.4,rerun
