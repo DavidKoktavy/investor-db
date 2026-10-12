@@ -9,7 +9,7 @@
 | | Stav |
 |---|---|
 | Řádků od tří scoutů → unikátních kandidátů | **300 → 225** ([`cz_vc.csv`](data/candidates/cz_vc.csv)) |
-| Triáž (levný první průchod, Haiku) | 125 z 225 hotovo: 58 do plné extrakce, 67 vyřazeno (38 zahraniční tým, 22 jiný typ investora, 7 jiné důvody) |
+| Triáž (levný první průchod, Haiku) | 200 z 225 hotovo (poslední dávka se opakuje): 139 do plné extrakce, 61 vyřazeno (55 zahraniční tým, 6 jiný typ nebo jen dluh / poradce) |
 | Zařazeno do databáze (aktivní VC/CVC s týmem v ČR) | *čeká* |
 | Přesnost záznamu na ručně ověřeném vzorku (95% interval) | *čeká* |
 | Přesnost jednotlivých údajů / platnost citací | *čeká* |
@@ -47,7 +47,7 @@ Tři zásady:
 | [`PLAN.md`](PLAN.md) | plán: kdo do databáze patří a kdo ne, zdroje, ověřování, odhad rozsahu světa, náklady |
 | [`schema/`](schema/) | schéma záznamu (každý údaj = hodnota + zdroj, nebo `null` + důvod) a smyšlený ukázkový záznam |
 | [`.claude/agents/`](.claude/agents/) | pokyny pro čtyři agenty; vývoj pokynů je v commitech `agents:` |
-| [`src/`](src/), [`tests/`](tests/) | sloučení kandidátů, validace, kontrola citací, pravidla zařazení, kurzy ECB, list ruční kontroly, metriky (49 testů) |
+| [`src/`](src/), [`tests/`](tests/) | sloučení kandidátů, validace, kontrola citací, pravidla zařazení, kurzy ECB, list ruční kontroly, metriky, testy pravidel |
 | [`data/candidates/`](data/candidates/) | výstupy scoutů, sloučený seznam, triáž (včetně neúspěšného prvního pokusu), fronta extrakce, rozhodnutí |
 | `data/records/` | záznamy od extraktoru, po rozhodnutí a výsledná databáze (`cz_vc.jsonl`, `cz_vc.csv`) |
 | `data/quote_checks/`, `data/verification/` | výsledek kontroly citací a verdikty ověřovatele ke každému záznamu |
@@ -110,6 +110,7 @@ Pokyny jsou v [`.claude/agents/`](.claude/agents/). Jak se vyvíjely, ukazuje `g
 - **Agenti považovali výstup WebFetch za text stránky** (E-02), i když je to shrnutí jiného modelu. Proto každou citaci kontroluje skript proti skutečné stránce.
 - **První pokus o triáž skončil u 80 % kandidátů výsledkem `unknown`** (E-03). Nešlo o chybu modelu, ale o prostředí: agenti v cloudu sdíleli jeden limit vyhledávání a každé stažení stránky mimo výsledky vyhledávání čekalo na moje schválení. Běh agentů jsem proto přesunul do Claude Code na svůj počítač (D-010). Neúspěšný pokus zůstává v `data/candidates/triage/attempt1/`.
 - **Haiku je při triáži nekonzistentní** (E-06): u zjevně amerických fondů (Accel, Battery Ventures) nechal sídlo `unknown` a opakovaný běh téže dávky dal jiné odpovědi. `unknown` proto nikoho nevyřazuje, kandidát jde do plné extrakce. Chyba tak zvyšuje náklad, ale nezpůsobí ztrátu kandidáta.
+- **Triáž by vyřadila český VC fond jako „soukromý holding“** (E-08): Springtide Ventures (VC fond skupiny KKCG) dostal od Haiku typ `private_holding`. Orchestrátor v Claude Code prošel všechna česká vyřazení podle typu, chybu našel a pravidlo zpřísnil: triáž smí vyřadit podle typu jen se staženou stránkou a vysokou jistotou, jinak jde kandidát do plné extrakce (D-015).
 - **Dvakrát se objevil prompt injection** (E-04, E-07): titulek ve výsledcích vyhledávání a text na webu jednoho fondu obsahovaly pokyny pro jazykový model. Agenti je rozpoznali a ignorovali.
 - *Chyby extraktoru a ověřovatele z pilotu a z ruční kontroly doplním po dokončení.*
 
@@ -127,6 +128,7 @@ Podrobně v [`docs/decisions.md`](docs/decisions.md); nejdůležitější:
 | Rozsah pilotu | VC + CVC s týmem v ČR, bez andělů (D-006) | zadání navrhuje VC v jedné zemi; andělé jsou fyzické osoby (GDPR) |
 | Datum sběru | pevně 11. 10. 2026 (D-007) | všechna okna se počítají od jednoho data |
 | 225 kandidátů je moc na plnou extrakci | levná triáž předem, její chybovost měřím na vzorku (D-009) | odpovídá nákladovému modelu pro celý svět |
+| Kdy triáži věřit | zahraniční sídlo vyřazuje vždy; typ jen se staženou stránkou a vysokou jistotou; dávka s víc než třetinou neznámých sídel se jednou opakuje (D-014, D-015) | chybné vyřazení českého kandidáta je ztráta, kterou pilot měří; zbytečná extrakce je jen náklad |
 | Proč exkluzní signály ve schématu | agent zapíše doložený fakt („jen dluh“), kód rozhodne (D-011) | i důvod vyřazení potřebuje zdroj |
 | Rozsah ruční kontroly | všechny zařazené (max. 40), všechna vyřazení z pipeline, 15 náhodných vyřazení z triáže (D-012) | 100 % z 225 kandidátů by bylo hlavně kontrolování zahraničních fondů |
 
