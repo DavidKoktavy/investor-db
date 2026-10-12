@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "id": "aspire11",
+  "name": "Aspire11",
+  "website": "https://www.aspire11cap.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/cesi-jsou-ve-velke-investorske-lize-penize-posilaji-do-revolutu/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2025-12-09",
+      "accessed_date": "2026-10-12",
+      "quote": "Česká investiční platforma Aspire11 investovala do fintechového Revolutu.",
+      "self_reported": false
+    },
+    "note": "Described as Czech; legal entities in Prague; a July 2026 Lupa article mentions a London presence."
+  },
+  "legal_entities": [
+    {
+      "name": "Aspire 11 Capital SICAV, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "23620030",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://www.aspire11cap.com/legal",
+        "tier": 2,
+        "publisher": "Aspire11",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Aspire 11 Capital SICAV, a.s.",
+        "self_reported": true
+      }
+    },
+    {
+      "name": "Partners investiční společnost, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "24716006",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.aspire11cap.com/legal",
+        "tier": 2,
+        "publisher": "Aspire11",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Partners investiční společnost, a.s.",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "late-stage growth / pre-IPO, pension capital",
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Aspire11 — Pension capital for venture growth",
+      "self_reported": true
+    },
+    "note": "Borderline growth/PE; self-described as venture growth."
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "raw": "late-stage and pre-IPO technology companies",
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Direct investments in late-stage and pre-IPO technology companies",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "raw": "late-stage and pre-IPO",
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Direct investments in late-stage and pre-IPO technology companies",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 515000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://www.aspire11cap.com",
+      "tier": 2,
+      "publisher": "Aspire11",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "€515M Inaugural fund",
+      "self_reported": true
+    }
+  },
+  "funds": [
+    {
+      "name": "Aspire11 inaugural fund",
+      "vintage": null,
+      "size": {
+        "amount": 515000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.aspire11cap.com",
+        "tier": 2,
+        "publisher": "Aspire11",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "€515M Inaugural fund",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Vinted",
+      "company_website": "https://www.vinted.com",
+      "announced_date": "2026-06-23",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/fond-aspire11-muchy-a-borkovce-poslal-skoro-pul-miliardy-do-platformy-vinted/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-06-23",
+        "accessed_date": "2026-10-12",
+        "quote": "jde o přímou investici ve výši 20 milionů eur",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Revolut",
+      "company_website": "https://www.revolut.com",
+      "announced_date": "2025-12-09",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/cesi-jsou-ve-velke-investorske-lize-penize-posilaji-do-revolutu/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2025-12-09",
+        "accessed_date": "2026-10-12",
+        "quote": "Česká investiční platforma Aspire11 investovala do fintechového Revolutu.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa",
+    "notes": "Legal entities taken from the investor's /legal page (tier 2); not confirmed in the registry (a third-party mirror lists a different fund 'Aspire 11 fond fondů 25', IČO 75166020, not used). No ticket published. Capital is the website's 'inaugural fund' size, not AUM; the Lupa articles speak of a EUR 500M plan. Team includes Zaya Kadyrova (London presence per Lupa 2026-07-14), so hq CZ is based on 'Česká investiční platforma' and founders; borderline. Growth/late-stage, borderline VC/PE. Website portfolio logos (Baseten, Databricks, Docplanner, ElevenLabs, Vast Data) have no dated investment source; not recorded."
+  }
+}

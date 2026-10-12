@@ -29,3 +29,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,credo-ventures,31744,15,62.7,rerun
 2026-10-12,investor-extractor,sonnet,czech-founders-vc,31833,15,66.9,rerun
 2026-10-12,investor-extractor,sonnet,depo-ventures,33926,22,195.5,rerun
+2026-10-12,investor-extractor,sonnet,credo-ventures,33897,17,62.6,ok
+2026-10-12,investor-extractor,sonnet,czech-founders-vc,32256,13,64.9,ok
+2026-10-12,investor-extractor,sonnet,aspire11,32604,14,73.1,ok

@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "id": "credo-ventures",
+  "name": "Credo Ventures",
+  "website": "https://www.credoventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.credoventures.com/team",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Karlovo Náměstí 10",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Credo Ventures a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "28538137",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.podnikatel.cz/rejstrik/credo-ventures-a-s-28538137/",
+        "tier": 3,
+        "publisher": "podnikatel.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Credo Ventures a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "The fund of choice for CEE founders around the world building generational companies.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Homepage states it backs people, not thesis-driven; no sector list."
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "Leading Pre-Seed rounds; pre-seed onwards",
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Leading Pre-Seed rounds",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 1000000,
+      "max": 5000000,
+      "currency": "USD"
+    },
+    "source": {
+      "url": "https://www.credoventures.com",
+      "tier": 2,
+      "publisher": "Credo Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "$1M - $5M checks.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only third-party/old figures (EUR 250m in Sifted, undated); not on own site."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Picogrid",
+      "company_website": null,
+      "announced_date": "2026-05-29",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://buttondown.com/raisetrack/archive/angel-registry-update-may-29-2026/",
+        "tier": 3,
+        "publisher": "Raise Track",
+        "published_date": "2026-05-29",
+        "accessed_date": "2026-10-12",
+        "quote": "Starburst Ventures, Credo Ventures, Giant Step Capital, Alumni Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Duvo.ai",
+      "company_website": null,
+      "announced_date": "2025-12-03",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.thesaasnews.com/news/duvo-raises-15-million-seed-round/",
+        "tier": 3,
+        "publisher": "The SaaS News",
+        "published_date": "2025-12-03",
+        "accessed_date": "2026-10-12",
+        "quote": "with participation from Credo Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Delta Green",
+      "company_website": null,
+      "announced_date": "2024-05-27",
+      "role": "participant",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://vestbee.com/insights/articles/delta-green-raises-2-2-m",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2024-05-27",
+        "accessed_date": "2026-10-12",
+        "quote": "The investment round saw participation from Credo Ventures, a Czech early-stage investor",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Legal entity from podnikatel.cz mirror (tier 3); IČO 28538137, seat Karlovo náměstí 2097/10. Offices Prague and Krakow; team page labels Strahov CZ. Picogrid and Duvo roles per aggregators: Index led Duvo, Bessemer led Picogrid, Credo participant; Caplight (aggregator, not cited) lists Credo as lead of SuperPlane pre-seed Jun 2026, unverified by a primary source. Delta Green Oct 2025 deal not dated by a fetched source; cited the May 2024 round instead. Duvo date is the page's 'Updated' date. Stages: homepage says pre-seed onwards; old Silicon Canals 2020 says seed and Series A, not used."
+  }
+}
