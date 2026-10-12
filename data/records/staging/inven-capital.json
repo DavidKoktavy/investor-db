@@ -1,0 +1,21 @@
+{
+ "schema_version": "1.0",
+ "id": "inven-capital",
+ "name": "Inven Capital",
+ "website": "https://www.invencapital.cz",
+ "hq_country": {"value": "CZ", "source": {"url": "https://www.invencapital.cz", "tier": 2, "publisher": "Inven Capital", "published_date": null, "accessed_date": "2026-10-12", "quote": "Pod Křížkem 1773/2", "self_reported": true}},
+ "legal_entities": [{"name": "Inven Capital, SICAV, a.s.", "registry": "CZ-OR", "registry_id": "02059533", "role": "fund_vehicle", "source": {"url": "https://www.hlidacstatu.cz/subjekt/02059533", "tier": 3, "publisher": "Hlídač státu", "published_date": null, "accessed_date": "2026-10-12", "quote": "Inven Capital, SICAV, a.s.", "self_reported": false}}],
+ "type": {"value": "vc", "subtype": "corporate, climate tech growth", "source": {"url": "https://www.invencapital.cz", "tier": 2, "publisher": "Inven Capital", "published_date": null, "accessed_date": "2026-10-12", "quote": "As a venture capital fund we invest EUR 500m from institutional investors and global corporates", "self_reported": true}, "note": "Website footer shows CEZ, a. s.; corporate (CVC) character not quoted from a source."},
+ "sectors": {"value": ["climate_energy"], "raw": "Climate tech", "source": {"url": "https://www.invencapital.cz", "tier": 2, "publisher": "Inven Capital", "published_date": null, "accessed_date": "2026-10-12", "quote": "Climate tech", "self_reported": true}},
+ "stages": {"value": null, "null_reason": "not_published"},
+ "ticket": {"value": {"min": 2000000, "max": 30000000, "currency": "EUR"}, "source": {"url": "https://www.invencapital.cz", "tier": 2, "publisher": "Inven Capital", "published_date": null, "accessed_date": "2026-10-12", "quote": "Ticket size 2-30m EUR", "self_reported": true}},
+ "capital": {"value": {"amount": 500000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": null}, "source": {"url": "https://www.invencapital.cz", "tier": 2, "publisher": "Inven Capital", "published_date": null, "accessed_date": "2026-10-12", "quote": "As a venture capital fund we invest EUR 500m from institutional investors and global corporates", "self_reported": true}},
+ "funds": [],
+ "evidence_of_activity": [
+  {"company": "Wint", "company_website": "https://wint.ai", "announced_date": "2026-09-11", "role": "co_lead", "instrument": "equity", "round": "Series D", "source": {"url": "https://www.descubre.vc/noticia/wint-recauda-36m-en-serie-d-con-el-respaldo-del-fondo-latinoamericano-lip-ventures-2026-09-11", "tier": 3, "publisher": "Descubre", "published_date": null, "accessed_date": "2026-10-12", "quote": "junto con el fondo europeo Inven Capital.", "self_reported": false}},
+  {"company": "Vytal", "company_website": "https://vytal.org", "announced_date": "2025-03-12", "role": "unknown", "instrument": "equity", "round": "growth", "source": {"url": "https://www.packaging-gateway.com/news/vytal-global-secures-funding/", "tier": 3, "publisher": "Packaging Gateway", "published_date": "2025-03-12", "accessed_date": "2026-10-12", "quote": "Vytal raised €8m from Inven Capital, a growth capital fund, alongside NRW.Venture, the venture capital division of NRW.BANK.", "self_reported": false}}
+ ],
+ "status": "pending",
+ "exclusion_reason": null,
+ "meta": {"extracted_by": "investor-extractor/sonnet", "extracted_at": "2026-10-12T12:00:00+02:00", "candidate_source": "scout_cvca.csv", "notes": "Wint date 2026-09-11 taken from article URL (no printed date); co_lead role per search summary, the quote itself is short. Vytal role not stated in cited page (own site says Inven leads the extension, undated); a possible July 2026 Vytal follow-on is unconfirmed. IČO from Hlídač státu mirror (tier 3); annual report PDF is a scan, not readable. Stages not published. Website footer shows CEZ, a. s. ownership. Capital 500m is the website's fund figure, labelled latest_fund_size."}
+}

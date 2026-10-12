@@ -40,3 +40,4 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,incomming-ventures,22508,13,50.5,ok
 2026-10-12,investor-extractor,sonnet,i-and-i-prague,33336,13,56.4,ok
 2026-10-12,investor-extractor,sonnet,impulse-ventures,32282,14,61.6,ok
+2026-10-12,investor-extractor,sonnet,inven-capital,,,,ok
