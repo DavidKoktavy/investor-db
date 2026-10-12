@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "id": "braiins",
+  "name": "Braiins",
+  "website": "https://braiins.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-byznys-meny-kryptomeny-cesky-braiins-rozsiruje-byznys-kupuje-newyorsky-komoditni-fond-306490",
+      "tier": 3,
+      "publisher": "Seznam Zprávy",
+      "published_date": "2026-05-19",
+      "accessed_date": "2026-10-12",
+      "quote": "Braiins je česká technologická firma zaměřená na bitcoinovou těžbu, která vznikla v roce 2011.",
+      "self_reported": false
+    },
+    "note": "Company described as Czech; location of any investment team not stated."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Operating bitcoin mining company making occasional corporate investments; no investor self-description found."
+  },
+  "sectors": {"value": null, "null_reason": "not_published"},
+  "stages": {"value": null, "null_reason": "not_published"},
+  "ticket": {"value": null, "null_reason": "not_published"},
+  "capital": {"value": null, "null_reason": "not_published"},
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Firefish",
+      "company_website": null,
+      "announced_date": "2025-04-08",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://braiins.com/blog/braiins-invests-in-bitcoin-backed-lending-platform-firefish-in-a-1-8m-seed-round",
+        "tier": 2,
+        "publisher": "Braiins",
+        "published_date": "2025-04-08",
+        "accessed_date": "2026-10-12",
+        "quote": "In September 2024, Braiins acquired a 15% stake in Firefish, a bitcoin-backed peer-to-peer lending platform.",
+        "self_reported": true
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "tech.eu top investors Czech Republic H1 2025",
+    "notes": "Braiins is an operating bitcoin-mining technology company, not a fund; corporate investor at most. Legal entity and IČO not found (website has no imprint; one registry search found nothing). Firefish stake: blog page says ~1M USD for 15% in Sept 2024, round headline 1.8M USD vs 2M in body; role not stated on the fetched page (cc.cz reportedly calls Braiins lead, not fetched). Braiins also acquired New York commodity fund CAMMS Capital in April 2026 (Seznam Zpravy 2026-05-19): whole-company acquisition, not recorded as venture activity. Braiins home page names CAMMS Capital and Firefish as 'backed by Braiins'."
+  }
+}

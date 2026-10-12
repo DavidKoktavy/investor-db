@@ -68,3 +68,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,united-founders,35797,18,83.2,ok
 2026-10-12,investor-extractor,sonnet,tensor-ventures,42220,20,112.9,ok
 2026-10-12,investor-extractor,sonnet,zaka-vc,39838,21,117.0,ok
+2026-10-12,investor-extractor,sonnet,btcz-ventures,23793,9,44.3,ok
+2026-10-12,investor-extractor,sonnet,aternus-family-office,30729,11,61.4,ok
+2026-10-12,investor-extractor,sonnet,braiins,28516,15,66.6,ok
