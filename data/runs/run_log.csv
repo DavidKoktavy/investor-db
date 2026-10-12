@@ -20,3 +20,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,candidate-triage,haiku,batch_06,61319,40,134.9,ok
 2026-10-12,candidate-triage,haiku,batch_07,69691,43,146.5,rerun
 2026-10-12,candidate-triage,haiku,batch_04_rerun,86378,67,245.1,ok
+2026-10-12,candidate-triage,haiku,batch_08,92924,64,215.8,ok
+2026-10-12,candidate-triage,haiku,batch_05_rerun,88189,61,199.4,ok
+2026-10-12,candidate-triage,haiku,batch_07_rerun,73353,54,190.6,ok
