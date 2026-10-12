@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "id": "fazole-ventures",
+  "name": "Fazole Ventures",
+  "website": "https://www.fazole.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://rejstrik-firem.kurzy.cz/07491492/",
+      "tier": 3,
+      "publisher": "Kurzy.cz (obchodní rejstřík)",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Salvátorská 931/8, Staré Město, 110 00 Praha",
+      "self_reported": false
+    },
+    "note": "Registered seat/office in Prague; team members (Příkryl, Bouška, Černý) are Czech; team location itself not stated explicitly."
+  },
+  "legal_entities": [
+    {
+      "name": "Fazole Ventures s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "07491492",
+      "role": "management_company",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/07491492/",
+        "tier": 3,
+        "publisher": "Kurzy.cz (obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Fazole Ventures s.r.o. , Praha IČO 07491492",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/startup-z-opavy-slucuje-desitky-ai-typu-gpt-llama-ci-deepseek-do-jednoho-rozhrani-ziskal-na-to-investici/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2025-09-16",
+      "accessed_date": "2026-10-12",
+      "quote": "Získal ho fond Fazole Ventures ovládaný Pavlem Bouškou, Lubošem Černým a Pavlem Přikrylem.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": null,
+    "raw": "B2B; utility, banking, transportation, retail, smart city, telco",
+    "null_reason": "not_published",
+    "note": "Only preferred sectors listed, no explicit mapping to taxonomy; left null."
+  },
+  "stages": {
+    "value": [
+      "seed"
+    ],
+    "raw": "Your product has already been tested at least on pilot customers or projects.",
+    "source": {
+      "url": "https://www.fazole.vc/indexEN.html",
+      "tier": 2,
+      "publisher": "Fazole Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Your product has already been tested at least on pilot customers or projects.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 50000,
+      "max": 800000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.fazole.vc/indexEN.html",
+      "tier": 2,
+      "publisher": "Fazole Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Our sweet spot ranges from 50 to 800 thousand EUR, however, we will also consider larger volumes of funding.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Everbot",
+      "company_website": "https://everbot.cz/",
+      "announced_date": "2025-09-16",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/startup-z-opavy-slucuje-desitky-ai-typu-gpt-llama-ci-deepseek-do-jednoho-rozhrani-ziskal-na-to-investici/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2025-09-16",
+        "accessed_date": "2026-10-12",
+        "quote": "Opavský AI startup Everbot nabral investici nižších desítek milionů korun výměnou za podíl 12,2 procenta.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "GoodAccess",
+      "company_website": "https://www.goodaccess.com/",
+      "announced_date": "2023-02-03",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/tag/fazole-ventures/",
+        "tier": 3,
+        "publisher": "Czech Crunchbase (cc.cz)",
+        "published_date": "2023-02-03",
+        "accessed_date": "2026-10-12",
+        "quote": "České fondy Nation 1 a Fazole Ventures posílají do GoodAccess 26 milionů korun",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa; CBAA founding member per ellty (unverified)",
+    "notes": "Fazole homepage CZ text is mis-encoded; English page used for quotes. Czech page gives ticket 1-20 mil. CZK, English 50-800k EUR (roughly consistent); English used. cc.cz tag page says Fazole led the Sep 2025 round ('Lídrem investičního kola se stal fond Fazole Ventures', article 16.9.2025, startup unnamed on tag page; Lupa article names Everbot, same date), so Everbot role likely lead but kept unknown. Fund size/AUM not published. IČO from tier-3 mirror kurzy.cz. No 2026 deal found; newest deal Sep 2025."
+  }
+}

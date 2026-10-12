@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "id": "gi21-capital",
+  "name": "Gi21 Capital",
+  "website": "https://www.gi21capital.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/vyvojarsky-zerops-ziskal-1-7-milionu-eur-chce-je-i-na-expanzi-mimo-evropu/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-05-18",
+      "accessed_date": "2026-10-12",
+      "quote": "Hlavním investorem je pražský fond Gi21 Capital Damira Špoljariče.",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Gi21 Capital a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "19584229",
+      "role": "other",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19584229",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "\"ico\":\"19584229\",\"obchodniJmeno\":\"Gi21 Capital a.s.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "multi-stage investment group (also data centres, hospitality)",
+    "source": {
+      "url": "https://www.gi21capital.com",
+      "tier": 2,
+      "publisher": "Gi21 Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "VC / PE technology investments",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "software_saas",
+      "ai_data",
+      "deeptech_hardware"
+    ],
+    "raw": "Deep Tech, B2B SaaS, AI",
+    "source": {
+      "url": "https://www.gi21capital.com",
+      "tier": 2,
+      "publisher": "Gi21 Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Backing technical founders solving complex problems through Deep Tech, B2B SaaS, AI.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Self-described as multi-stage; no named stages."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Hermetiq",
+      "company_website": null,
+      "announced_date": "2026-08-24",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/cesky-miliardar-investuje-do-americke-firmy-ktera-pomoci-ai-automatizuje-buildovani-softwaru/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-08-24",
+        "accessed_date": "2026-10-12",
+        "quote": "Dalším významným českým investorem je fond Gi21 Damira Špoljariče (stovky tisíc dolarů)",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Zerops",
+      "company_website": null,
+      "announced_date": "2026-05-18",
+      "role": "lead",
+      "instrument": "unknown",
+      "round": "seed",
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/vyvojarsky-zerops-ziskal-1-7-milionu-eur-chce-je-i-na-expanzi-mimo-evropu/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-05-18",
+        "accessed_date": "2026-10-12",
+        "quote": "Hlavním investorem je pražský fond Gi21 Capital Damira Špoljariče.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "FaceUp",
+      "company_website": null,
+      "announced_date": "2026-05-19",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do",
+        "tier": 3,
+        "publisher": "JIC (JIC Ventures)",
+        "published_date": "2026-05-19",
+        "accessed_date": "2026-10-12",
+        "quote": "participants included Slovak fund Venture to Future Fund and Prague-based Gi21 Capital",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Lupa 2026-05-18",
+    "notes": "Home page text contained instructions addressed to AI models; ignored. Group is diversified (data-centre infrastructure, hospitality, art patronage) with a VC/PE technology arm; the CZ-OR entity's registered business is generic/real-estate rental per kurzy.cz mirror, so entity role set to other. Legal entity matched to brand via podnikatel.cz profile of Damir Špoljarič (Gi21 Capital a.s., Londýnská 2578/54, Praha) and ARES name. Hermetiq round stage not named by Lupa; Gi21's own blog post 'Why We Invested in Hermetiq' (2026-08-27) and FaceUp post (2026-05-21) confirm investment but body text not fetched. HQ derived from 'pražský fond' (Lupa) - no own contact page stating team location. Instrument unknown for all deals."
+  }
+}

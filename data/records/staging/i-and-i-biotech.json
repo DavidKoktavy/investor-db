@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "id": "i-and-i-biotech",
+  "name": "i&i Biotech Fund (i&i Bio)",
+  "website": "https://www.inibio.eu",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://rejstrik-firem.kurzy.cz/10885978/",
+      "tier": 3,
+      "publisher": "kurzy.cz (Obchodní rejstřík mirror)",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Sídlo firmy Biotech Investments s.r.o. je Pobřežní 394/12, Karlín, 186 00 Praha.",
+      "self_reported": false
+    },
+    "note": "Fund vehicle is Luxembourg SCSp; Prague-based investment adviser Biotech Investments s.r.o. and Czech partners form the team."
+  },
+  "legal_entities": [
+    {
+      "name": "Biotech Investments s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "10885978",
+      "role": "other",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/10885978/",
+        "tier": 3,
+        "publisher": "kurzy.cz (Obchodní rejstřík mirror)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Biotech Investments s.r.o. , Praha IČO 10885978 - Obchodní rejstřík firem",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "life sciences",
+    "source": {
+      "url": "https://www.inibio.eu",
+      "tier": 2,
+      "publisher": "i&i Bio",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "we are one of the very few VC funds in Europe focused exclusively on life science ventures.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "medtech"
+    ],
+    "raw": "drug discovery, medtech, diagnostics, and AI verticals",
+    "source": {
+      "url": "https://www.inibio.eu",
+      "tier": 2,
+      "publisher": "i&i Bio",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "As a life sciences fund, we are comfortable with drug discovery, medtech, diagnostics, and AI verticals.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Site names no stage labels; only cheque sizes."
+  },
+  "ticket": {
+    "value": {
+      "min": 500000,
+      "max": 2000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.inibio.eu",
+      "tier": 2,
+      "publisher": "i&i Bio",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Our sweet spot lies between €0.5M and €2M.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 47000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://www.inibio.eu/news",
+      "tier": 2,
+      "publisher": "i&i Bio",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "the total capital of the fund has risen to approximately €47 million.",
+      "self_reported": true
+    }
+  },
+  "funds": [
+    {
+      "name": "i&i Biotech Fund I",
+      "vintage": null,
+      "size": {
+        "amount": 47000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.inibio.eu/news",
+        "tier": 2,
+        "publisher": "i&i Bio",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "the total capital of the fund has risen to approximately €47 million.",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Antiverse",
+      "company_website": "https://antiverse.io",
+      "announced_date": "2026-03-03",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://vestbee.com/insights/articles/antiverse-raises-9-3-m",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2026-03-03",
+        "accessed_date": "2026-10-12",
+        "quote": "existing investors DBW, Kadmos Capital, and i&i Biotech Fund",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "KyDo Therapeutics",
+      "company_website": "https://kydo-tx.com",
+      "announced_date": "2025-09-22",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.bionity.com/en/news/1187186/a-completely-new-approach-in-cancer-therapy.html",
+        "tier": 3,
+        "publisher": "Bionity",
+        "published_date": "2025-09-22",
+        "accessed_date": "2026-10-12",
+        "quote": "The financing round was successfully spearheaded by I&I Bio together with KHAN-II,",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Fund vehicle i&i Biotech Fund I SCSp (Luxembourg) has no registry id found; Czech entity is the investment adviser Biotech Investments s.r.o. (tier-3 mirror, not verified in or.justice.cz). Adviser here manages the fund's investing, not an intermediary. hq_country CZ inferred from Prague adviser seat/Czech partners. Ticket quote says 'sweet spot' without word 'cheque' (judged to be investment size); site also says it can start at EUR 150k. EUR 47m capital figure from undated news item, includes EIF/Ceska sporitelna/entrepreneur contributions; kept as latest_fund_size. Portfolio page and news are undated. Theorema (Mar 2026) listed on portfolio but only an aggregator ties i&i to it, so not used. Preqin snippet dated KyDo round Apr 2025 vs Bionity 22 Sep 2025; used Bionity. Antiverse Series A: i&i is existing investor participating, led by Soulmates Ventures."
+  }
+}
