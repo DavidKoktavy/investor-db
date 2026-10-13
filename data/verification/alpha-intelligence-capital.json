@@ -1,0 +1,15 @@
+{
+  "id": "alpha-intelligence-capital",
+  "verified_at": "2026-10-13T19:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "type", "verdict": "supported", "reason": "Maddyness profile describes AIC as 'a preeminent artificial intelligence focused venture capital firm'; tier 3, not self-reported is correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Page states AI focus and investment in 'healthcare, manufacturing, cybersecurity, etc.'; mapped categories match.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Page: 'Our core focus lies in AI companies in the Series A/B stages'.", "observed_value": null},
+    {"path": "capital", "verdict": "partially_supported", "reason": "Headline says $150m raised for second fund with $250m target; page does not say whether this is a first or final close, so 'latest_fund_size' of 150m is an interim amount, not a confirmed fund size.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Page: 'the team raised a first fund of 184m$'; USD 184,000,000, close unknown is consistent.", "observed_value": null},
+    {"path": "funds[1]", "verdict": "supported", "reason": "DealStreetAsia (2024-04-10) headline: raises $150m for second AI fund, targets $250m; close 'unknown' is accurate. Name 'Fund II' not on this page but matches 'second AI fund'.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "McDermott page dated 2026-03-19 (within 24-month window before AS_OF 2026-10-11): $33m Waiv Series A 'led by Alpha Intelligence Capital Fund II, OTB Fund 2, Karista, Serena Data Ventures II and SISTAFUND' -> co_lead correct; McDermott advised Owkin, AIC named as investor.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "Active AI-focused VC (Waiv Series A co-lead, Mar 2026), but cited profile places offices/partners in US, France, UAE and Singapore with no mention of Czechia; no evidence of a Czech-based investment team, so it does not fit cz_vc."}
+}

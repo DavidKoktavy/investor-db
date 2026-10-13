@@ -1,0 +1,18 @@
+{
+  "id": "zaka-vc",
+  "verified_at": "2026-10-13T21:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Quote is verbatim and describes Andrej Petrus, Partner & Head of Investment Committee, based in Prague; footer lists offices Silicon Valley/London/Prague/Bratislava; other partners' locations (incl. Managing Partner) not stated. CZ is plausible but the evidence is a single team member.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "ARES returns 'ZAKA VC I, osoba rizikového kapitálu, a.s.', ICO 21514992, seat Italská 2581/67 Praha 2, founded 2024-04-25; name matches the fund, so fund_vehicle fits.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Homepage: 'We are a seed & pre-seed VC fund, investing mainly in the US and Europe.'", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Homepage quote verbatim names Health & Biotech and Industrial Tech verticals; mapping Industrial Tech to industrial_manufacturing is a reasonable approximation.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Homepage states seed & pre-seed VC fund.", "observed_value": null},
+    {"path": "capital", "verdict": "partially_supported", "reason": "Our-story page says first fund sized EUR 15M and oversubscribed, but the homepage shows '17M' labelled 'Current fund size' (also on a 'Fund 1' row, currency not labelled), so EUR 15M is probably the target, not the latest size.", "observed_value": {"amount": 17000000, "currency": null, "basis": "latest_fund_size"}},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "Quote supports a first fund sized EUR 15M since 2024 (vintage consistent with ARES founding 2024-04-25), but the homepage 'Fund 1' row shows 17M after oversubscription; the name 'ZAKA VC Fund I' is not stated verbatim (page says 'first fund' / 'Fund I').", "observed_value": {"amount": 17000000, "currency": null}},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Investor's own post: ZAKA first invested in Sygaldry through Fund I in June 2025 and took part in the $105M Series A led by Breakthrough Energy Ventures. Both fall within the 24-month window. No explicit publication date is shown (only 'this month'), so 2026-04-15 is not confirmed.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "partially_supported", "reason": "Own post confirms ZAKA invested in Cirrus Therapeutics as a syndicate expansion of the $11M seed. The page shows no publication or investment date; 2026-02 is inferred only from the image upload path.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "partially_supported", "reason": "Own post title confirms ZAKA invested in DeepSeq.AI alongside Illumina Ventures. The page shows no publication or investment date (only the image path 2026/01), and the round is not stated.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "It is clearly a seed/pre-seed VC with a Czech fund vehicle (Prague seat) and dated in-window activity (Sygaldry June 2025 and Series A 2026). The team's CZ location is only partly evidenced: the Head of IC is in Prague, but the team also spans Bratislava, London and Silicon Valley."}
+}

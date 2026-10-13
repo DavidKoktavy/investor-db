@@ -1,0 +1,29 @@
+{
+  "id": "borovicka-capital",
+  "verified_at": "2026-10-13T21:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "ARES record (quote found, score 100) shows ICO 19966784 with obchodniJmeno 'Borovicka Capital s.r.o.'; the brand is linked to the entity by exact name only, and the role management_company is inferred, not stated",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "the homepage says verbatim 'investment company with a strategic focus on venture capital' (supports vc), but the subtype 'family investment company' is not stated on the page",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "CzechCrunch article dated 20 Jan 2025 names Borovicka Capital as a co-investor in Outfindo's EUR 1.2M late-seed round led by Eleven Ventures; the article reports a new round, is not a recap, and falls within the 24-month window (start 2024-10-11)",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "yes",
+    "reason": "Self-described VC-focused investment company. It co-invested in a round dated Jan 2025, which is inside the window. CzechCrunch calls it Czech ('čeští ... Borovicka Capital'), and its s.r.o. is seated in Prague per ARES. This is only one in-window deal, the team location is not stated directly, and it looks like a small family vehicle."
+  }
+}

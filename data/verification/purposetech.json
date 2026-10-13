@@ -1,0 +1,15 @@
+{
+  "id": "purposetech",
+  "verified_at": "2026-10-13T20:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Vestbee (2024-09-25) says 'Prague-based PurposeTech'; the website's mailing address is also Drtinova 557/10, Prague. Note that Vestbee is a 2024 tier-3 source.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Quote check found the quote on the ARES record (IČO 19183992, PurposeTech s.r.o.). The website footer names 'PurposeTech, s.r.o.' at the same Prague address, so it is the same entity.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "The website says 'PurposeTech is a pre-seed fund' and Vestbee calls it a 'venture capital firm'. self_reported=true and tier 2 are correct for the firm's own site.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "The website names Health, Climate and the Future of Work, which maps to health_biotech, climate_energy and hr_work. Vestbee 2024 lists EdTech instead of Future of Work, but the current website is the cited source.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "The website says 'pre-seed fund', and Vestbee also says 'pre-seed venture capital fund'.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Cambridge Enterprise, 30 April 2026: Auryx raised $2M pre-seed led by Celero Ventures. PurposeTech is named as a participating investor. The deal is new, not a recap, and falls within 24 months of AS_OF 2026-10-11.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "AIN.UA, 1 July 2025: Lifeyear raised EUR 2.8M, and PurposeTech is listed among the VC funds in the EUR 1.3M portion. The raise is new, not a recap, and is within the window. The article names no lead, so role participant is fine.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "PurposeTech is a pre-seed VC fund with a Prague-registered management s.r.o. and a Prague address, and both sources describe it as Prague-based. Two third-party deals within 24 months name it as an investor. The team location is only inferred from the Prague address and the Vestbee description."}
+}
