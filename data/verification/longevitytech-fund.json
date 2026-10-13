@@ -1,0 +1,29 @@
+{
+  "id": "longevitytech-fund",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "stages",
+      "verdict": "supported",
+      "reason": "About section: 'Longevitytech.fund (\"LTF\") is a venture capital fund focused on pre-seed and seed-stage investments'. Label note: this is the fund's boilerplate in a press release, so self_reported=true would arguably be more accurate.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Press release dated 'MIAMI, Nov. 25, 2024 (GLOBE NEWSWIRE)' says Klothea Bio is 'backed by seed funding led by Longevitytech.fund'. The date is inside the 24-month window (start 2024-10-11). Lead and seed are stated; instrument 'equity' is not stated explicitly.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "supported",
+      "reason": "Occuity post dated Sep 27, 2021: 'Longevitytech.fund is the latest investor to join Occuity'. The deal is real but predates both the 24-month and the 36-month windows, so it does not count as recent activity.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Active VC (lead seed investor Nov 2024, described as a venture capital fund), but no cited page states where the investment team is based. The record itself notes conflicting Czech/US locations, so CZ team location is unresolved."
+  }
+}

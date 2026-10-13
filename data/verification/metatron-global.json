@@ -1,0 +1,17 @@
+{
+  "id": "metatron-global",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "Quote is verbatim and the 2024-01-17 date is correct, but the page names only 'Metatron' (no full name, country, Prague or Czech link), so it does not show this is Metatron Global. The 2024-01-17 date is also before the 24-month window start of 2024-10-11, so it falls in the dormant band.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The record has no sourced type, HQ or website. Its only activity item is an Italian EUR 400k round from Jan 2024, outside the 24-month window, and it names just 'Metatron', which is not tied to the Czech Metatron Global. Nothing shows a VC with a team in Czechia that is currently active."
+  }
+}

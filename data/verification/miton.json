@@ -1,0 +1,53 @@
+{
+  "id": "miton",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "supported",
+      "reason": "Homepage lists office at Corso IIa, Krizikova 148/34, 186 00 Praha 8; self-reported tier 2 correct.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[0]",
+      "verdict": "partially_supported",
+      "reason": "Name, ICO 25417967 and Prague seat confirmed (owner M8H a.s., activity 'Investovani do startupu'); but role 'management_company' is not supported: entity invests/holds own assets, not a fund manager. Tier-3 mirror, not justice.cz.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Page heading 'VC, ale ne tak uplne' plus 'Investujeme vlastni penize' (no fund cycle); cited quote alone does not state VC, and own-capital investing fits private holding / investment group as much as vc.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "partially_supported",
+      "reason": "Homepage lists AI/augmented workforce, Krypto/web3, E-commerce, Gastrotech, Psychedelika/dusevni zdravi, matching raw; but cited quote is a generic sentence that names no sector. Mapping crypto->fintech, psychedelics->health_biotech is interpretive.",
+      "observed_value": null
+    },
+    {
+      "path": "stages",
+      "verdict": "partially_supported",
+      "reason": "o-nas page lists Pre-seed, Seed, Series A under 'Kdy a kolik investujeme', so value is right; cited quote (product-market-fit sentence) does not itself state the stages.",
+      "observed_value": null
+    },
+    {
+      "path": "ticket",
+      "verdict": "supported",
+      "reason": "o-nas: '300k-2M EUR Obvykla vyse vstupni investice' = typical initial ticket, EUR, units correct.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "CzechCrunch 2026-10-01 (within 24 months of AS_OF 2026-10-11), new deal: Miton takes 50% stake in Ace, amount in millions CZK undisclosed. Note a Miton partner co-develops and runs the app, so closer to company building than a pure VC round.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Clearly an active Prague-based investor (fresh Oct 2026 deal, published ticket and stages), but it invests own capital with no fund and describes itself as 'VC, but not quite'; Lupa/cc.cz call it an investment group, so vc vs private_holding classification is a judgment call."
+  }
+}

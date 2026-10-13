@@ -1,0 +1,19 @@
+{
+  "id": "look-ai-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "lookai.vc: 'pre-Series A venture capital fund based in Prague, Czech Republic'; contact address Node5, Radlicka 180/50, Prague 5", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "unverifiable", "reason": "or.justice.cz is disallowed by robots.txt; not opened, so the registry entry could not be checked", "observed_value": null},
+    {"path": "legal_entities[1]", "verdict": "supported", "reason": "lookai.vc investor notice: 'The Fund is managed by FTP Dimension investicni spolecnost, a.s., Company ID No.: 296 59 302', which matches the registry_id and the management_company role", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "lookai.vc calls itself a 'venture capital fund' and 'the first investment fund in the Czech Republic that focuses exclusively on AI startups'", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "lookai.vc: 'a broad set of core AI areas and AI-enabled businesses'; ai_data is a fair mapping", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "lookai.vc says 'pre-Series A'; mapping it to seed is a reasonable reading but a judgment call (it could also cover pre-seed), and the record notes this", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "tech.eu, 13 Apr 2023: 'targeted investment amount in one start-up is EUR 250,000'; this is a launch-time target, not a current range, and the record's note says so. The Dec 2025 Digicust deal (EUR 250,000) is consistent", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "the EUR 20M target size and the 'target' close status are supported by tech.eu 2023; the fund name 'Look AI Ventures I Subfund' is not on the cited page, which names only 'Look AI Ventures'", "observed_value": {"name": "Look AI Ventures", "size": {"amount": 20000000, "currency": "EUR", "close": "target"}}},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "tech.eu, 13 Jul 2026, a new announcement: EUR 4M round led by Capmont Technology with 'new investors Bloomhaus, Look AI Ventures...'; Look AI Ventures is an investor; inside the 24-month window", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "tech.eu, 30 Jun 2026: the seed round was led by Velocity Capital 'with participation from Next Tier Ventures, Look AI Ventures'; in window. Caveat: the page does not say whether Look AI joined the $1.6M extension or the original $5.4M close announced a few months earlier", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "digicust.com, 3 Dec 2025: pre-Series A round completed, 'the Look.AI Fund is contributing EUR 250,000'; the page names 'Look.AI Fund' / 'LookAI', not 'Look AI Ventures' verbatim, but this is the same fund; in window. Tier 2 is acceptable for a portfolio company's own announcement", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "The VC fund's own site places it in Prague; the manager is the Czech fund manager FTP Dimension; there are 3 deals within the 24-month window (Dec 2025 to Jul 2026)."}
+}
