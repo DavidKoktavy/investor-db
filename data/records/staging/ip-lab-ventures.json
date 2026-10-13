@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "id": "ip-lab-ventures",
+  "name": "IP Lab Ventures",
+  "website": null,
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "Team location not stated on fetched pages."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "deeptech university spin-off fund / venture builder",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-09-23",
+      "accessed_date": "2026-10-13",
+      "quote": "Vznikl proto fond IP Lab Ventures I",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "ai_data",
+      "deeptech_hardware",
+      "health_biotech"
+    ],
+    "raw": "umělé inteligence, robotiky, polovodičů, biotechnologií nebo nových materiálů",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-09-23",
+      "accessed_date": "2026-10-13",
+      "quote": "Investovat má do umělé inteligence, robotiky, polovodičů, biotechnologií nebo nových materiálů.",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": {
+      "min": null,
+      "max": 1000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-09-23",
+      "accessed_date": "2026-10-13",
+      "quote": "Fond má podle prezentace zástupců IP Lab Ventures a EIF investovat na úvod až milion eur do jednotlivých firem",
+      "self_reported": false
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only expected fund size published."
+  },
+  "funds": [
+    {
+      "name": "IP Lab Ventures I",
+      "vintage": 2026,
+      "size": {
+        "amount": 40000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-09-23",
+        "accessed_date": "2026-10-13",
+        "quote": "Celková velikost fondu pak má podle předpokladů dosáhnout až 40 milionů eur",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "MendelFOLD",
+      "company_website": null,
+      "announced_date": null,
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-09-23",
+        "accessed_date": "2026-10-13",
+        "quote": "IP Lab je například součástí spin-offu MendelFOLD",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Own website not found (iplabventures.com is a parked domain). No IČO found in registry search. Sectors mapped by hand; 'new materials' and semiconductors not separately mapped. Stages not stated in fetched sources. MendelFOLD item is undated and of unclear instrument/role; no dated deal found; fund (EIF/NPO mandate, ~CZK 656m, announced 2026-09-23) is newly set up. Lupa also says IP Lab had seven spin-offs earlier. Prague team per PEI profile (aggregator, not used)."
+  }
+}
