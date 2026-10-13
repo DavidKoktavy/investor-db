@@ -1,0 +1,17 @@
+{
+  "id": "seed-starter",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Site lists 'ČS Seed Starter, a.s.' at Olbrachtova 1929/62, 140 00 Praha 4, Česká republika; ARES sidlo matches.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "ARES record for IČO 61058769 gives obchodniJmeno 'ČS Seed Starter, a.s.', seat Praha 4; same entity named on seedstarter.cz. The page does not state the role management_company, but it is consistent with the entity that holds the investments.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Site self-describes as 'Corporate Venture Capital of Česká spořitelna' and says it invests since 2020; the cited sentence plus its context supports cvc.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "Quote is verbatim, but the page gives no sector list. 'Fintech' is the extractor's reading of 'technologies that help banking thrive or bring innovation to our clients', which is broader. The record notes this.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Site states pre-seed and seed investment rounds.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Site states ticket size 200k – 1M EUR, which is the investor's own ticket. self_reported=true is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch article dated 12. 6. 2026: Definic's EUR 2.5M seed round, led by J&T Ventures, 'ke kterému se připojil Seed Starter patřící pod Českou spořitelnu'. Seed Starter is an investor (participant). The date is within the 24-month window before AS_OF 2026-10-11.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "CzechCrunch article dated 17. 12. 2025: Repsense's EUR 1.1M round, led by Tensor Ventures, 'přidaly se Seed Starter České spořitelny'. Participant role is correct, the stage is not stated (round null is correct), and the date is in the window.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "CzechCrunch article dated 17. 3. 2025: Seed Starter of Česká spořitelna provides nearly half of Vestberry's EUR 2.2M, so it is a new investment, not a recap. The date is in the window. The role could be lead or co-lead, but 'unknown' is acceptable.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described corporate VC of Česká spořitelna with a Prague-registered a.s. and Prague address. Three investments are dated Mar 2025 to Jun 2026 in the cited CzechCrunch articles, all within the 24-month window."}
+}

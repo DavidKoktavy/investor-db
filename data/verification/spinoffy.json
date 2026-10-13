@@ -1,0 +1,29 @@
+{
+  "id": "spinoffy",
+  "verified_at": "2026-10-13T00:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "partially_supported",
+      "reason": "Quote verbatim; says the fund launched in Czechia with Czech primary market and Czech-named founders, but the article never states where the investment team is based. Tier 3 / self_reported false correct.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "supported",
+      "reason": "Quote verbatim: 'nový investiční fond Spinoffy zaměřený na podporu technologických spin-offů'. Investment structure is run via J&T Banka / Amista IS. Note: it also supplies project managers and 'de-risking', so it is partly venture-builder-like. Labels correct.",
+      "observed_value": null
+    },
+    {
+      "path": "stages",
+      "verdict": "supported",
+      "reason": "Quote verbatim; the article describes the proof-of-concept stage before the company exists, which fits pre_seed. Labels correct.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The only source is a March 2026 launch article. It names no investments, closes or fund size, only six-year targets, so there is no activity evidence in the window. The team's location is implied as CZ, not stated. The article lists sectors (AI/cyber, robotics, materials, quantum, cleantech), but the record has sectors null."
+  }
+}

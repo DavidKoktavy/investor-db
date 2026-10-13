@@ -1,0 +1,19 @@
+{
+  "id": "soulmates-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own /legal/ page lists ID 09789561, VAT CZ09789561 and address 'Rohanské nábřeží 693/10 ... 186 00 Prague'. The quote is only a street address, but the surrounding text places it in Prague, and the homepage also names a Prague HQ.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "kurzy.cz register mirror shows exact name, IČO 09789561 and address Rohanské nábřeží 693/10, Praha 8. The 'osoba rizikového kapitálu' form is consistent with the management_company role. Tier 3 mirror is labelled correctly.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Vestbee 2025-03-18: 'Prague-based Soulmates Ventures has raised a €50 million fund to support sustainable startups'. That is a VC fund manager with a sustainability focus.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Quote is verbatim: 'air, water, energy, mobility, circular economy, food and agriculture, education, and healthcare'. The mapping is reasonable. Circular economy is not mapped, which drops data but makes no false claim.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "'While continuing to support seed-stage investments, Soulmates Ventures is also expanding its focus to later-stage funding.' The homepage also gives 'Seed/SA' as the target stage, so series_a could be added but was omitted.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Homepage: 'We fund each company with an initial investment of up to €3,000,000'. This is a per-company ticket, not a fund size. EUR max 3,000,000 is correct, and min null is appropriate.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Vestbee: 'has raised a €50 million fund'. latest_fund_size EUR 50M as of 2025-03-18 matches. The homepage separately shows AUM €62M, which is a different basis and not a contradiction.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "EUR 50M fund raised (article 2025-03-18) is supported. The fund name with 'Article 9 SFDR' is not in the cited quote and was not confirmed in the read, and vintage 2025 is inferred from the article date.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Vestbee, dated September 3, 2026: £500k growth round 'led by existing investor Soulmates Ventures'. Soulmates is named as the investor and lead, and the date is within the 24-month window before AS_OF 2026-10-11.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Vestbee, dated March 3, 2026: Antiverse $9.3M Series A, 'The round was led by Soulmates Ventures'. Within the window.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "Own press release with dateline 'Prague / London, 23 October 2025': 'Soulmates Ventures has led a £1.6 million seed investment in Rightcharge'. Within the window, and self_reported=true/tier 2 is correct.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Prague-based VC manager (CZ legal entity with IČO 09789561, Prague offices) that raised a EUR 50M fund in 2025 and led three rounds between Oct 2025 and Sep 2026, all within the window."}
+}

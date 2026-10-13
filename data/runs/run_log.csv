@@ -153,3 +153,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,reflex-capital,17198,9,30.8,ok
 2026-10-13,evidence-verifier,opus,rockaway-capital,18677,9,37.3,ok
 2026-10-13,evidence-verifier,opus,rockaway-ventures,17972,11,31.0,ok
+2026-10-13,evidence-verifier,opus,rockawayx,17224,8,34.9,ok
+2026-10-13,evidence-verifier,opus,spinoffy,15047,6,26.2,ok
+2026-10-13,evidence-verifier,opus,seed-starter,19280,10,37.4,ok
+2026-10-13,evidence-verifier,opus,soulmates-ventures,20249,12,38.9,ok
