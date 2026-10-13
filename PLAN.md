@@ -1,6 +1,6 @@
 # Plán: Spolehlivá databáze investorů
 
-> Zadání A · David Koktavý · stav k 11. 10. 2026
+> David Koktavý · stav k 11. 10. 2026
 > Toto je výchozí plán. Každou odchylku během pilotu zapisuji do [`docs/decisions.md`](docs/decisions.md) i s důvodem.
 
 ## 0. Shrnutí
