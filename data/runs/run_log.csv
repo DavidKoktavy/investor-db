@@ -75,3 +75,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-12,investor-extractor,sonnet,dendis-capital,34493,15,75.1,ok
 2026-10-12,investor-extractor,sonnet,emun,,,,failed
 2026-10-12,investor-extractor,sonnet,jsk-investments,,,,failed
+2026-10-13,investor-extractor,sonnet,muni-ventures,29541,10,43.0,ok
+2026-10-13,investor-extractor,sonnet,emun,30553,13,54.0,ok
+2026-10-13,investor-extractor,sonnet,metatron-global,28370,11,54.7,ok

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "metatron-global",
+  "name": "Metatron Global",
+  "website": null,
+  "hq_country": {"value": null, "null_reason": "not_found", "note": "No own website found; metatron.global is a registrar placeholder. Prague seat appears only in aggregators (not evidence)."},
+  "legal_entities": [],
+  "type": {"value": null, "null_reason": "not_published"},
+  "sectors": {"value": null, "null_reason": "not_published"},
+  "stages": {"value": null, "null_reason": "not_published"},
+  "ticket": {"value": null, "null_reason": "not_published"},
+  "capital": {"value": null, "null_reason": "not_published"},
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Ticketoo",
+      "company_website": null,
+      "announced_date": "2024-01-17",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.ildolomiti.it/video/economia/2024/il-video-ticketoo-nuovo-round-dinvestimento-da-400mila-euro?page=340",
+        "tier": 3,
+        "publisher": "il Dolomiti",
+        "published_date": "2024-01-17",
+        "accessed_date": "2026-10-13",
+        "quote": "Nel capitale sociale dell'azienda entrano quindi Opificio137; Metatron e Mirko Faiozzo, fondatore e CEO di Touristmotion.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "Seedtable Czech ranking (aggregator lead)",
+    "notes": "No own website, registry entry or IČO found. Identity of 'Metatron' in the Ticketoo round with Metatron Global (Prague, founded by Vladimir Johanes and sons per e15/CzechCrunch 2015) rests on aggregator listings (CB Insights) only and is unconfirmed; the article names only 'Metatron'. Role participant is inferred; seed label comes from CB Insights/askanews leads, not the cited page; instrument unknown. Older Czech coverage: e15.cz 2015-08-31 says Metatron was created to invest in tech and internet start-ups (Savvy, Yonderbound, Audacy, Ageo named by CzechCrunch). Type not set: triage said family_office, unverified."
+  }
+}

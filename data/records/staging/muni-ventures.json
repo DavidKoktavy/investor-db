@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "id": "muni-ventures",
+  "name": "MUNI Ventures",
+  "website": null,
+  "hq_country": {"value": null, "null_reason": "not_found", "note": "Registered seat in Brno (registry mirror), but no source describes an investment team."},
+  "legal_entities": [
+    {
+      "name": "MUNI Ventures, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "21503559",
+      "role": "other",
+      "source": {
+        "url": "https://www.podnikatel.cz/rejstrik/muni-ventures-s-r-o-21503559/",
+        "tier": 3,
+        "publisher": "Podnikatel.cz (mirror of Obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "MUNI Ventures, s.r.o. - IČO 21503559 - Obchodní rejstřík na Podnikatel.cz",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {"value": null, "null_reason": "not_published", "note": "University technology-transfer/commercialisation subsidiary; no source describes it as a venture investor."},
+  "sectors": {"value": null, "raw": null, "null_reason": "not_published"},
+  "stages": {"value": null, "raw": null, "null_reason": "not_published"},
+  "ticket": {"value": null, "null_reason": "not_published"},
+  "capital": {"value": null, "null_reason": "not_published", "note": "Only initial share capital CZK 2,000,000 is published, not investment capital."},
+  "funds": [],
+  "evidence_of_activity": [],
+  "exclusion_signals": [
+    {
+      "code": "grant_or_program_only",
+      "source": {
+        "url": "https://em.muni.cz/udalosti/17347-masarykova-univerzita-zalozila-muni-ventures/amp",
+        "tier": 2,
+        "publisher": "Masaryk University (em.muni.cz)",
+        "published_date": "2024-04-25",
+        "accessed_date": "2026-10-13",
+        "quote": "se zaměří na urychlení převodu vědeckých objevů, patentů a inovací do praktického využití",
+        "self_reported": true
+      },
+      "note": "Technology-transfer/commercialisation vehicle of the university; no direct equity investments found. Weak signal, decided by code."
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "No own website found. No investment into any company found in two searches and the founding article; the article only says it may enter investment funds on behalf of the university. Not verified as a venture investor."
+  }
+}
