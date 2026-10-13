@@ -128,3 +128,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,i-and-i-biotech,20220,10,43.1,ok
 2026-10-13,evidence-verifier,opus,impulse-ventures,17856,8,33.4,ok
 2026-10-13,evidence-verifier,opus,incomming-ventures,16735,8,33.2,ok
+2026-10-13,evidence-verifier,opus,inven-capital,17281,9,32.7,ok
+2026-10-13,evidence-verifier,opus,ip-lab-ventures,17623,6,41.9,ok
+2026-10-13,evidence-verifier,opus,j-t-ventures,18740,10,33.5,ok
+2026-10-13,evidence-verifier,opus,jic-ventures,21667,12,39.9,ok

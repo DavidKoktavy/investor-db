@@ -1,0 +1,41 @@
+{
+  "id": "ip-lab-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Quote is verbatim and the article (23 Sep 2026) describes a new EIF/NPO-backed fund 'IP Lab Ventures I', presented by IP Lab Ventures representatives. It never says outright that IP Lab Ventures manages it, and it calls IP Lab a 'venture builder'. VC type is plausible but inferred.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "Verbatim: fund to invest in AI, robotics, semiconductors, biotech and new materials; the mapping to ai_data/deeptech_hardware/health_biotech is fair.",
+      "observed_value": null
+    },
+    {
+      "path": "ticket",
+      "verdict": "supported",
+      "reason": "Verbatim: fund to invest initially ('na úvod') up to EUR 1 million per company. This is an initial per-company ticket, not a round or fund size; follow-ons may be larger.",
+      "observed_value": null
+    },
+    {
+      "path": "funds[0]",
+      "verdict": "supported",
+      "reason": "Verbatim: total fund size expected to reach up to EUR 40 million (target, correctly labelled; EUR 27m from the NPO). Fund announced as newly created in Sep 2026, but no first or final close is stated.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "Says IP Lab (the venture builder) is 'part of' the MendelFOLD spin-off. No date, round or amount is given, and the fund is not named, so it cannot be placed in the 24-month window.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Lupa (Sep 2026) describes a newly created EIF/NPO-backed fund, IP Lab Ventures I, with a EUR 40m target, but no close is stated and there is no dated investment. hq_country is null, and the article never says where the team is based."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "j-t-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Homepage gives office address 'J&T Ventures, budova J&T Banka, Sokolovska 700/113a, Praha 8 - Karlin, 186 00'; self_reported=true and tier 2 are correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Registry mirror shows J&T Ventures CG SICAV a.s., ICO 08220867, Sokolovska 700/113a Praha (same address as J&T Ventures); role fund_vehicle is consistent with a SICAV; tier 3 mirror label correct.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "CzechCrunch calls it 'cesky startupovy fond J&T Ventures' and names it an existing investor in AEOS; consistent with vc, and homepage shows VC-style stage/ticket criteria.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Homepage under 'Zajimaji nas' lists B2B, B2C, Marketplaces, Sector Agnostic; generalist is correct.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Homepage 'Faze: Pre-seed az Series A' maps to pre_seed, seed, series_a.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Homepage 'Velikost investice: EUR 300K - EUR 3M' is a per-investment ticket; values and currency correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "raising.fi, 2026-06-13: J&T Ventures led EUR 2.5M seed round of Definic (Kosice, SK); within 24-month window.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Pulse 2, 2026-06-29: J&T Ventures joined as returning investor in Wultra's EUR 6.8M Series A led by Seventure Partners; role participant correct; within window.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "partially_supported", "reason": "CzechCrunch 2024-10-07 names J&T Ventures as existing investor in AEOS EUR 10M Series B (led by Taiwania Capital), but date is 4 days before WINDOW_START 2024-10-11, so outside the 24-month window; round null although page says Series B.", "observed_value": {"round": "Series B", "role": "participant"}}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Two dated in-window deals (Definic lead Jun 2026, Wultra Series A Jun 2026), self-described VC criteria on homepage, Prague office address and Czech SICAV fund vehicle at the same address; described as Czech startup fund by CzechCrunch."}
+}

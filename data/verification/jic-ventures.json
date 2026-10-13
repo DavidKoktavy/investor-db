@@ -1,0 +1,19 @@
+{
+  "id": "jic-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Lupa.cz (2026-04-07): new VC fund launched in Brno; 'Za fondem s názvem JIC Ventures stojí inovační agentura JIC...'. Same entity, CZ. Fund site also gives Brno office (Purkynova 127).", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Register mirror shows JIC Ventures 2 a.s., osoba rizikového kapitálu, IČO 24320358, Brno, founded 2026-01-05; sole shareholder/board member JIC General Partner s.r.o. Role 'other' is a cautious choice, since no cited page explicitly links it to the new fund.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Fund site states verbatim 'JIC Ventures is a Brno-born VC fund backing technology founders from pre-seed to exit.' Tier 2 and self_reported true are correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Quote 'Deep tech, SaaS, and other' is on the fund site in its investment focus section. Mapping to deeptech_hardware + software_saas is reasonable; 'other' is left unmapped.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "'Pre-seed / Seed stage' is on the fund site's investment focus; the CTP and Lupa articles also say pre-seed and seed.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "'Tickets up to €1M' appears in the fund's investment focus block beside stage and sector, so it reads as a per-company ticket; max 1,000,000 EUR with min null is correct.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "CTP release dated 'Brno, 7 April 2026' states a CZK 400 million (approx. EUR 16.3 million) VC fund; Lupa confirms 400 mil. Kč. This is fund size, so basis latest_fund_size is correct.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Same CTP passage gives CZK 400m and a 2026 launch; close 'unknown' is consistent, since Lupa says the fund 'ještě není finálně uzavřený'. CTP is a fund LP, so tier 3 and self_reported false are acceptable.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch dated 01.10.2026 reports a new round of over EUR 1M for Elredo: 'Vedoucím investorem je fond JIC Ventures'. Lead role is correct, the article is not a recap, and the date is within 24 months of AS_OF 2026-10-11.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "JIC press release dated 19.5.2026: the new fund's first investment, in FaceUp, joining a USD 5M Series A led by Fil Rouge Capital. Participant role and in-window date are correct; self_reported true and tier 2 fit (JIC is the fund's parent).", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "CzechCrunch dated 16.12.2025 reports Aiviro closing a new EUR 450k round, with investors including 'fond tuzemské inovační agentury JIC Ventures'. Participant role is correct and the date is in the window.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described VC fund (CZK 400m, launched April 2026) with its team in Brno and three cited in-window investments (Dec 2025, May 2026, Oct 2026), one of them as lead."}
+}
