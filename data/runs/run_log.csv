@@ -87,3 +87,5 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,chilli-ventures,31917,14,62.1,ok
 2026-10-13,investor-extractor,sonnet,budeto,35112,21,101.7,ok
 2026-10-13,investor-extractor,sonnet,tcf-capital,34282,20,76.0,ok
+2026-10-13,investor-extractor,sonnet,grouport-ventures,28811,13,44.1,ok
+2026-10-13,investor-extractor,sonnet,bpd-partners,35015,16,73.4,ok
