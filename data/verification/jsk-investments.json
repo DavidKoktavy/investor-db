@@ -1,0 +1,21 @@
+{
+  "id": "jsk-investments",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own homepage gives contact address 'Klimentská 1216/46, 110 00 Praha 1'; self_reported tier 2 is correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "ARES JSON quote matched verbatim (score 100): ICO 23823445, 'JSK Investments SICAV a.s.'. The registry is tier 1 and not self-reported.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Newstream says the SICAV has a Venture Capital subfund for early-stage minority stakes, but it also has a Private & Growth Equity subfund (majority stakes in mid-sized firms) and a family-business subfund. VC is one strategy, not the whole vehicle.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "The quote is on the page, but those sectors (e-commerce, logistics, FMCG, manufacturing, healthcare) are given for the Private & Growth Equity subfund, not the VC subfund. FMCG was also dropped from the mapping.", "observed_value": null},
+    {"path": "stages", "verdict": "partially_supported", "reason": "The page says only 'startupů v raných fázích' (early-stage startups). Pre-seed and seed are an interpretation the page does not state, and the cited deals include a Series A.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Newstream, 2025-10-01: 'Počáteční objem prostředků činí dvě miliardy korun' (initial capital CZK 2bn). The amount and currency are right; it is the initial size of the whole SICAV, all subfunds together.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "The CZK 2bn initial size and 2025 timing are supported. The article does not give the fund name (that comes from ARES). It is an umbrella SICAV, not a VC fund; the homepage lists 'JSK Investments Venture Capital Fund I.' as a separate fund.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "JSK press release dated 9.10.2026: the SICAV joined MintNeuro's USD 5M round. Inside the window (AS_OF 2026-10-11). Self_reported tier 2 is correct. The round is not named, so null is right.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "CzechCrunch, 15.9.2026: 'Fond JSK Investments se zapojil do investice' in Andromeda Surgical; it reports JSK joined the latest round (Series A, led by Standard Capital). Caveat: JSK is not in the article's list of Series A investors. Inside the window.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "Lupa.cz, 9.12.2024: JSK Investments put EUR 420k into Elin.ai's EUR 1M pre-seed round. Inside the 24-month window (start 2024-10-11). This predates the SICAV, so the investor was the earlier JSK group firm.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "yes",
+    "reason": "Prague-based group with a CNB-licensed SICAV that has a dedicated Venture Capital subfund, plus three VC deals inside the window (MintNeuro Oct 2026, Andromeda Surgical Sep 2026, Elin.ai Dec 2024). Caveat: the vehicle is multi-strategy (PE/growth majority stakes plus VC), and the sectors, capital and fund describe the whole SICAV, not the VC strategy alone."
+  }
+}

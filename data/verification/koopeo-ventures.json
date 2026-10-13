@@ -1,0 +1,12 @@
+{
+  "id": "koopeo-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Footer: 'KOOPEO Ventures SE, Solniční 243/17, 602 00 Brno', registered at Krajský soud v Brně; Brno is in CZ (offices also in Prague and Bratislava). Quote alone is only the street, but the surrounding text supports CZ.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Footer of the home page: 'KOOPEO Ventures SE ... IČ: 05269113', vedená pod H 564 u Krajského soudu v Brně.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Heading 'We invest in innovative startups' shows startup investing, but the page names no fund and no third-party capital. It could be an SE investing its own balance sheet (holding/angel-like) rather than a VC manager.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Tech.eu, 17 Jul 2025: EUR 550k pre-seed 'led by Lighthouse Ventures, with participation from ... Koopeo'. Koopeo is named as a participating investor. The date is in the 24-month window before AS_OF 2026-10-11. Name only ('Koopeo'), no country given, but the match to this investor is plausible and it lists Trifft in its own portfolio.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "Brno-based SE with Czech offices, and the sources show it is an active startup investor (participated in a pre-seed round in Jul 2025). Nothing shows it manages a fund or outside capital, so it may be a corporate/holding investor rather than a VC manager."}
+}

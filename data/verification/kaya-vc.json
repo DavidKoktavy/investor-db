@@ -1,0 +1,19 @@
+{
+  "id": "kaya-vc",
+  "verified_at": "2026-10-13T16:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Prague address is on the page, but it is one of four offices (Warszawa listed first, then Prague, San Francisco, London); the page names no HQ and says nothing about where the team sits", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Site self-describes investing in CEE founders, with ticket, AUM and current fund figures; an equity VC manager", "observed_value": null},
+    {"path": "stages", "verdict": "partially_supported", "reason": "Quote says 'pre-seed through to meaningful scale'. pre_seed is stated. seed is implied but not named. The quote also covers later stages, so the record's range is narrower than the page. The 'Pre+Seed' text in the raw field was not seen on the page", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Page shows '$1–3M' labelled 'Ticket'; USD 1,000,000-3,000,000 matches", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Page shows '$500M' labelled 'AUM Total'; self-reported and undated (as_of null is correct)", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Page shows '$85M' labelled 'Current Fund'; no name, vintage or close stated, consistent with record", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Fortune, May 19 2026: Viktor $75M Series A led by Accel 'with participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital'; within the 24-month window; participant role correct", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "partially_supported", "reason": "Insight Partners, July 28 2025: E2B $21M Series A with participation from 'Kaya'. The date is within the window, but the page names only 'Kaya', with no 'VC' or other detail, so the entity is likely but not confirmed", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Clearly an active VC: Fortune names Kaya VC in a May 2026 Series A, and the site shows a current fund and ticket. But the cited site lists Warsaw first among four offices and does not say the investment team is in Czechia; Prague is only one office."
+  }
+}

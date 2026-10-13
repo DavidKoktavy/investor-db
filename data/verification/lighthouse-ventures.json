@@ -1,0 +1,16 @@
+{
+  "id": "lighthouse-ventures",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "lhv.vc contact section lists the office at 'Evropská 2758/11, 160 00, Prague 6'; the team is described only as 'an international team of partners'.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "kurzy.cz shows 'Lighthouse Ventures GP s.r.o.', IČO 07500912, Praha 6, est. 2018-09-27, no liquidation entry; the IČO also appears on lhv.vc/about-us. The general_partner role is inferred from the 'GP' in the name.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "about-us says verbatim: 'Lighthouse Ventures is an early-stage venture capital, focused on technology projects with global vision.' FAQ: 'actively investing from Lighthouse Fund II, launched in 2024'.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "The homepage has 'B2B Software of various verticals, Fintech, AI' verbatim; mapped to software_saas/fintech/ai_data correctly.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "The FAQ says verbatim: 'As early as the idea stage, pre-seed and early seed.' pre_seed+seed is a fair mapping.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "The FAQ says verbatim: 'We typically invest €200,000 to €1 million.' This is the firm's own investment amount, not a round size; EUR 200000-1000000 is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "The lhv.vc news page lists 'Lighthouse Ventures Participates in Hermetiq's $2.2M Pre-Seed Round' dated 31 August 2026, which is within the 24-month window. The firm is named as a participating investor.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "The SaaS News: Outfindo raised €1.2M late-seed, 'led by Eleven Ventures, with participation from Lighthouse Ventures'. The page shows 'Updated January 20, 2025', which is within the window (start 2024-10-11). Only the update date is shown, not an original publish date.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "It describes itself as an early-stage VC investing from Fund II (launched 2024), its only office is in Prague with a Czech GP entity, and it made two investments within the window (Aug 2026, Jan 2025). The team is described as 'international', but CZ is its only stated base."}
+}

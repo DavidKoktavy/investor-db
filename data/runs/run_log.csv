@@ -132,3 +132,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,ip-lab-ventures,17623,6,41.9,ok
 2026-10-13,evidence-verifier,opus,j-t-ventures,18740,10,33.5,ok
 2026-10-13,evidence-verifier,opus,jic-ventures,21667,12,39.9,ok
+2026-10-13,evidence-verifier,opus,koopeo-ventures,15741,8,25.3,ok
+2026-10-13,evidence-verifier,opus,kaya-vc,17670,8,32.7,ok
+2026-10-13,evidence-verifier,opus,jsk-investments,21399,10,42.0,ok
+2026-10-13,evidence-verifier,opus,lighthouse-ventures,18173,11,29.4,ok
