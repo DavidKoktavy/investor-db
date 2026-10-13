@@ -1,0 +1,15 @@
+{
+  "id": "czech-founders-vc",
+  "verified_at": "2026-10-13T21:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site lists Prague office 'Gen. Píky 430/26, 160 00 Prague 6, Czechia'; it also lists a Bratislava office and does not say where team members sit, so team-in-CZ is implied rather than stated. Self-reported, tier 2 is correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Kurzy.cz register mirror shows the name with IČO 17051835 (quote found, score 100). The site footer '© Czech Founders Ventures s.r.o.' links it to the investor. Tier 3 and self_reported=false are correct; the management_company role is inferred.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own site calls it a 'founders-focused investor' making pre-seed tickets, and the brand is 'VC'. Two caveats: the site never uses the word 'fund', and the subtype 'founders-backed' is the extractor's interpretation.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Own site, verbatim: 'Pre-seed tickets. Typically €50-350k.'", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Own site says 'Typically €50-350k' per pre-seed ticket. This is a ticket size, not a round or fund size, and maps to EUR 50000-350000.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Nordic9, dated 3 Jun 2026 (within the 24-month window), names Czech Founders VC as a participant in Merchantee's pre-seed round led by Reflex Capital. The page gives the round as both €1.8M and $2.1M, but the round size is not a claimed value.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "CzechCrunch, dated 14 Jan 2026 (within the window), reports a new investment ('teď hlásí') in Maxfusion of 350 tisíc eur 'od Czech Founders VC', alongside angel Ory Weihs. Round type is not stated; role and instrument are correctly left unknown.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Two independent deal reports from 2026 within the window name it as an investor, and its own site describes a pre-seed investor with a Prague office and a Prague-registered osoba rizikového kapitálu. Main uncertainty: it also has a Bratislava office and the site does not say where team members are based."}
+}

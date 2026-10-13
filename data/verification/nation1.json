@@ -1,0 +1,13 @@
+{
+  "id": "nation1",
+  "verified_at": "2026-10-13T19:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "E15 (2021-04-24) says managing partner Moravec returned to Prague to lead Nation 1; supports a Prague-based lead but it is 5+ years old and about one person, not the current team. n1.rocks lists offices in SF, Prague and Luxembourg without saying where the team sits.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "n1.rocks verbatim: 'An operator-led early-stage VC with one foot in Europe and the other in San Francisco'; tier 2 and self_reported true are correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "n1.rocks: 'two funds focused on AI and healthcare' maps to ai_data and health_biotech; the site also mentions frontier tech.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "n1.rocks: 'Today, we manage $60M across two funds'. USD 60,000,000 total AUM across two funds, undated and self-reported; the labels are correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Lupa.cz, dated 15. 5. 2026 (within 24 months of AS_OF 2026-10-11): N1 Ventures took part in Flick's USD 6M seed round as a participant, not the lead. This is a new deal, not a recap.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described early-stage VC managing USD 60M, with a Prague office and a seed participation in May 2026. The CZ team location rests on a 2021 article plus the Prague office address, so it is likely but not firmly confirmed. The GP/AIFM entities are in Luxembourg."}
+}

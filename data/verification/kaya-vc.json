@@ -1,0 +1,17 @@
+{
+  "id": "kaya-vc",
+  "verified_at": "2026-10-13T21:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Page lists Prague 'Thámova 183/11, 186 00' as one of four offices (Warszawa listed first, plus San Francisco, London); it does not name an HQ or say where the investment team sits, so CZ is not established from the cited source", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "partially_supported", "reason": "ARES confirms IČO 10838821 = 'KAYA (fka Enern) s.r.o.', but nothing in the cited source says it is the VC's management company; role is inferred from the name only", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own site: 'We invest in ambitious & gritty founders from CEE', with fund, AUM and ticket figures; a VC manager", "observed_value": null},
+    {"path": "stages", "verdict": "partially_supported", "reason": "Site shows 'Pre+Seed Round', which supports pre_seed/seed, but the quoted sentence says 'pre-seed through to meaningful scale' and both activity items are Series A, so the list is incomplete", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Site states '$1–3M Ticket'; USD 1,000,000-3,000,000 matches", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Site states '$500M AUM Total'; basis reported_aum, undated (as_of null is correct)", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Site states '$85M Current Fund'; name, vintage and close not given, which the record reflects", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Fortune, 19 May 2026: $75M Series A for Viktor led by Accel, 'with participation from ... Kaya VC'; named as an investor and inside the 24-month window", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Insight Partners, 28 Jul 2025: E2B $21M Series A, Kaya named as a participating co-investor; inside the window (start 2024-10-11)", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "Clearly an active VC: two Series A participations in the window and an $85M current fund. But the cited sources show Prague only as one of four offices (Warsaw, SF, London) and never say the investment team is in Czechia, so the CZ team seat is not established."}
+}

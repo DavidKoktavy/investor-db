@@ -1,0 +1,17 @@
+{
+  "id": "depo-ventures",
+  "verified_at": "2026-10-13T21:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Contact page lists DEPO VENTURES, s.r.o. (ID 04753101), Plynarni 10, Prague 7, Czech republic; office address, team location not stated explicitly", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "ARES record gives ICO 04753101 for DEPO VENTURES, s.r.o.; same ID appears on the investor's contact page", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own page says 'DEPO Ventures is a venture capital group investing in early-stage startups from the CEE region'", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Home page lists 'Defence, Space,FinTech, Industry 4.0, Energy'; the mapping is reasonable", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Home page shows 'Inception & Pre-seed'", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Home page shows Ticket '€250K - 500K'; the label is ticket, not fund size", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "partially_supported", "reason": "Page dated 2026-08-28 (within window) says the round was 'led by DEPO Ventures through its DEPO Ventures One fund' (>EUR 2M); it does not call the round seed", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Tapaya blog dated 2026-04-28: EUR 1M pre-seed 'led by Passion Capital, with co-lead participation from Depo Ventures'; within window", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "CzechCrunch dated 2026-03-13 names 'andělský fond Depo Ventures' as an investor with BD Partners in a CZK 10.5M pre-seed round; the lead is not stated, so participant is acceptable", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described VC group with a Prague s.r.o. and address, and three investments in 2026 (one lead, one co-lead) from independent sources. Media also call it an 'angel fund', but it invests through named funds (DEPO Ventures One)."}
+}
