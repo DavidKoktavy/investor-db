@@ -6,19 +6,35 @@
   "hq_country": {
     "value": null,
     "null_reason": "not_found",
-    "note": "Only third-party aggregator profiles say Prague; no primary or media page fetched states where the team sits."
+    "note": "No fetched primary or media page states where the investment team sits. ARES gives the s.r.o. seat in Praha 8 and aggregators (not usable) say Prague, but the team location itself is not stated."
   },
-  "legal_entities": [],
+  "legal_entities": [
+    {
+      "name": "Borovicka Capital s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "19966784",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19966784",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí ČR)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"19966784\",\"obchodniJmeno\":\"Borovicka Capital s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
   "type": {
     "value": "vc",
-    "subtype": "family fund",
+    "subtype": "family investment company",
     "source": {
       "url": "https://www.borovickacapital.com",
       "tier": 2,
       "publisher": "Borovicka Capital",
       "published_date": null,
       "accessed_date": "2026-10-13",
-      "quote": "strategic focus on venture capital investments in the Central European region.",
+      "quote": "Borovicka Capital is an investment company with a strategic focus on venture capital investments",
       "self_reported": true
     }
   },
@@ -28,7 +44,8 @@
   },
   "stages": {
     "value": null,
-    "null_reason": "not_published"
+    "null_reason": "not_published",
+    "note": "Website only says it backs startups from the early stages; no named stage."
   },
   "ticket": {
     "value": null,
@@ -46,11 +63,11 @@
       "announced_date": "2025-01-20",
       "role": "participant",
       "instrument": "equity",
-      "round": "late seed",
+      "round": "late-seed",
       "source": {
         "url": "https://cc.cz/poklada-jednoduche-otazky-a-tim-ulehcuje-slozite-nakupy-startup-outfindo-ted-nabira-dalsi-miliony/",
         "tier": 3,
-        "publisher": "Czech Crunch",
+        "publisher": "CzechCrunch",
         "published_date": "2025-01-20",
         "accessed_date": "2026-10-13",
         "quote": "Kolo vedl bulharský fond Eleven Ventures, investici podpořili čeští Lighthouse Ventures a Borovicka Capital.",
@@ -63,8 +80,8 @@
   "meta": {
     "extracted_by": "investor-extractor/sonnet",
     "extracted_at": "2026-10-13T12:00:00+02:00",
-    "candidate_source": "extract_selected.csv",
-    "notes": "Family investment company (Jakub, Martin, Lukas Borovicka). No legal entity/ICO found on the website (no imprint) or in registry searches; an aggregator names Borovicka Capital s.r.o. but gives no ICO. HQ not stated on own site; cc.cz interview (2025-02-20) says the fund has eight startups (Wewell, Outfindo, Edmund AI) but gives no sectors, stages, ticket or fund size. Portfolio page is undated (lists Powerful Medical, Partory, Medannot, NutritionPro, SuperScale, Outfindo, Edmund). Only one dated deal found; Outfindo round led by Eleven Ventures, role set to participant. Site copyright 2024."
+    "candidate_source": "extract_selected.csv (repair run)",
+    "notes": "Repair run. hq_country left null: the website (home, team, kontakt) has no address or location, no imprint/IČO; team page names Lukáš, Jakub and Martin Borovička without location. Legal entity matched by exact name only (ARES: Borovicka Capital s.r.o., IČO 19966784, seat Breitfeldova 709/17, Praha 8, established 2023-11-28, active); the website does not print the IČO, so the link brand to entity rests on the name. Other deals seen only on aggregators (PitchBook: NutritionPro 2025-07-31, Edmund 2025-02-12) and not used. CzechCrunch interview dated 20. 2. 2025 mentions eight portfolio startups incl. Wewell, Outfindo, Edmund AI, but gives no dated deal with role. No 2026 deal found."
   },
   "exclusion_signals": []
 }

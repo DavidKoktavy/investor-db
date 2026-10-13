@@ -6,7 +6,7 @@
   "hq_country": {
     "value": null,
     "null_reason": "conflicting_sources",
-    "note": "Maddyness lists offices in US, France, UAE, Singapore with one partner each; other directories say San Francisco/Paris/Singapore or Luxembourg. No single team country established."
+    "note": "Maddyness (2023-01-16): offices in US, France, UAE and Singapore, one partner each; no Czech team found. No single team country."
   },
   "legal_entities": [],
   "type": {
@@ -62,21 +62,20 @@
   },
   "capital": {
     "value": {
-      "amount": 184000000,
+      "amount": 150000000,
       "currency": "USD",
       "basis": "latest_fund_size",
-      "as_of": "2023-01-16"
+      "as_of": "2024-04-10"
     },
     "source": {
-      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "url": "https://dealstreetasia.com/?p=391288",
       "tier": 3,
-      "publisher": "Maddyness",
-      "published_date": "2023-01-16",
+      "publisher": "DealStreetAsia",
+      "published_date": "2024-04-10",
       "accessed_date": "2026-10-13",
-      "quote": "the team raised a first fund of 184m$ to back innovative companies with strong algorithmic science expertise.",
+      "quote": "Alpha Intelligence Capital raises $150m for second AI fund, targets $250m",
       "self_reported": false
-    },
-    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+    }
   },
   "funds": [
     {
@@ -94,6 +93,24 @@
         "published_date": "2023-01-16",
         "accessed_date": "2026-10-13",
         "quote": "the team raised a first fund of 184m$ to back innovative companies with strong algorithmic science expertise.",
+        "self_reported": false
+      }
+    },
+    {
+      "name": "Alpha Intelligence Capital Fund II",
+      "vintage": 2024,
+      "size": {
+        "amount": 150000000,
+        "currency": "USD",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://dealstreetasia.com/?p=391288",
+        "tier": 3,
+        "publisher": "DealStreetAsia",
+        "published_date": "2024-04-10",
+        "accessed_date": "2026-10-13",
+        "quote": "Alpha Intelligence Capital raises $150m for second AI fund, targets $250m",
         "self_reported": false
       }
     }
@@ -117,13 +134,13 @@
       }
     }
   ],
-  "exclusion_signals": [],
   "status": "excluded",
   "exclusion_reason": "out_of_scope_geography",
   "meta": {
     "extracted_by": "investor-extractor/sonnet",
-    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "extracted_at": "2026-10-13T13:00:00+02:00",
     "candidate_source": "triage hint: Photoneo investor",
-    "notes": "No candidate website found (aic.group is a parked domain). Team is not Czech: offices in US/France/UAE/Singapore per Maddyness 2023; hq_country left null (conflicting). Photoneo (Slovak) is a Jan 2023 investee, not a Czech link. Waiv round: McDermott says Series A, five co-leads; Nordic9 (2026-03-02) calls it seed. No registry entry checked; legal_entities empty. Fund size from 2023 article."
-  }
+    "notes": "No website found (aic.group parked). hq_country null: Maddyness 2023 lists offices in US, France, UAE, Singapore; other directories say Luxembourg/San Francisco/Hong Kong; none Czech. No imprint or registry entry found (Slovak registeruz lists 'Alpha Intelligence Capital Fund I' as Photoneo shareholder, not fetched), legal_entities empty. Fund II: headline says raised $150m, target $250m (Apr 2024); Caproasia says $160m, unverified. Waiv round: McDermott says Series A with several co-leads incl. Fund II; Nordic9 calls it seed. Photoneo is a Slovak investee, no Czech link."
+  },
+  "exclusion_signals": []
 }

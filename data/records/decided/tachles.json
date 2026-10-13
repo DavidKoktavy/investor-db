@@ -4,11 +4,35 @@
   "name": "Tachles VC",
   "website": "https://tachlesvc.com",
   "hq_country": {
-    "value": null,
-    "null_reason": "not_published",
-    "note": "Website lists a Georgia (USA) address; Czech management company seat in Prague; team location unclear."
+    "value": "CZ",
+    "source": {
+      "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2025-02-12",
+      "accessed_date": "2026-10-13",
+      "quote": "Český fond Tachles VC jen loni podpořil sedm izraelských startupů, do kterých vložil desítky milionů korun.",
+      "self_reported": false
+    },
+    "note": "Managing partners Tušek and Marek are Czech (cz flag on tachlesvc.com/team); Czech management company seat in Prague; website also lists Prague office, Atlanta and Tel-Aviv, mailing address Peachtree Corners GA. No source states explicitly that the investment team sits in Prague; CZ rests on the description as a Czech fund run by Czech founders."
   },
-  "legal_entities": [],
+  "legal_entities": [
+    {
+      "name": "Tachles VC Management s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "14376032",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032",
+        "tier": 1,
+        "publisher": "ARES",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"14376032\",\"obchodniJmeno\":\"Tachles VC Management s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
   "type": {
     "value": "vc",
     "subtype": null,
@@ -54,30 +78,30 @@
   "funds": [],
   "evidence_of_activity": [
     {
-      "company": "Hirundo",
-      "company_website": null,
-      "announced_date": "2025-02-12",
-      "role": "unknown",
+      "company": "Boost.space",
+      "company_website": "https://boost.space",
+      "announced_date": "2025-10-09",
+      "role": "participant",
       "instrument": "equity",
       "round": null,
       "source": {
-        "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/",
+        "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/",
         "tier": 3,
         "publisher": "CzechCrunch",
-        "published_date": "2025-02-12",
-        "accessed_date": "2026-10-12",
-        "quote": "Hirundo (celková investice 7,6 milionu dolarů ve dvou kolech) slouží pro strojové odnaučování",
+        "published_date": "2025-10-09",
+        "accessed_date": "2026-10-13",
+        "quote": "Hlavním investorem je skupina Jet Investment miliardáře Igora Faita s přispěním českého fond Tachles VC",
         "self_reported": false
       }
     }
   ],
-  "status": "excluded",
-  "exclusion_reason": "out_of_scope_geography",
+  "status": "active",
+  "exclusion_reason": null,
   "meta": {
     "extracted_by": "investor-extractor/sonnet",
-    "extracted_at": "2026-10-12T12:00:00+02:00",
-    "candidate_source": "extract_queue",
-    "notes": "Tachles VC Management s.r.o. (jednatelé Tušek, Marek, since 2024-06-29, Chudenická 1059/30 Praha; podnikatel.cz mirror) - ICO not stated on page, so no legal_entities. Website address is Peachtree Corners GA, USA; Israeli partners; hq_country left null. Only Hirundo dated item: CzechCrunch 2025-02-12 lists it among 7 startups backed in 2024 (CZK 30m total; Tachles own amounts undisclosed). Date is article date, deal date unknown; role unknown. No deal within last 24 months with exact date found; PitchBook (aggregator, not used) lists 2026 deals (Frostbridge, Papr). Cloud infrastructure not mapped to a taxonomy value. Stages null: only generic 'early-stage' stated. Fund size ~CZK 500m first phase (CzechCrunch 2024-06-13) not in funds[] because no quote stored."
+    "extracted_at": "2026-10-13T10:00:00+02:00",
+    "candidate_source": "extract_selected (repair run)",
+    "notes": "Repair run. Legal entity Tachles VC Management s.r.o. IČO 14376032 (ARES, seat Chudenická 1059/30 Praha, active) matched by name; website imprint names only 'Tachles VC Management, LLC' (Peachtree Corners GA) with no IČO, so the link between the LLC and the s.r.o. rests on the identical name and on the earlier finding that jednatelé are Tušek and Marek (not re-verified here). hq_country CZ is an inference, see note on the field; the US/Israel partners are located abroad. Boost.space round (EUR 3m, Jet Investment lead) article dated 2025-10-09; announcement date taken as article date, no earlier press release found. Hirundo (2024 investment) dropped: no sentence naming Tachles found next to it in a quotable form. Stages null (only 'Early-stage' stated); ticket and fund size not published; first-phase ~CZK 500m reported by CzechCrunch 2024-06-13 without a fund label so not recorded. Lupa 2025-11-26 says Tachles does not invest directly in US startups. Search for 2026 deals found nothing; PitchBook-type listings not used."
   },
   "exclusion_signals": []
 }

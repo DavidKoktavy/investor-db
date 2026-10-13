@@ -5,14 +5,14 @@
   "website": "https://n1.rocks",
   "hq_country": {
     "value": "CZ",
-    "note": "Offices in San Francisco, Prague and Luxembourg; Czech partners. Team split not stated.",
+    "note": "Site lists offices in San Francisco, Prague and Luxembourg without saying where the team sits; managing partner Marek Moravec is Prague-based per 2021 e15 interview. Treat as likely, not firmly confirmed.",
     "source": {
-      "url": "https://www.lupa.cz/aktuality/cesi-z-n1-investovali-do-startupu-ktery-vytvari-ai-filmy-stoji-za-nim-spolutvurce-instagram-stories/",
+      "url": "https://www.e15.cz/byznys/startupy/verime-virtualni-realite-i-menstruacnim-kalhotkam-rika-sef-fondu-nation-1-1379832",
       "tier": 3,
-      "publisher": "Lupa.cz",
-      "published_date": "2026-05-15",
-      "accessed_date": "2026-10-12",
-      "quote": "Český investiční fond N1 Ventures se zapojil do investice v americkém startupu Flick",
+      "publisher": "E15",
+      "published_date": "2021-04-24",
+      "accessed_date": "2026-10-13",
+      "quote": "vrátil do Prahy, kde šéfuje venture kapitálovému fondu Nation 1",
       "self_reported": false
     }
   },
@@ -21,12 +21,12 @@
     "value": "vc",
     "subtype": null,
     "source": {
-      "url": "https://n1.rocks/disclosure",
+      "url": "https://n1.rocks",
       "tier": 2,
       "publisher": "N1 Ventures",
       "published_date": null,
-      "accessed_date": "2026-10-12",
-      "quote": "An operator-led early-stage VC with one foot in Europe and the other in San Francisco.",
+      "accessed_date": "2026-10-13",
+      "quote": "An operator-led early-stage VC with one foot in Europe and the other in San Francisco",
       "self_reported": true
     }
   },
@@ -41,7 +41,7 @@
       "tier": 2,
       "publisher": "N1 Ventures",
       "published_date": null,
-      "accessed_date": "2026-10-12",
+      "accessed_date": "2026-10-13",
       "quote": "Today, we manage $60M across two funds focused on AI and healthcare.",
       "self_reported": true
     }
@@ -49,7 +49,7 @@
   "stages": {
     "value": null,
     "null_reason": "not_published",
-    "note": "Site says early-stage / from day zero; no explicit stage list verified."
+    "note": "Site says early-stage / from day zero only."
   },
   "ticket": {
     "value": null,
@@ -67,7 +67,7 @@
       "tier": 2,
       "publisher": "N1 Ventures",
       "published_date": null,
-      "accessed_date": "2026-10-12",
+      "accessed_date": "2026-10-13",
       "quote": "Today, we manage $60M across two funds focused on AI and healthcare.",
       "self_reported": true
     }
@@ -86,7 +86,7 @@
         "tier": 3,
         "publisher": "Lupa.cz",
         "published_date": "2026-05-15",
-        "accessed_date": "2026-10-12",
+        "accessed_date": "2026-10-13",
         "quote": "Český investiční fond N1 Ventures se zapojil do investice v americkém startupu Flick",
         "self_reported": false
       }
@@ -96,9 +96,9 @@
   "exclusion_reason": "not_found_or_defunct",
   "meta": {
     "extracted_by": "investor-extractor/sonnet",
-    "extracted_at": "2026-10-12T12:00:00+02:00",
-    "candidate_source": "extract_queue",
-    "notes": "Legal entities: site disclosure names Luxembourg GPs (Nation 1 GP S.a r.l., Nation 1 GP II S.a r.l.) without registry numbers; Czech IČO not found, left empty. Human Archive seed (30 May 2026, theaiinsider) does not name N1 on the fetched page, so not recorded. Myriad AI 2024/2025 rounds only via search snippets, not fetched. Fund capital USD 60M is site-stated; newstream 2023 cites ~CZK 600m invested. Flick quote from Lupa 15.5.2026; round date 14 May per search."
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected",
+    "notes": "Repair run. Legal entity NOT confirmed: n1.rocks/disclosure names Luxembourg GPs 'Nation 1 GP S.a r.l.' and 'Nation 1 GP II S.a r.l.' (GP and registered AIFM of Nation 1 and Nation 1 VC fund II) with no RCS number; Luxembourg register not retrievable, so legal_entities left empty. ARES has 'Nation1 Investment s.r.o.' IČO 09172807 (Praha 2), but its jednatelé/společníci are Jaroslav Ton and Petr Jiříček, no link to Moravec/Trojan found, so NOT used (likely namesake). No Czech entity named on n1.rocks, no ČNB entry checked. Team: partners Moravec, Trojan, Kocárová, Homola; offices SF, Prague (Národní 135/14), Luxembourg; utech-fund page also lists Kyiv. Human Archive seed (May 2026) not recorded: pages found do not name N1. Myriad AI not verified. Funds: first-fund ~CZK 600m invested (cc.cz 2023), second target EUR 35-40m, no sourced fund size; $60M total is self-reported undated."
   },
   "exclusion_signals": []
 }

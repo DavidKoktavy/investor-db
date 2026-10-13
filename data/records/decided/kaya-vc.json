@@ -11,12 +11,28 @@
       "publisher": "KAYA",
       "published_date": null,
       "accessed_date": "2026-10-13",
-      "quote": "Prague Thámova 183/11, 186 00",
+      "quote": "Thámova 183/11, 186 00",
       "self_reported": true
     },
-    "note": "Offices also in Warsaw, San Francisco, London; GPs (Obrtac, Pacinda, Rajcan, Zheng) listed on team section; Prague seat per candidate triage."
+    "note": "Website lists offices in Warsaw, Prague (Thámova 183/11, Prague 8 - Karlin), San Francisco, London; it does not say where the team sits. CZ based on the Prague address shared with the Kaya group entities in ARES, Czech GPs and the Prague-focused launch coverage (TechCrunch 2021). Team seat only weakly evidenced."
   },
-  "legal_entities": [],
+  "legal_entities": [
+    {
+      "name": "KAYA (fka Enern) s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "10838821",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10838821",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"10838821\",\"obchodniJmeno\":\"KAYA (fka Enern) s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
   "type": {
     "value": "vc",
     "subtype": null,
@@ -32,9 +48,9 @@
   },
   "sectors": {
     "value": null,
-    "raw": "digital, physical, and consumer economies",
+    "raw": "the frontier of digital, physical, and consumer economies",
     "null_reason": "not_published",
-    "note": "Own wording 'digital, physical, and consumer economies' does not map to taxonomy; left null."
+    "note": "Own wording does not map cleanly to the taxonomy; left null."
   },
   "stages": {
     "value": [
@@ -119,7 +135,7 @@
         "publisher": "Fortune",
         "published_date": "2026-05-19",
         "accessed_date": "2026-10-13",
-        "quote": "participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital",
+        "quote": "with participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital.",
         "self_reported": false
       }
     },
@@ -136,18 +152,18 @@
         "publisher": "Insight Partners",
         "published_date": "2025-07-28",
         "accessed_date": "2026-10-13",
-        "quote": "Series A funding round led by global software investor Insight Partners, with participation from Decibel, Sunflower Capital, and Kaya",
+        "quote": "with participation from Decibel, Sunflower Capital, and Kaya",
         "self_reported": false
       }
     }
   ],
-  "status": "excluded",
-  "exclusion_reason": "not_found_or_defunct",
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
   "meta": {
     "extracted_by": "investor-extractor/sonnet",
-    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "extracted_at": "2026-10-13T14:00:00+02:00",
     "candidate_source": "extract_selected.csv",
-    "notes": "No legal entity found (website names none; ARES search for KAYA gave only namesakes; PitchBook lead lists former names Enern Czech s.r.o. / ENERN Investments SICAV, unverified). Hint deals TopK (Jul 2025), E2B seed (Oct 2024), Upheal not confirmed from dated sources. Insight Partners page is a different publisher (LP-independent), so tier 3 not self. ET3/ET4 subfunds InnovFin-backed per website footer. Capital $500M is website 'AUM Total', undated."
-  },
-  "exclusion_signals": []
+    "notes": "Repair run. Website has no imprint/IČO. ARES search by name found KAYA (fka Enern) s.r.o., IČO 10838821 (seat Türkova 2319/5b, Praha 4; active; NACE 6820), whose name matches the brand and the 2021 TechCrunch report that Enern renamed itself Kaya (kaya VC launches its new $80M fund..., 2021-03-31: 'Previously called Enern'). Identification as the management entity is by name/rebrand inference, not stated by the investor; other ARES entities at Thámova 183/11 (Kaya Advisory s.r.o. 22585737, Kaya F3 GP s.r.o. 19844166, Kaya Services, Topaz, Nous etc.) exist; fund vehicles not verified. ČNB JERRS not checked. Hint deals TopK (Jul 2025), E2B seed (Oct 2024), Upheal Series A not confirmed from dated sources; E2B Series A (Insight Partners page) used instead. Insight Partners and Fortune are third parties. Capital $500M is website 'AUM Total', undated; ET3/ET4 subfunds InnovFin-backed per website footer."
+  }
 }

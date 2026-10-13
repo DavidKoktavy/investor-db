@@ -6,85 +6,115 @@
   "hq_country": {
     "value": null,
     "null_reason": "not_published",
-    "note": "Site names offices in London, Prague and Dubai, no single team location; Prague entity is the Czech registrant."
+    "note": "Sources list offices in London, Prague and Dubai without saying where the investment team sits; legal entity Blockad s.r.o. has its seat in Praha 6 (ARES). Not asserted."
   },
   "legal_entities": [
     {
       "name": "Blockad s.r.o.",
       "registry": "CZ-OR",
       "registry_id": "08006458",
-      "role": "other",
+      "role": null,
       "source": {
-        "url": "https://rejstrik-firem.kurzy.cz/08006458/blockad-sro/",
-        "tier": 3,
-        "publisher": "kurzy.cz",
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08006458",
+        "tier": 1,
+        "publisher": "ARES",
         "published_date": null,
-        "accessed_date": "2026-10-12",
-        "quote": "IČO: 08006458",
+        "accessed_date": "2026-10-13",
+        "quote": "\"obchodniJmeno\":\"Blockad s.r.o.\"",
         "self_reported": false
       }
     }
   ],
   "type": {
     "value": "vc",
-    "subtype": "crypto/blockchain, liquid funds and vault curation",
+    "subtype": "crypto/blockchain",
     "source": {
-      "url": "https://www.rockawayx.com",
-      "tier": 2,
-      "publisher": "RockawayX",
-      "published_date": null,
-      "accessed_date": "2026-10-12",
-      "quote": "We invest in early-stage projects, then build alongside them.",
-      "self_reported": true
+      "url": "https://cryptobriefing.com/rockawayx-acquires-relayer-capital-liquid-fund/",
+      "tier": 3,
+      "publisher": "Crypto Briefing",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-10-13",
+      "quote": "Founded in 2018, RockawayX serves as the blockchain arm of Rockaway Capital",
+      "self_reported": false
     }
   },
   "sectors": {
     "value": [
       "other"
     ],
-    "raw": "We run blockchains and provide liquidity to fuel protocols.",
+    "raw": "blockchain / crypto (DeFi, infrastructure protocols, decentralized networks)",
     "source": {
-      "url": "https://www.rockawayx.com",
-      "tier": 2,
-      "publisher": "RockawayX",
-      "published_date": null,
-      "accessed_date": "2026-10-12",
-      "quote": "We run blockchains and provide liquidity to fuel protocols.",
-      "self_reported": true
-    },
-    "note": "Crypto/blockchain/DeFi has no taxonomy slot."
+      "url": "https://www.theblock.co/post/351841/crypto-vc-rockawayx-second-fund-solana",
+      "tier": 3,
+      "publisher": "The Block",
+      "published_date": "2025-04-24",
+      "accessed_date": "2026-10-13",
+      "quote": "The new fund will back early-stage crypto startups.",
+      "self_reported": false
+    }
   },
   "stages": {
     "value": null,
     "null_reason": "not_published",
-    "note": "Only 'early-stage projects' stated; not mappable to schema stages."
+    "note": "Sources say early-stage / seed backer of Solana but no stated current stage list in a verifiable passage."
   },
   "ticket": {
     "value": null,
     "null_reason": "not_published"
   },
   "capital": {
-    "value": null,
-    "null_reason": "not_published",
-    "note": "Site shows '$2B+' Assets metric but not labelled as AUM; Lupa mention of USD 2B not fetched."
+    "value": {
+      "amount": 2000000000,
+      "currency": "USD",
+      "basis": "reported_aum",
+      "as_of": "2026-08-25"
+    },
+    "source": {
+      "url": "https://cryptobriefing.com/rockawayx-acquires-relayer-capital-liquid-fund/",
+      "tier": 3,
+      "publisher": "Crypto Briefing",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-10-13",
+      "quote": "RockawayX, a crypto investment firm managing roughly $2 billion in assets,",
+      "self_reported": false
+    }
   },
-  "funds": [],
+  "funds": [
+    {
+      "name": "RockawayX Fund II",
+      "vintage": 2025,
+      "size": {
+        "amount": 125000000,
+        "currency": "USD",
+        "close": "final"
+      },
+      "source": {
+        "url": "https://www.theblock.co/post/351841/crypto-vc-rockawayx-second-fund-solana",
+        "tier": 3,
+        "publisher": "The Block",
+        "published_date": "2025-04-24",
+        "accessed_date": "2026-10-13",
+        "quote": "has closed its second fund, raising $125 million",
+        "self_reported": false
+      }
+    }
+  ],
   "evidence_of_activity": [
     {
-      "company": "BetHog",
+      "company": "Exponent",
       "company_website": null,
-      "announced_date": "2026-04-22",
-      "role": "unknown",
-      "instrument": "unknown",
-      "round": null,
+      "announced_date": "2026-04-30",
+      "role": "participant",
+      "instrument": "safe",
+      "round": "seed",
       "source": {
-        "url": "https://www.rockawayx.com/insights",
-        "tier": 2,
-        "publisher": "RockawayX",
-        "published_date": "2026-04-22",
-        "accessed_date": "2026-10-12",
-        "quote": "Our Investment in BetHog: An AI-Native Gaming Platform",
-        "self_reported": true
+        "url": "https://www.theblock.co/post/399630/solana-yield-exchange-exponent-funding-multicoin-capital",
+        "tier": 3,
+        "publisher": "The Block",
+        "published_date": "2026-04-30",
+        "accessed_date": "2026-10-13",
+        "quote": "Multicoin Capital led the round, with Solana Ventures, RockawayX, L1D, Prelude, and Theia Blockchain participating.",
+        "self_reported": false
       }
     }
   ],
@@ -92,9 +122,9 @@
   "exclusion_reason": "out_of_scope_geography",
   "meta": {
     "extracted_by": "investor-extractor/sonnet",
-    "extracted_at": "2026-10-12T12:00:00+02:00",
-    "candidate_source": "extract_queue",
-    "notes": "Website found by search (rockawayx.com), brand formerly Rockaway Blockchain Fund. Legal entity Blockad s.r.o. (sole shareholder RockawayX a.s., IČO 17457009 per kurzy.cz); successors RockawayX Labs/Infra not verified on page. Own BetHog post says 'co-leading' but is undated; date taken from insights listing (April 22, 2026). OnRe: RockawayX's own post says co-led with Forward Industries but is undated, so dated Edgen article cited. Team of 45 across London, Prague, Dubai, so Czech base unproven. Crypto fund, liquid hedge strategies also (Relayer Capital acquisition Aug 2026)."
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv (rockawayx)",
+    "notes": "Repair run. hq_country left null: homepage and press say 'offices in London, Prague, and Dubai' (not a statement of where the investment team sits); the only Czech anchor is the legal entity Blockad s.r.o., IČO 08006458, Praha 6 (ARES), named in the homepage footer '© 2026 Blockad s.r.o. | RockawayX (previously Rockaway Blockchain Fund)'. Entity-brand link is via that footer; role unset. Capital is USD 2B AUM per Crypto Briefing (media, 2026-08-25); homepage lists '$2B+' Assets without a sentence. Exponent round was a SAFE with token warrants per The Block search summary (not quoted). Rockaway group relation: blockchain arm of Rockaway Capital (separate record). Aug 2026 acquisition of Relayer Capital is an acquisition of a hedge fund, not recorded as investment. Forbes.cz page fetch returned only headline."
   },
   "exclusion_signals": []
 }
