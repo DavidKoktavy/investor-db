@@ -71,3 +71,8 @@ Každé rozhodnutí v bodě, který zadání nechává otevřený. Formát: datu
 ## D-018 · 2026-10-12 · `seed-starter-ceske-sporitelny` neextrahuji, je to duplicita `seed-starter`
 - Alternativy: extrahovat oba (dva záznamy o tomtéž programu, dvojí náklad); doplnit alias a znovu sloučit kandidáty (mění seznam kandidátů uprostřed pilotu).
 - Proč: oba řádky mají stejný web (seedstarter.cz) a popisují tentýž program České spořitelny; na shodu upozornila i triáž (batch 07). Extrahuji jen `seed-starter`. `aliases.csv` je ruční seznam, proto alias nepřidávám sám: navrhuji ho Davidovi k doplnění. Do té doby zůstane `seed-starter-ceske-sporitelny` v `cz_vc_decisions.csv` jako `pending`.
+
+## D-019 · 2026-10-13 · Opravný průchod před ruční kontrolou (repair_01)
+- Alternativy: nechat výsledek pilotu beze změny a chyby jen popsat; dohledat IČO a sídlo ručně při kontrole.
+- Proč: šest zjevně aktivních českých VC vypadlo jen kvůli chybějící podložené právnické osobě (K1, E-19) a u šesti dalších pipeline nezjistila sídlo týmu. Prompt extraktoru navíc doporučoval zdroje zakázané v robots.txt (E-18). Opravuji prompt (rejstřík: ARES / or.justice.cz, IČO z impresa webu, respektovat robots.txt) a jen pro těchto 12 záznamů znovu spouštím extrakci a kroky R4–R8. Původní záznamy, kontroly citací i verdikty ověřovatele přesouvám do `data/records/repair_01/`, takže porovnání před/po zůstává v repozitáři. Alias `seed-starter-ceske-sporitelny → seed-starter` doplněn (D-018, schválil David). Ruční kontrola tím měří pipeline po jedné opravné iteraci; v README to uvádím.
+- Záznamy: czech-founders-vc, depo-ventures, kaya-vc, nation1, purposetech, zaka-vc (K1); alpha-intelligence-capital, borovicka-capital, btcz-ventures, ip-lab-ventures, rockawayx, tachles (neznámé sídlo).
