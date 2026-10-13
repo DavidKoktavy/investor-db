@@ -1,0 +1,17 @@
+{
+  "id": "budeto",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "CzechCrunch 2025-12-09 (within 24-month window before AS_OF 2026-10-11) names Budeto as a participant in Vetstor's current EUR 1 million round, and the quote is verbatim. The article does not give a stage for this round (it only calls the earlier April round pre-seed), so the 'seed' label is unsupported. Budeto is also the studio where Vetstor was conceived, so this is a studio co-founder participating rather than a pure external investment.",
+      "observed_value": {"round": "unnamed round, EUR 1 million total (approx. CZK 24 million)", "announced_date": "2025-12-09"}
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The only cited source calls Budeto a 'startupove studio' founded by Petr Kovacik, not a VC fund manager. Its single in-window deal is in a company it incubated itself. No cited page states where the team is based (Czech links are indirect). It is active, but not as a VC or CVC with a confirmed CZ team."
+  }
+}

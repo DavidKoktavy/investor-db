@@ -1,0 +1,14 @@
+{
+  "id": "chilli-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site gives the address 'Arnošta z Pardubic 2789 530 02 Pardubice', which is in CZ; self-reported tier 2 is correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Registry mirror page for 'chilli-ventures-as' shows 'Identifikační číslo: 04106059'; tier 3 mirror is labelled correctly.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "The quote is about stage, not investor type. The same page says 'We invest exclusively our own capital' and 'we are LP partners in VC funds', so this is an own-capital investment company (family-office-like) that also does LP/fund-of-funds work, not clearly a VC manager.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Site says verbatim 'So our role is in the pre-seed and seed rounds'.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Site says verbatim 'Typical investment size 200-600k euros for a minority stake'. This is a per-investment ticket in EUR and matches min 200000 / max 600000.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Company article dated May 6, 2025 (inside the 24-month window from AS_OF 2026-10-11) names Chilli Ventures as a participant in the EUR 1.6M round and quotes its Managing Partner. The tier 2 label is fine, but self_reported=false is debatable because the release comes from the investee.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "Active (May 2025 deal) with a team in Pardubice, CZ. But the site says it invests exclusively its own capital and acts as an LP in VC funds, so it is arguably a family office or own-capital investment company rather than a VC manager."}
+}

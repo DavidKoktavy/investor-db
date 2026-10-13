@@ -107,3 +107,11 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,borovicka-capital,14683,7,22.6,ok
 2026-10-13,evidence-verifier,opus,aternus-family-office,17708,8,36.5,ok
 2026-10-13,evidence-verifier,opus,badideas-fund,17276,8,31.0,ok
+2026-10-13,evidence-verifier,opus,bd-partners,19227,9,46.5,ok
+2026-10-13,evidence-verifier,opus,btcz-ventures,15463,6,30.5,ok
+2026-10-13,evidence-verifier,opus,braiins,14919,6,31.7,ok
+2026-10-13,evidence-verifier,opus,bpd-partners,17360,8,35.1,ok
+2026-10-13,evidence-verifier,opus,budeto,14838,6,33.0,ok
+2026-10-13,evidence-verifier,opus,chilli-ventures,16121,7,27.0,ok
+2026-10-13,evidence-verifier,opus,czech-founders-vc,17024,9,27.8,ok
+2026-10-13,evidence-verifier,opus,credo-ventures,18657,11,33.9,ok

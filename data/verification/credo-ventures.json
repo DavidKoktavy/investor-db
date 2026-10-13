@@ -1,0 +1,16 @@
+{
+  "id": "credo-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own team/homepage lists office 'Karlovo Náměstí 10, 120 00, Prague, Czech Republic' (second office in Kraków, PL); quote alone is just a street address but surrounding text states Czech Republic.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Registry mirror shows 'Credo Ventures a.s.', IČO 28538137, seat Karlovo náměstí 2097/10, Praha 2; no deletion shown. Role 'management_company' is inferred, not stated on the page (scope is generic trade/consulting).", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own homepage: 'The fund of choice for CEE founders...', lists '5 Funds', backs 100+ companies; VC manager.", "observed_value": null},
+    {"path": "stages", "verdict": "partially_supported", "reason": "'Leading Pre-Seed rounds' is verbatim, but the page states stage as 'Pre-seed — Onwards', so pre_seed only under-captures the stated range.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Homepage list item '$1M - $5M checks.' is the fund's own ticket size, USD.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Raise Track update dated May 29, 2026 lists Picogrid $45M Series A with Credo Ventures among investors; lead not stated, so 'participant' is fine. Within 24-month window. Tier 3 newsletter, no primary source.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "'$15 million in a Seed round... led by Index Ventures with participation from Credo Ventures'; page 'Updated December 03, 2025', Funding Date December 2025; within window.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "partially_supported", "reason": "Deal and participant role verified (EUR 2.2M, led by Tilia Impact Ventures, participation from Credo), but dated May 27, 2024, which is before the 24-month window start (2024-10-11); dormant-range only.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described VC fund with Prague HQ office and Czech a.s. management entity (plus Kraków office); two verified participations within the window (Dec 2025, May 2026), though both via tier-3 aggregators."}
+}

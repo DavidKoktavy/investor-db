@@ -1,0 +1,14 @@
+{
+  "id": "czech-founders-vc",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site lists a Prague 6 office address (Gen. Píky 430/26) and Czech Founders Ventures s.r.o.; it also lists a Bratislava office, but Prague is primary.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "The 2022 CzechCrunch article says 45 founders put money into Czech Founders VC, which is regulated as an alternative investment fund (EUR 10m over 4 years). This is a VC fund, separate from the Czech Founders NGO.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Own site: 'Pre-seed tickets. Typically €50-350k.'", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Own site gives a per-company pre-seed ticket of EUR 50-350k. The 2022 CzechCrunch article states the same range.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Nordic9, dated 2026-06-03 (inside the window): Merchantee pre-seed round led by Reflex Capital 'with participation from Czech Founders VC'. Named as an investor, so role participant is correct. Round size is inconsistent on the page (EUR 1.8m headline vs USD 2.1m body), but the record does not use it.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "CzechCrunch, dated 2026-01-14 (inside the window): Maxfusion announces a EUR 350k investment from Czech Founders VC, an angel investor and the founders. The investor is named; no split is given, so role/instrument 'unknown' is appropriate.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Founder-backed AIF VC with a Prague office and team. It has two investor-named deals in 2026, inside the 24-month window before AS_OF 2026-10-11."}
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bpd-partners",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "supported",
+      "reason": "Registry mirror gives seat 'Evropská 2758/11, 160 00 Praha - Dejvice' for bpd partners a.s.; this is the registered seat only, the page does not say where the investment team sits; tier 3 mirror label is fine.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "Page shows bpd partners a.s., IČO 27342875. The role 'management_company' is a plausible reading: the registry lists main investment services limited to specified persons, plus accounting and real-estate rental.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "E15 says the group 'spravuje investice miliardářů Bobely, Dobrovského a Pudila' and calls it an 'investiční skupina'. That fits a multi-family investment vehicle, but the page never says 'family office' and does not describe it as a VC. published_date should be 2021-03-13 (stated on page), not null.",
+      "observed_value": {"published_date": "2021-03-13"}
+    },
+    {
+      "path": "sectors",
+      "verdict": "partially_supported",
+      "reason": "The surrounding sentence supports health_biotech (biotech/diagnostic start-ups) and climate_energy (obnovitelné zdroje energie). proptech_construction is a stretch: the page says 'realitní development' (real-estate development investment), not proptech. The quoted fragment itself covers only biotech. The article is dated 2021-03-13 and is 5+ years old.",
+      "observed_value": ["health_biotech", "climate_energy", "real_estate_development", "chemicals"]
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Powerful Medical blog dated 2022-09-28 names bpd partners among the investors in its EUR 6.2M seed round. However, the date is OUTSIDE both the 24-month window (start 2024-10-11) and the 36-month dormant window (start 2023-10-11) before AS_OF 2026-10-11. Tier 2 company announcement is correct.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Cited sources show a Prague-registered investment group managing three billionaires' money (family-office-like, not a VC manager). The only cited deal is from Sep 2022, outside the 24/36-month windows, so the cited sources give no evidence of current activity."
+  }
+}

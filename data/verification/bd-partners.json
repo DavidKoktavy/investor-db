@@ -1,0 +1,47 @@
+{
+  "id": "bd-partners",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "supported",
+      "reason": "Registry mirror gives seat 'Praha - Dejvice, Generála Píky 430/26, 16000', so the registered seat is CZ. The page does not say where the investment team sits.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "Page names 'BD Partners a.s.', IČO 19286511, incorporated 25. 4. 2023. Note: the page does not list board members, so the meta note that Duvieusart is on the board is not backed by this page.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "The quote is verbatim, and the article also says 'joint family office, nejsme klasický fond'. Mislabel: these are the investor's own words (Bartoníček), so self_reported should be true.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "partially_supported",
+      "reason": "The quote is verbatim and supports software plus software-hardware tech (mapping that to deeptech_hardware is a loose reading). Mislabel: the interviewee's own statement, so self_reported should be true.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Lupa.cz, 16. 9. 2025: Myriad AI seed round of USD 7.8M, led by Category Ventures. BD Partners is listed among the participants. The date falls inside the 24-month window (from 2024-10-11).",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "partially_supported",
+      "reason": "Page says the EUR 430K pre-seed round was 'co-led by BDPartners alongside DEPO Ventures', and the co-founders are named, so the entity matches. The page shows no publication date, so we cannot confirm it falls inside the window.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "yes",
+    "reason": "The cited sources support an active investor of the claimed type (joint family office) with a Prague seat, and it has a dated in-window deal (Myriad AI, Sep 2025). Caveats: the investor says it is not a classic fund, so it falls outside the cz_vc VC/CVC types. Team location in CZ is inferred from the seat and from 'náš region', not stated outright."
+  }
+}

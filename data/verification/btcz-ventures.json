@@ -1,0 +1,29 @@
+{
+  "id": "btcz-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Quote verbatim: 'a company that invests in ... startups', so it is an investor. But the page also says it was founded by BPD Partners with B3 Holding (Bruzek family) and is 'part of BPD Partners Group'. That reads like a group or family-office investment vehicle. Nothing on the page shows a VC fund manager, so the 'vc' label is a judgment call.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "Page states verbatim that it invests in medical technology and biotechnology startups; medtech and health_biotech match.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "Article dated 2025-12-03, inside the 24-month window. The quote refers to research funding at IOCB Prague (EUR 1.75m in 2018, EUR 1m in June 2023), not an investment in Taveren. The new Taveren contribution and largest-shareholder role are attributed to BPD Partners / BPD Partners Group, not explicitly to BTCZ Ventures.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "The only source is one third-party article. It shows BTCZ as a long-term research funder, and the Dec 2025 equity stake in Taveren sits with parent BPD Partners Group. No in-window startup investment is attributed to BTCZ itself. The VC type is unclear (group or family-office vehicle). Team country is not stated, and hq_country is null."
+  }
+}

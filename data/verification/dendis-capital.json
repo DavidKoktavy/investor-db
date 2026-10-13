@@ -1,0 +1,14 @@
+{
+  "id": "dendis-capital",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Imprint on own site: 'Dendis Capital nadační fond, Příkop 843/4, Zábrdovice, 602 00 Brno' -> CZ.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Imprint names 'Dendis Capital nadační fond', IČ 19786514, N 837/KSBR at Krajský soud v Brně; same entity as the investor.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Site says 'Jsme rodinný nadační fond' investing its own capital in companies; family_office mapping with subtype family foundation is consistent. Not a VC manager.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "Quote supports life science, diagnostics, medical devices (health_biotech, medtech); nothing in the quote or page read supports ai_data (portfolio names like KARDI AI are not a stated focus).", "observed_value": ["health_biotech", "medtech"]},
+    {"path": "stages", "verdict": "supported", "reason": "Site states investing in 'zavedených společností s růstovým potenciálem' -> growth; note it also mentions supporting začínající podniky (early stage), which the record omits.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Article dated 14.07.2026 (within 24-month window before 2026-10-11) on a new HTG Medical pre-seed round (EUR 450k, led by Garage Angels/Electron) naming Dendis Capital as existing investor participating. Label caveat: piece is a PROTEXT commercial release, not independent news, so tier 3 overstates independence.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Brno-based family foundation investing own capital, with a participation in a July 2026 pre-seed round and a portfolio listed on its site; it is a family office type, not a VC/CVC manager, so outside the cz_vc segment types."}
+}
