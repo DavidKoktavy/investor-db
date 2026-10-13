@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "id": "tcf-capital",
+  "name": "TCF Capital",
+  "website": null,
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "No fetched page states where the team sits; CZ is only implied (Czech owner, Czech media)."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "private_holding",
+    "subtype": "investment group of Tomáš Čupr (Rohlik Group founder)",
+    "source": {
+      "url": "https://www.e15.cz/byznys/majitel-rohliku-cupr-se-pousti-do-investovani-zaklada-fond-tcf-capital-1399067",
+      "tier": 3,
+      "publisher": "E15",
+      "published_date": "2023-06-27",
+      "accessed_date": "2026-10-13",
+      "quote": "Majitel společnosti Rohlik Group Tomáš Čupr spouští činnost své investiční skupiny pod názvem TCF Capital.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "consumer_ecommerce",
+      "logistics_supply_chain",
+      "industrial_manufacturing"
+    ],
+    "raw": "výroba a zpracování rychloobrátkového zboží, e-commerce, logistika, skladování",
+    "source": {
+      "url": "https://www.e15.cz/byznys/majitel-rohliku-cupr-se-pousti-do-investovani-zaklada-fond-tcf-capital-1399067",
+      "tier": 3,
+      "publisher": "E15",
+      "published_date": "2023-06-27",
+      "accessed_date": "2026-10-13",
+      "quote": "výrobě a zpracování rychloobrátkového zboží",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 720000000,
+      "currency": "EUR",
+      "basis": "reported_aum",
+      "as_of": "2023-06-27"
+    },
+    "source": {
+      "url": "https://www.e15.cz/byznys/majitel-rohliku-cupr-se-pousti-do-investovani-zaklada-fond-tcf-capital-1399067",
+      "tier": 3,
+      "publisher": "E15",
+      "published_date": "2023-06-27",
+      "accessed_date": "2026-10-13",
+      "quote": "Celková hodnota spravovaných aktiv skupiny aktuálně převyšuje 720 milionů eur",
+      "self_reported": false
+    }
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Eco-Stations",
+      "company_website": null,
+      "announced_date": "2024-07-26",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky",
+        "tier": 3,
+        "publisher": "Newstream",
+        "published_date": "2024-07-26",
+        "accessed_date": "2026-10-13",
+        "quote": "investovala několik desítek milionů korun do české firmy Eco-Stations",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Keboola",
+      "company_website": "https://www.keboola.com",
+      "announced_date": "2023-12-01",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://tech.eu/2023/12/01/avast-co-founder-invests-in-keboolas-32m-series-a-funding-round",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2023-12-01",
+        "accessed_date": "2026-10-13",
+        "quote": "saw the participation of Presto Ventures, Reflex Capital, TCF Capital",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv (hint: Keboola investor)",
+    "notes": "No official website or registry entry (IČO) found; legal_entities empty. Family/holding investment group of T. Čupr, main asset Rohlik Group; not a classic VC. Newest dated deals: Eco-Stations (Jul 2024, 'up to 30% stake', E15/newstream; Forbes headline says ten-million stake, no date), Keboola Series A (Dec 2023). Pilulka (Jul 2024, cc.cz) is a loan with option for control stake, not used as equity evidence. CB Insights lists Rohlik Series E Jun 2024 (aggregator, not used). No 2025-2026 deal found; Dec 2025 article reportedly says investment head Peter Klekner left (CB Insights lead, unverified). AUM figure is from June 2023."
+  }
+}
