@@ -1,0 +1,12 @@
+{
+  "id": "emun",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own homepage footer gives address Anežská 986/10, 110 00 Praha 1 (Czechia); self-reported, tier 2 correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Mirror of a registry filing names EMUN investiční společnost, a.s., Anežská 986/10, IČO 284 95 349 (it acquired the business unit of EMUN family office, a.s. on 9.12.2025). Third-party mirror, so tier 3 / self_reported false are correct; role management_company is not stated on this page.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "The value family_office is right (the page says 'Jsme family office pro správu a investování majetku...'), but the cited quote only states AUM and does not support the type.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Homepage says 'Obhospodařujeme přes 16 miliard Kč investičního majetku': 'přes' means 'over', so 16 bn CZK is a lower bound of reported AUM (firm-wide wealth under management, not VC capital).", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "Prague-based multi-family office / wealth manager (16 bn CZK AUM) that mentions developing venture capital and growth equity but cites no investment activity; not a VC/CVC manager with evidenced deals in the window."}
+}

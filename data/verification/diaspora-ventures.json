@@ -1,0 +1,12 @@
+{
+  "id": "diaspora-ventures",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "TechCrunch (2020-07-21): 'Meet Diaspora Ventures, a new VC fund based in the U.S.'; partners have lived in the U.S. >10 years. Note source is from 2020; homepage gives no office location but partner bios mention SF.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own homepage, verbatim: 'We're a new breed of pre-seed fund with deep operating and investing experience'; vc/pre-seed and self_reported=true, tier 2 are correct.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Same homepage sentence states pre-seed fund; pre_seed mapping is correct.", "observed_value": null},
+    {"path": "ticket", "verdict": "partially_supported", "reason": "Article says 'average check between $100,000 and $200,000' for early-stage rounds: an average range, not a stated min/max, and dated July 2020 (6 years before AS_OF), so it may be stale. Currency and units are correct.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "Cited sources show a US-based pre-seed VC backing French or European founders. Neither cited page mentions Czechia, and the record has no dated activity evidence in the 24-month window. It does not fit the cz_vc segment."}
+}

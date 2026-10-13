@@ -115,3 +115,8 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,chilli-ventures,16121,7,27.0,ok
 2026-10-13,evidence-verifier,opus,czech-founders-vc,17024,9,27.8,ok
 2026-10-13,evidence-verifier,opus,credo-ventures,18657,11,33.9,ok
+2026-10-13,evidence-verifier,opus,dendis-capital,16809,7,32.2,ok
+2026-10-13,evidence-verifier,opus,diaspora-ventures,14454,7,22.8,ok
+2026-10-13,evidence-verifier,opus,depo-ventures,16836,9,27.2,ok
+2026-10-13,evidence-verifier,opus,emun,15508,7,26.8,ok
+2026-10-13,evidence-verifier,opus,eic-fund,18239,10,34.8,ok

@@ -1,0 +1,47 @@
+{
+  "id": "eic-fund",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "partially_supported",
+      "reason": "Cited quote does not mention Luxembourg. Elsewhere the 2022 DZS page says 'AlterDomus, a Luxembourg-based company, has been chosen as the administrator', but it does not say where the investment team sits. The source is tier 3, from 2022, and is about the outsourced administrator, not the EIC Fund (an EU/EC vehicle).",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "supported",
+      "reason": "EIC page verbatim: 'the EIC Fund is the Venture Capital investment arm of the European Innovation Council'. Note: it is a public EU fund financed by the European Commission, not a private VC manager.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "partially_supported",
+      "reason": "Page says the fund 'has invested in more than 360 deep tech companies across Europe'. Deep tech is supported, but mapping it to deeptech_hardware specifically is an inference; the page lists no sectors.",
+      "observed_value": null
+    },
+    {
+      "path": "capital",
+      "verdict": "partially_supported",
+      "reason": "Page says 'With a capitalisation of over EUR 4 billion', so the amount and currency match. But this is capitalisation (committed budget), not stated as AUM, and it is a lower bound ('over'). basis=reported_aum is a loose label.",
+      "observed_value": {"amount": 4000000000, "currency": "EUR", "basis": "capitalisation (over)"}
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Tech.eu, 5 May 2026: eleQtron EUR 57m Series A led by Schwarz Digits 'with participation from the European Innovation Council Fund'. Investor role confirmed and the date is within the 24-month window (start 2024-10-11).",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "supported",
+      "reason": "WMW, 19 Jun 2023: Sensoneo EUR 6.2m Series A led by Taiwania Capital, with EIC Fund as an existing participating investor. The quote is accurate, but 2023-06-19 is before both the 24-month window (2024-10-11) and the 36-month dormant start (2023-10-11), so it does not count as recent activity.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Active VC-type investor (2026 eleQtron deal), but it is an EU/European Commission public equity fund with no investment team in Czechia. The only location evidence points to Luxembourg (administrator) or Brussels (EC), so it is outside the cz_vc segment."
+  }
+}

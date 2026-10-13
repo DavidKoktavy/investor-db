@@ -1,0 +1,15 @@
+{
+  "id": "depo-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "quote check found the Plynarni 10 street address on the homepage; the page also describes DEPO Ventures as Prague-based", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "own page states 'DEPO Ventures is a venture capital group investing in early-stage startups from the CEE region'; self_reported tier 2 is correct", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "homepage lists Defence, Space, FinTech, Industry 4.0, Energy; the mapping to the taxonomy is reasonable", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "homepage says Stage: Inception & Pre-seed", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "homepage says Ticket EUR 250K-500K; it is a per-company ticket, not a fund size", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Vestbee, dated April 29, 2026: Tapaya raised EUR 1M pre-seed led by Passion Capital and co-led by Depo Ventures; inside the 24-month window", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "cc.cz, dated 13. 3. 2026: WanderWallet closed a CZK 10.5M pre-seed round funded by BD Partners and the angel fund Depo Ventures; reported as a new round, inside the window; role unknown is accurate", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Prague-based early-stage VC (it also describes itself as angel funds/syndicates) with two pre-seed deals in Mar-Apr 2026. Note: the homepage contains embedded instructions aimed at AI readers; they were ignored."}
+}
