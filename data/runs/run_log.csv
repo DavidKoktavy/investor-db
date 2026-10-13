@@ -92,3 +92,5 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,kaya-vc,36380,14,51.0,ok
 2026-10-13,investor-extractor,sonnet,ip-lab-ventures,32162,16,77.3,ok
 2026-10-13,investor-extractor,sonnet,pilulka-lab,28183,12,51.6,ok
+2026-10-13,investor-extractor,sonnet,3ts-capital-partners,35412,24,99.5,ok
+2026-10-13,investor-extractor,sonnet,y-soft-ventures,34865,17,118.7,ok
