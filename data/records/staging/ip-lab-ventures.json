@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "id": "ip-lab-ventures",
+  "name": "IP Lab Ventures",
+  "website": "https://www.iplventures.com",
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "No usable non-paywalled source states where the team sits. Leads: PEI profile lists Prague HQ (paywalled DB, not used); legal entity IP Lab Holding s.r.o. has seat in Praha 1 (ARES)."
+  },
+  "legal_entities": [
+    {
+      "name": "IP Lab Holding s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "24586200",
+      "role": "other",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24586200",
+        "tier": 1,
+        "publisher": "ARES",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"24586200\",\"obchodniJmeno\":\"IP Lab Holding s.r.o.\"",
+        "self_reported": false
+      }
+    },
+    {
+      "name": "IP Lab GP S.à r.l.",
+      "registry": "LU-RCS",
+      "registry_id": "B307163",
+      "role": "general_partner",
+      "source": {
+        "url": "https://www.iplventures.com",
+        "tier": 2,
+        "publisher": "IP Lab Ventures",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "IP Lab GP S.à r.l., RCS Luxembourg B307163",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "No quotable source describing it as VC found; fund invests equity in university spin-offs."
+  },
+  "sectors": {
+    "value": [
+      "ai_data",
+      "deeptech_hardware",
+      "health_biotech"
+    ],
+    "raw": "umělé inteligence, robotiky, polovodičů, biotechnologií nebo nových materiálů",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/ceske-univerzitni-napady-maji-dostat-az-miliardu-na-cestu-z-laboratore-do-byznysu-vetsina-penez-jde-z-evropy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2026-09-23",
+      "accessed_date": "2026-10-13",
+      "quote": "umělé inteligence, robotiky, polovodičů, biotechnologií nebo nových materiálů",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only 'up to EUR 1 million per company' (Lupa), a maximum, not a typical first cheque."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [
+    {
+      "name": "IP Lab Ventures Fund I",
+      "vintage": 2026,
+      "size": {
+        "amount": 1200000000,
+        "currency": "CZK",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://cc.cz/vlada-posila-700-milionu-do-noveho-druhu-fondu-zameri-se-i-na-ai-ridi-ho-byvaly-sef-dame-jidlo/",
+        "tier": 3,
+        "publisher": "CC.cz (CzechCrunch)",
+        "published_date": "2026-09-23",
+        "accessed_date": "2026-10-13",
+        "quote": "Celkem přitom cílí na částku 1,2 miliardy korun",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet (repair run)",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Fund I newly launched (EIF CZK 656m from National Recovery Plan, cc.cz 2026-09-23, 'získal 656 milionů korun od Evropského investičního fondu (EIF)'). Website lists portfolio (Atomiver, MendelFOLD, Preagon Biotech, GWN, AMADTEUS, Biorea) with no dates or deal terms; partner Hladky co-founded several of them, so they look like venture-builder projects; no dated investment by the investor found, evidence_of_activity empty. Site fetched via WebFetch only (curl 403); stages on site Pre-seed/Seed/PoC but exact quote not captured, left null. Brand-to-entity link: site footer '© 2026 IP Lab Holding s.r.o.'. Sector mapping approximate. hq: Czech Republic is probable (CEE focus, Prague seat, Czech partners) but unsourced."
+  }
+}
