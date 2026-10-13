@@ -94,3 +94,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,pilulka-lab,28183,12,51.6,ok
 2026-10-13,investor-extractor,sonnet,3ts-capital-partners,35412,24,99.5,ok
 2026-10-13,investor-extractor,sonnet,y-soft-ventures,34865,17,118.7,ok
+2026-10-13,investor-extractor,sonnet,alpha-intelligence-capital,31045,16,73.0,ok
+2026-10-13,investor-extractor,sonnet,diaspora-ventures,27264,8,42.3,ok
+2026-10-13,investor-extractor,sonnet,borovicka-capital,28086,12,56.7,ok

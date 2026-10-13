@@ -1,0 +1,15 @@
+{
+"schema_version":"1.0","id":"diaspora-ventures","name":"Diaspora Ventures","website":"https://diaspora.vc",
+"hq_country":{"value":"US","source":{"url":"https://techcrunch.com/2020/07/21/diaspora-ventures-wants-to-invest-in-french-founders-with-a-global-mindset","tier":3,"publisher":"TechCrunch","published_date":"2020-07-21","accessed_date":"2026-10-13","quote":"a new VC fund based in the U.S.","self_reported":false}},
+"legal_entities":[],
+"type":{"value":"vc","subtype":"pre-seed","source":{"url":"https://diaspora.vc","tier":2,"publisher":"Diaspora Ventures","published_date":null,"accessed_date":"2026-10-13","quote":"We're a new breed of pre-seed fund with deep operating and investing experience","self_reported":true}},
+"sectors":{"value":null,"null_reason":"not_published","note":"Homepage says only tech companies; no narrower sector."},
+"stages":{"value":["pre_seed"],"raw":"pre-seed fund","source":{"url":"https://diaspora.vc","tier":2,"publisher":"Diaspora Ventures","published_date":null,"accessed_date":"2026-10-13","quote":"We're a new breed of pre-seed fund with deep operating and investing experience","self_reported":true}},
+"ticket":{"value":{"min":100000,"max":200000,"currency":"USD"},"source":{"url":"https://techcrunch.com/2020/07/21/diaspora-ventures-wants-to-invest-in-french-founders-with-a-global-mindset","tier":3,"publisher":"TechCrunch","published_date":"2020-07-21","accessed_date":"2026-10-13","quote":"an average check between $100,000 and $200,000","self_reported":false}},
+"capital":{"value":null,"null_reason":"not_published"},
+"funds":[],
+"evidence_of_activity":[],
+"exclusion_signals":[],
+"status":"pending","exclusion_reason":null,
+"meta":{"extracted_by":"investor-extractor/sonnet","extracted_at":"2026-10-13T12:00:00+02:00","candidate_source":"CzechCrunch deal newsletter",
+"notes":"Investment team appears US-based (TechCrunch 2020; aggregators disagree: NY/SF/Paris), backs European (mainly French) founders; no Czech link found. No legal entity registry id found (aggregator mentions SEC RIA CRD 310368, not used as evidence). No dated deal evidence: only CB Insights (aggregator) lists DiffuseDrive May 2025, but Dealroom/funding.tech list other investors, so not used. Ticket is from a 2020 article. Homepage lists many portfolio logos without dates."}}
