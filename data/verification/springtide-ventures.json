@@ -1,0 +1,19 @@
+{
+  "id": "springtide-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Quote lists presence in Prague, Tel-Aviv and Boston equally; it does not say the HQ or investment team is in Prague. The Prague seat is supported only by the registry page (Evropska 866/71, Praha 6), and no team member's location is stated.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "kurzy.cz shows Springtide Ventures s.r.o., ICO 01726587, Praha 6, registered 2013-05-28, no deletion; sole shareholder is KKCG Technologies s.r.o. Tier 3 mirror and self_reported=false are correct.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Page confirms a 100% subsidiary of KKCG Group that invests solely KKCG capital (a captive venture arm). KKCG is a private investment group, not an operating corporate, so 'cvc' rather than holding/family-office venture arm is an interpretation the page does not state.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Verbatim on the about page: SaaS focus with Cyber Security, Cloud Infrastructure, Horizontal AI/ML and Blockchain. The mapping to software_saas, cybersecurity_defense and ai_data is reasonable.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Verbatim: 'from Seed through Series A and B up to Series C'. series_b_plus covers B and C.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Verbatim: 'Our investments typically range between one and ten million US dollars' = USD 1,000,000-10,000,000, a per-investment ticket.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "ThreatMark release dated 2025-01-07 (inside the window starting 2024-10-11): a $23M round including 'an $8 million convertible note from Springtide Ventures Fund'. Springtide is named as an investor. Role is not stated, so 'unknown' is correct. Note this is a follow-on into an existing portfolio company (first invested 2017; Springtide is the largest shareholder).", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "cc.cz article dated 2022-04-27: Springtide led the rounds, and Source Defense raised $27M in a Series B. The lead is stated for the two rounds together. The date is outside both the 24- and 36-month windows before AS_OF 2026-10-11, so it does not count as recent activity.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Prague-registered captive venture arm of KKCG. The only in-window evidence is one follow-on convertible note (Jan 2025) into an existing portfolio company, and no new deals since 2022 are shown. The page does not say whether the team sits in Prague or in Tel-Aviv/Boston. Whether the type is 'cvc' or a holding/family-office arm is debatable."
+  }
+}

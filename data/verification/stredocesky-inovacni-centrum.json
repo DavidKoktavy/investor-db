@@ -1,0 +1,17 @@
+{
+  "id": "stredocesky-inovacni-centrum",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Homepage shows the address 'Strakonická 3367 150 00 Praha 5 – Smíchov', which is in CZ. The quoted fragment is only the street, and the country is not stated explicitly.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "The registry mirror page for IČO 04228235 names 'Středočeské inovační centrum, spolek'. The homepage uses the same legal name. The page is a tier-3 mirror.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "The SIC Ventures page says 'Podporujeme inovativní projekty napříč obory' (across fields). Note: the focus is mainly on SIC-linked startups in the Central Bohemian Region.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "The page targets startups with an 'MVP a první zákazníky' (an MVP and first customers). Mapping this to seed is a reasonable reading.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "The page states 'investiční ticket až do výše 80 000 EUR' (an investment ticket of up to EUR 80,000). This is a stated maximum, and min is correctly null.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch article dated 2026-10-01 (inside the 24-month window). It announces Elredo's new round of over EUR 1M led by JIC Ventures and names 'investiční program SIC' as a participating investor. The article is tagged 'Středočeské inovační centrum'. The short form 'SIC' is identified only through that tag.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "The team is clearly in CZ (Prague) and there is one recent deal participation. But this is a regional innovation agency (a spolek, i.e. an association) running a small programme of convertible loans and equity up to EUR 80k. It is not clearly a VC/CVC manager, and the record leaves type null."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "startguide-vc",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Imprint gives Start Guide, s.r.o., Opletalova 1015/55, Praha 1; registered address in CZ (team location not stated explicitly, but the site is Czech-language and Prague is the only location given).", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Imprint on own site states 'Start Guide, s.r.o.' with 'IČ: 28418425'; role management_company is inferred, not stated on the page.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Homepage: 'Investoři podporující digitální startupy v rané fázi v regionu střední a východní Evropy'; it also mentions 'našeho fondu', so this is an early-stage fund investor (self-reported).", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Quote verbatim: Healthtech, podnikový software, Fintech a kybernetická bezpečnost. The mapping to health_biotech/software_saas/fintech/cybersecurity_defense is reasonable. ai_data rests on the raw 'AI transformace', which is not in the cited quote.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "'Zvažujeme investiční příležitosti až do úrovně seed a poskytujeme mostní financování' fits pre_seed+seed.", "observed_value": null},
+    {"path": "ticket", "verdict": "partially_supported", "reason": "Page says 'okolo 100 000 Eur' per project, but the same page's terms state 'Velikost investice 50-200 000 USD'. Min=max=100k EUR flattens an approximate figure. The ticket also applies to SGOne, whose investment window closed 1 May 2023.", "observed_value": {"min": 50000, "max": 200000, "currency": "USD"}},
+    {"path": "funds[0]", "verdict": "supported", "reason": "'Fond směřuje k hodnotě 6 milionů Eur a je z 30 % naplněn' = EUR 6M target. The page also says the fund started 1 June 2022 (vintage left null) and that the investment window closed 1 May 2023.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch article dated 22. 3. 2024 lists 'venture kapitálová společnost Startguide VC' under 'Kdo investuje' in Carebot's EUR 1.2M round. The date 2024-03-22 is before the 24-month window start (2024-10-11), so the deal falls in the dormant band.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "A Prague-registered early-stage VC manager with a self-described fund. The only cited deal (Carebot, 2024-03-22) is about 30.5 months before AS_OF, outside the 24-month window. The SGOne investment period closed in May 2023. No cited evidence of activity within the window."
+  }
+}

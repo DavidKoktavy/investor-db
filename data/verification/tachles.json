@@ -1,0 +1,29 @@
+{
+  "id": "tachles",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "supported",
+      "reason": "Own homepage: 'Early-stage specialist for cyber, cloud, AI' and 'Institutional-Grade Venture Capital'; self_reported true and tier 2 are correct.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "CzechCrunch 2024-06-13 quote is verbatim and about Tachles VC: it targets cybersecurity, cloud infrastructure and AI. The mapping to cybersecurity_defense and ai_data is correct, and cloud is left unmapped.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "Article (2025-02-12) lists Hirundo among 'Loni zainvestované projekty Tachles VC', so Tachles is an investor. But this recaps 2024 deals with no dates, so it may predate WINDOW_START 2024-10-11. USD 7.6M is the total of two rounds, not Tachles' ticket.",
+      "observed_value": {"deal_period": "2024 (exact date not stated)"}
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Tachles is clearly an early-stage VC: 7 investments in 2024, and the site lists later portfolio companies. But no cited item has a dated deal clearly within 24 months. Team country is also unclear: CzechCrunch calls it a Czech fund with Czech founders (Tusek, Marek), while the website shows a US (Peachtree Corners, GA) address and partners in Israel and the US."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "startupyard",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Contact page 'Visit Us' shows 'Perlova 5 , Prague 1, Czech Republic'; FAQ also says 'based in beautiful Prague'.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "finmag mirror shows StartupYard Batch 15 s.r.o., ICO 22266852, founded 14.11.2024, at Perlova 371/5 Praha (same address as StartupYard office); role 'other' (per-batch vehicle) is a reasonable label, page does not state its function.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "FAQ verbatim: 'Central Europe's leading pre-seed and seed accelerator for technology startups'; invests via convertible note, consistent with vc/accelerator subtype; self_reported=true, tier 2 correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "Quote is verbatim but describes the focus of Batch 15 only, not the investor's general sector mandate; page shows no publication date, so published_date 2025-09-11 is not confirmed by the cited page.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "FAQ verbatim 'pre-seed and seed accelerator'.", "observed_value": null},
+    {"path": "ticket", "verdict": "partially_supported", "reason": "FAQ states optional EUR 25,000 cash on top of a EUR 45,000 in-kind convertible note (total note EUR 70,000, ~5% equity); EUR 25k is the cash part only, so the ticket understates the stated investment per startup.", "observed_value": {"cash": 25000, "in_kind": 45000, "total_convertible_note": 70000, "currency": "EUR"}},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch 14.2.2025: Ydoca pre-seed round CZK 2.3m total, 'StartupYard castkou 500 tisic korun' as investor; date 2025-02-14 is within the 24-month window (start 2024-10-11); not a recap.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Prague-based pre-seed/seed accelerator investing cash plus in-kind via convertible notes, with a supported Feb 2025 investment (Ydoca) in window and a new batch vehicle founded Nov 2024; whether an accelerator counts as vc is a rule question for code."}
+}

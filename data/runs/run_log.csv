@@ -157,3 +157,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,spinoffy,15047,6,26.2,ok
 2026-10-13,evidence-verifier,opus,seed-starter,19280,10,37.4,ok
 2026-10-13,evidence-verifier,opus,soulmates-ventures,20249,12,38.9,ok
+2026-10-13,evidence-verifier,opus,springtide-ventures,20309,9,49.3,ok
+2026-10-13,evidence-verifier,opus,startupyard,17736,10,31.9,ok
+2026-10-13,evidence-verifier,opus,startguide-vc,18195,8,32.4,ok
+2026-10-13,evidence-verifier,opus,stredocesky-inovacni-centrum,16776,8,29.0,ok
