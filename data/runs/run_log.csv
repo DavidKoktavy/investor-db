@@ -146,3 +146,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,odyssey-44,16182,7,33.9,ok
 2026-10-13,evidence-verifier,opus,patero,16132,8,28.3,ok
 2026-10-13,evidence-verifier,opus,orbit-capital,19512,9,39.2,ok
+2026-10-13,evidence-verifier,opus,pilulka-lab,16129,7,29.7,ok
+2026-10-13,evidence-verifier,opus,presto-ventures,20253,10,40.9,ok
+2026-10-13,evidence-verifier,opus,purple-ventures,17946,9,29.8,ok

@@ -1,0 +1,14 @@
+{
+  "id": "purposetech",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site gives the address 'Drtinova 557/10, 150 00 Prague' and names PurposeTech, s.r.o.; this is a self-reported mailing address and does not say where the team works.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own site: 'PurposeTech is a pre-seed fund that backs founders...'. vc type matches.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Own site: 'We invest in founders reshaping Health, Climate, and the Future of Work.' The mapping to health_biotech/climate_energy/hr_work is reasonable.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Own site calls itself a 'pre-seed fund'. Note that the 2026 cc.cz article describes PT Capital fund 2 cheques of EUR 0.5-1m at EUR 2-3m valuations, so stages may be broader for fund 2.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "cc.cz (2026-02-10) says PurposeTech's second fund is renamed PT Capital with a maximum size of EUR 10m (CZK 240m). The remaining money is to be raised over 18 months and no close is reported, so close=target is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Cambridge Enterprise page dated 2026-04-30 names PurposeTech as a participant in Auryx's $2M pre-seed round led by Celero Ventures. The date is within the 24-month window before AS_OF 2026-10-11.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described pre-seed VC fund with a Prague address and s.r.o. entity. It participated in a deal in April 2026 and is raising a second fund (PT Capital, Feb 2026). No cited page says where the team actually works, beyond the Prague address."}
+}

@@ -1,0 +1,17 @@
+{
+  "id": "presto-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "prestoventures.com footer gives the address 'Slovanský dům, Senovážné náměstí 869/28 110 00 Prague 1, Czech Republic'; self-reported, tier 2, correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "podnikatel.cz shows 'Presto Ventures II a.s., osoba rizikového kapitálu', IČO 11678704, a.s. founded 21.7.2021, seat Prague 1. The site's own news item also names Presto Ventures II a.s. with IČO 116 78 704. This is the Presto Ventures fund vehicle, not the Tech Horizons vehicle. The page does not state that the company is active.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Site says 'Since 2016, we've invested €40M from two funds' and 'Our new €150M fund...': a VC fund manager.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "'For Founders' section heading is 'Seed to Series A' ('Mostly post-revenue companies raising a €800k to €8M financing round').", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Page states 'Tickets ranging from €500k to €5M.' This is separate from the round size (€800k-€8M), so it is labelled correctly as the ticket.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "Tech.eu says Presto Tech Horizons 'is investing €150 million', backed by Presto Ventures and CSG. The article does not support close='target' or a 2024 vintage; it gives no fund size, target or close date. The homepage calls it 'Our new €150M fund'.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch, 11 Feb 2026 (in window): Occam's EUR 3M pre-seed round 'které vedl fond český Presto Tech Horizons, jejž založila společnost Presto Ventures'. Lead role and pre-seed are confirmed.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Tech.eu, 25 Oct 2024 (inside the window starting 2024-10-11): 'The company has raised $1.45 million with PTH as its lead investor.' AIN.UA reported the deals first, on 23 Oct 2024, but that is also in the window.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "AIN.UA, 23 Oct 2024 (in window): 'Newly launched Presto Tech Horizons has added three new startups to its portfolio, including Vidar Systems, Bavovna'. No amount or role is disclosed, so role and instrument 'unknown' are correct.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Prague-based VC manager (Presto Ventures) with its Presto Tech Horizons fund (JV with CSG) leading deals as recently as Feb 2026. One caveat: the record name mixes the manager (Presto Ventures) with the fund brand (Presto Tech Horizons), and the legal entity is the Fund II vehicle, not the Tech Horizons vehicle."}
+}

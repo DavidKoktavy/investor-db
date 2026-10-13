@@ -1,0 +1,35 @@
+{
+  "id": "pilulka-lab",
+  "verified_at": "2026-10-13T16:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "The article calls Pilulka Lab an 'Akcelerátor' that online pharmacy Pilulka and StartupYard opened together and that takes equity (7% of Carebot). That supports a corporate-backed accelerator. The cited quote only says 'accelerator', not that it is a CVC.",
+      "observed_value": "accelerator"
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "The article dated 22.3.2024 lists 'inovační laboratoř Pilulka Lab' under 'Kdo investuje' in Carebot's EUR 1.2M round, so the deal itself is supported. But 2024-03-22 is before the 24-month window start (2024-10-11), so it is not evidence of activity in the window. It falls in the 24-36 month dormant band.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "partially_supported",
+      "reason": "The article dated 2021-12-06 says the accelerator got a 7% minority stake in Carebot for 'jednotky milionů korun', so the deal is supported. It is far outside both the 24-month and 36-month windows before AS_OF 2026-10-11.",
+      "observed_value": null
+    },
+    {
+      "path": "exclusion_signals[0]",
+      "verdict": "unverifiable",
+      "reason": "No source URL is cited for this signal. The claimed redirect from pilulkalab.cz to startupyard.com cannot be checked from the cited pages. Neither cited article says where Pilulka Lab is based or whether it is still active.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The cited sources show one portfolio company (Carebot): a 2021 stake and a follow-on listing in March 2024. Both are outside the 24-month window. Pilulka Lab is described as an accelerator jointly run by a corporate (Pilulka) and StartupYard, not as a CVC fund. No source shows where its team is based."
+  }
+}

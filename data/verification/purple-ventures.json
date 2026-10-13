@@ -1,0 +1,15 @@
+{
+  "id": "purple-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Site footer: 'Purple Ventures s.r.o., Masarykova 26, 602 00 Brno, ID no: 05775574'; news item on site calls it 'Brno-based'. Footer address is legal, team location not explicit (one partner based in Prague, one in Utrecht).", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Registry mirror shows Purple Ventures s.r.o., IČO 05775574, Masarykova 409/26 Brno; same ID as site footer. Role management_company is inferred, not stated by registry.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Self-description verbatim on home page: 'We are a venture capital fund investing into CEE+ tech-enabled innovations...'.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Home page states 'pre-seed and seed stages'.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Page shows '€250k to €400k' labelled 'initial ticket size, later follow-ons' - an initial ticket, not round size.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "Tech.eu (27 Jun 2024) supports EUR 40M fund launch by 'Czech VC Purple Ventures', but does not name it 'Fund II' nor give close status; the site separately says Fund II has 'raised over CZK 700 million', link between the two not stated.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Euro.cz dated 27. 5. 2026 (within 24-month window before 2026-10-11): Purple Ventures 'nyní investuje' CZK 11M in Fether Labs alongside Chapter One and a16z Scout Fund; named as investor, new deal.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described VC fund with Brno legal seat, described as Czech/Brno-based by press, with a supported May 2026 investment within the window; team location partly Prague, consistent with CZ."}
+}
