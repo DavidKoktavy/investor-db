@@ -1,0 +1,17 @@
+{
+  "id": "thein",
+  "verified_at": "2026-10-13T16:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "CVCA member profile lists address 'Budova Enterprise / Pikrtova 1737/1a / 140 00 Praha 4 -Nusle' and website www.thein.eu; Prague address supports CZ. Profile is undated.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Bloomberg LEI page shows legal name 'Thein Private Equity SICAV a.s.' and registration ID 11733861, akciova spolecnost. Caveats: LEI registration status LAPSED, and the legal address (V parku 2308/8, Praha 148 00) differs from the CVCA address. The page does not itself tie the SICAV to the Budnik group beyond the name.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "CVCA profile says 'Type of Investment: LBO, Growth capital', which supports pe (not vc). Portfolio is majority-owned group companies (Thein Digital, Thein Systems, Thein Security), so it looks like a holding group more than a fund manager.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Page says 'Sector Preferences: industry, railway industry, IT infrastructure, cybersecurity'. The raw value matches; the mapping to industrial_manufacturing and cybersecurity_defense is reasonable.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "'LBO, Growth capital' maps to buyout and growth.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Page says 'Preferred Ammount of Investment: EUR 1-5 million in equity'. The value is a per-deal ticket, not a fund size. EUR 1,000,000-5,000,000 is correct.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Page says 'Volume of Funds Managed: EUR 40 million', so 40,000,000 EUR with basis reported_aum is correct. Undated and self-reported.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "partially_supported", "reason": "CzechCrunch, dated 16. 1. 2024, says Thein Industry, the industrial arm of the Thein group, bought the Top Alulit foundry. The deal and date are correct, but this is an acquisition by the holding's industrial arm (stake not stated), and 2024-01-16 falls before the 24-month window start (2024-10-11). It is inside the 24-36 month dormant band.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "unsupported", "reason": "E15, dated 10 June 2021, says the Thein group bought 100% stakes in Cotring and Zeleznicni dodavatelska. Thein is the buyer of the whole companies, not an investor in a round, and 2021-06-10 is older than the 36-month dormant cutoff (2023-10-11).", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "The team is in Prague (CZ), but by its own CVCA profile Thein is an LBO/growth buyer: an industrial and IT holding group that takes full or majority control. It is not a VC. Its newest cited deal (Jan 2024) is outside the 24-month window, and the LEI of its SICAV vehicle has lapsed."}
+}

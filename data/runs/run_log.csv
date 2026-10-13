@@ -161,3 +161,10 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,startupyard,17736,10,31.9,ok
 2026-10-13,evidence-verifier,opus,startguide-vc,18195,8,32.4,ok
 2026-10-13,evidence-verifier,opus,stredocesky-inovacni-centrum,16776,8,29.0,ok
+2026-10-13,evidence-verifier,opus,tachles,16745,8,33.1,ok
+2026-10-13,evidence-verifier,opus,tensor-ventures,19013,11,30.1,ok
+2026-10-13,evidence-verifier,opus,tcf-capital,17167,8,32.8,ok
+2026-10-13,evidence-verifier,opus,tilia-impact-ventures,16692,8,28.3,ok
+2026-10-13,evidence-verifier,opus,thein,19388,9,38.9,ok
+2026-10-13,evidence-verifier,opus,united-founders,20379,9,36.3,ok
+2026-10-13,evidence-verifier,opus,y-soft-ventures,18965,10,37.7,ok

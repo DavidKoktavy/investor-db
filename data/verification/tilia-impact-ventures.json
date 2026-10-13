@@ -1,0 +1,14 @@
+{
+  "id": "tilia-impact-ventures",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site lists contact address 'Drtinova 557/10, 150 00 Prague'; ARES registered seat matches (Praha 5). The page does not say explicitly where the investment team sits.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "ARES IČO 17848911 shows exact name 'Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.', seat Drtinova 557/10 Praha 5, founded 2022-12-19, no dissolution date; the 'osoba rizikového kapitálu' form fits the management_company role.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "The quote 'backs Czech and CEE region founders' plus 'Equity / Convertible debt' and an initial ticket on the same page imply a VC investor, but the page never says 'venture capital' (only 'the European impact and VC ecosystem'). Impact subtype is supported.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Page label 'Sector-agnostic, Impact-driven' maps to generalist.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Page label '0.3 - 1.2m EUR initial ticket' gives EUR 300000-1200000 as the initial ticket, not a fund or round size.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "JIC release dated 19. 5. 2026 announces FaceUp's new USD 5m Series A and names Tilia Impact Ventures as an existing investor that took part. The date is inside the 24-month window before AS_OF 2026-10-11, and Tilia's role is investor (participant).", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "The firm is an impact-focused early-stage equity investor with a Czech 'osoba rizikového kapitálu' management company and a Prague address. It took part in the FaceUp Series A in May 2026, inside the window. The team location is inferred from the Prague address only."}
+}

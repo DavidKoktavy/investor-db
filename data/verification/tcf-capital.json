@@ -1,0 +1,41 @@
+{
+  "id": "tcf-capital",
+  "verified_at": "2026-10-13T16:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "supported",
+      "reason": "E15 (27 Jun 2023) states Tomas Cupr launches his investment group TCF Capital; the same article says the focus is 'investice do ziskových firem v pozdější fázi vývoje', so private_holding fits and VC does not.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "The article lists focus 'výrobě a zpracování rychloobrátkového zboží, e-commerce, logistice a ve skladování'. Mapping FMCG production to industrial_manufacturing is a loose but acceptable reading.",
+      "observed_value": null
+    },
+    {
+      "path": "capital",
+      "verdict": "supported",
+      "reason": "Quote is verbatim: AUM 'převyšuje 720 milionů eur' (a lower bound, about 18 bn CZK), as of June 2023. The main asset is the Rohlik Group stake, so this is not investable VC capital.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Newstream (26 Jul 2024) names TCF Capital as investing several tens of millions CZK in Eco-Stations (up to a 30% stake). The article is fresh news, not a recap. The date is BEFORE the 24-month window start (2024-10-11), in the dormant range.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "supported",
+      "reason": "Tech.eu (1 Dec 2023) lists TCF Capital as a participant in Keboola's $32M Series A, led by Viking Global. The date is outside the 24-month window (start 2024-10-11), in the dormant range.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The cited source describes a later-stage private family holding (main asset Rohlik), not a VC. Both cited deals predate the 24-month window (newest 2024-07-26). No cited page states where the team is based, though it is implied to be CZ."
+  }
+}

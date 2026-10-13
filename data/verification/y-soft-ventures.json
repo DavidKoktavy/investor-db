@@ -1,0 +1,15 @@
+{
+  "id": "y-soft-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Register mirror shows seat 'Technická 2948/13, Brno 61600' for Y Soft Ventures, a.s. (IČO 29314445); this is a registered seat, so the team being in CZ is inferred, not stated.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Page shows 'Y Soft Ventures, a.s.', IČO 29314445, a.s., est. 2.4.2012, NACE incl. holding/financial intermediation; the role 'management_company' is the extractor's inference, not stated on the page.", "observed_value": null},
+    {"path": "legal_entities[1]", "verdict": "partially_supported", "reason": "Entity 'Y Soft Ventures II, a.s.' (IČO 07890150, same Brno seat, est. 2019) exists, but the page lists real-estate NACE only and nothing showing it is a fund vehicle.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Y Soft homepage says 'YSoft Labs and Y Soft Ventures provide new streams of innovation into our teams'; the ventures page sits on ysoft.com and says 'We invest in ... B2B tech startups', which fits a corporate venture arm. Tier 2 and self_reported are correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Ventures page: IoT is the focal point; also Industry 4.0, Smart Office, Cyber Security, Big Data & Analytics, hardware/software. The mapping to the four categories is reasonable.", "observed_value": null},
+    {"path": "stages", "verdict": "partially_supported", "reason": "Page says only 'early-stage technology startups or any other startup'; it never names pre-seed or seed specifically, so that mapping is the extractor's interpretation.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "EIT Jumpstarter article dated July 2, 2025 (in the window, which starts 2024-10-11) names Y Soft Ventures among the funders of RoboTwin's EUR 1.25m pre-seed round. It does not say who led or when the round closed; announced_date = publication date.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Corporate venture arm of Y Soft with Brno-registered entities and a named pre-seed investment published July 2025 within the 24-month window; team location in CZ is inferred from the registered seat, not stated on a page."}
+}

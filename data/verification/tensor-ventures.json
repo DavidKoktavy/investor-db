@@ -1,0 +1,16 @@
+{
+  "id": "tensor-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Silicon Canals headline (11 Oct 2024) says 'Czech-based Tensor Ventures'; the website also lists a Prague Karlin office. Tier 3, not self-reported, labels correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "partially_supported", "reason": "ARES confirms ICO 06257241 = Tensor Ventures a.s. (Praha 8, active, no dissolution date). The 'management_company' role is not stated by the source; it is inferred.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own website states it 'invests in uncharted territories' of deep tech and takes part in Seed/Series A rounds, consistent with a VC with a deeptech subtype. self_reported=true and tier 2 are correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "The full website sentence lists AI, Quantum Revolution, Computational Biotech and Sustainable Tech, which maps to ai_data, deeptech_hardware, health_biotech and climate_energy.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Website verbatim: 'We participate in Seed and Series A rounds.'", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "CzechCrunch (15 May 2024) supports a target size of up to EUR 50M (up to EUR 20M via EIF) and calls it 'Tensor Ventures Co-investment Fund'. The 'Fund II' label and vintage 2024 are not stated in this source, and no close is reported. close=target is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Lupa.cz, 9 Apr 2026: Edmund raises EUR 2.5M led by Forward.one, 'přidávají se University2Ventures a čeští Tensor Ventures'. Tensor is a participant investor; the date is within the 24-month window.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "CzechCrunch, 17 Dec 2025: 'Investiční kolo vedl český deeptech fond Tensor Ventures' (Repsense, EUR 1.1M). Tensor is the lead investor; the date is within the window.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Deeptech VC that led a round in Dec 2025 and joined one in Apr 2026. It is described as Czech-based, with a Prague office and a Czech a.s.; the fund vehicles are in Luxembourg, but the team appears to be in Prague."}
+}

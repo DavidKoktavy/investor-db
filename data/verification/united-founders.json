@@ -1,0 +1,18 @@
+{
+  "id": "united-founders",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Lupa: 'V Praze vznikl novy panevropsky venture fond'; team page (cited elsewhere in record) shows GP/co-founder, a Managing Partner, CFO, CTO in Prague and advisor s.r.o. in Praha 1. Team is pan-European, so CZ is the main but not the only hub.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Team page: Fund's Investment Advisor 'United Founders Advisors s.r.o.' (ID No. 21594813), Praha 1; role 'other' fits advisor. Self-reported, not registry-confirmed.", "observed_value": null},
+    {"path": "legal_entities[1]", "verdict": "supported", "reason": "Team page: Fund 'United Founders SCSp' (ID No. B300691; CSSF Code V12246); fund_vehicle correct.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Homepage tagline 'Europe's founder-led early stage VC'; tier 2 self_reported correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Lupa lists quantum, cybersecurity, health tech, AI/agentic systems, Industry 4.0, sustainability, space; mapping to the six codes is reasonable.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Lupa: 'v rozmezi pre-seed a early seed'.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Homepage: 'Investment Ticket: EUR 100k - EUR 1m' (plus follow-on up to EUR 2m). Note Lupa describes the same range as round sizes ('kol'), but the cited homepage explicitly labels it ticket.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "Lupa supports ~CZK 2bn (EUR 80M) as planned investment volume (target, not a close). Fund name 'United Founders SCSp' and vintage 2025 are not stated on the cited Lupa page (name comes from team page; vintage inferred from article date).", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "MQV 14 April 2026: Peak Quantum pre-seed EUR 2.2M 'led by Cloudberry Ventures and including United Founders'; participant role correct; within 24-month window. Instrument 'equity' inferred from 'venture capital funding' (not stated explicitly).", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Lupa 2025-11-05 says the fund announced its first two investments, money goes to Wonderful.ai (and EveryHealth); announced within window; role/instrument correctly left unknown. Homepage also lists Wonderful as portfolio.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described early-stage VC with a 2025 fund (Lux SCSp, CSSF-registered), two deals in window (Wonderful 2025-11, Peak Quantum 2026-04); founded in Prague with GP/co-founder, a Managing Partner, CFO/CTO and the advisor s.r.o. in Prague, though partners are also spread across Paris, Berlin, Munich, Vienna, Bratislava - CZ team location is the main hub but borderline for a pan-European fund."}
+}
