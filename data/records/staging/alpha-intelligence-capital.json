@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "id": "alpha-intelligence-capital",
+  "name": "Alpha Intelligence Capital",
+  "website": null,
+  "hq_country": {
+    "value": null,
+    "null_reason": "conflicting_sources",
+    "note": "Maddyness (2023-01-16): offices in US, France, UAE and Singapore, one partner each; no Czech team found. No single team country."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "AI-focused",
+    "source": {
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "tier": 3,
+      "publisher": "Maddyness",
+      "published_date": "2023-01-16",
+      "accessed_date": "2026-10-13",
+      "quote": "as a preeminent artificial intelligence focused venture capital firm",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "ai_data",
+      "health_biotech",
+      "industrial_manufacturing",
+      "cybersecurity_defense"
+    ],
+    "raw": "AI companies; healthcare, manufacturing, cybersecurity, etc.",
+    "source": {
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "tier": 3,
+      "publisher": "Maddyness",
+      "published_date": "2023-01-16",
+      "accessed_date": "2026-10-13",
+      "quote": "We invest across a wide swath of industries, including, but not limited to, healthcare, manufacturing, cybersecurity, etc.",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": [
+      "series_a",
+      "series_b_plus"
+    ],
+    "raw": "Series A/B",
+    "source": {
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "tier": 3,
+      "publisher": "Maddyness",
+      "published_date": "2023-01-16",
+      "accessed_date": "2026-10-13",
+      "quote": "Our core focus lies in AI companies in the Series A/B stages",
+      "self_reported": false
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 150000000,
+      "currency": "USD",
+      "basis": "latest_fund_size",
+      "as_of": "2024-04-10"
+    },
+    "source": {
+      "url": "https://dealstreetasia.com/?p=391288",
+      "tier": 3,
+      "publisher": "DealStreetAsia",
+      "published_date": "2024-04-10",
+      "accessed_date": "2026-10-13",
+      "quote": "Alpha Intelligence Capital raises $150m for second AI fund, targets $250m",
+      "self_reported": false
+    }
+  },
+  "funds": [
+    {
+      "name": "Alpha Intelligence Capital first fund",
+      "vintage": null,
+      "size": {
+        "amount": 184000000,
+        "currency": "USD",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+        "tier": 3,
+        "publisher": "Maddyness",
+        "published_date": "2023-01-16",
+        "accessed_date": "2026-10-13",
+        "quote": "the team raised a first fund of 184m$ to back innovative companies with strong algorithmic science expertise.",
+        "self_reported": false
+      }
+    },
+    {
+      "name": "Alpha Intelligence Capital Fund II",
+      "vintage": 2024,
+      "size": {
+        "amount": 150000000,
+        "currency": "USD",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://dealstreetasia.com/?p=391288",
+        "tier": 3,
+        "publisher": "DealStreetAsia",
+        "published_date": "2024-04-10",
+        "accessed_date": "2026-10-13",
+        "quote": "Alpha Intelligence Capital raises $150m for second AI fund, targets $250m",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Waiv",
+      "company_website": null,
+      "announced_date": "2026-03-19",
+      "role": "co_lead",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-owkin-on-the-carve-out-of-waiv-and-its-33-million-financing/",
+        "tier": 3,
+        "publisher": "McDermott Will & Schulte",
+        "published_date": "2026-03-19",
+        "accessed_date": "2026-10-13",
+        "quote": "The Series A financing was led by Alpha Intelligence Capital Fund II",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T13:00:00+02:00",
+    "candidate_source": "triage hint: Photoneo investor",
+    "notes": "No website found (aic.group parked). hq_country null: Maddyness 2023 lists offices in US, France, UAE, Singapore; other directories say Luxembourg/San Francisco/Hong Kong; none Czech. No imprint or registry entry found (Slovak registeruz lists 'Alpha Intelligence Capital Fund I' as Photoneo shareholder, not fetched), legal_entities empty. Fund II: headline says raised $150m, target $250m (Apr 2024); Caproasia says $160m, unverified. Waiv round: McDermott says Series A with several co-leads incl. Fund II; Nordic9 calls it seed. Photoneo is a Slovak investee, no Czech link."
+  },
+  "exclusion_signals": []
+}

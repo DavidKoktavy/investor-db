@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "id": "purposetech",
+  "name": "PurposeTech",
+  "website": "https://www.purposetech.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/purpose-tech-closes-its-first-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2024-09-25",
+      "accessed_date": "2026-10-13",
+      "quote": "Prague-based PurposeTech, a venture capital firm that supports Central and Eastern European founders",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "PurposeTech s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "19183992",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19183992",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí ČR)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"19183992\",\"obchodniJmeno\":\"PurposeTech s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "pre-seed, impact",
+    "source": {
+      "url": "https://www.purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "climate_energy",
+      "hr_work"
+    ],
+    "raw": "Health, Climate, and the Future of Work",
+    "source": {
+      "url": "https://www.purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "pre-seed fund",
+    "source": {
+      "url": "https://www.purposetech.vc",
+      "tier": 2,
+      "publisher": "PurposeTech",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Auryx",
+      "company_website": null,
+      "announced_date": "2026-04-30",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://www.enterprise.cam.ac.uk/news/auryx-2m-earbuds-continuous-health-monitors/",
+        "tier": 3,
+        "publisher": "Cambridge Enterprise",
+        "published_date": "2026-04-30",
+        "accessed_date": "2026-10-13",
+        "quote": "with participation from EWOR, Cambridge Enterprise Ventures, Vento, PurposeTech, and additional institutional and angel investors",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Lifeyear",
+      "company_website": null,
+      "announced_date": "2025-07-01",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://en.ain.ua/2025/07/01/lifeyear-raises-eur28m/",
+        "tier": 3,
+        "publisher": "AIN.UA",
+        "published_date": "2025-07-01",
+        "accessed_date": "2026-10-13",
+        "quote": "€1.3 million from venture capital funds, including Verge HealthTech Fund, Tilia Impact Ventures, PurposeTech, and Estonian angel investors",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet (repair run)",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Repair run. Legal entity confirmed: website footer names 'PurposeTech, s.r.o.', Drtinova 557/10, 150 00 Prague (no IČO on site); ARES IČO 19183992 PurposeTech s.r.o., seat Drtinova 557/10, Praha 5, created 2023-03-24, active - address matches website. Legal-entity quote is the ARES JSON text; the match is by name+address. Team location: Vestbee says Prague-based; site lists mailing address in Prague and unspecified regional locations. Ticket and fund size not published on fetched pages (Vestbee page does not state EUR 2.3m the hint mentioned). Second fund PT Capital (pt.capital, HealthTech, first investments autumn 2026) not recorded as a fund: no size on page. Auryx round led by Celero Ventures; Lifeyear led by Verge HealthTech Fund; PurposeTech participant in both. Tingit and others seen only on aggregators, not cited. Site claims 13 investments. Sectors per site; Vestbee 2024 says HealthTech, GreenTech, EdTech."
+  }
+}
