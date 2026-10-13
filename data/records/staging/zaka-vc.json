@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "id": "zaka-vc",
+  "name": "ZAKA VC",
+  "website": "https://zaka.vc",
+  "hq_country": {
+    "value": "CZ",
+    "note": "Investment committee lead is based in Prague; team also listed in Silicon Valley, London, Bratislava (offices). Judgment: CZ.",
+    "source": {
+      "url": "https://zaka.vc/team/",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Lived for four years in Berlin for studies at the Humboldt University, currently based in Prague.",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "ZAKA VC I, osoba rizikového kapitálu, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "21514992",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "ZAKA VC I, osoba rizikového kapitálu, a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://zaka.vc/",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "industrial_manufacturing"
+    ],
+    "raw": "Health & Biotech and Industrial Tech verticals",
+    "source": {
+      "url": "https://zaka.vc/",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Especially looking for startups in the Health & Biotech and Industrial Tech verticals.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "seed & pre-seed",
+    "source": {
+      "url": "https://zaka.vc/",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Homepage says 'The minimum ticket is 130K' without currency, in an investor (LP) disclaimer; not clearly the fund's first cheque."
+  },
+  "capital": {
+    "value": {
+      "amount": 15000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://zaka.vc/our-story/",
+      "tier": 2,
+      "publisher": "ZAKA VC",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Since 2024, ZAKA operates in a VC fund structure with its first fund sized €15M; and successfully oversubscribed.",
+      "self_reported": true
+    }
+  },
+  "funds": [
+    {
+      "name": "ZAKA VC Fund I",
+      "vintage": 2024,
+      "size": {
+        "amount": 15000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://zaka.vc/our-story/",
+        "tier": 2,
+        "publisher": "ZAKA VC",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Since 2024, ZAKA operates in a VC fund structure with its first fund sized €15M; and successfully oversubscribed.",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Sygaldry Technologies",
+      "company_website": null,
+      "announced_date": "2026-04-15",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://zaka.vc/sygaldry-backed-by-zaka-vc-raises-139m-to-build-quantum-accelerated-ai-infrastructure/",
+        "tier": 2,
+        "publisher": "ZAKA VC",
+        "published_date": "2026-04-15",
+        "accessed_date": "2026-10-13",
+        "quote": "ZAKA VC first invested in Sygaldry through Fund I in June 2025",
+        "self_reported": true
+      }
+    },
+    {
+      "company": "Cirrus Therapeutics",
+      "company_website": null,
+      "announced_date": "2026-02-05",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "seed (syndicate expansion)",
+      "source": {
+        "url": "https://zaka.vc/zaka-vc-invests-in-cirrus-therapeutics-to-advance-gene-therapies-for-blinding-eye-diseases/",
+        "tier": 2,
+        "publisher": "ZAKA VC",
+        "published_date": "2026-02-05",
+        "accessed_date": "2026-10-13",
+        "quote": "ZAKA VC has invested in Cirrus Therapeutics, a biotechnology company developing next-generation gene therapies",
+        "self_reported": true
+      }
+    },
+    {
+      "company": "DeepSeq.AI",
+      "company_website": null,
+      "announced_date": "2026-01-12",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://zaka.vc/zaka-vc-invests-in-deepseq-ai-to-transform-ai-based-protein-drug-discovery/",
+        "tier": 2,
+        "publisher": "ZAKA VC",
+        "published_date": "2026-01-12",
+        "accessed_date": "2026-10-13",
+        "quote": "Zaka VC Invests in DeepSeq.AI to Transform AI-Based Protein Drug Discovery",
+        "self_reported": true
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv zaka-vc",
+    "notes": "Legal entity: website privacy policy (https://zaka.vc/privacy-policy/) names 'ZAKA VC I, osoba rizikového kapitálu, a.s., ID number: 215 14 992', seat Italská 2581/67, Prague 2 (a second paragraph gives Panská 854/2, Prague 1; ARES confirms Italská 2581/67). Policy says it is a risk-capital entity listed with the CNB under s.596(e) ZISIF (not supervised); not checked in JERRS. Two other ZAKA entities in ARES (ZAKA Management s.r.o. 21053987, Praha 2; ZAKA Holding s.r.o. 17614597, Heralec) are not named on the site, so not recorded. Fund size conflict: about page says Fund I sized EUR 15M (used); homepage shows '17M' with no currency label. Fund I vintage 2024 from 'Since 2024'. Sectors: portfolio is mostly biotech; 'Industrial Tech' mapped to industrial_manufacturing. Sygaldry quote is the dated post on investor's own site (self-reported); Cirrus and DeepSeq are the investor's own press-release posts. Several more 2025-2026 deals listed on zaka.vc/news (e.g. ParcelBio, Sensible Biotechnologies follow-on), not recorded."
+  }
+}

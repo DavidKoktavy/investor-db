@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "id": "btcz-ventures",
+  "name": "BTCZ Ventures",
+  "website": null,
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05277817",
+      "tier": 1,
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "\"textovaAdresa\":\"Evropská 2758/11, Dejvice, 16000 Praha 6\"",
+      "self_reported": false
+    },
+    "note": "Registered seat of BTCZ Ventures s.r.o. in Prague; no page found that states the team location explicitly."
+  },
+  "legal_entities": [
+    {
+      "name": "BTCZ Ventures s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "05277817",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05277817",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí ČR)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"05277817\",\"obchodniJmeno\":\"BTCZ Ventures s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.uochb.cz/en/news/756/the-butterfly-a-symbol-of-hope-for-oncology-patients-chosen-as-the-emblem-of-taveren-therapeutics-a-new-biotech-company-emerging-from-iocb-prague",
+      "tier": 3,
+      "publisher": "IOCB Prague (UOCHB)",
+      "published_date": "2025-12-03",
+      "accessed_date": "2026-10-13",
+      "quote": "BTCZ Ventures is a company that invests in promising medical technology and biotechnology startups.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "medtech",
+      "health_biotech"
+    ],
+    "raw": "medical technology and biotechnology startups",
+    "source": {
+      "url": "https://www.uochb.cz/en/news/756/the-butterfly-a-symbol-of-hope-for-oncology-patients-chosen-as-the-emblem-of-taveren-therapeutics-a-new-biotech-company-emerging-from-iocb-prague",
+      "tier": 3,
+      "publisher": "IOCB Prague (UOCHB)",
+      "published_date": "2025-12-03",
+      "accessed_date": "2026-10-13",
+      "quote": "BTCZ Ventures is a company that invests in promising medical technology and biotechnology startups.",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Taveren Therapeutics",
+      "company_website": null,
+      "announced_date": "2025-12-03",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.uochb.cz/en/news/756/the-butterfly-a-symbol-of-hope-for-oncology-patients-chosen-as-the-emblem-of-taveren-therapeutics-a-new-biotech-company-emerging-from-iocb-prague",
+        "tier": 3,
+        "publisher": "IOCB Prague (UOCHB)",
+        "published_date": "2025-12-03",
+        "accessed_date": "2026-10-13",
+        "quote": "BTCZ Ventures, part of BPD Partners Group, which is also the largest shareholder of the new spin-off",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet (repair run)",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected",
+    "notes": "No own website found. Legal entity BTCZ Ventures s.r.o., IČO 05277817, seat Evropská 2758/11, Praha 6 confirmed in ARES API (same address as bpd partners a.s.; PitchBook lead only: formerly XENO Ventures, founded 2016, not used as evidence). ARES JSON has datumVzniku 2016-08-01. hq_country CZ rests on the registered seat; team location not stated explicitly (the 2025 IOCB page quotes Miroslav Tvrzník of BPD Partners as the representative). BTCZ is a vehicle of BPD Partners Group and B3 Holding, so it may be a corporate/family arm rather than an independent VC; type vc is a judgment. Taveren: page says BTCZ is the largest shareholder and, in 2018 (EUR 1.75m) and June 2023 (EUR 1m), funded the research; amount and instrument of the Dec 2025 contribution not explicit, so role and instrument unknown. Stage, ticket, capital not published."
+  }
+}

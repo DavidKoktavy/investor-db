@@ -175,3 +175,5 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,nation1,46519,26,147.9,rerun
 2026-10-13,investor-extractor,sonnet,purposetech,41258,20,92.7,rerun
 2026-10-13,investor-extractor,sonnet,alpha-intelligence-capital,23827,12,60.0,rerun
+2026-10-13,investor-extractor,sonnet,zaka-vc,47831,17,101.2,rerun
+2026-10-13,investor-extractor,sonnet,btcz-ventures,37191,14,73.9,rerun
