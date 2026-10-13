@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "id": "eic-fund",
+  "name": "EIC Fund",
+  "website": "https://eic.ec.europa.eu",
+  "hq_country": {
+    "value": "LU",
+    "note": "EIC Fund is an EU (European Commission) vehicle; investment decisions are taken by an external Luxembourg-based manager (Alter Domus), per a 2022 third-party report. Not confirmed by the EIC itself.",
+    "source": {
+      "url": "https://www.dzs.cz/en/article/european-commission-has-appointed-external-manager-eic-fund",
+      "tier": 3,
+      "publisher": "DZS (Czech national agency for international education)",
+      "published_date": "2022-10-03",
+      "accessed_date": "2026-10-13",
+      "quote": "An external manager has been appointed as part of the restructuring of the European Innovation Council Fund",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "public/EU equity fund of the European Innovation Council (deep tech)",
+    "source": {
+      "url": "https://eic.ec.europa.eu/investment-opportunities/eic-fund-equity-investments-beneficiaries_en",
+      "tier": 2,
+      "publisher": "European Innovation Council (EISMEA)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Established in 2020, the EIC Fund is the Venture Capital investment arm of the European Innovation Council (EIC).",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": ["deeptech_hardware"],
+    "raw": "deep tech companies",
+    "source": {
+      "url": "https://eic.ec.europa.eu/news/european-commission-updates-eic-fund-investment-guidelines-eic-accelerator-and-step-scaleup-2026-08-27_en",
+      "tier": 2,
+      "publisher": "European Innovation Council (EISMEA)",
+      "published_date": "2026-08-27",
+      "accessed_date": "2026-10-13",
+      "quote": "more than 360 deep tech companies across Europe",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "No page states the stages; third-party trackers say mostly Series A / early VC (not used)."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Ticket EUR 10-30 m is stated only for the STEP Scale Up scheme; EIC Accelerator ticket range only in non-fetched PDFs. No single typical first-cheque statement verified."
+  },
+  "capital": {
+    "value": {
+      "amount": 4000000000,
+      "currency": "EUR",
+      "basis": "reported_aum",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://eic.ec.europa.eu/investment-opportunities/eic-fund-equity-investments-beneficiaries_en",
+      "tier": 2,
+      "publisher": "European Innovation Council (EISMEA)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "With a capitalisation of over €4 billion.",
+      "self_reported": true
+    }
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "eleQtron",
+      "company_website": "https://www.eleqtron.com",
+      "announced_date": "2026-05-05",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://tech.eu/2026/05/05/german-deeptech-eleqtron-lands-eur57m-series-a-funding",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-05-05",
+        "accessed_date": "2026-10-13",
+        "quote": "with participation from the European Innovation Council Fund.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Sensoneo",
+      "company_website": "https://sensoneo.com",
+      "announced_date": "2023-06-19",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://waste-management-world.com/business/sensoneo-series-a-investment-of-more-than-6-million-euros/",
+        "tier": 3,
+        "publisher": "Waste Management World",
+        "published_date": "2023-06-19",
+        "accessed_date": "2026-10-13",
+        "quote": "with participation from existing investors Crowdberry, EIC Fund and Venture to Future Fund.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "Sensoneo investor (Awards 2024)",
+    "notes": "EIC Fund is an EU-financed public equity vehicle of the European Commission, not a Czech VC manager; team seat uncertain (LU per 2022 third-party report on Alter Domus). No registry entry found (legal_entities empty). Quotes in eleQtron/Sensoneo/capital items are fragments recalled via WebFetch summaries and may need fuzzy checking. Other 2026 deals (Microamp, June 2026) seen only on aggregators and not recorded. Sensoneo page quote verbatim wording from WebFetch paraphrase: 'with participation from existing investors Crowdberry, EIC Fund and Venture to Future Fund'."
+  }
+}
