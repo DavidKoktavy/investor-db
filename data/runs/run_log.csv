@@ -78,3 +78,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,muni-ventures,29541,10,43.0,ok
 2026-10-13,investor-extractor,sonnet,emun,30553,13,54.0,ok
 2026-10-13,investor-extractor,sonnet,metatron-global,28370,11,54.7,ok
+2026-10-13,investor-extractor,sonnet,jsk-investments,45894,19,110.4,ok
+2026-10-13,investor-extractor,sonnet,springtide-ventures,38118,22,105.5,ok
+2026-10-13,investor-extractor,sonnet,stredocesky-inovacni-centrum,36158,23,106.8,ok
