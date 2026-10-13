@@ -124,3 +124,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,grouport-ventures,13933,6,20.1,ok
 2026-10-13,evidence-verifier,opus,gi21-capital,18457,9,32.5,ok
 2026-10-13,evidence-verifier,opus,fazole-ventures,18306,8,42.8,ok
+2026-10-13,evidence-verifier,opus,i-and-i-prague,14599,6,23.8,ok
+2026-10-13,evidence-verifier,opus,i-and-i-biotech,20220,10,43.1,ok
+2026-10-13,evidence-verifier,opus,impulse-ventures,17856,8,33.4,ok
+2026-10-13,evidence-verifier,opus,incomming-ventures,16735,8,33.2,ok

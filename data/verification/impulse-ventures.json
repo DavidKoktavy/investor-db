@@ -1,0 +1,17 @@
+{
+  "id": "impulse-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Register mirror shows Impulse Ventures, a.s., ICO 08841471, seat in Praha (Pod drahou 1637/6 since 2025-02-20); registered seat only, team location not stated; tier 3 mirror, correct label", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "partially_supported", "reason": "Name, ICO and Praha seat confirmed; the role 'management_company' is not supported: the register lists only generic trade activities, and the Seznam Zpravy article says the firm invests only its own (Tomek's) money and is not a fund manager", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Quote is verbatim but does not state VC; article calls it an investment company (not a fund) investing only Tomek's own money in Seed/Series A tech startups, i.e. a VC-style evergreen vehicle of a single wealthy individual (closer to a family-office/single-LP vehicle); CzechCrunch 2023 calls it 'fond'", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Article: 'Primarne technologicke startupy s pusobnosti ve stredoevropskem regionu'; generalist tech mapping reasonable; 2020 article, may be stale", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Article states it invests in 'investicnich kol Seed a Series A' (2020-09-09)", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch 2023-12-20: Dataddo closed its fourth round, again from Impulse Ventures (USD 1.4M / CZK 31M), named as investor; but 2023-12-20 is before WINDOW_START 2024-10-11, so outside the 24-month window (24-36 month dormant band)", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Prague-registered entity making Seed/Series A tech investments, but its newest cited deal (2023-12-20) is outside the 24-month window, so it is dormant at best. Its 'vc' type is also doubtful: it invests only one individual's own money and is not a fund manager."
+  }
+}

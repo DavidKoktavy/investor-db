@@ -1,0 +1,15 @@
+{
+  "id": "incomming-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Registry mirror gives registered seat Bilkova 855/19, Praha - Stare Mesto; this is the registered seat only, not proof of where the team sits (Altss also says Prague, Czechia).", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Page names 'INCOMMING ventures a.s.', ICO 04991087 (extract dated 10.1.2026). The link to the VC brand is by name only, and the page does not state whether the company is active.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Altss lists the firm as 'Venture Capital', but the cited quote (investing in innovative projects) does not itself state the VC type. The source is a tier-3 aggregator profile.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "Altss says 'Its primary sector of interest is e-commerce', but the cited quote does not mention e-commerce. The 150sec article says there is no announced industry focus.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "150sec (2016-05-18) says it 'shall focus on the seed and later stage investments'. This is a 2016 statement of intent.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "partially_supported", "reason": "The article (May 18, 2016) says Incomming Ventures is investing in CARZADA and will probably provide the larger part of the round. The deal is real, but it is about 10 years before AS_OF 2026-10-11, far outside the 24- and 36-month windows.", "observed_value": null},
+    {"path": "exclusion_signals[0]", "verdict": "unverifiable", "reason": "The not_found_or_defunct signal cites no source. The cited pages show no activity after 2016, which is consistent with it but does not prove it.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "The only investment evidence is the CARZADA deal from May 2016, about 10 years before AS_OF. There is no fund, no website and no recent deal in the cited sources. It was a Prague-based VC vehicle in 2016 but is not shown to be active now."}
+}

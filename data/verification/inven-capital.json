@@ -1,0 +1,16 @@
+{
+  "id": "inven-capital",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site gives address 'Pod Křížkem 1773/2 Praha 4 - Braník 147 00' (Prague); quote is a street fragment only, but the surrounding text places it in CZ.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Hlídač státu page shows 'Inven Capital, SICAV, a.s.' with IČO 02059533. The page does not state the role (fund_vehicle) or an address.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own site: 'As a venture capital fund we invest EUR 500m...'. The 'corporate' subtype is not stated on the page; only the footer '© 2026 ČEZ, a. s.' and the ČEZ logo suggest a link to ČEZ.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Own site lists 'Climate tech' as its focus.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Own site shows 'Ticket size' '2-30m EUR', which matches min 2,000,000 and max 30,000,000 EUR.", "observed_value": null},
+    {"path": "capital", "verdict": "partially_supported", "reason": "EUR 500m is stated ('we invest EUR 500m from institutional investors and global corporates'), but the page does not call it a fund size or a latest fund. It is closer to total capital under management, so the basis 'latest_fund_size' is not supported.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Article reports Wint's USD 36m Series D, 'coliderada por ... LIP Ventures, junto con el fondo europeo Inven Capital'. Inven is named as an investor and co-lead is plausible. No printed date: the page shows 'Hace un mes' and the URL ends 2026-09-11. This is inside the 24-month window (start 2024-10-11). Source is tier 3.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Fetched despite the earlier 403. Exact quote is present: 'Vytal raised €8m from Inven Capital, a growth capital fund, alongside NRW.Venture...'. Published 2025-03-12, inside the window. Round is EUR 14.2m growth funding; the role is not stated, so 'unknown' is correct.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Own site describes a venture capital fund with a Prague office. Two deals in the window name Inven as an investor (Wint Sep 2026, Vytal Mar 2025). Its ties to ČEZ suggest a corporate VC, but the cited sources do not state this."}
+}

@@ -1,0 +1,17 @@
+{
+  "id": "i-and-i-biotech",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Cited kurzy.cz page confirms only that Biotech Investments s.r.o. has its seat in Praha 8; it never mentions i&i. The tie to i&i is on inibio.eu, which names it the Prague-based Investment Adviser but gives the fund's registered HQ as Luxembourg (42, rue de la Vallée). The team being in CZ is plausible (fund is embedded at IOCB Prague), but the cited source does not show it.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "partially_supported", "reason": "Entity name, IČO 10885978 and Prague seat match the cited page, but that page does not link the company to i&i Bio. The link (Investment Adviser) appears only on inibio.eu, not the cited source.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Own site, quoted verbatim: 'one of the very few VC funds in Europe focused exclusively on life science ventures'. self_reported=true and tier 2 are correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Quote is on the page and matches health_biotech/medtech.", "observed_value": null},
+    {"path": "ticket", "verdict": "partially_supported", "reason": "EUR 0.5M-2M is the stated 'sweet spot' for growth investments. The same page says 'We can start at €150k', so the range shown understates the lower end.", "observed_value": {"min": 150000, "max": 2000000, "currency": "EUR"}},
+    {"path": "capital", "verdict": "supported", "reason": "News item says total capital of i&i Biotech Fund has risen to approx. EUR 47 million; the item is undated, which matches as_of=null. The figure is fund size, not AUM.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "EUR 47M fund size is supported (undated, close status unknown). The page calls it 'i&i Biotech Fund' without the 'I' suffix.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Vestbee, 3 March 2026 (within the 24-month window): $9.3M Series A led by Soulmates Ventures, with i&i Biotech Fund named among existing investors. Role 'participant' is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Bionity, 22 Sep 2025 (within the window): KyDo Therapeutics EUR 4.45M seed round 'spearheaded by I&I Bio together with KHAN-II'. This is a co-lead, so role 'lead' is acceptable.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "Self-described life-science VC fund with two dated in-window deals (Sep 2025 and Mar 2026). The fund vehicle is in Luxembourg, but its Investment Adviser is a Prague s.r.o. and the fund is embedded at IOCB Prague, so the team is very likely in CZ. The cited hq source alone does not prove that."}
+}
