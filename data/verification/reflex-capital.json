@@ -1,0 +1,17 @@
+{
+  "id": "reflex-capital",
+  "verified_at": "2026-10-13T15:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Homepage gives 'Reflex Capital SE, Rasinovo Nabrezi 2000/78, 120 00 Praha 2, Ceska republika' as the Europe address. A San Francisco office is also listed, so this shows a Prague office, not where the team sits.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Quote found (score 100) on a tier-3 copy of the Czech business register. Name, ICO 24269158 and Praha 2 seat match the homepage legal name.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Page calls it only a 'Czech fund' that invested EUR 5.5m. It does not say VC, and the homepage does not label the firm as VC either (it says 'We at Reflex Capital are entrepreneurs'). The VC type is inferred, not stated.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "raising.fi, dated June 9, 2026 (inside the window), says the EUR 1.8M round 'is led by Reflex Capital'. Note: the 'pre-seed' in the round field does not come from this source.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Tech.eu, dated 16 March 2026 (inside the window): USD 7.1M Series A 'with participation from Reflex Capital'. Role participant is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "partially_supported", "reason": "Deal is supported (dated Jun 10, 2024, reported as current news), but 2024-06-10 is before the window start of 2024-10-11, so it does not count as K2 activity.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "yes",
+    "reason": "Two dated 2026 deals name Reflex Capital as investor, one as lead. The managing SE is registered in Prague and lists a Prague address. 'VC' is a reasonable inference from its startup portfolio, but no cited source says it outright, and the San Francisco office leaves some doubt about where the team is based."
+  }
+}

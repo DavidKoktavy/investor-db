@@ -149,3 +149,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,pilulka-lab,16129,7,29.7,ok
 2026-10-13,evidence-verifier,opus,presto-ventures,20253,10,40.9,ok
 2026-10-13,evidence-verifier,opus,purple-ventures,17946,9,29.8,ok
+2026-10-13,evidence-verifier,opus,purposetech,16856,8,29.2,ok
+2026-10-13,evidence-verifier,opus,reflex-capital,17198,9,30.8,ok
+2026-10-13,evidence-verifier,opus,rockaway-capital,18677,9,37.3,ok
+2026-10-13,evidence-verifier,opus,rockaway-ventures,17972,11,31.0,ok

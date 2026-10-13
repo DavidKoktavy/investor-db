@@ -1,0 +1,41 @@
+{
+  "id": "rockawayx",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "kurzy.cz shows Blockad s.r.o., ICO 08006458, Praha 6, 100% owned by RockawayX a.s. (ICO 17457009). Role 'other' fits: its listed activities are property rental and general services, so it is not shown as the investing entity.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Quote is on the page ('We invest in early-stage projects, then build alongside them'; 'Venture and yield strategies'), but the firm is a crypto multi-strategy firm (it also runs blockchain infrastructure and liquidity/yield vaults). The page shows a venture activity but does not show it is a VC manager specifically.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "Quote is verbatim on the homepage. Crypto/blockchain mapped to 'other' is consistent with the note.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "unverifiable",
+      "reason": "The cited Edgen page is disallowed by robots.txt, so it was not fetched (project rule: respect robots.txt). The RockawayX insights listing does show 'RockawayX and Forward Industries Co-Lead Strategic Investment in OnRe' dated May 5, 2026, but that page is not the cited source for this item.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "supported",
+      "reason": "The insights listing shows 'Our Investment in BetHog: An AI-Native Gaming Platform' dated April 22, 2026, which is within the 24-month window before AS_OF 2026-10-11. The source is self-reported and tier 2, and both labels are correct.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Active investor: it has 2026 deals (BetHog, OnRe). But it is a crypto multi-strategy firm (venture plus yield, liquidity and infrastructure), not clearly a VC manager. Its team of 45 is spread across London, Prague and Dubai, so it is not shown that the investment team is in Czechia. The Czech link shown is the parent RockawayX a.s. and a Prague subsidiary."
+  }
+}

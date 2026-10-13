@@ -1,0 +1,15 @@
+{
+  "id": "rockaway-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "The rockawayventures.com contact page gives one address only: 'Gen. Píky 430/26, 160 00 Praha 6 – Dejvice'. It is labelled Rockaway Capital (the parent group), not Rockaway Ventures, but it is the only office listed and no office outside CZ is shown.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "The mesec.cz trade-register mirror shows 'Rockaway Ventures a.s.', IČO 06387136, seat Generála Píky 430/26, Praha, active, founded 29.8.2017. The page does not show that this company manages or is the fund, which is consistent with role being null.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "The for-investors page says 'Since 2022, we are investing from a new dedicated VC fund'. The page does not state the subtype 'corporate-group VC (Rockaway Capital)'.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "The page's 'sectors we specialize in' list matches the raw value exactly. The mapped categories are reasonable, but 'E-Travel & Hospitality' was not mapped to any category (minor gap).", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Page says 'Our focus is on Seed to Series A stage startups'.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "The Vestbee article is dated October 23, 2025, which is inside the 24-month window (start 2024-10-11). It covers a $10M Series A led by Draper Associates and names Rockaway Ventures (Prague-based) as an investor, so the 'participant' role is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Rockaway's own news post, dated June 24, 2025 (in window), says Rockaway Ventures led a $4.2M seed round in Filuta AI. It is self-reported, tier 2, and the labels are correct.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "The investor runs a dedicated VC fund (since 2022) from a Prague address and has two deals in the window: it led the Filuta AI seed round in June 2025 and joined the Vermeer Series A in October 2025. Caveat: the address is labelled with the parent group Rockaway Capital."}
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rockaway-capital",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Site imprint: operator Rockaway GP a.s., seat Generala Piky 430/26, Praha 6. This is the registered seat, but the page gives no team location.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Imprint gives Rockaway GP a.s., ICO 232 78 757, registered with the Prague Municipal Court (OR B 29714). Role 'other' is reasonable: it is named only as the site operator.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Homepage: 'investicni skupina' managing a 'miliardove portfolio' focused on private equity, venture capital and blockchain. That matches private_holding / investment group, not a single VC manager.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "E15 (11 Jun 2026) names RockawayQ Digital Industry Holding SICAV, launched by Rockaway with MTX Group, with about CZK 0.5bn initial capital and a CZK 2bn further target. The vintage 2026 is inferred from the publication date and is not stated. The fund runs under the RockawayQ platform, and the article does not name the manager.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "partially_supported", "reason": "Lupa (13 Feb 2026, in the window) says Rockaway Ventures invested in Apptronik (Series A extension of USD 520M). The investor is the subsidiary Rockaway Ventures, which has its own record; the article does not mention Rockaway Capital.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "partially_supported", "reason": "Rockaway post (3 Sep 2026) is a recap: United Founders (a Rockaway group fund) backed Wonderful in its seed round, with no seed date given, so it cannot be placed in the window. The investor is the subsidiary United Founders, not Rockaway Capital.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Prague-seated investment group that is active through its subsidiaries (Rockaway Ventures, United Founders, RockawayQ). No dated deal is made by Rockaway Capital itself. It is a group holding rather than a VC/CVC manager, and the VC activity belongs to the subsidiary records."
+  }
+}
