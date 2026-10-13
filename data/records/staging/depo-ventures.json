@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "id": "depo-ventures",
+  "name": "DEPO Ventures",
+  "website": "https://depoventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://depoventures.com/contact",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Plynární 10 street",
+      "self_reported": true
+    },
+    "note": "Contact page lists the Prague 7 office address of DEPO VENTURES, s.r.o.; team location is not stated explicitly. Lupa.cz and cc.cz (Czech media) quote partners Michal Ciffra and Petr Šíma of the Prague firm."
+  },
+  "legal_entities": [
+    {
+      "name": "DEPO VENTURES, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "04753101",
+      "role": null,
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí ČR)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"04753101\",\"obchodniJmeno\":\"DEPO VENTURES, s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "angel fund / venture capital group",
+    "source": {
+      "url": "https://depoventures.com/latest/turning-any-smartphone-into-a-payment-terminal-czech-fintech-tapaya-has-raised-eur-1-million",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "DEPO Ventures is a venture capital group investing in early-stage startups from the CEE region.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "cybersecurity_defense",
+      "deeptech_hardware",
+      "fintech",
+      "industrial_manufacturing",
+      "climate_energy"
+    ],
+    "raw": "Defence, Space, FinTech, Industry 4.0, Energy",
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Defence, Space,FinTech, Industry 4.0, Energy",
+      "self_reported": true
+    },
+    "note": "Space mapped to deeptech_hardware."
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "Inception & Pre-seed",
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Inception & Pre-seed",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 250000,
+      "max": 500000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Ticket €250K - 500K",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Home page shows 9M€ but the label is not clear as AUM; not used."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "ArcSpace",
+      "company_website": null,
+      "announced_date": "2026-08-28",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.heystartup.com/en/arcspace-secures-over-2-million-euros-to-turn-disposable-satellites-into-repairable-assets",
+        "tier": 3,
+        "publisher": "HeyStartup",
+        "published_date": "2026-08-28",
+        "accessed_date": "2026-10-13",
+        "quote": "The funding round, led by DEPO Ventures through its DEPO Ventures One fund",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Tapaya",
+      "company_website": "https://www.tapaya.com",
+      "announced_date": "2026-04-28",
+      "role": "co_lead",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://www.tapaya.com/en/blog/tapaya-raises-1m-pre-seed-to-turn-any-device-into-a-payment-terminal",
+        "tier": 2,
+        "publisher": "Tapaya",
+        "published_date": "2026-04-28",
+        "accessed_date": "2026-10-13",
+        "quote": "We raised €1 million in a pre-seed round led by Passion Capital, with co-lead participation from Depo Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "WanderWallet",
+      "company_website": null,
+      "announced_date": "2026-03-13",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://cc.cz/pred-lety-ulehcil-cestovani-revolut-ted-se-o-neco-podobneho-pokousi-i-cech-akorat-v-jizni-americe/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-03-13",
+        "accessed_date": "2026-10-13",
+        "quote": "a andělský fond Depo Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv (repair run)",
+    "notes": "Legal entity confirmed: home page footer 'DEPO VENTURES s.r.o.', contact page lists ID 04753101, ARES REST (OR active, seat Plynární 1617/10, Praha 7, formerly Hagberg s.r.o.). Home page contains hidden AI-directed text, ignored. ArcSpace announced ~25-28 Aug 2026 (eu.vc 2026-08-24 UTC, heystartup 2026-08-28); date taken from the cited page; round labelled seed by one aggregator only. WanderWallet role per Czech article names Depo as investor; BD Partners lead per aggregators, so participant; amount reported EUR 430k / CZK 10.5M (not recorded). Fund 'DEPO Ventures One' and 'DEPO Angels fund I' named but no fund size found, funds[] empty. Own portfolio pages undated, not used for dates."
+  }
+}

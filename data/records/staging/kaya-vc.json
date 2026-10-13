@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "id": "kaya-vc",
+  "name": "KAYA VC",
+  "website": "https://www.kaya.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Thámova 183/11, 186 00",
+      "self_reported": true
+    },
+    "note": "Website lists offices in Warsaw, Prague (Thámova 183/11, Prague 8 - Karlin), San Francisco, London; it does not say where the team sits. CZ based on the Prague address shared with the Kaya group entities in ARES, Czech GPs and the Prague-focused launch coverage (TechCrunch 2021). Team seat only weakly evidenced."
+  },
+  "legal_entities": [
+    {
+      "name": "KAYA (fka Enern) s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "10838821",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10838821",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"10838821\",\"obchodniJmeno\":\"KAYA (fka Enern) s.r.o.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We invest in ambitious & gritty founders from CEE; pre-seed through to meaningful scale.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "raw": "the frontier of digital, physical, and consumer economies",
+    "null_reason": "not_published",
+    "note": "Own wording does not map cleanly to the taxonomy; left null."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "pre-seed through to meaningful scale; Pre+Seed",
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We invest in ambitious & gritty founders from CEE; pre-seed through to meaningful scale.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 1000000,
+      "max": 3000000,
+      "currency": "USD"
+    },
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "$1–3M Ticket",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 500000000,
+      "currency": "USD",
+      "basis": "reported_aum",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "$500M AUM Total",
+      "self_reported": true
+    }
+  },
+  "funds": [
+    {
+      "name": "Current fund (name not stated)",
+      "vintage": null,
+      "size": {
+        "amount": 85000000,
+        "currency": "USD",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.kaya.vc",
+        "tier": 2,
+        "publisher": "KAYA",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "$85M Current Fund",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Viktor",
+      "company_website": "https://getviktor.com",
+      "announced_date": "2026-05-19",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://fortune.com/2026/05/19/viktor-ai-startup-raises-75-million-for-virtual-coworker-exclusive/",
+        "tier": 3,
+        "publisher": "Fortune",
+        "published_date": "2026-05-19",
+        "accessed_date": "2026-10-13",
+        "quote": "with participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "E2B",
+      "company_website": "https://e2b.dev",
+      "announced_date": "2025-07-28",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.insightpartners.com/ideas/e2b-raises-a-21m-series-a-to-offer-cloud-for-ai-agents-to-fortune-100/",
+        "tier": 3,
+        "publisher": "Insight Partners",
+        "published_date": "2025-07-28",
+        "accessed_date": "2026-10-13",
+        "quote": "with participation from Decibel, Sunflower Capital, and Kaya",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T14:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Repair run. Website has no imprint/IČO. ARES search by name found KAYA (fka Enern) s.r.o., IČO 10838821 (seat Türkova 2319/5b, Praha 4; active; NACE 6820), whose name matches the brand and the 2021 TechCrunch report that Enern renamed itself Kaya (kaya VC launches its new $80M fund..., 2021-03-31: 'Previously called Enern'). Identification as the management entity is by name/rebrand inference, not stated by the investor; other ARES entities at Thámova 183/11 (Kaya Advisory s.r.o. 22585737, Kaya F3 GP s.r.o. 19844166, Kaya Services, Topaz, Nous etc.) exist; fund vehicles not verified. ČNB JERRS not checked. Hint deals TopK (Jul 2025), E2B seed (Oct 2024), Upheal Series A not confirmed from dated sources; E2B Series A (Insight Partners page) used instead. Insight Partners and Fortune are third parties. Capital $500M is website 'AUM Total', undated; ET3/ET4 subfunds InnovFin-backed per website footer."
+  }
+}
