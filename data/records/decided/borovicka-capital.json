@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "id": "borovicka-capital",
+  "name": "Borovicka Capital",
+  "website": "https://www.borovickacapital.com",
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "Only third-party aggregator profiles say Prague; no primary or media page fetched states where the team sits."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "family fund",
+    "source": {
+      "url": "https://www.borovickacapital.com",
+      "tier": 2,
+      "publisher": "Borovicka Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "strategic focus on venture capital investments in the Central European region.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Outfindo",
+      "company_website": "https://outfindo.com",
+      "announced_date": "2025-01-20",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "late seed",
+      "source": {
+        "url": "https://cc.cz/poklada-jednoduche-otazky-a-tim-ulehcuje-slozite-nakupy-startup-outfindo-ted-nabira-dalsi-miliony/",
+        "tier": 3,
+        "publisher": "Czech Crunch",
+        "published_date": "2025-01-20",
+        "accessed_date": "2026-10-13",
+        "quote": "Kolo vedl bulharský fond Eleven Ventures, investici podpořili čeští Lighthouse Ventures a Borovicka Capital.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_geography",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Family investment company (Jakub, Martin, Lukas Borovicka). No legal entity/ICO found on the website (no imprint) or in registry searches; an aggregator names Borovicka Capital s.r.o. but gives no ICO. HQ not stated on own site; cc.cz interview (2025-02-20) says the fund has eight startups (Wewell, Outfindo, Edmund AI) but gives no sectors, stages, ticket or fund size. Portfolio page is undated (lists Powerful Medical, Partory, Medannot, NutritionPro, SuperScale, Outfindo, Edmund). Only one dated deal found; Outfindo round led by Eleven Ventures, role set to participant. Site copyright 2024."
+  },
+  "exclusion_signals": []
+}

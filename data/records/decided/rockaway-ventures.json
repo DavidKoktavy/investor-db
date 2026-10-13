@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "id": "rockaway-ventures",
+  "name": "Rockaway Ventures",
+  "website": "https://www.rockawayventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://rockawayventures.com/contact/",
+      "tier": 2,
+      "publisher": "Rockaway Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "160 00 Praha 6 – Dejvice",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Rockaway Ventures a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "06387136",
+      "role": null,
+      "source": {
+        "url": "https://www.mesec.cz/rejstrik-firem/firma-rockaway-ventures-a-s-06387136",
+        "tier": 3,
+        "publisher": "mesec.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Rockaway Ventures a.s., IČO (06387136), sídlo Praha",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "corporate-group VC (Rockaway Capital)",
+    "source": {
+      "url": "https://rockawayventures.com/for-investors/",
+      "tier": 2,
+      "publisher": "Rockaway Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Since 2022, we are investing from a new dedicated VC fund.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "consumer_ecommerce",
+      "logistics_supply_chain",
+      "media_gaming",
+      "cybersecurity_defense",
+      "climate_energy"
+    ],
+    "raw": "Retail & e-Tail, E-Commerce, Digital Logistics Solutions, Digital Media, Cybersecurity & Data Management, CleanTech, Defence, E-Travel & Hospitality",
+    "source": {
+      "url": "https://rockawayventures.com/for-founders/",
+      "tier": 2,
+      "publisher": "Rockaway Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "we've gained valuable insights and expertise in the sectors we specialize in:",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "raw": "Seed to Series A",
+    "source": {
+      "url": "https://rockawayventures.com/for-founders/",
+      "tier": 2,
+      "publisher": "Rockaway Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Our focus is on Seed to Series A stage startups",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Vermeer",
+      "company_website": null,
+      "announced_date": "2025-10-23",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://vestbee.com/insights/articles/vermeer-raises-funds",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2025-10-23",
+        "accessed_date": "2026-10-12",
+        "quote": "has raised $10 million in funding from Draper Associates and Rockaway Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Filuta AI",
+      "company_website": null,
+      "announced_date": "2025-06-24",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://rockawayventures.com/rockaway-ventures-leads-4-2m-seed-round-in-czech-ai-startup-filuta-ai/",
+        "tier": 2,
+        "publisher": "Rockaway Ventures",
+        "published_date": "2025-06-24",
+        "accessed_date": "2026-10-12",
+        "quote": "Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI",
+        "self_reported": true
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": null,
+    "notes": "Website footer says 'Rockaway Ventures Fund'; exact fund legal entity not stated on site. Rockaway Ventures a.s. (IČO 06387136) found via mesec.cz mirror only; link to the fund vehicle not confirmed, role left null. HQ from contact-page address block (Rockaway Capital, Praha 6). Vermeer date is the Vestbee publication date; elsewhere described as Series A extension led by Draper. Related rows rockaway-capital, rockawayx are separate. No 2026 deals found."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "id": "miton",
+  "name": "Miton",
+  "website": "https://miton.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://miton.cz",
+      "tier": 2,
+      "publisher": "Miton",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Office Praha, Corso IIa, Křižíkova 148/34, 186 00 Praha 8",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "MITON CZ, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "25417967",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.finmag.cz/obchodni-rejstrik/25417967-miton-cz-s-r-o",
+        "tier": 3,
+        "publisher": "finmag.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "MITON CZ, s.r.o., IČO: 25417967, sídlo: Praha",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "investing own capital, not a fund",
+    "source": {
+      "url": "https://miton.cz/o-nas/",
+      "tier": 2,
+      "publisher": "Miton",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Investujeme vlastní peníze.",
+      "self_reported": true
+    },
+    "note": "Miton calls itself 'VC, ale ne tak úplně' and invests own money; Lupa/cc.cz call it an investment group. Classified vc; code/reviewer may reconsider (private_holding)."
+  },
+  "sectors": {
+    "value": [
+      "ai_data",
+      "fintech",
+      "consumer_ecommerce",
+      "health_biotech"
+    ],
+    "raw": "AI and augmented workforce, crypto and web3, e-commerce, gastrotech, psychedelics and mental health",
+    "source": {
+      "url": "https://miton.cz",
+      "tier": 2,
+      "publisher": "Miton",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Investujeme v oblastech, kterým rozumíme, a v nichž tak máme největší přidanou hodnotu.",
+      "self_reported": true
+    },
+    "note": "Gastrotech not mapped (no clear taxonomy fit)."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "raw": "Pre-seed, Seed, Series A",
+    "source": {
+      "url": "https://miton.cz/o-nas/",
+      "tier": 2,
+      "publisher": "Miton",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "S řadou portfoliových firem jsme byli už ve fázi formování produktu či hledání product-market-fit.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 300000,
+      "max": 2000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://miton.cz/o-nas/",
+      "tier": 2,
+      "publisher": "Miton",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "300k-2M € Obvyklá výše vstupní investice + follow-up investice v podobném řádu nebo vyšší.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Homepage gives portfolio value EUR 450M, which is not capital under management."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Ace (padel app)",
+      "company_website": null,
+      "announced_date": "2026-10-01",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/prodal-startup-americanum-ted-se-veze-na-vlne-padelu-pulku-jeho-nove-aplikace-ziskava-za-miliony-miton/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-10-01",
+        "accessed_date": "2026-10-12",
+        "quote": "Investiční skupina Miton se stává partnerem jeho padelové aplikace Ace a získává v ní poloviční podíl.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": null,
+    "notes": "Legal entity from tier-3 mirror (finmag.cz); not confirmed in or.justice.cz; Miton group has many other s.r.o./a.s. vehicles (MITON C a.s. etc.) not recorded. Other deals (Whisper, Bandits, DeepScout listed on miton.cz/portfolio/ as 2024-2025; Whisper per PitchBook Oct 2025) lack a dated non-aggregator source so not recorded. Ace 50% stake = acquisition of a stake, terms undisclosed. Dated 2023-09-14 Septim stake increase exists (septim.cz) but older. Homepage address quote and ticket quote were obtained via WebFetch summaries; verify with check_quotes."
+  },
+  "exclusion_signals": []
+}

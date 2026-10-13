@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "id": "patero",
+  "name": "Patero",
+  "website": "https://www.patero.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.patero.cz",
+      "tier": 2,
+      "publisher": "Patero",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Evropská 1723/61 160 00 Praha 6. Dejvice",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Patero s.r.o.",
+      "role": "other",
+      "source": {
+        "url": "https://www.patero.cz",
+        "tier": 2,
+        "publisher": "Patero",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Patero s.r.o.",
+        "self_reported": true
+      },
+      "registry": "CZ-OR",
+      "registry_id": ""
+    }
+  ],
+  "type": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Flowlance",
+      "company_website": null,
+      "announced_date": "2024-11-28",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2024-11-28",
+        "accessed_date": "2026-10-12",
+        "quote": "Do Flowlance investují také Purple Ventures, Patero a Czech Founders VC.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Flowpay",
+      "company_website": null,
+      "announced_date": "2024-03-20",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/diky-ai-dela-financovani-firem-dostupnejsi-a-rychlejsi-nez-v-bance-cesky-flowpay-ted-nabral-50-milionu/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2024-03-20",
+        "accessed_date": "2026-10-12",
+        "quote": "nový fond Matěje Turka 10X, Patero, Petr Bednařík (ředitel a zakladatel DataSentics)",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Patero s.r.o. appears to be a startup-building holding/co-investor (site: '15+ startupů', '3 exity', portfolio of 12 companies); it does not describe itself as a VC fund and publishes no sectors, stages, tickets or fund size, so type is null. IČO 03928446 seen only in a search snippet of a notarial deed (verejnerejstriky.msp.gov.cz returned 403), so registry_id left null. Flowpay article dated 2024-03-20 lists Patero in 'Kdo investuje' for that round; instrument not stated. Outfindo/Carebot involvement not confirmed on any fetched page. Both dated deals are older than 12 months but within 24. registry_id is an empty string because the schema requires a string."
+  },
+  "exclusion_signals": []
+}

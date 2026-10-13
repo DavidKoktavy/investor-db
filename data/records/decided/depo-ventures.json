@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "id": "depo-ventures",
+  "name": "DEPO Ventures",
+  "website": "https://depoventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Plynární 10 street",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "angel fund / pre-seed",
+    "source": {
+      "url": "https://depoventures.com/latest/turning-any-smartphone-into-a-payment-terminal-czech-fintech-tapaya-has-raised-eur-1-million",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "DEPO Ventures is a venture capital group investing in early-stage startups from the CEE region.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "cybersecurity_defense",
+      "deeptech_hardware",
+      "fintech",
+      "industrial_manufacturing",
+      "climate_energy"
+    ],
+    "raw": "Defence, Space, FinTech, Industry 4.0, Energy",
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Industry Defence, Space,FinTech, Industry 4.0, Energy",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "Inception & Pre-seed",
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Stage Inception & Pre-seed",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 250000,
+      "max": 500000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://depoventures.com",
+      "tier": 2,
+      "publisher": "DEPO Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Ticket €250K - 500K",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Tapaya",
+      "company_website": "https://tapaya.com",
+      "announced_date": "2026-04-29",
+      "role": "co_lead",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://vestbee.com/blog/articles/tapaya-secures-1-m",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2026-04-29",
+        "accessed_date": "2026-10-12",
+        "quote": "has raised €1 million in a pre-seed round led by Passion Capital and co-led by Depo Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "WanderWallet",
+      "company_website": "https://wanderwallet.io",
+      "announced_date": "2026-03-13",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://cc.cz/pred-lety-ulehcil-cestovani-revolut-ted-se-o-neco-podobneho-pokousi-i-cech-akorat-v-jizni-americe/",
+        "tier": 3,
+        "publisher": "cc.cz",
+        "published_date": "2026-03-13",
+        "accessed_date": "2026-10-12",
+        "quote": "a andělský fond Depo Ventures.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "not_found_or_defunct",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": null,
+    "notes": "IČO of DEPO VENTURES s.r.o. not found (not on website, no registry page found), so legal_entities is empty. Fund size not published (site shows only EUR 9M deployed, 53 portfolio companies). Own-site WanderWallet article says co-led with BDPartners but is undated; cc.cz (13.3.2026) used for date, role unknown. Round amount differs by source (EUR 430K own site, CZK 10.5M cc.cz, USD 500K trackers). Readmio (Feb 2026) and ArcSpace (Aug 2026) from hint not verified. Describes itself as angel funds/syndicates evolving into VC fund GPs."
+  },
+  "exclusion_signals": []
+}

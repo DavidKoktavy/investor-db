@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "id": "emun",
+  "name": "EMUN investiční společnost",
+  "website": "https://www.emun.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.emun.cz",
+      "tier": 2,
+      "publisher": "EMUN",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Anežská 986/10, 110 00 Praha 1",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "EMUN investiční společnost, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "28495349",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.mesec.cz/rejstrik-firem/firma-emun-holding-a-s-24181781",
+        "tier": 3,
+        "publisher": "mesec.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "převedla na obchodní společnost EMUN investiční společnost, a.s., se sídlem Anežská 986/10",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "family_office",
+    "subtype": "multi-family office and licensed fund manager",
+    "source": {
+      "url": "https://www.emun.cz",
+      "tier": 2,
+      "publisher": "EMUN",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Obhospodařujeme přes 16 miliard Kč investičního majetku.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 16000000000,
+      "currency": "CZK",
+      "basis": "reported_aum",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://www.emun.cz",
+      "tier": 2,
+      "publisher": "EMUN",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Obhospodařujeme přes 16 miliard Kč investičního majetku.",
+      "self_reported": true
+    }
+  },
+  "funds": [],
+  "evidence_of_activity": [],
+  "exclusion_signals": [],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "No named direct investment in a private company found (homepage, private markets page, news list, e15 and Forbes.cz coverage checked). Fund page /cz/investicni-fondy/ returned HTTP 500. EMUN news of 18/9/2026 says it develops 'venture capital a growth equity' but names no deals. Fund EMUN Global Unicorns (e15, 16.10.2025) targets investments into global unicorns and is an open-ended unit fund; search-result summaries suggested it buys via other funds/platforms but this was not confirmed on a fetched page, so no fund_of_funds signal recorded. Private markets page says EMUN co-invests with clients and lists venture capital among asset classes. IČO 28495349 only via mirror page (EMUN Holding extract), not verified in the registry directly. Borderline: wealth manager/family office, likely LP/access structures, no recent deal evidence."
+  }
+}

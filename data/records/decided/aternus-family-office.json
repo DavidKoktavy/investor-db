@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "id": "aternus-family-office",
+  "name": "Aternus Family Office",
+  "website": "https://www.aternus.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.aternus.cz/cz/",
+      "tier": 2,
+      "publisher": "Aternus Family Office",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "nám. Svobody 527 / 739 61 Třinec / 6. patro",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "ATERNUS, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "25865056",
+      "role": "other",
+      "source": {
+        "url": "https://www.podnikatel.cz/rejstrik/aternus-a-s-25865056/",
+        "tier": 3,
+        "publisher": "podnikatel.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Společnost zastupuje ve všech věcech předseda správní rady samostatně.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "family_office",
+    "subtype": "multi family office",
+    "source": {
+      "url": "https://www.aternus.cz/cz/",
+      "tier": 2,
+      "publisher": "Aternus Family Office",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Aternus je multi family office.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "software_saas",
+      "fintech",
+      "deeptech_hardware"
+    ],
+    "raw": "technologie, marketplace, SaaS, fintech nebo deep tech",
+    "source": {
+      "url": "https://www.aternus.cz/cz/",
+      "tier": 2,
+      "publisher": "Aternus Family Office",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "se zaměřením na technologie, marketplace, SaaS, fintech nebo deep tech",
+      "self_reported": true
+    },
+    "note": "Describes focus of the VC funds in which Aternus holds stakes."
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Jutro Medical",
+      "company_website": null,
+      "announced_date": "2025-12-16",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "Series A extension",
+      "source": {
+        "url": "https://tech.eu/2025/12/16/jutro-medical-extends-series-a-to-eur36m-for-ai-enabled-primary-care-scale/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2025-12-16",
+        "accessed_date": "2026-10-12",
+        "quote": "with participation from Vinci, naturalX Health Ventures, Fluent Ventures, Aternus, KAYA VC, and Inovo VC.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [
+    {
+      "code": "fund_of_funds_or_lp_only",
+      "note": "Portfolio is mainly stakes in PE/RE/VC funds; direct co-investments only exceptionally.",
+      "source": {
+        "url": "https://www.aternus.cz/cz/",
+        "tier": 2,
+        "publisher": "Aternus Family Office",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Aktuální portfolio je složeno především z investic do private equity, real estate a venture capital fondů",
+        "self_reported": true
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Seedtable Czech ranking (aggregator lead)",
+    "notes": "Multi family office (Wałach, Turoň, Kantor families); site says it co-invests directly in exceptional cases ('volíme cestu koinvestic ve spolupráci s PE a VC fondy'). Legal entity ATERNUS, a.s. IČO 25865056 is from the site page title plus a tier-3 registry mirror; the mirror seat is Praha (Anežská 986/10) whereas the site gives Třinec, and the mirror text does not itself state the family-office link; match not fully confirmed. Separate entity ATERNUS SICAV, a.s. (IČO 10894357) not used. Jutro Medical deal comes from Tech.eu (Aternus named without role detail; instrument unknown). Round size and stage not stated for Aternus ticket. No dated direct-deal source on the investor site."
+  }
+}

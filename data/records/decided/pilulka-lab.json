@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "id": "pilulka-lab",
+  "name": "Pilulka Lab",
+  "website": null,
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found"
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "cvc",
+    "subtype": "accelerator (corporate, with StartupYard)",
+    "source": {
+      "url": "https://cc.cz/pilulka-lab-vybrala-prvni-startup-ktery-ma-zmenit-zdravotnictvi-investici-posila-carebotu-a-jeho-umele-inteligenci-pro-lekare/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2021-12-06",
+      "accessed_date": "2026-10-13",
+      "quote": "Akcelerátor za to ve společnosti dostane minoritní podíl, podle obchodního rejstříku sedm procent.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Carebot",
+      "company_website": null,
+      "announced_date": "2024-03-22",
+      "role": "participant",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2024-03-22",
+        "accessed_date": "2026-10-13",
+        "quote": "Karel Bastl, Roman Trachta, inovační laboratoř Pilulka Lab, Lukáš Kopčaj, Eva Janečková,",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Carebot",
+      "company_website": null,
+      "announced_date": "2021-12-06",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/pilulka-lab-vybrala-prvni-startup-ktery-ma-zmenit-zdravotnictvi-investici-posila-carebotu-a-jeho-umele-inteligenci-pro-lekare/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2021-12-06",
+        "accessed_date": "2026-10-13",
+        "quote": "Akcelerátor za to ve společnosti dostane minoritní podíl, podle obchodního rejstříku sedm procent.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [
+    {
+      "code": "not_found_or_defunct",
+      "note": "Domain pilulkalab.cz 301-redirects to startupyard.com, which does not mention Pilulka Lab; no own website, no registry entry found."
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "not_found_or_defunct",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Pilulka Lab is an accelerator/innovation lab (Pilulka + StartupYard JV; Pilulka Lab s.r.o. per PSE doc, IČO not confirmed). Only deal found: Carebot (first 2021 stake ~7%, listed again among investors of the 2024 EUR 1.2M round); no other portfolio found. No HQ/team location published in fetched sources. Website redirects to StartupYard. Single-company evidence; dates from CzechCrunch articles."
+  }
+}

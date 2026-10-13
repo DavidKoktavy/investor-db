@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "id": "reflex-capital",
+  "name": "Reflex Capital",
+  "website": "https://www.reflexcapital.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.reflexcapital.com",
+      "tier": 2,
+      "publisher": "Reflex Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Rašínovo Nábřeží 2000/78",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Reflex Capital SE",
+      "registry": "CZ-OR",
+      "registry_id": "24269158",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.mesec.cz/rejstrik-firem/firma-reflex-capital-se-24269158",
+        "tier": 3,
+        "publisher": "mesec.cz (mirror of Czech business register)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Reflex Capital SE, IČO (24269158), sídlo Praha 2",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.symsite.sk/single-post/reflex-capital-invested-5-5m-in-boat-charter-company-boataround",
+      "tier": 3,
+      "publisher": "symsite.sk",
+      "published_date": "2024-06-10",
+      "accessed_date": "2026-10-12",
+      "quote": "Czech fund Reflex Capital invested €5.5m in boat charter company Boataround",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Merchantee",
+      "company_website": null,
+      "announced_date": "2026-06-09",
+      "role": "lead",
+      "instrument": "unknown",
+      "round": "undisclosed (pre-seed per other reports)",
+      "source": {
+        "url": "https://raising.fi/news/merchantee-undisclosed-june-2026",
+        "tier": 3,
+        "publisher": "raising.fi",
+        "published_date": "2026-06-09",
+        "accessed_date": "2026-10-12",
+        "quote": "This financial boost is led by Reflex Capital, with participation from Lighthouse Ventures.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Choice",
+      "company_website": null,
+      "announced_date": "2026-03-16",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "series A",
+      "source": {
+        "url": "https://tech.eu/2026/03/16/choice-secures-71m-series-a-to-expand-its-restaurant-operating-system-across-europe/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-03-16",
+        "accessed_date": "2026-10-12",
+        "quote": "Alea Capital Partners led the funding, with participation from Reflex Capital, Smartlink, and J&T Ventures.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Boataround",
+      "company_website": null,
+      "announced_date": "2024-06-10",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.symsite.sk/single-post/reflex-capital-invested-5-5m-in-boat-charter-company-boataround",
+        "tier": 3,
+        "publisher": "symsite.sk",
+        "published_date": "2024-06-10",
+        "accessed_date": "2026-10-12",
+        "quote": "Czech fund Reflex Capital invested €5.5m in boat charter company Boataround",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Homepage shows offices in Prague and San Francisco; team location taken from Prague address (team page not checked). Homepage lists portfolio logos without dates or fund size/ticket/stages; only '€150M invested' (deployed, not AUM). IČO from tier-3 mirror (mesec.cz), also seen on eulerpool. Merchantee date: raising.fi says 2026-06-09, nordic9 says 2026-06-03; 2026-06-09 used. Grid.online (Jun 2026) from hint not verified with a dated source. Boataround entry is older than the two 2026 deals, included as extra."
+  }
+}

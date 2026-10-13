@@ -1,0 +1,16 @@
+{
+  "id": "zaka-vc",
+  "verified_at": "2026-10-13T15:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "cc.cz (2025-04-08) calls Zaka VC a Czech fund ('České fondy Zaka VC a Purple Ventures') and quotes Andrej Petrus of Zaka VC. Caveat: this is a tier-3 media label; the firm lists offices in Silicon Valley, London, Prague and Bratislava.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "The homepage says verbatim 'We are a seed & pre-seed VC fund'. The our-story page says it has used a VC fund structure since 2024 (it began as a family office in 2019).", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "The homepage quote names the Health & Biotech and Industrial Tech verticals. They map to health_biotech and industrial_manufacturing.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "The homepage says 'seed & pre-seed VC fund'.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "The our-story page says verbatim 'Since 2024 ... first fund sized €15M; and successfully oversubscribed'. Caveat: the homepage table shows Fund 1 as '17M' with no currency, which may be a later or final size, so close status is uncertain. Vintage 2024 is implied ('Since 2024') but the record leaves it null.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "The ITKey byline is 2026-02-16, inside the window. ZAKA VC is named as an investor; the page also says it was lead ('became the lead investor ... joined by Illumina Ventures'), but the record has role unknown. Date caveat: the article says ZAKA first announced the deal in January 2026, so it is a later feature, still inside the window.", "observed_value": {"role": "lead", "announced_date_note": "first announced January 2026"}},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "The ITKey byline is 2025-11-28, inside the window. It says Nephrogen 'closed its USD 2M pre-seed round with ZAKA VC as an announced investor'. The record's published_date is null, but the page shows 2025-11-28.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "cc.cz, 2025-04-08, inside the window. Zaka VC and Purple Ventures are the investors in Vetstor's EUR 500k pre-seed round, and Andrej Petrus of Zaka VC comments. The lead investor is not stated.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "yes", "reason": "It describes itself as a seed/pre-seed VC fund (fund structure since 2024, EUR 15M Fund I). Three cited investments fall in the window (Apr 2025, Nov 2025, Jan/Feb 2026). Czech media call it a Czech fund, it has a Prague-based partner, and Prague is one of its listed offices. The team is multi-country (SF/London/Bratislava too), so the CZ team location is plausible but not stated by the firm itself."}
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "id": "i-and-i-prague",
+  "name": "i&i Prague",
+  "website": "https://www.iniprague.com",
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "nulled by decide.py (verifier=unverifiable, quote=unreachable); extractor said \"CZ\""
+  },
+  "legal_entities": [],
+  "type": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Self-described as biotech incubator and venture builder; no source found stating equity investments by i&i Prague itself, so not typed as vc."
+  },
+  "sectors": {
+    "value": [
+      "health_biotech"
+    ],
+    "raw": "biotech incubator and venture builder, lab to market",
+    "source": {
+      "url": "https://www.iniprague.com",
+      "tier": 2,
+      "publisher": "i&i Prague",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We are a biotech incubator and venture builder, helping groundbreaking ideas leap from lab to market.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "The i&i Biotech Fund (>EUR 45M, with EIF) is a separate vehicle covered in record i-and-i-biotech."
+  },
+  "funds": [],
+  "evidence_of_activity": [],
+  "exclusion_signals": [],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "No dated investment by i&i Prague itself found (site shows only 11 portfolio logos without names or dates). IOCB page (uochb.cz/en/ini-prague) says it provides pre-seed financing and co-established i&i Biotech Fund in 2021 with EIF, but nothing dated or verbatim-confirmed that it invests equity; may be incubator/adviser role to the fund. IČO taken from kurzy search results page (tier 3); direct company page not fetched. Team seat in Prague per same entry address."
+  }
+}

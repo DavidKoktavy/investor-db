@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "id": "stredocesky-inovacni-centrum",
+  "name": "Středočeské inovační centrum (SIC Ventures)",
+  "website": "https://s-ic.cz/",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://s-ic.cz/",
+      "tier": 2,
+      "publisher": "Středočeské inovační centrum",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Strakonická 3367",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Středočeské inovační centrum, spolek",
+      "registry": "CZ-OR",
+      "registry_id": "04228235",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.podnikatel.cz/rejstrik/stredoceske-inovacni-centrum-spolek-04228235/",
+        "tier": 3,
+        "publisher": "podnikatel.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Středočeské inovační centrum, spolek",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": null,
+    "subtype": null,
+    "null_reason": "not_published",
+    "note": "Regional innovation agency (spolek) with a small investment programme SIC Ventures; investor type not stated"
+  },
+  "sectors": {
+    "value": [
+      "generalist"
+    ],
+    "raw": "Podporujeme inovativní projekty napříč obory.",
+    "source": {
+      "url": "https://s-ic.cz/sluzby/financni-injekce-pro-tvuj-start-up/",
+      "tier": 2,
+      "publisher": "Středočeské inovační centrum",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Podporujeme inovativní projekty napříč obory.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "seed"
+    ],
+    "raw": "máte MVP a první zákazníky",
+    "source": {
+      "url": "https://s-ic.cz/sluzby/financni-injekce-pro-tvuj-start-up/",
+      "tier": 2,
+      "publisher": "Středočeské inovační centrum",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "SIC Ventures je pro vás, pokud máte MVP a první zákazníky a chcete nastartovat svůj růst.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": null,
+      "max": 80000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://s-ic.cz/sluzby/financni-injekce-pro-tvuj-start-up/",
+      "tier": 2,
+      "publisher": "Středočeské inovační centrum",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "V SIC Ventures od nás můžete získat investiční ticket až do výše 80 000 EUR.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Elredo",
+      "company_website": null,
+      "announced_date": "2026-10-01",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-10-01",
+        "accessed_date": "2026-10-13",
+        "quote": "investiční program SIC a švédští Bond Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "sic.cz is a namesake (IT firm); real site is s-ic.cz. SIC is a regional innovation agency; SIC Ventures invests via convertible loan or equity (self-described), mainly startups tied to SIC in Central Bohemia. Only one deal found (Elredo, round led by JIC Ventures); article lists SIC's investment programme among investors, amount unknown. Registry source is a tier-3 mirror. Type left null (not stated). Ticket is a stated maximum, not a typical cheque. s-ic.cz page undated (copyright 2026)."
+  }
+}

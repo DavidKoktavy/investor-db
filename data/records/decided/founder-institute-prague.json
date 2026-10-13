@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "id": "founder-institute-prague",
+  "name": "Founder Institute Prague",
+  "website": "https://fi.co",
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "Pages fetched list 'Czechia 2027' as a location but do not say where an investment team sits."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": null,
+    "null_reason": "not_applicable",
+    "note": "Pre-seed accelerator programme (Founder Institute, Inc.), not a fund; see exclusion_signals."
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [],
+  "exclusion_signals": [
+    {
+      "code": "grant_or_program_only",
+      "source": {
+        "url": "https://fi.co/faq",
+        "tier": 2,
+        "publisher": "Founder Institute",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "founders pledge 2.5 percent of future equity to the Equity Collective as a warrant",
+        "self_reported": true
+      },
+      "note": "Paid accelerator programme (entrance fee); equity only as a warrant pledged to an Equity Collective, no direct cheque or fund shown."
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "grant_or_program_only",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "Vestbee (per triage hint)",
+    "notes": "Accelerator chapter of Founder Institute, Inc. (US). No portfolio investments by a Prague entity found; no registry entry found; Prague/Czechia chapter team location not verified. Search results showed an fi.co page about the Prague launch, but it was not fetched, so nothing is cited from it."
+  }
+}

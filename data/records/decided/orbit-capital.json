@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "id": "orbit-capital",
+  "name": "Orbit Capital",
+  "website": "https://orbitcapital.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-07-02",
+      "accessed_date": "2026-10-12",
+      "quote": "Czech-Polish investment firm Orbit Capital",
+      "self_reported": false
+    },
+    "note": "Described as Czech-Polish; Prague per triage/search leads, Warsaw office also reported. Not confirmed from own site."
+  },
+  "legal_entities": [
+    {
+      "name": "Conseq-Orbit SICAV, a.s. (formerly Orbit Capital SICAV, a.s.)",
+      "registry": "CZ-OR",
+      "registry_id": "08223467",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://www.finmag.cz/obchodni-rejstrik/08223467-conseq-orbit-sicav-a-s",
+        "tier": 3,
+        "publisher": "finmag.cz (mirror of obchodni rejstrik)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Orbit Capital SICAV, a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "growth equity and venture debt",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-07-02",
+      "accessed_date": "2026-10-12",
+      "quote": "Orbit Capital manages both growth equity and venture debt funds.",
+      "self_reported": false
+    },
+    "note": "Fund II is growth debt; mixed portfolio edge case."
+  },
+  "sectors": {
+    "value": [
+      "software_saas"
+    ],
+    "raw": "technology companies",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-07-02",
+      "accessed_date": "2026-10-12",
+      "quote": "post-Series A technology companies with proven product-market fit",
+      "self_reported": false
+    },
+    "note": "Only generic technology wording; mapping to software_saas is weak."
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "raw": "post-Series A technology companies with proven product-market fit",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-07-02",
+      "accessed_date": "2026-10-12",
+      "quote": "post-Series A technology companies with proven product-market fit",
+      "self_reported": false
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only the debt fund ticket (EUR 3-15m, Growth Debt Fund II) is published; equity first cheque not found."
+  },
+  "capital": {
+    "value": {
+      "amount": 107000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2026-07-02"
+    },
+    "source": {
+      "url": "https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/",
+      "tier": 3,
+      "publisher": "Tech.eu",
+      "published_date": "2026-07-02",
+      "accessed_date": "2026-10-12",
+      "quote": "second closing of Growth Debt Fund II at €107 million",
+      "self_reported": false
+    }
+  },
+  "funds": [
+    {
+      "name": "Growth Debt Fund II",
+      "vintage": 2026,
+      "size": {
+        "amount": 107000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-07-02",
+        "accessed_date": "2026-10-12",
+        "quote": "second closing of Growth Debt Fund II at €107 million",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "IAG",
+      "company_website": null,
+      "announced_date": "2026-06-02",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/dalsich-140-milionu-na-rychlejsi-nakup-autodilu-cesi-chteji-pomoci-mechanikum-a-miri-do-evropy/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-06-02",
+        "accessed_date": "2026-10-12",
+        "quote": "Kapitál poskytly fondy Orbit Capital a Jet Venture 1",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [
+    {
+      "code": "debt_only",
+      "note": "Growth Debt Fund II provides non-dilutive debt; equity activity by Orbit itself not clearly shown (IAG round combined equity and venture debt, Orbit's part reported as debt).",
+      "source": {
+        "url": "https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-07-02",
+        "accessed_date": "2026-10-12",
+        "quote": "non-dilutive growth capital",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "orbitcapital.com is a near-empty page (tagline, nav Growth Equity/Growth Debt, subpages 404); no own-site evidence. Sloneek (June 2026, reported by seedtable/PitchBook) not recorded: no fetched dated source. No growth equity fund or Orbit-led equity deal confirmed; IAG round combined equity and venture debt, Orbit role/instrument unknown. Legal entity is the fund vehicle SICAV (Praha 1 seat), management company/IČO of Prague 4 entity not found; registry via tier-3 mirror, quote is name only. Other sources mention AUM over EUR 200m (Alternative Credit Investor) not fetched."
+  }
+}

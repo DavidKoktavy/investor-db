@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "id": "chilli-ventures",
+  "name": "Chilli Ventures",
+  "website": "https://www.chilliventures.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.chilliventures.cz",
+      "tier": 2,
+      "publisher": "Chilli Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Arnošta z Pardubic 2789 530 02 Pardubice",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Chilli Ventures a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "04106059",
+      "role": "management_company",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/04106059/chilli-ventures-as/",
+        "tier": 3,
+        "publisher": "rejstrik-firem.kurzy.cz",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Identifikační číslo: 04106059",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "own-capital investment company",
+    "source": {
+      "url": "https://www.chilliventures.cz",
+      "tier": 2,
+      "publisher": "Chilli Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "So our role is in the pre-seed and seed rounds",
+      "self_reported": true
+    },
+    "note": "Site says it invests its own capital; classed vc on pre-seed/seed focus."
+  },
+  "sectors": {
+    "value": null,
+    "raw": null,
+    "null_reason": "not_published",
+    "note": "Only 'passionate about technology' stated; no sector list."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "pre-seed and seed rounds",
+    "source": {
+      "url": "https://www.chilliventures.cz",
+      "tier": 2,
+      "publisher": "Chilli Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "So our role is in the pre-seed and seed rounds",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 200000,
+      "max": 600000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.chilliventures.cz",
+      "tier": 2,
+      "publisher": "Chilli Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Typical investment size 200-600k euros for a minority stake",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "DecisionRules",
+      "company_website": "https://www.decisionrules.io",
+      "announced_date": "2025-05-06",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "EUR 1.6M round",
+      "source": {
+        "url": "https://www.decisionrules.io/articles/decisionrules-raises-eu1-6m-to-scale-automation-globally",
+        "tier": 2,
+        "publisher": "DecisionRules",
+        "published_date": "2025-05-06",
+        "accessed_date": "2026-10-13",
+        "quote": "The round was led by Lighthouse Ventures, with participation from Czech Founders VC, BD Partners, and Chilli Ventures",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "tech.eu top investors CZ H1 2025 (aggregator lead)",
+    "notes": "Website listed Modeinspect (PitchBook dates it 2025-12-04, aggregator only) but no dated primary/media source found, so not recorded as evidence. Fund-of-funds LP stakes (Lighthouse, Tensor, PE managers) also listed on site but investor also makes direct startup investments. Registry mirror date unprinted; legal-entity quote from kurzy.cz mirror (tier 3, labelled tier 1 not used)."
+  },
+  "exclusion_signals": []
+}

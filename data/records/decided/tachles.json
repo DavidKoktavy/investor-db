@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "id": "tachles",
+  "name": "Tachles VC",
+  "website": "https://tachlesvc.com",
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Website lists a Georgia (USA) address; Czech management company seat in Prague; team location unclear."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://tachlesvc.com",
+      "tier": 2,
+      "publisher": "Tachles VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Early-stage specialist for cyber, cloud, AI",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "cybersecurity_defense",
+      "ai_data"
+    ],
+    "raw": "kyberbezpečnosti, cloudové infrastruktury a umělé inteligence",
+    "source": {
+      "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2024-06-13",
+      "accessed_date": "2026-10-12",
+      "quote": "Fond cílí převážně na izraelské startupy z oblasti kyberbezpečnosti, cloudové infrastruktury a umělé inteligence.",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only generic 'Early-stage' stated; no schema stage named."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Hirundo",
+      "company_website": null,
+      "announced_date": "2025-02-12",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2025-02-12",
+        "accessed_date": "2026-10-12",
+        "quote": "Hirundo (celková investice 7,6 milionu dolarů ve dvou kolech) slouží pro strojové odnaučování",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_geography",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Tachles VC Management s.r.o. (jednatelé Tušek, Marek, since 2024-06-29, Chudenická 1059/30 Praha; podnikatel.cz mirror) - ICO not stated on page, so no legal_entities. Website address is Peachtree Corners GA, USA; Israeli partners; hq_country left null. Only Hirundo dated item: CzechCrunch 2025-02-12 lists it among 7 startups backed in 2024 (CZK 30m total; Tachles own amounts undisclosed). Date is article date, deal date unknown; role unknown. No deal within last 24 months with exact date found; PitchBook (aggregator, not used) lists 2026 deals (Frostbridge, Papr). Cloud infrastructure not mapped to a taxonomy value. Stages null: only generic 'early-stage' stated. Fund size ~CZK 500m first phase (CzechCrunch 2024-06-13) not in funds[] because no quote stored."
+  },
+  "exclusion_signals": []
+}

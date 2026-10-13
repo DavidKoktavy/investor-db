@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "id": "springtide-ventures",
+  "name": "Springtide Ventures",
+  "website": "https://www.springtide.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.springtide.cz/about/",
+      "tier": 2,
+      "publisher": "Springtide Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We have a presence in Europe (Prague), Israel (Tel-Aviv) and the USA (Boston).",
+      "self_reported": true
+    },
+    "note": "Registered office in Prague; team also in Tel-Aviv and Boston."
+  },
+  "legal_entities": [
+    {
+      "name": "Springtide Ventures s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "01726587",
+      "role": "management_company",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/01726587/",
+        "tier": 3,
+        "publisher": "kurzy.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Springtide Ventures s.r.o. , Praha IČO 01726587",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "cvc",
+    "subtype": "captive venture arm of KKCG Group (triage said private_holding)",
+    "source": {
+      "url": "https://www.springtide.cz/about/",
+      "tier": 2,
+      "publisher": "Springtide Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Established in 2014, Springtide Ventures is a 100% subsidiary of KKCG Group.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "software_saas",
+      "cybersecurity_defense",
+      "ai_data"
+    ],
+    "raw": "SaaS companies providing products in Cyber Security, Cloud Infrastructure, Horizontal AI/ML, and Blockchain",
+    "source": {
+      "url": "https://www.springtide.cz/about/",
+      "tier": 2,
+      "publisher": "Springtide Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Over time Springtide has adopted an investment strategy focused on SaaS companies providing products in Cyber Security,",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a",
+      "series_b_plus"
+    ],
+    "raw": "from Seed through Series A and B up to Series C",
+    "source": {
+      "url": "https://www.springtide.cz/about/",
+      "tier": 2,
+      "publisher": "Springtide Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "accompany our portfolio companies from Seed through Series A and B up to Series C.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 1000000,
+      "max": 10000000,
+      "currency": "USD"
+    },
+    "source": {
+      "url": "https://www.springtide.cz/about/",
+      "tier": 2,
+      "publisher": "Springtide Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Our investments typically range between one and ten million US dollars.",
+      "self_reported": true
+    },
+    "note": "Page also says can be higher in later rounds."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Invests solely KKCG capital; no amount published."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "ThreatMark",
+      "company_website": "https://threatmark.com",
+      "announced_date": "2025-01-07",
+      "role": "unknown",
+      "instrument": "convertible",
+      "round": "USD 23M round (USD 15M Octopus Ventures and RAC, USD 8M Springtide convertible note)",
+      "source": {
+        "url": "https://threatmark.com/threatmark-to-advance-the-fight-against-online-fraud",
+        "tier": 2,
+        "publisher": "ThreatMark",
+        "published_date": "2025-01-07",
+        "accessed_date": "2026-10-13",
+        "quote": "an $8 million convertible note from Springtide Ventures Fund.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Source Defense",
+      "company_website": null,
+      "announced_date": "2022-04-27",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "Series B",
+      "source": {
+        "url": "https://cc.cz/ctvrt-miliardy-do-kyberneticke-bezpecnosti-karel-komarek-investuje-do-dvou-izraelskych-startupu/",
+        "tier": 3,
+        "publisher": "cc.cz",
+        "published_date": "2022-04-27",
+        "accessed_date": "2026-10-13",
+        "quote": "Fond Springtide Ventures stál v čele investičních kol, v rámci kterých obě firmy získaly dohromady 31,5 milionu dolarů",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T15:00:00+02:00",
+    "candidate_source": "triage hint",
+    "notes": "Captive KKCG venture arm; invests only KKCG capital, no external LPs, no funds[]. Not a ČNB-regulated manager as far as checked (not searched in JERRS). Registry source is the kurzy.cz mirror (tier 3, data from justice.cz as of 24 May 2026). Newest deal in window is ThreatMark Jan 2025; ThreatMark page says Springtide is largest shareholder; role not stated (ain.ua claims Springtide led, conflicting with the company release naming Octopus/RAC). Springtide site news lists no deals after 2022-08 (Equalum Series C participation, not used: listing does not state it). Cyngular seed (Jan 2022) only from aggregators, unused. Founding year: site says 2014, register 2013. Registered business activities are generic (real estate rental, IT consulting)."
+  }
+}

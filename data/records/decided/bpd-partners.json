@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "id": "bpd-partners",
+  "name": "bpd partners",
+  "website": null,
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.finmag.cz/obchodni-rejstrik/27342875-bpd-partners-a-s",
+      "tier": 3,
+      "publisher": "finmag.cz (mirror of obchodní rejstřík)",
+      "published_date": "2026-01-10",
+      "accessed_date": "2026-10-13",
+      "quote": "Evropská 2758/11, 160 00 Praha - Dejvice",
+      "self_reported": false
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "bpd partners a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "27342875",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.finmag.cz/obchodni-rejstrik/27342875-bpd-partners-a-s",
+        "tier": 3,
+        "publisher": "finmag.cz (mirror of obchodní rejstřík)",
+        "published_date": "2026-01-10",
+        "accessed_date": "2026-10-13",
+        "quote": "IČO společnosti je 27342875 a DIČ je CZ27342875.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "family_office",
+    "subtype": "investment group of three entrepreneurs",
+    "source": {
+      "url": "https://www.e15.cz/byznys/obchod-a-sluzby/zdravotni-pece-zlakala-dalsi-miliardare-investuji-do-ni-bpd-partners-1378560",
+      "tier": 3,
+      "publisher": "E15",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Skupina bpd partners spravuje investice miliardářů Bobely, Dobrovského a Pudila",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "climate_energy",
+      "proptech_construction"
+    ],
+    "raw": "více než desítku biotechnologických a diagnostických start-upů",
+    "source": {
+      "url": "https://www.e15.cz/byznys/obchod-a-sluzby/zdravotni-pece-zlakala-dalsi-miliardare-investuji-do-ni-bpd-partners-1378560",
+      "tier": 3,
+      "publisher": "E15",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "a více než desítku biotechnologických a diagnostických start-upů",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Powerful Medical",
+      "company_website": "https://www.powerfulmedical.com",
+      "announced_date": "2022-09-28",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.powerfulmedical.com/blog/powerful-medical-raises-6-million-eur-in-seed-funding/",
+        "tier": 2,
+        "publisher": "Powerful Medical",
+        "published_date": "2022-09-28",
+        "accessed_date": "2026-10-13",
+        "quote": "Venture To Future Fund (VFF), CB ESPRI Impact One, bpd partners, and several angel investors",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected",
+    "notes": "No own website found (website null). Family office of Bobela, Dobrovský, Pudil (not a classic VC); invests in energy, real estate, chemicals and biotech/diagnostics start-ups. E15 article dated 13 Mar 2021 in page text but no date shown to fetcher reliably, so published_date null; the e15 type/sector sources are undated in record. hq_country inferred from registered seat (team location not published). Only dated deal found: Powerful Medical seed (Sep 2022; cc.cz 30.9.2022 confirms 'BPD Partners ... spravuje peníze někdejších majitelů Czech Coal'). CB Insights lists a 2024 Powerful Medical entry for BPD Partners but it is an aggregator and unconfirmed by a primary source; 2024 EIC round did not name bpd. Linked BTCZ Ventures (own record) is described by IOCB Prague as 'part of BPD Partners Group' and supported Taveren Therapeutics (2025-12-03); not recorded here as direct BPD investment because the source names BTCZ, not bpd partners. Registry entry shows it is also licensed for investment services and real-estate rental (finmag mirror, not in ČNB JERRS checked). Funds/ticket/stages not published."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "id": "grouport-ventures",
+  "name": "Grouport Ventures",
+  "website": null,
+  "hq_country": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "Only aggregator profiles (capboard, tryfundable, nordic9) say Prague; no primary page found."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": null,
+    "null_reason": "not_found"
+  },
+  "sectors": {
+    "value": null,
+    "raw": null,
+    "null_reason": "not_found"
+  },
+  "stages": {
+    "value": null,
+    "raw": null,
+    "null_reason": "not_found"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Augmented Robotics",
+      "company_website": null,
+      "announced_date": "2022-07-07",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": "seed",
+      "source": {
+        "url": "https://funding.tech.eu/deals/4468AADB-53E0-464C-920A-1E7DEBD12121",
+        "tier": 3,
+        "publisher": "Tech.eu funding database",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Investors in the round: DEPO Ventures, Gruport Ventures, RKKVC and 2 others.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [
+    {
+      "code": "not_found_or_defunct",
+      "note": "No official website or registry entry found (grouport.cz/.com do not resolve or are empty); only aggregator profiles exist."
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "not_found_or_defunct",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "Seedtable Czech ranking (aggregator lead)",
+    "notes": "No primary source found. Single deal (Augmented Robotics seed, Jul 2022, date from Tech.eu table, not printed in quote) spelled 'Gruport Ventures' on the cited page; identity with Grouport Ventures is inferred from aggregators (CB Insights, VCBacked list 'Grouport Ventures' for same round) and is unconfirmed. Augmented Robotics is Berlin-based. Aggregators claim Prague, founded 2019, portfolio Beem, Oxus.AI; unverified. No registry entry (IČO) found."
+  }
+}

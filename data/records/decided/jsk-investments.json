@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "id": "jsk-investments",
+  "name": "JSK Investments",
+  "website": "https://www.jskinvestments.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.jskinvestments.cz",
+      "tier": 2,
+      "publisher": "JSK Investments",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Klimentská 1216/46 110 00 Praha 1",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "JSK Investments SICAV a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "23823445",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445",
+        "tier": 1,
+        "publisher": "ARES (Ministerstvo financí)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "\"ico\":\"23823445\",\"obchodniJmeno\":\"JSK Investments SICAV a.s.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "SICAV with Private & Growth Equity and Venture Capital subfunds",
+    "source": {
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "tier": 3,
+      "publisher": "Newstream",
+      "published_date": "2025-10-01",
+      "accessed_date": "2026-10-13",
+      "quote": "Venture Capital se zaměří na menšinové investice do startupů v raných fázích.",
+      "self_reported": false
+    },
+    "note": "Hint said private_holding; the vehicle is a CNB-licensed SICAV for qualified investors with a VC subfund."
+  },
+  "sectors": {
+    "value": [
+      "consumer_ecommerce",
+      "logistics_supply_chain",
+      "industrial_manufacturing",
+      "health_biotech"
+    ],
+    "raw": "e-commerce, logistika, FMCG, výroba či zdravotnictví",
+    "source": {
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "tier": 3,
+      "publisher": "Newstream",
+      "published_date": "2025-10-01",
+      "accessed_date": "2026-10-13",
+      "quote": "zaměří na obory jako e-commerce, logistika, FMCG, výroba či zdravotnictví",
+      "self_reported": false
+    },
+    "note": "Sectors stated for the Private & Growth Equity subfund; VC deals seen are medtech/neurotech/AI."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "startupů v raných fázích (VC subfund); majoritní podíly ve středně velkých firmách (PGE subfund)",
+    "source": {
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "tier": 3,
+      "publisher": "Newstream",
+      "published_date": "2025-10-01",
+      "accessed_date": "2026-10-13",
+      "quote": "Venture Capital se zaměří na menšinové investice do startupů v raných fázích.",
+      "self_reported": false
+    },
+    "note": "Actual deals include a pre-seed (Elin.ai) and a Series A participation (Andromeda Surgical)."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 2000000000,
+      "currency": "CZK",
+      "basis": "latest_fund_size",
+      "as_of": "2025-10-01"
+    },
+    "source": {
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "tier": 3,
+      "publisher": "Newstream",
+      "published_date": "2025-10-01",
+      "accessed_date": "2026-10-13",
+      "quote": "Počáteční objem prostředků činí dvě miliardy korun s výhledem na navýšení do řádu vyšších jednotek miliard.",
+      "self_reported": false
+    }
+  },
+  "funds": [
+    {
+      "name": "JSK Investments SICAV a.s.",
+      "vintage": 2025,
+      "size": {
+        "amount": 2000000000,
+        "currency": "CZK",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+        "tier": 3,
+        "publisher": "Newstream",
+        "published_date": "2025-10-01",
+        "accessed_date": "2026-10-13",
+        "quote": "Počáteční objem prostředků činí dvě miliardy korun s výhledem na navýšení do řádu vyšších jednotek miliard.",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "MintNeuro",
+      "company_website": null,
+      "announced_date": "2026-10-09",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.jskinvestments.cz/cs/media/jsk-investments-sicav-a-s-investuje-do-britskeho-vyvojare-cipu-pro-neurotechnologie-mint-neuro",
+        "tier": 2,
+        "publisher": "JSK Investments",
+        "published_date": "2026-10-09",
+        "accessed_date": "2026-10-13",
+        "quote": "Investiční fond JSK Investments SICAV a.s. se zapojil do investičního kola britské společnosti MintNeuro, v němž firma získala 5 milionů USD.",
+        "self_reported": true
+      }
+    },
+    {
+      "company": "Andromeda Surgical",
+      "company_website": null,
+      "announced_date": "2026-09-15",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "Series A",
+      "source": {
+        "url": "https://cc.cz/simona-kijonkova-investuje-desitky-milionu-do-roboticke-chirurgie-cilem-je-zkratit-fronty-na-operace/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-09-15",
+        "accessed_date": "2026-10-13",
+        "quote": "Fond JSK Investments se zapojil do investice do amerického startupu Andromeda Surgical",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Elin.ai",
+      "company_website": null,
+      "announced_date": "2024-12-09",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/jsk-investments-simony-kijonkove-investuje-420-tisic-eur-do-ai-startupu-elin-ai/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2024-12-09",
+        "accessed_date": "2026-10-13",
+        "quote": "420 tisíc eur, přitom do firmy spoluzakladatele Jana Romportla vložila investiční firma JSK Investments",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Ticket null: the only figure (EUR 125k minimum investment) is the LP minimum for qualified investors, not an investment cheque. SICAV founded 2025-10-09 (ARES); an older JSK Investments s.r.o. (IČO 06224270) is a different entity. Also majority stake in Volter (PE, per Newstream). Andromeda date: CzechCrunch 2026-09-15, Vestbee 2026-09-17. Role/instrument unknown for all deals (Elin.ai: Lupa says JSK put in EUR 420k of EUR 1M). Sectors/stages stated for subfunds only."
+  }
+}

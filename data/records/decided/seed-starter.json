@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "id": "seed-starter",
+  "name": "Seed Starter (Ceska sporitelna)",
+  "website": "https://www.seedstarter.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.seedstarter.cz",
+      "tier": 2,
+      "publisher": "Seed Starter",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Olbrachtova 1929/62, 140 00 Praha 4",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "ČS Seed Starter, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "61058769",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769",
+        "tier": 1,
+        "publisher": "ARES",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "ČS Seed Starter, a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "cvc",
+    "subtype": "corporate venture of Česká spořitelna",
+    "source": {
+      "url": "https://www.seedstarter.cz",
+      "tier": 2,
+      "publisher": "Seed Starter",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Since 2020 we have been investing in technologies that help banking thrive or bring innovation to our clients.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "fintech"
+    ],
+    "raw": "technologies that help banking thrive or bring innovation to our clients",
+    "source": {
+      "url": "https://www.seedstarter.cz",
+      "tier": 2,
+      "publisher": "Seed Starter",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Since 2020 we have been investing in technologies that help banking thrive or bring innovation to our clients.",
+      "self_reported": true
+    },
+    "note": "Banking-related focus mapped to fintech; no explicit sector list on the page."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "Pre-seed & Seed investment rounds",
+    "source": {
+      "url": "https://www.seedstarter.cz",
+      "tier": 2,
+      "publisher": "Seed Starter",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-seed & Seed investment rounds",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 200000,
+      "max": 1000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.seedstarter.cz",
+      "tier": 2,
+      "publisher": "Seed Starter",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Ticket size 200k – 1M EUR",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Definic",
+      "company_website": null,
+      "announced_date": "2026-06-12",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-06-12",
+        "accessed_date": "2026-10-12",
+        "quote": "ke kterému se připojil Seed Starter patřící pod Českou spořitelnu",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Repsense",
+      "company_website": null,
+      "announced_date": "2025-12-17",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2025-12-17",
+        "accessed_date": "2026-10-12",
+        "quote": "přidaly se Seed Starter České spořitelny a stávající litevští investoři",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Vestberry",
+      "company_website": null,
+      "announced_date": "2025-03-17",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/ceska-sporitelna-chce-aby-investori-vice-vydelavali-investuje-do-slovenskeho-startupu-ktery-to-resi/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2025-03-17",
+        "accessed_date": "2026-10-12",
+        "quote": "Venture kapitálový fond Seed Starter České spořitelny vložil peníze již do desátého startupu.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Quotes on cc.cz were taken from WebFetch output (small model), not raw page; check_quotes will confirm. Registry quote is the ARES JSON company name only. No portfolio page on seedstarter.cz. Hint says CzechCrunch Dec 2025 reports bank withdrawing from PalmApp (a divestment from one company, not from the fund); Seed Starter continued investing in 2026 (Definic). Hint mentions LP in JIC Ventures, not verified here. Role 'participant' for Definic/Repsense because J&T Ventures / Tensor Ventures led."
+  },
+  "exclusion_signals": []
+}

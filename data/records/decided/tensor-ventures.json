@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "id": "tensor-ventures",
+  "name": "Tensor Ventures",
+  "website": "https://tensor.ventures",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://siliconcanals.com/tensor-ventures-opens-new-e50m-fund/",
+      "tier": 3,
+      "publisher": "Silicon Canals",
+      "published_date": "2024-10-11",
+      "accessed_date": "2026-10-12",
+      "quote": "Czech-based Tensor Ventures opens new €50M fund focusing on these key sectors",
+      "self_reported": false
+    },
+    "note": "Team in Prague (Karlín office on website); GP vehicle is registered in Luxembourg."
+  },
+  "legal_entities": [
+    {
+      "name": "Tensor Ventures a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "06257241",
+      "role": "management_company",
+      "source": {
+        "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06257241",
+        "tier": 1,
+        "publisher": "ARES",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "\"ico\":\"06257241\",\"obchodniJmeno\":\"Tensor Ventures a.s.\"",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "deeptech",
+    "source": {
+      "url": "https://tensor.ventures",
+      "tier": 2,
+      "publisher": "Tensor Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Tensor Ventures explores deep tech innovation's frontiers & invests in uncharted territories.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "ai_data",
+      "deeptech_hardware",
+      "health_biotech",
+      "climate_energy"
+    ],
+    "raw": "the rise of AI, Quantum Revolution, Computational Biotech or Sustainable Tech",
+    "source": {
+      "url": "https://tensor.ventures",
+      "tier": 2,
+      "publisher": "Tensor Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We embrace inevitable tectonic shifts; the rise of AI,",
+      "self_reported": true
+    },
+    "note": "Quote is the start of the sentence; the page continues with Quantum Revolution, Computational Biotech or Sustainable Tech."
+  },
+  "stages": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "raw": "Seed and Series A rounds",
+    "source": {
+      "url": "https://tensor.ventures",
+      "tier": 2,
+      "publisher": "Tensor Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We participate in Seed and Series A rounds.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": {
+      "amount": 50000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2024-05-15"
+    },
+    "source": {
+      "url": "https://cc.cz/evropsky-investicni-fond-uz-vlozil-penize-do-17-ceskych-fondu-miliardovy-ted-otevira-s-tensor-ventures/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2024-05-15",
+      "accessed_date": "2026-10-12",
+      "quote": "cílí na celkovou velikost až 50 milionů eur",
+      "self_reported": false
+    },
+    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+  },
+  "funds": [
+    {
+      "name": "Tensor Ventures Fund II (Co-investment Fund)",
+      "vintage": 2024,
+      "size": {
+        "amount": 50000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://cc.cz/evropsky-investicni-fond-uz-vlozil-penize-do-17-ceskych-fondu-miliardovy-ted-otevira-s-tensor-ventures/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2024-05-15",
+        "accessed_date": "2026-10-12",
+        "quote": "cílí na celkovou velikost až 50 milionů eur",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Edmund",
+      "company_website": null,
+      "announced_date": "2026-04-09",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/ostravsky-startup-veri-v-ai-misto-zkuseneho-technika-s-investici-se-ma-rozsirit-po-evrope-i-americe/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-04-09",
+        "accessed_date": "2026-10-12",
+        "quote": "Investici vede fond Forward.one, přidávají se University2Ventures a čeští Tensor Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Repsense",
+      "company_website": null,
+      "announced_date": "2025-12-17",
+      "role": "lead",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2025-12-17",
+        "accessed_date": "2026-10-12",
+        "quote": "Investiční kolo vedl český deeptech fond Tensor Ventures, přidaly se Seed Starter České spořitelny",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Ticket not published on website. Fund II: cc.cz (May 2024) says target up to EUR 50M, of which up to EUR 20M from EIF; other media quote different sizes. Fund I SCSp size not stated. GP Tensor Ventures GP S.a r.l. and Fund I SCSp are Luxembourg entities (no registry number found); Czech management company found in ARES. Edmund round date 2026-04-09 per Lupa; PitchBook lists 19 Mar 2026 (aggregator, not used). Cnuic and PangeAI from hint not verified."
+  },
+  "exclusion_signals": []
+}

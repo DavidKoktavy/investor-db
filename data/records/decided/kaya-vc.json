@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "id": "kaya-vc",
+  "name": "KAYA VC",
+  "website": "https://www.kaya.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Prague Thámova 183/11, 186 00",
+      "self_reported": true
+    },
+    "note": "Offices also in Warsaw, San Francisco, London; GPs (Obrtac, Pacinda, Rajcan, Zheng) listed on team section; Prague seat per candidate triage."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We invest in ambitious & gritty founders from CEE; pre-seed through to meaningful scale.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "raw": "digital, physical, and consumer economies",
+    "null_reason": "not_published",
+    "note": "Own wording 'digital, physical, and consumer economies' does not map to taxonomy; left null."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "pre-seed through to meaningful scale; Pre+Seed",
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We invest in ambitious & gritty founders from CEE; pre-seed through to meaningful scale.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 1000000,
+      "max": 3000000,
+      "currency": "USD"
+    },
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "$1–3M Ticket",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 500000000,
+      "currency": "USD",
+      "basis": "reported_aum",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://www.kaya.vc",
+      "tier": 2,
+      "publisher": "KAYA",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "$500M AUM Total",
+      "self_reported": true
+    }
+  },
+  "funds": [
+    {
+      "name": "Current fund (name not stated)",
+      "vintage": null,
+      "size": {
+        "amount": 85000000,
+        "currency": "USD",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://www.kaya.vc",
+        "tier": 2,
+        "publisher": "KAYA",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "$85M Current Fund",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Viktor",
+      "company_website": "https://getviktor.com",
+      "announced_date": "2026-05-19",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://fortune.com/2026/05/19/viktor-ai-startup-raises-75-million-for-virtual-coworker-exclusive/",
+        "tier": 3,
+        "publisher": "Fortune",
+        "published_date": "2026-05-19",
+        "accessed_date": "2026-10-13",
+        "quote": "participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "E2B",
+      "company_website": "https://e2b.dev",
+      "announced_date": "2025-07-28",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://www.insightpartners.com/ideas/e2b-raises-a-21m-series-a-to-offer-cloud-for-ai-agents-to-fortune-100/",
+        "tier": 3,
+        "publisher": "Insight Partners",
+        "published_date": "2025-07-28",
+        "accessed_date": "2026-10-13",
+        "quote": "Series A funding round led by global software investor Insight Partners, with participation from Decibel, Sunflower Capital, and Kaya",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "not_found_or_defunct",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "No legal entity found (website names none; ARES search for KAYA gave only namesakes; PitchBook lead lists former names Enern Czech s.r.o. / ENERN Investments SICAV, unverified). Hint deals TopK (Jul 2025), E2B seed (Oct 2024), Upheal not confirmed from dated sources. Insight Partners page is a different publisher (LP-independent), so tier 3 not self. ET3/ET4 subfunds InnovFin-backed per website footer. Capital $500M is website 'AUM Total', undated."
+  },
+  "exclusion_signals": []
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "id": "soulmates-ventures",
+  "name": "Soulmates Ventures",
+  "website": "https://www.soulmatesventures.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.soulmatesventures.com/legal/",
+      "tier": 2,
+      "publisher": "Soulmates Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Rohanské nábřeží 693/10, 2nd Floor",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "09789561",
+      "role": "management_company",
+      "source": {
+        "url": "https://rejstrik-firem.kurzy.cz/09789561/",
+        "tier": 3,
+        "publisher": "kurzy.cz (mirror of obchodní rejstřík)",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "impact / sustainability",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2025-03-18",
+      "accessed_date": "2026-10-12",
+      "quote": "has raised a €50 million fund to support sustainable startups",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "climate_energy",
+      "health_biotech",
+      "agri_food",
+      "mobility_transport",
+      "edtech"
+    ],
+    "raw": "air, water, energy, mobility, circular economy, food and agriculture, education, and healthcare",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2025-03-18",
+      "accessed_date": "2026-10-12",
+      "quote": "air, water, energy, mobility, circular economy, food and agriculture, education, and healthcare",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": [
+      "seed"
+    ],
+    "raw": "seed-stage, expanding to later-stage",
+    "source": {
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2025-03-18",
+      "accessed_date": "2026-10-12",
+      "quote": "continuing to support seed-stage investments",
+      "self_reported": false
+    },
+    "note": "Later stage mentioned without naming a stage."
+  },
+  "ticket": {
+    "value": {
+      "min": null,
+      "max": 3000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.soulmatesventures.com/",
+      "tier": 2,
+      "publisher": "Soulmates Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "We fund each company with an initial investment of up to €3,000,000",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 50000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2025-03-18"
+    },
+    "source": {
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2025-03-18",
+      "accessed_date": "2026-10-12",
+      "quote": "has raised a €50 million fund to support sustainable startups",
+      "self_reported": false
+    },
+    "note": "Homepage also shows AUM EUR 62M but no verbatim quote captured."
+  },
+  "funds": [
+    {
+      "name": "Soulmates Ventures sustainable fund (Article 9 SFDR)",
+      "vintage": 2025,
+      "size": {
+        "amount": 50000000,
+        "currency": "EUR",
+        "close": "unknown"
+      },
+      "source": {
+        "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2025-03-18",
+        "accessed_date": "2026-10-12",
+        "quote": "has raised a €50 million fund to support sustainable startups",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Rightcharge",
+      "company_website": "https://rightcharge.com",
+      "announced_date": "2026-09-03",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "growth round (GBP 500k follow-on)",
+      "source": {
+        "url": "https://vestbee.com/insights/articles/rightcharge-raises-500-k",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2026-09-03",
+        "accessed_date": "2026-10-12",
+        "quote": "a growth funding round led by existing investor Soulmates Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Antiverse",
+      "company_website": "https://www.antiverse.io",
+      "announced_date": "2026-03-03",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://vestbee.com/insights/articles/antiverse-raises-9-3-m",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2026-03-03",
+        "accessed_date": "2026-10-12",
+        "quote": "The round was led by Soulmates Ventures, with participation from Innovation Investment Capital, DOMiNO Ventures",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Rightcharge",
+      "company_website": "https://rightcharge.com",
+      "announced_date": "2025-10-23",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.soulmatesventures.com/soulmates-ventures-leads-1-6m-seed-round-in-rightcharge-to-accelerate-europes-fleet-electrification/",
+        "tier": 2,
+        "publisher": "Soulmates Ventures",
+        "published_date": "2025-10-23",
+        "accessed_date": "2026-10-12",
+        "quote": "Soulmates Ventures leads £1.6M seed round in Rightcharge",
+        "self_reported": true
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "triage hint (Lupa, Vestbee)",
+    "notes": "IČO 09789561 confirmed on own /legal/ page and kurzy.cz mirror. Brand also runs an accelerator-style program (EUR 50k-1M tickets on /our-program/) but invests equity. Sector mapping partly interpretive. Vestbee quotes are fragments from a small-model fetch; verify with check_quotes."
+  }
+}

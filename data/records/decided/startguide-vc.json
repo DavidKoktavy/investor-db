@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "id": "startguide-vc",
+  "name": "Startguide VC",
+  "website": "https://startguide.cz",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://startguide.cz",
+      "tier": 2,
+      "publisher": "Startguide",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Start Guide, s.r.o., Opletalova 1015/55, Nové Město, 110 00 Praha 1",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Start Guide, s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "28418425",
+      "role": "management_company",
+      "source": {
+        "url": "https://startguide.cz",
+        "tier": 2,
+        "publisher": "Startguide",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "IČ: 28418425",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "early-stage, mentoring",
+    "source": {
+      "url": "https://startguide.cz",
+      "tier": 2,
+      "publisher": "Startguide",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Investoři podporující digitální startupy v rané fázi v regionu střední a východní Evropy.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "health_biotech",
+      "software_saas",
+      "fintech",
+      "cybersecurity_defense",
+      "ai_data"
+    ],
+    "raw": "Healthtech, podnikový software, Fintech a kybernetická bezpečnost; AI transformace",
+    "source": {
+      "url": "https://startguide.cz",
+      "tier": 2,
+      "publisher": "Startguide",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Soustředíme se na oblasti, jako jsou Healthtech, podnikový software, Fintech a kybernetická bezpečnost",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "až do úrovně seed, mostní financování",
+    "source": {
+      "url": "https://startguide.cz",
+      "tier": 2,
+      "publisher": "Startguide",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Zvažujeme investiční příležitosti až do úrovně seed a poskytujeme mostní financování",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 100000,
+      "max": 100000,
+      "currency": "EUR"
+    },
+    "note": "SGOne page: approx. EUR 100k per project in early stage ('okolo'); same page also gives 50-200k USD range.",
+    "source": {
+      "url": "https://startguide.cz/sgone/",
+      "tier": 2,
+      "publisher": "Startguide",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Do každého projektu se v rané fázi chystáme investovat okolo 100 000 Eur.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 6000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://startguide.cz/sgone/",
+      "tier": 2,
+      "publisher": "Startguide",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Fond směřuje k hodnotě 6 milionů Eur a je z 30 % naplněn.",
+      "self_reported": true
+    },
+    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+  },
+  "funds": [
+    {
+      "name": "SGOne",
+      "vintage": null,
+      "size": {
+        "amount": 6000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://startguide.cz/sgone/",
+        "tier": 2,
+        "publisher": "Startguide",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "Fond směřuje k hodnotě 6 milionů Eur a je z 30 % naplněn.",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Carebot",
+      "company_website": "https://carebot.com",
+      "announced_date": "2024-03-22",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2024-03-22",
+        "accessed_date": "2026-10-12",
+        "quote": "venture kapitálová společnost Startguide VC",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "dormant",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Newest verified deal is Carebot (2024-03-22), older than 24 months. A newer 2026 Carebot round (Forbes.cz, ~Sept 2026) lists Gain Ventures etc.; Startguide participation there is not confirmed by a fetched page (CzechCrunch list I could verify is the 2024 article). Registry not directly confirmed: IČO taken from the investor's own imprint; podnikatel.cz mirror lists Start Guide, s.r.o. IČO 28418425 as shareholder of START GUIDE ONE, a.s. (IČO 17323126), whose chairman is 'Start Guide - osoba rizikového kapitálu, s.r.o.'. Fund vehicle entities not recorded as legal_entities. Ticket EUR 100k is 'around' per SGOne page, which describes a fund whose investment period ended 2023; SGTwo page mentions up to EUR 2M tranches and 20M EUR planned (not used, no clear label). Website pages are undated."
+  },
+  "exclusion_signals": []
+}

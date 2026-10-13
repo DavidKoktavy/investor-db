@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "id": "3ts-capital-partners",
+  "name": "3TS Capital Partners",
+  "website": "https://3tscapital.com",
+  "hq_country": {
+    "value": "FI",
+    "source": {
+      "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+      "tier": 3,
+      "publisher": "AIN.UA",
+      "published_date": "2024-02-05",
+      "accessed_date": "2026-10-13",
+      "quote": "based in Helsinki and Vienna",
+      "self_reported": false
+    },
+    "note": "Offices Helsinki and Vienna per 2024 article; team also in other countries incl. Czechia (per search summary, unverified). Not a Czech-based team."
+  },
+  "legal_entities": [
+    {
+      "name": "3TS Capital Partners Oy",
+      "registry": "FI-PRH",
+      "registry_id": "1505569-6",
+      "role": "management_company",
+      "source": {
+        "url": "https://fonecta.fi/profiili/3ts-capital-partners-oy/545161",
+        "tier": 3,
+        "publisher": "Fonecta",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "3TS Capital Partners Oy",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "growth equity",
+    "source": {
+      "url": "https://3tscapital.com/",
+      "tier": 2,
+      "publisher": "3TS Capital Partners",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Leading European technology-focused venture growth investment adviser",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "software_saas"
+    ],
+    "raw": "Technology & Internet, Media & Communications, and Technology-Enabled Services",
+    "source": {
+      "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+      "tier": 3,
+      "publisher": "AIN.UA",
+      "published_date": "2024-02-05",
+      "accessed_date": "2026-10-13",
+      "quote": "Technology & Internet, Media & Communications, and Technology-Enabled Services",
+      "self_reported": false
+    },
+    "note": "Mapped loosely; TMT / tech-enabled services."
+  },
+  "stages": {
+    "value": [
+      "growth"
+    ],
+    "raw": "expansion capital; lead and co-lead growth rounds",
+    "source": {
+      "url": "https://3tscapital.com/",
+      "tier": 2,
+      "publisher": "3TS Capital Partners",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "lead and co-lead growth rounds",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only round sizes (EUR 5-20M rounds led) published, not own first cheque."
+  },
+  "capital": {
+    "value": {
+      "amount": 111000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2024-02-05"
+    },
+    "source": {
+      "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+      "tier": 3,
+      "publisher": "AIN.UA",
+      "published_date": "2024-02-05",
+      "accessed_date": "2026-10-13",
+      "quote": "has announced the final closing of its Fund IV with €111 million in assets",
+      "self_reported": false
+    },
+    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+  },
+  "funds": [
+    {
+      "name": "TCEE Fund IV",
+      "vintage": 2021,
+      "size": {
+        "amount": 111000000,
+        "currency": "EUR",
+        "close": "final"
+      },
+      "source": {
+        "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+        "tier": 3,
+        "publisher": "AIN.UA",
+        "published_date": "2024-02-05",
+        "accessed_date": "2026-10-13",
+        "quote": "has announced the final closing of its Fund IV with €111 million in assets",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Tiger Technology",
+      "company_website": null,
+      "announced_date": null,
+      "role": "lead",
+      "instrument": "equity",
+      "round": "Series A",
+      "source": {
+        "url": "https://fundraiseinsider.com/?p=4853",
+        "tier": 3,
+        "publisher": "Fundraise Insider",
+        "published_date": "2026-09-15",
+        "accessed_date": "2026-10-13",
+        "quote": "TCEE Fund IV, advised by 3TS Capital Partners, led the round.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Patronus (RR Technologies GmbH)",
+      "company_website": null,
+      "announced_date": "2026-04-05",
+      "role": "lead",
+      "instrument": "equity",
+      "round": null,
+      "source": {
+        "url": "https://www.heuking.de/en/news-events/latest-news/article/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+        "tier": 3,
+        "publisher": "Heuking",
+        "published_date": "2026-04-05",
+        "accessed_date": "2026-10-13",
+        "quote": "The financing round led by 3TS Capital totals 11 million Euro.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_geography",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Investment team sits in Helsinki/Vienna, not Czechia (out of scope geography). 3TS describes itself as investment adviser to TCEE funds (fund vehicles are the investors); recorded as growth VC manager, not as intermediary. 3tscapital.com is JS-rendered, so its quotes may fail the quote check. Tiger Technology deal: article date 2026-09-15, financing 'in July 2026' per article; announcement date not verified, left null. Patronus date from Heuking '05-04-2026' read as 5 April 2026; unconfirmed day/month order. Y-tunnus from Fonecta (unverified directory), YTJ not checked. Fund IV vintage 2021 from first close Sept 2021 (siliconcanals)."
+  },
+  "exclusion_signals": []
+}

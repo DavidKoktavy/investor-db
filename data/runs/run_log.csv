@@ -168,3 +168,4 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,thein,19388,9,38.9,ok
 2026-10-13,evidence-verifier,opus,united-founders,20379,9,36.3,ok
 2026-10-13,evidence-verifier,opus,y-soft-ventures,18965,10,37.7,ok
+2026-10-13,evidence-verifier,opus,zaka-vc,19353,10,36.6,ok

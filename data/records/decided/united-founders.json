@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "id": "united-founders",
+  "name": "United Founders",
+  "website": "https://www.unitedfounders.vc/",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2025-11-05",
+      "accessed_date": "2026-10-12",
+      "quote": "V Praze vznikl nový „panevropský“ venture fond",
+      "self_reported": false
+    },
+    "note": "Pan-European team with partners in Paris, Munich, Berlin, Vienna, Zurich, Brussels, Prague, Bratislava; GP/co-founder Vít Horký and CFO/CTO sit in Prague; fund vehicle is Luxembourg SCSp."
+  },
+  "legal_entities": [
+    {
+      "name": "United Founders Advisors s.r.o.",
+      "registry": "CZ-OR",
+      "registry_id": "21594813",
+      "role": "other",
+      "source": {
+        "url": "https://www.unitedfounders.vc/team",
+        "tier": 2,
+        "publisher": "United Founders",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "United Founders Advisors s.r.o.",
+        "self_reported": true
+      }
+    },
+    {
+      "name": "United Founders SCSp",
+      "registry": "LU-RCS",
+      "registry_id": "B300691",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://www.unitedfounders.vc/team",
+        "tier": 2,
+        "publisher": "United Founders",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "United Founders SCSp",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "vc",
+    "subtype": "deeptech, founder-led",
+    "source": {
+      "url": "https://www.unitedfounders.vc/",
+      "tier": 2,
+      "publisher": "United Founders",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Europe's founder-led early stage VC",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "deeptech_hardware",
+      "ai_data",
+      "cybersecurity_defense",
+      "medtech",
+      "industrial_manufacturing",
+      "climate_energy"
+    ],
+    "raw": "kvantové technologie, kyberbezpečnost, zdravotnické technologie, AI a agentní systémy, Průmysl 4.0, udržitelnost a vesmírné inovace",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2025-11-05",
+      "accessed_date": "2026-10-12",
+      "quote": "United Founders se zaměřuje na deeptech a oblasti s dlouhodobým dopadem: kvantové technologie",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "pre-seed a early seed",
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2025-11-05",
+      "accessed_date": "2026-10-12",
+      "quote": "Plánované investice jsou tak brzké, v rozmezí pre-seed a early seed, s představou kol ve výši 100 tisíc až jeden milion eur.",
+      "self_reported": false
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 100000,
+      "max": 1000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://www.unitedfounders.vc/",
+      "tier": 2,
+      "publisher": "United Founders",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Investment Ticket €100k - €1m",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 80000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2025-11-05"
+    },
+    "source": {
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "tier": 3,
+      "publisher": "Lupa.cz",
+      "published_date": "2025-11-05",
+      "accessed_date": "2026-10-12",
+      "quote": "plánuje proinvestovat zhruba dvě miliardy korun (80 milionů eur)",
+      "self_reported": false
+    },
+    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+  },
+  "funds": [
+    {
+      "name": "United Founders SCSp",
+      "vintage": 2025,
+      "size": {
+        "amount": 80000000,
+        "currency": "EUR",
+        "close": "target"
+      },
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2025-11-05",
+        "accessed_date": "2026-10-12",
+        "quote": "plánuje proinvestovat zhruba dvě miliardy korun (80 milionů eur)",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Peak Quantum",
+      "company_website": null,
+      "announced_date": "2026-04-14",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://www.munich-quantum-valley.de/news-events/detail/peakquantum-secures-five-million-in-total-funding",
+        "tier": 3,
+        "publisher": "Munich Quantum Valley",
+        "published_date": "2026-04-14",
+        "accessed_date": "2026-10-12",
+        "quote": "United Founders, QAI Ventures, and business angels",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Wonderful.ai",
+      "company_website": null,
+      "announced_date": "2025-11-05",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2025-11-05",
+        "accessed_date": "2026-10-12",
+        "quote": "Peníze směřuje do platformy umělé inteligence Wonderful.ai",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": null,
+    "notes": "Website found as unitedfounders.vc (queue had none). Team spread across Europe; Prague has GP Vit Horky, CFO, CTO, ops, one managing partner, so hq=CZ judged from Lupa and team page; borderline. Fund vehicle is Luxembourg SCSp (CSSF V12246); Czech entity is investment advisor s.r.o. - IČO 21594813 from investor's own imprint, not confirmed in a registry. Peak Quantum round: MQV says led by Cloudberry Ventures with United Founders participating; Seedtable lists UF as lead (not used). EveryHealth not confirmed by a fetched source. CzechCrunch (2026-09-03) confirms UF backed Wonderful in 2025; Wonderful announced-date taken from Lupa article date, role unknown. Quotes from team page and homepage were extracted via WebFetch and may not match verbatim (ticket quote is label+value)."
+  },
+  "exclusion_signals": []
+}

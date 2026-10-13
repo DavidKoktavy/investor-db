@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "badideas-fund",
+  "name": "BADideas.fund",
+  "website": "https://badideas.fund",
+  "hq_country": {
+    "value": "LV",
+    "source": {
+      "url": "https://badideas.fund/firm",
+      "tier": 2,
+      "publisher": "BADideas.fund",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "A Latvian alternative investment fund with the state development finance institution ALTUM as anchor investor.",
+      "self_reported": true
+    },
+    "note": "Team location not stated in prose; site structured data gives Riga, LV; team is described as spread over four countries."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "nulled by decide.py (quote not found on page); extractor said \"vc\""
+  },
+  "sectors": {
+    "value": [
+      "software_saas"
+    ],
+    "raw": "We invest in software only.",
+    "source": {
+      "url": "https://badideas.fund",
+      "tier": 2,
+      "publisher": "BADideas.fund",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "We invest in software only.",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_found",
+    "note": "nulled by decide.py (quote not found on page); extractor said [\"pre_seed\", \"seed\"]"
+  },
+  "ticket": {
+    "value": {
+      "min": 200000,
+      "max": 1500000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://badideas.fund",
+      "tier": 2,
+      "publisher": "BADideas.fund",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "FIRST CHECK €200K to €1.5M",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 22000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://badideas.fund/firm",
+      "tier": 2,
+      "publisher": "BADideas.fund",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "FUND €22M, closed March 2025",
+      "self_reported": true
+    },
+    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+  },
+  "funds": [
+    {
+      "name": "BADideas Fund I",
+      "vintage": 2025,
+      "size": {
+        "amount": 22000000,
+        "currency": "EUR",
+        "close": "final"
+      },
+      "source": {
+        "url": "https://badideas.fund/firm",
+        "tier": 2,
+        "publisher": "BADideas.fund",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "FUND €22M, closed March 2025",
+        "self_reported": true
+      }
+    }
+  ],
+  "evidence_of_activity": [],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_type",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "CzechCrunch deal newsletter (hint)",
+    "notes": "Team appears to be Latvian (Riga), not Czech; portfolio includes Czech company Tapaya. No legal entity name or registration number published on site (manager 'registered with the Bank of Latvia'). Portfolio page lists Tapaya Apr 2026 (Czechia) as newest, month only, no day; tech.eu funding page gave 2026-04-28 pre-seed with BADideas.fund among investors but the investor list was not verifiable in raw HTML so not cited. Other portfolio dates: Feb 2026 Spotwise/Amorphous AI/Just 4 Noise, Mar 2026 BuilderBase. Role and instrument unknown. Fund size conflict: 22M (firm page) vs 20.67M (altum page, 2024-2034 fund)."
+  },
+  "exclusion_signals": []
+}

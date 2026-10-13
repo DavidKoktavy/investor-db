@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "id": "czech-founders-vc",
+  "name": "Czech Founders VC",
+  "website": "https://czechfounders.vc",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://czechfounders.vc",
+      "tier": 2,
+      "publisher": "Czech Founders VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Gen. Píky 430/26, 160 00 Prague 6",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": "founder-backed pre-seed fund",
+    "source": {
+      "url": "https://cc.cz/uspesni-cesti-startupiste-budou-pomahat-novym-nadejim-vybrali-na-to-mezi-sebou-ctvrt-miliardy/",
+      "tier": 3,
+      "publisher": "CzechCrunch",
+      "published_date": "2022-09-07",
+      "accessed_date": "2026-10-12",
+      "quote": "Do Czech Founders VC vložilo prostředky celkem 45 podnikatelů, kteří mají zkušenosti s budováním startupů.",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "Pre-seed",
+    "source": {
+      "url": "https://czechfounders.vc",
+      "tier": 2,
+      "publisher": "Czech Founders VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-seed tickets. Typically €50-350k.",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 50000,
+      "max": 350000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://czechfounders.vc",
+      "tier": 2,
+      "publisher": "Czech Founders VC",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "Pre-seed tickets. Typically €50-350k.",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only a 2022 media report of EUR 10m pooled by 45 founders; no labelled current fund size on an own page."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Merchantee",
+      "company_website": null,
+      "announced_date": "2026-06-03",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://nordic9.com/news/merchantee-raised-18-million-in-a-pre-seed-fu/",
+        "tier": 3,
+        "publisher": "Nordic9",
+        "published_date": "2026-06-03",
+        "accessed_date": "2026-10-12",
+        "quote": "with participation from Czech Founders VC and Lighthouse Ventures.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Maxfusion",
+      "company_website": null,
+      "announced_date": "2026-01-14",
+      "role": "unknown",
+      "instrument": "unknown",
+      "round": null,
+      "source": {
+        "url": "https://cc.cz/umoznuji-hromadne-tvorit-videoreklamy-i-s-ai-herci-izraelci-buduji-startup-z-prahy-ziskali-investici/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2026-01-14",
+        "accessed_date": "2026-10-12",
+        "quote": "získání investice 350 tisíc eur (8,4 milionu korun) od Czech Founders VC",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "excluded",
+  "exclusion_reason": "not_found_or_defunct",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue",
+    "notes": "Legal entity: site footer shows 'Czech Founders Ventures s.r.o.' but no IČO found and no registry page located, so legal_entities is empty. CzechCrunch 2022 says the fund is an alternative investment fund (EUR 10m from 45 founders), separate from the nonprofit Czech Founders; fund size not recorded (no labelled own-page figure). Merchantee also reported by CzechCrunch 2026-06-09. Maxfusion role/instrument unclear (EUR 350k from Czech Founders VC)."
+  }
+}

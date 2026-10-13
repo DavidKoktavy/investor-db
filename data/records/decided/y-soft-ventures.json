@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "id": "y-soft-ventures",
+  "name": "Y Soft Ventures",
+  "website": "https://www.ysoft.com/ventures",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-a-s-29314445",
+      "tier": 3,
+      "publisher": "mesec.cz (mirror of the Czech commercial register)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Technická 2948/13, Brno 61600",
+      "self_reported": false
+    },
+    "note": "Seat of the legal entity in Brno; investment team location inferred from the registered seat and the 2014 Lupa interview (based in Brno)."
+  },
+  "legal_entities": [
+    {
+      "name": "Y Soft Ventures, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "29314445",
+      "role": "management_company",
+      "source": {
+        "url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-a-s-29314445",
+        "tier": 3,
+        "publisher": "mesec.cz (mirror of the Czech commercial register)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Y Soft Ventures, a.s.",
+        "self_reported": false
+      }
+    },
+    {
+      "name": "Y Soft Ventures II, a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "07890150",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-ii-a-s-07890150",
+        "tier": 3,
+        "publisher": "mesec.cz (mirror of the Czech commercial register)",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Y Soft Ventures II, a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "cvc",
+    "subtype": "corporate venture arm of Y Soft Corporation",
+    "source": {
+      "url": "https://www.ysoft.com",
+      "tier": 2,
+      "publisher": "Y Soft",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "YSoft Labs and Y Soft Ventures provide new streams of innovation into our teams and processes.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "deeptech_hardware",
+      "software_saas",
+      "cybersecurity_defense",
+      "ai_data"
+    ],
+    "raw": "The Internet of Things (IoT) represents the focal point of our investment strategy.",
+    "source": {
+      "url": "https://www.ysoft.com/ventures",
+      "tier": 2,
+      "publisher": "Y Soft Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "The Internet of Things (IoT) represents the focal point of our investment strategy.",
+      "self_reported": true
+    },
+    "note": "Also lists Industry 4.0, Smart Office, Retail 2.0, Smart City, Cyber Security, Big Data & Analytics, B2B AR/VR."
+  },
+  "stages": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "raw": "early-stage technology startups",
+    "source": {
+      "url": "https://www.ysoft.com/ventures",
+      "tier": 2,
+      "publisher": "Y Soft Ventures",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "we support early-stage technology startups or any other startup that can benefit from our expertise",
+      "self_reported": true
+    },
+    "note": "Mapped from 'early-stage'; precise stages not published on the page."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "RoboTwin",
+      "company_website": null,
+      "announced_date": "2025-07-02",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre-seed",
+      "source": {
+        "url": "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/",
+        "tier": 3,
+        "publisher": "EIT Jumpstarter",
+        "published_date": "2025-07-02",
+        "accessed_date": "2026-10-13",
+        "quote": "Y Soft Ventures and Jörg Rupp will fuel RoboTwin's market expansion and team growth.",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "active",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Type cvc: Y Soft Ventures is the venture arm of Y Soft Corporation (hq Brno); Y Soft Ventures II, a.s. is registered with NACE real-estate rental, only a mirror-register line. Sector/stage mapping coarse. Only one dated recent deal found (RoboTwin pre-seed, published 2025-07-02; announcement date is the page date, round reportedly June 2025 per search leads). Dronetag (15 mil CZK) and NenoVision (2019) are older/undated or from blocked pages. Fund sizes: 2014 Lupa interview says plans ~CZK 500m but not a fund close; not recorded. ysoft.com/ventures pages undated. Lupa 2026-04 JIC Ventures lead from hint not verified."
+  }
+}

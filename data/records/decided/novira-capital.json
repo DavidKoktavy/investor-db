@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "id": "novira-capital",
+  "name": "Novira Capital",
+  "website": "https://novira.com/",
+  "hq_country": {
+    "value": null,
+    "null_reason": "conflicting_sources",
+    "note": "Site says group headquartered in Zürich; footer lists Novira Investment AG (Zug) and Novira Estate SE (Brno). Investment team location not stated."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "private_holding",
+    "subtype": "real-estate-heavy group with startup investments",
+    "source": {
+      "url": "https://novira.com/",
+      "tier": 2,
+      "publisher": "Novira",
+      "published_date": null,
+      "accessed_date": "2026-10-12",
+      "quote": "with ~70% of capital in real estate and the rest in startups, loans and other strategic investments.",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published"
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Site claims 350 million EUR under management for the whole group (mostly real estate); not quoted verbatim, so not used."
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Smartlook",
+      "company_website": "https://www.smartlook.com",
+      "announced_date": null,
+      "role": "participant",
+      "instrument": "equity",
+      "round": "2020 spin-off investment (over CZK 80 million, per article)",
+      "source": {
+        "url": "https://cc.cz/podporily-nejvetsi-startupovy-exit-posledniho-roku-o-investicni-trefu-se-postaraly-fondy-reflex-a-novira/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2023-09-12",
+        "accessed_date": "2026-10-12",
+        "quote": "České fondy Novira a Reflex pak ve startupu měly podíl po deseti procentech",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [
+    {
+      "code": "real_estate_only",
+      "note": "About 70% of capital in real estate, rest in startups, loans, other; site says 'We are not a VC'. Not real-estate-only, but not a classic VC; also last startup deal found is 2020 with exit 2023.",
+      "source": {
+        "url": "https://novira.com/",
+        "tier": 2,
+        "publisher": "Novira",
+        "published_date": null,
+        "accessed_date": "2026-10-12",
+        "quote": "with ~70% of capital in real estate and the rest in startups, loans and other strategic investments.",
+        "self_reported": true
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "real_estate_only",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-12T12:00:00+02:00",
+    "candidate_source": "extract_queue.csv",
+    "notes": "Website found: novira.cz redirects to novira.com. Group (Zürich/Zug AG, Brno SE) with ~70% real estate; site says 'We are not a VC'. No IČO/registry entry found, legal_entities empty. Smartlook 2020 investment date not precisely sourced (announced_date null); exit 2023 (Cisco). No deal within 24 months found. CzechCrunch 'Novira Capital' naming vs. novira.com group identity is inferred from site listing Smartlook among startups."
+  }
+}

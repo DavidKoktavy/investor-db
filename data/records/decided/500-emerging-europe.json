@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "id": "500-emerging-europe",
+  "name": "e2vc (formerly 500 Emerging Europe)",
+  "website": "https://e2.vc",
+  "hq_country": {
+    "value": "TR",
+    "source": {
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-01-14",
+      "accessed_date": "2026-10-13",
+      "quote": "Turkey-based venture capital firm e2vc has announced the close of its €100 million Fund III",
+      "self_reported": false
+    },
+    "note": "Same article says the team has offices in San Francisco, New York and London; e2.vc shows clocks for San Francisco, London, Istanbul. Country of the investment team is not firmly established."
+  },
+  "legal_entities": [],
+  "type": {
+    "value": "vc",
+    "subtype": null,
+    "source": {
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-01-14",
+      "accessed_date": "2026-10-13",
+      "quote": "e2vc primarily invests in pre-seed and idea-stage startups",
+      "self_reported": false
+    }
+  },
+  "sectors": {
+    "value": [
+      "software_saas",
+      "ai_data",
+      "fintech",
+      "media_gaming"
+    ],
+    "raw": "enterprise software, AI, fintech, and gaming",
+    "source": {
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-01-14",
+      "accessed_date": "2026-10-13",
+      "quote": "sectors such as enterprise software, AI, fintech, and gaming",
+      "self_reported": false
+    }
+  },
+  "stages": {
+    "value": [
+      "pre_seed"
+    ],
+    "raw": "pre-seed and idea-stage",
+    "source": {
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-01-14",
+      "accessed_date": "2026-10-13",
+      "quote": "primarily invests in pre-seed and idea-stage startups",
+      "self_reported": false
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": null,
+      "max": 1000000,
+      "currency": "USD"
+    },
+    "source": {
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-01-14",
+      "accessed_date": "2026-10-13",
+      "quote": "providing up to $1 million per company",
+      "self_reported": false
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 100000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2026-01-14"
+    },
+    "source": {
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "tier": 3,
+      "publisher": "Vestbee",
+      "published_date": "2026-01-14",
+      "accessed_date": "2026-10-13",
+      "quote": "announced the close of its €100 million Fund III",
+      "self_reported": false
+    },
+    "note": "computed by decide.py from 1 fund size(s) in funds[]; source is the newest fund's source"
+  },
+  "funds": [
+    {
+      "name": "e2vc Fund III",
+      "vintage": 2026,
+      "size": {
+        "amount": 100000000,
+        "currency": "EUR",
+        "close": "first"
+      },
+      "source": {
+        "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+        "tier": 3,
+        "publisher": "Vestbee",
+        "published_date": "2026-01-14",
+        "accessed_date": "2026-10-13",
+        "quote": "announced the close of its €100 million Fund III",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Mission Control Games",
+      "company_website": null,
+      "announced_date": "2026-04-15",
+      "role": "participant",
+      "instrument": "equity",
+      "round": "pre_seed",
+      "source": {
+        "url": "https://tech.eu/2026/04/15/mission-control-games-launches-with-4m-to-develop-new-casual-gaming-sub-genres/",
+        "tier": 3,
+        "publisher": "Tech.eu",
+        "published_date": "2026-04-15",
+        "accessed_date": "2026-10-13",
+        "quote": "The investment was led by General Catalyst, with participation from Arcadia Gaming Partners and e2vc.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "excluded",
+  "exclusion_reason": "out_of_scope_geography",
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "Not a Czech team: e2vc (ex 500 Emerging Europe), Turkey/CEE focus; site e2.vc has no imprint or legal entity. Fund III close status taken from the article URL/headline (first close); the quoted sentence itself says only 'close'. Stage 'idea-stage' folded into pre_seed. Mission Control Games round is pre-seed per Tech.eu, seed per Vestbee. Other deals (Mandel AI, Bold Games) seen only on aggregators, not recorded."
+  },
+  "exclusion_signals": []
+}
