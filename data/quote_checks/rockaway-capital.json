@@ -1,0 +1,57 @@
+{
+  "id": "rockaway-capital",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.rockawaycapital.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.rockawaycapital.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.rockawaycapital.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://www.e15.cz/byznys/humanoidni-roboti-maji-dobyt-evropske-tovarny-novy-cesky-fond-od-rockaway-na-ne-shani-miliardy-1433499",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.lupa.cz/aktuality/cesti-investori-z-rockaway-investovali-do-americkych-humanoidu-a-to-po-boku-googlu-nebo-mercedes-benz/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://www.rockawaycapital.com/cs/aktuality/wonderful-ai-valuace-5-miliard-united-founders-rockaway",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

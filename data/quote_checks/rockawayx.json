@@ -1,0 +1,50 @@
+{
+  "id": "rockawayx",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "url": "https://rejstrik-firem.kurzy.cz/08006458/blockad-sro/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.rockawayx.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.rockawayx.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.edgen.tech/zh/news/post/forward-industries-backs-onre-with-25m-bet-on-solana-rwa-growth",
+      "status": "unreachable",
+      "score": null,
+      "http_status": null,
+      "note": "disallowed by robots.txt"
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://www.rockawayx.com/insights",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 4,
+    "unreachable": 1
+  }
+}

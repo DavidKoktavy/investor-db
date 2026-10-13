@@ -1,0 +1,74 @@
+{
+  "id": "inven-capital",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.invencapital.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.hlidacstatu.cz/subjekt/02059533",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.invencapital.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.invencapital.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://www.invencapital.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "capital",
+      "url": "https://www.invencapital.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.descubre.vc/noticia/wint-recauda-36m-en-serie-d-con-el-respaldo-del-fondo-latinoamericano-lip-ventures-2026-09-11",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://www.packaging-gateway.com/news/vytal-global-secures-funding/",
+      "status": "unreachable",
+      "score": null,
+      "http_status": 403,
+      "note": "HTTP 403"
+    }
+  ],
+  "summary": {
+    "found": 7,
+    "unreachable": 1
+  }
+}

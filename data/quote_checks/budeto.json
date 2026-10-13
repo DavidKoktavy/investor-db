@@ -1,0 +1,17 @@
+{
+  "id": "budeto",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "eic-fund",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.dzs.cz/en/article/european-commission-has-appointed-external-manager-eic-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://eic.ec.europa.eu/investment-opportunities/eic-fund-equity-investments-beneficiaries_en",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://eic.ec.europa.eu/news/european-commission-updates-eic-fund-investment-guidelines-eic-accelerator-and-step-scaleup-2026-08-27_en",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "capital",
+      "url": "https://eic.ec.europa.eu/investment-opportunities/eic-fund-equity-investments-beneficiaries_en",
+      "status": "found",
+      "score": 98,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://tech.eu/2026/05/05/german-deeptech-eleqtron-lands-eur57m-series-a-funding",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://waste-management-world.com/business/sensoneo-series-a-investment-of-more-than-6-million-euros/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

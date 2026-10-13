@@ -1,0 +1,49 @@
+{
+  "id": "bpd-partners",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.finmag.cz/obchodni-rejstrik/27342875-bpd-partners-a-s",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.finmag.cz/obchodni-rejstrik/27342875-bpd-partners-a-s",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.e15.cz/byznys/obchod-a-sluzby/zdravotni-pece-zlakala-dalsi-miliardare-investuji-do-ni-bpd-partners-1378560",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.e15.cz/byznys/obchod-a-sluzby/zdravotni-pece-zlakala-dalsi-miliardare-investuji-do-ni-bpd-partners-1378560",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.powerfulmedical.com/blog/powerful-medical-raises-6-million-eur-in-seed-funding/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 5
+  }
+}

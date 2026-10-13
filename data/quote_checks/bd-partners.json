@@ -1,0 +1,57 @@
+{
+  "id": "bd-partners",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.finmag.cz/obchodni-rejstrik/ares/19286511-bd-partners-a-s",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.finmag.cz/obchodni-rejstrik/ares/19286511-bd-partners-a-s",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.lupa.cz/aktuality/cesky-startup-byvaleho-inzenyra-v-nvidii-a-googlu-ziskal-160-milionu-na-ai-pro-zvladani-byrokracie/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://depoventures.cz/novinky/wanderwallet-raises-eur-430k-to-make-it-easier-for-tourists-to-pay-without-a-local-bank-account",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

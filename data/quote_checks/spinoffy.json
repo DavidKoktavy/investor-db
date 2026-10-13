@@ -1,0 +1,33 @@
+{
+  "id": "spinoffy",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 3
+  }
+}

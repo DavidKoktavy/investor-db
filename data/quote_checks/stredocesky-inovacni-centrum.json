@@ -1,0 +1,57 @@
+{
+  "id": "stredocesky-inovacni-centrum",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://s-ic.cz/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.podnikatel.cz/rejstrik/stredoceske-inovacni-centrum-spolek-04228235/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://s-ic.cz/sluzby/financni-injekce-pro-tvuj-start-up/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://s-ic.cz/sluzby/financni-injekce-pro-tvuj-start-up/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://s-ic.cz/sluzby/financni-injekce-pro-tvuj-start-up/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

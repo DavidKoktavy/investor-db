@@ -1,0 +1,33 @@
+{
+  "id": "btcz-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "type",
+      "url": "https://www.uochb.cz/en/news/756/the-butterfly-a-symbol-of-hope-for-oncology-patients-chosen-as-the-emblem-of-taveren-therapeutics-a-new-biotech-company-emerging-from-iocb-prague",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.uochb.cz/en/news/756/the-butterfly-a-symbol-of-hope-for-oncology-patients-chosen-as-the-emblem-of-taveren-therapeutics-a-new-biotech-company-emerging-from-iocb-prague",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.uochb.cz/en/news/756/the-butterfly-a-symbol-of-hope-for-oncology-patients-chosen-as-the-emblem-of-taveren-therapeutics-a-new-biotech-company-emerging-from-iocb-prague",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 3
+  }
+}

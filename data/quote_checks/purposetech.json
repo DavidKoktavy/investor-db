@@ -1,0 +1,57 @@
+{
+  "id": "purposetech",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://purposetech.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://purposetech.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://purposetech.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://purposetech.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.enterprise.cam.ac.uk/news/auryx-2m-earbuds-continuous-health-monitors/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

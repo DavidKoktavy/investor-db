@@ -1,0 +1,34 @@
+{
+  "id": "novira-capital",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "type",
+      "url": "https://novira.com/",
+      "status": "unreachable",
+      "score": null,
+      "http_status": 401,
+      "note": "HTTP 401"
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/podporily-nejvetsi-startupovy-exit-posledniho-roku-o-investicni-trefu-se-postaraly-fondy-reflex-a-novira/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "exclusion_signals[0]",
+      "url": "https://novira.com/",
+      "status": "unreachable",
+      "score": null,
+      "http_status": 401,
+      "note": "HTTP 401"
+    }
+  ],
+  "summary": {
+    "unreachable": 2,
+    "found": 1
+  }
+}

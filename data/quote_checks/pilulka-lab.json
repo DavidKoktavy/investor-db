@@ -1,0 +1,33 @@
+{
+  "id": "pilulka-lab",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "type",
+      "url": "https://cc.cz/pilulka-lab-vybrala-prvni-startup-ktery-ma-zmenit-zdravotnictvi-investici-posila-carebotu-a-jeho-umele-inteligenci-pro-lekare/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://cc.cz/pilulka-lab-vybrala-prvni-startup-ktery-ma-zmenit-zdravotnictvi-investici-posila-carebotu-a-jeho-umele-inteligenci-pro-lekare/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 3
+  }
+}

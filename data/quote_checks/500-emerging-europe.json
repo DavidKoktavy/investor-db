@@ -1,0 +1,65 @@
+{
+  "id": "500-emerging-europe",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://www.vestbee.com/insights/articles/e2vc-secures-first-close-of-100-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://tech.eu/2026/04/15/mission-control-games-launches-with-4m-to-develop-new-casual-gaming-sub-genres/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 7
+  }
+}

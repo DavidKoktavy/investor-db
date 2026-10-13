@@ -1,0 +1,65 @@
+{
+  "id": "y-soft-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-a-s-29314445",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-a-s-29314445",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[1]",
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-y-soft-ventures-ii-a-s-07890150",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.ysoft.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.ysoft.com/ventures",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.ysoft.com/ventures",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 7
+  }
+}

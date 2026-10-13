@@ -1,0 +1,25 @@
+{
+  "id": "muni-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.podnikatel.cz/rejstrik/muni-ventures-s-r-o-21503559/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "exclusion_signals[0]",
+      "url": "https://em.muni.cz/udalosti/17347-masarykova-univerzita-zalozila-muni-ventures/amp",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 2
+  }
+}

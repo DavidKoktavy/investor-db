@@ -1,0 +1,33 @@
+{
+  "id": "longevitytech-fund",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "stages",
+      "url": "https://www.biospace.com/press-releases/advantage-therapeutics-inc-announces-formation-of-klothea-bio-inc-to-advance-research-and-development-of-klotho-protein-for-age-related-therapeutics",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.biospace.com/press-releases/advantage-therapeutics-inc-announces-formation-of-klothea-bio-inc-to-advance-research-and-development-of-klotho-protein-for-age-related-therapeutics",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://www.occuity.com/post/longevitytech-fund-make-significant-investment-in-occuity",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 3
+  }
+}

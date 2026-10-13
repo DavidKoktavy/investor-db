@@ -1,0 +1,57 @@
+{
+  "id": "incomming-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.finmag.cz/obchodni-rejstrik/04991087-incomming-ventures-a-s",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.finmag.cz/obchodni-rejstrik/04991087-incomming-ventures-a-s",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://altss.com/profile/incomming-ventures",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://altss.com/profile/incomming-ventures",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://150sec.com/new-vc-fund-appears-on-the-horizon-in-czech-republic-and-makes-its-first-investment/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://150sec.com/new-vc-fund-appears-on-the-horizon-in-czech-republic-and-makes-its-first-investment/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

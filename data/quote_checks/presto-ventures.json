@@ -1,0 +1,81 @@
+{
+  "id": "presto-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://prestoventures.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.podnikatel.cz/rejstrik/presto-ventures-ii-a-s-osoba-rizikoveho-kapitalu-11678704/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://prestoventures.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://prestoventures.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://prestoventures.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://tech.eu/2024/10/25/presto-tech-horizons-fund-announces-investment-in-three-startups/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/investori-v-cele-s-miliardarem-michalem-strnadem-posilaji-desitky-milionu-na-vyvoj-autonomnich-dronu/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://tech.eu/2024/10/25/presto-tech-horizons-fund-announces-investment-in-three-startups/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://en.ain.ua/2024/10/23/presto-tech-horizons-invests-in-bavovna-vidar-turai",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 9
+  }
+}

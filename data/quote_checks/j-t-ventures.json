@@ -1,0 +1,81 @@
+{
+  "id": "j-t-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.jtventures.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.podnikatel.cz/rejstrik/j-t-ventures-cg-sicav-a-s-08220867/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://cc.cz/propojuji-reklamy-v-televizi-a-ve-streamovani-chorvati-nabiraji-i-od-cechu-pres-ctvrt-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.jtventures.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.jtventures.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://www.jtventures.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://raising.fi/news/definic-seed-june-2026",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://pulse2.com/wultra-raises-e6-8-million-series-a-to-expand-post-quantum-digital-identity-solutions/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://cc.cz/propojuji-reklamy-v-televizi-a-ve-streamovani-chorvati-nabiraji-i-od-cechu-pres-ctvrt-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 9
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tachles",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "type",
+      "url": "https://tachlesvc.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 3
+  }
+}

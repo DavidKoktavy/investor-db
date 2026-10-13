@@ -1,0 +1,97 @@
+{
+  "id": "soulmates-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.soulmatesventures.com/legal/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://rejstrik-firem.kurzy.cz/09789561/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://www.soulmatesventures.com/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "capital",
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://vestbee.com/insights/articles/soulmates-ventures-raises-50-m-fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://vestbee.com/insights/articles/rightcharge-raises-500-k",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://vestbee.com/insights/articles/antiverse-raises-9-3-m",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://www.soulmatesventures.com/soulmates-ventures-leads-1-6m-seed-round-in-rightcharge-to-accelerate-europes-fleet-electrification/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 11
+  }
+}

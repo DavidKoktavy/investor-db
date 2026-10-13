@@ -1,0 +1,34 @@
+{
+  "id": "i-and-i-prague",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://rejstrik-firem.kurzy.cz/hledej/?s=i%26i+Prague",
+      "status": "unreachable",
+      "score": null,
+      "http_status": null,
+      "note": "disallowed by robots.txt"
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://rejstrik-firem.kurzy.cz/hledej/?s=i%26i+Prague",
+      "status": "unreachable",
+      "score": null,
+      "http_status": null,
+      "note": "disallowed by robots.txt"
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.iniprague.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "unreachable": 2,
+    "found": 1
+  }
+}

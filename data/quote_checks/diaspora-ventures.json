@@ -1,0 +1,41 @@
+{
+  "id": "diaspora-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://techcrunch.com/2020/07/21/diaspora-ventures-wants-to-invest-in-french-founders-with-a-global-mindset",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://diaspora.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://diaspora.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://techcrunch.com/2020/07/21/diaspora-ventures-wants-to-invest-in-french-founders-with-a-global-mindset",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 4
+  }
+}

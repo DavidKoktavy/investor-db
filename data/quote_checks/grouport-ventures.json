@@ -1,0 +1,17 @@
+{
+  "id": "grouport-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://funding.tech.eu/deals/4468AADB-53E0-464C-920A-1E7DEBD12121",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 1
+  }
+}

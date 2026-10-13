@@ -1,0 +1,57 @@
+{
+  "id": "reflex-capital",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.reflexcapital.com",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-reflex-capital-se-24269158",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.symsite.sk/single-post/reflex-capital-invested-5-5m-in-boat-charter-company-boataround",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://raising.fi/news/merchantee-undisclosed-june-2026",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://tech.eu/2026/03/16/choice-secures-71m-series-a-to-expand-its-restaurant-operating-system-across-europe/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://www.symsite.sk/single-post/reflex-capital-invested-5-5m-in-boat-charter-company-boataround",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

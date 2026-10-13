@@ -1,0 +1,57 @@
+{
+  "id": "impulse-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-impulse-ventures-a-s-08841471",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.mesec.cz/rejstrik-firem/firma-impulse-ventures-a-s-08841471",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.seznamzpravy.cz/clanek/novy-cesky-fond-nabizi-ctyri-miliardy-pro-technologicke-nadsence-118740",
+      "status": "found",
+      "score": 99,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.seznamzpravy.cz/clanek/novy-cesky-fond-nabizi-ctyri-miliardy-pro-technologicke-nadsence-118740",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.seznamzpravy.cz/clanek/novy-cesky-fond-nabizi-ctyri-miliardy-pro-technologicke-nadsence-118740",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/ceske-dataddo-ma-ctvrtou-investici-od-miliardare-ondreje-tomka-z-datoveho-startupu-se-stava-globalni-hrac/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}

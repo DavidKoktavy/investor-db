@@ -1,0 +1,66 @@
+{
+  "id": "badideas-fund",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://badideas.fund/firm",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://badideas.fund",
+      "status": "missing",
+      "score": 61,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://badideas.fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://badideas.fund",
+      "status": "missing",
+      "score": 61,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://badideas.fund",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://badideas.fund/firm",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://badideas.fund/portfolio",
+      "status": "missing",
+      "score": 67,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 4,
+    "missing": 3
+  }
+}

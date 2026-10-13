@@ -1,0 +1,73 @@
+{
+  "id": "3ts-capital-partners",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://fonecta.fi/profiili/3ts-capital-partners-oy/545161",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://3tscapital.com/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://3tscapital.com/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://en.ain.ua/2024/02/05/3ts-capital-partner-closes-fund-iv-111m",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://fundraiseinsider.com/?p=4853",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://www.heuking.de/en/news-events/latest-news/article/heuking-advises-3ts-capital-partners-as-lead-investor-in-11-million-euro-financing-round-for-patronus.html",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 8
+  }
+}

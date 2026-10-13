@@ -1,0 +1,17 @@
+{
+  "id": "founder-institute-prague",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "exclusion_signals[0]",
+      "url": "https://fi.co/faq",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 1
+  }
+}

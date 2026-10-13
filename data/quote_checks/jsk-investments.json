@@ -1,0 +1,89 @@
+{
+  "id": "jsk-investments",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.jskinvestments.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23823445",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "status": "found",
+      "score": 96,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "capital",
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://www.newstream.cz/money/kijonkova-spousti-vlastni-fond-pro-kvalifikovane-investory",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.jskinvestments.cz/cs/media/jsk-investments-sicav-a-s-investuje-do-britskeho-vyvojare-cipu-pro-neurotechnologie-mint-neuro",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://cc.cz/simona-kijonkova-investuje-desitky-milionu-do-roboticke-chirurgie-cilem-je-zkratit-fronty-na-operace/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://www.lupa.cz/aktuality/jsk-investments-simony-kijonkove-investuje-420-tisic-eur-do-ai-startupu-elin-ai/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 10
+  }
+}

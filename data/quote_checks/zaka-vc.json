@@ -1,0 +1,73 @@
+{
+  "id": "zaka-vc",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://cc.cz/trend-longevity-dorazil-i-k-domacim-zviratum-cesi-je-propojuji-s-veterinari-a-nabizi-vyzivu-na-miru/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://zaka.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://zaka.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://zaka.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://zaka.vc/our-story/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://itkey.media/zaka-vc-backs-deepseq-ais-functional-approach-to-protein-drug-discovery/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://itkey.media/zaka-vc-backs-nephrogens-kidney-focused-gene-therapy-platform/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://cc.cz/trend-longevity-dorazil-i-k-domacim-zviratum-cesi-je-propojuji-s-veterinari-a-nabizi-vyzivu-na-miru/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 8
+  }
+}

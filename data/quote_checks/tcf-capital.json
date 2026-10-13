@@ -1,0 +1,49 @@
+{
+  "id": "tcf-capital",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "type",
+      "url": "https://www.e15.cz/byznys/majitel-rohliku-cupr-se-pousti-do-investovani-zaklada-fond-tcf-capital-1399067",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.e15.cz/byznys/majitel-rohliku-cupr-se-pousti-do-investovani-zaklada-fond-tcf-capital-1399067",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "capital",
+      "url": "https://www.e15.cz/byznys/majitel-rohliku-cupr-se-pousti-do-investovani-zaklada-fond-tcf-capital-1399067",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.newstream.cz/leaders/cupr-investoval-desitky-milionu-do-inovatora-v-oblasti-vzduchotechniky",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://tech.eu/2023/12/01/avast-co-founder-invests-in-keboolas-32m-series-a-funding-round",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 5
+  }
+}

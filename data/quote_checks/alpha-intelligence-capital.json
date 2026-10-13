@@ -1,0 +1,49 @@
+{
+  "id": "alpha-intelligence-capital",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "type",
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://www.maddyness.com/uk/2023/01/16/an-ai-focused-fund-with-a-tech-first-approach-a-profile-of-alpha-intelligence-capital/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-owkin-on-the-carve-out-of-waiv-and-its-33-million-financing/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 5
+  }
+}

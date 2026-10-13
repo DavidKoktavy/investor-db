@@ -1,0 +1,41 @@
+{
+  "id": "patero",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.patero.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.patero.cz",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://cc.cz/diky-ai-dela-financovani-firem-dostupnejsi-a-rychlejsi-nez-v-bance-cesky-flowpay-ted-nabral-50-milionu/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 4
+  }
+}

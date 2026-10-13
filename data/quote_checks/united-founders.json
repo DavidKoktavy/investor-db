@@ -1,0 +1,89 @@
+{
+  "id": "united-founders",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://www.unitedfounders.vc/team",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[1]",
+      "url": "https://www.unitedfounders.vc/team",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://www.unitedfounders.vc/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://www.unitedfounders.vc/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.munich-quantum-valley.de/news-events/detail/peakquantum-secures-five-million-in-total-funding",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 10
+  }
+}

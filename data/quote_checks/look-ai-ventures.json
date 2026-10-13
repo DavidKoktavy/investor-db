@@ -1,0 +1,98 @@
+{
+  "id": "look-ai-ventures",
+  "checked_at": "2026-10-13T14:01:53+00:00",
+  "items": [
+    {
+      "path": "hq_country",
+      "url": "https://lookai.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "legal_entities[0]",
+      "url": "https://or.justice.cz/ias/ui/rejstrik-$firma?ico=17604087",
+      "status": "unreachable",
+      "score": null,
+      "http_status": null,
+      "note": "disallowed by robots.txt"
+    },
+    {
+      "path": "legal_entities[1]",
+      "url": "https://lookai.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://lookai.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://lookai.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "stages",
+      "url": "https://lookai.vc",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "ticket",
+      "url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://tech.eu/2026/07/13/sodex-innovations-secures-4m-to-bring-real-time-intelligence-to-construction-sites/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "url": "https://tech.eu/2026/06/30/lucida-ai-closes-7m-seed-round-for-speech-to-speech-ai/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[2]",
+      "url": "https://digicust.com/en/blog/digicust-pre-series-a-financing-round-finalized",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 10,
+    "unreachable": 1
+  }
+}
