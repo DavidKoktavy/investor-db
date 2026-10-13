@@ -1,0 +1,16 @@
+{
+  "id": "3ts-capital-partners",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Page says 'based in Helsinki and Vienna': two countries (FI and AT), so FI as the single HQ is only partly supported. Neither cited page mentions Czechia.", "observed_value": ["FI", "AT"]},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "The Fonecta page shows '3TS Capital Partners Oy', Y-tunnus 1505569-6, Helsinki. Tier 3 directory, not the PRH registry itself.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Homepage header: 'Leading European technology-focused venture growth investment adviser'. This fits vc/growth equity, but the firm describes itself as an adviser to the funds.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "The quote is on the page, which also says 'ICT and tech-enabled service sectors'. Mapping this to software_saas alone narrows the claim (media & communications and tech-enabled services are dropped).", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Homepage says the firm can 'lead and co-lead growth rounds'. The phrase 'expansion capital' in the raw value is not on the page.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "partially_supported", "reason": "EUR 111m final close of 'Fund IV' is supported (article dated 2024-02-05). The name 'TCEE Fund IV' and vintage 2021 are not on the cited page; the vintage comes from an uncited source.", "observed_value": {"name": "Fund IV", "amount": 111000000, "currency": "EUR", "close": "final"}},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Article dated 2026-09-15: 'TCEE Fund IV, advised by 3TS Capital Partners, led the round', a USD 10m Series A that came together in July 2026. Within the 24-month window. The record's announced_date is null, but the publication date is stated.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Heuking was counsel to investor 3TS, which led an EUR 11m round in RR Technologies GmbH (Patronus). The page date is '05-04-2026' (ambiguous day/month order), but either reading falls within the window.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "This is an active growth/VC manager (two led rounds in 2026), but the cited sources place the team in Helsinki and Vienna. No cited page shows an investment team in Czechia, so it falls outside cz_vc."}
+}

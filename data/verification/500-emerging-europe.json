@@ -1,0 +1,18 @@
+{
+  "id": "500-emerging-europe",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Vestbee (2026-01-14) calls it 'Turkey-based venture capital firm e2vc'; same article lists offices in San Francisco, New York and London, so the team's location is mixed, but TR as HQ is what the source states.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Article describes e2vc as a venture capital firm investing in pre-seed/idea-stage startups from its own Fund III.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Article lists enterprise software, AI, fintech and gaming; mapping to software_saas/ai_data/fintech/media_gaming is faithful.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Article: 'primarily invests in pre-seed and idea-stage startups'; idea-stage folded into pre_seed is reasonable.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Article: 'providing up to $1 million per company' - per-company ticket max USD 1,000,000, min not stated.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Headline: 'e2vc secures first close of EUR 100M Fund III', published 2026-01-14; amount, currency and close=first match. Quoted sentence alone says only 'close', but headline on the same page confirms first close.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Tech.eu 2026-04-15: USD 4M pre-seed round led by General Catalyst with participation from Arcadia Gaming Partners and e2vc; e2vc named as investor, new deal, within 24-month window before AS_OF 2026-10-11.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "e2vc is an active VC (Fund III first close Jan 2026, pre-seed deal Apr 2026), but its sources place it as Turkey-based with offices in SF, NY and London; nothing indicates an investment team in Czechia, so it does not fit the cz_vc segment."
+  }
+}

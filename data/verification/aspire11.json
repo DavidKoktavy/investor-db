@@ -1,0 +1,18 @@
+{
+  "id": "aspire11",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Lupa (2025-12-09) calls it 'Česká investiční platforma Aspire11', co-founded by Czech founders (Borkovec, Mucha). That shows Czech origin but does not state where the investment team is based.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "/legal lists Aspire 11 Capital SICAV, a.s., Company ID 23620030, as a CNB-registered qualified investors fund, so fund_vehicle is correct.", "observed_value": null},
+    {"path": "legal_entities[1]", "verdict": "partially_supported", "reason": "/legal lists Partners investiční společnost, a.s., ID 24716006, under 'Administrator' (licence as investment company and fund administrator). The page does not call it the manager, so the management_company role is inferred.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "The homepage tagline 'Pension capital for venture growth' is verbatim. But the page also describes a Tribes strategy investing in 'leading venture funds' (fund-of-funds) next to late-stage/pre-IPO directs, so a pure vc label is borderline growth/FoF.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "The quote says 'late-stage and pre-IPO technology companies'. That is a technology focus, and 'generalist' is the extractor's mapping, not stated on the page.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "The homepage quote for the Eternals direct strategy says 'late-stage and pre-IPO'. That maps to growth.", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "The homepage shows '€515M' 'Inaugural fund', so basis latest_fund_size and EUR 515,000,000 match. The page does not say whether this is committed or target size, and Lupa speaks of a EUR 500M plan.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "The homepage shows '€515M Inaugural fund'. Close status unknown is correctly recorded as unknown.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Lupa, dated 23. 6. 2026 (within 24 months of AS_OF 2026-10-11), says Czech fund Aspire11 made a direct investment of EUR 20M in Vinted. Aspire11 is the investor, and this is not a recap.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Lupa, dated 9. 12. 2025 (within the window), reports the newly announced first direct investment of Aspire11 in Revolut's latest round. The amount is not public.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "Clearly active: dated 2025 and 2026 direct investments (Revolut, Vinted) from a Czech SICAV with a Czech investment company. But it is a pension-capital platform doing late-stage/pre-IPO directs plus fund-of-funds (Tribes), which is borderline growth/FoF rather than classic VC. Team location is not stated on the cited pages."}
+}

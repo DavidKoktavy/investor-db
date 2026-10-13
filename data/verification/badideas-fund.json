@@ -1,0 +1,53 @@
+{
+  "id": "badideas-fund",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "partially_supported",
+      "reason": "Quote is verbatim and shows the fund is a Latvian AIF (legal domicile LV), but the page does not say where the team sits ('A team in four countries...', countries unnamed); LV as team location is not stated.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Cited quote not found verbatim (score 61); page does say 'Pre-seed and seed VC for CEE.', which supports type vc.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "Page states 'We invest in software only.'",
+      "observed_value": null
+    },
+    {
+      "path": "stages",
+      "verdict": "partially_supported",
+      "reason": "Cited quote not found verbatim (score 61); page does state 'Pre-seed and seed' / 'Pre-seed and seed VC for CEE.', which supports pre_seed and seed.",
+      "observed_value": null
+    },
+    {
+      "path": "ticket",
+      "verdict": "supported",
+      "reason": "Page shows 'FIRST CHECK €200K to €1.5M'. This is the investor's first-check size, not a round or fund size.",
+      "observed_value": null
+    },
+    {
+      "path": "funds[0]",
+      "verdict": "supported",
+      "reason": "Firm page says 'FUND €22M, closed March 2025'. Size, currency, close and vintage 2025 match. The name 'BADideas Fund I' does not appear in the fetched text.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Portfolio page lists Tapaya ('Czechia, Apr 2026, EU-funded (ERDF)'), on the investor's own site and inside the 24-month window. The record left announced_date null even though the page gives the month.",
+      "observed_value": {"announced_date": "2026-04", "date_precision": "month"}
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Active pre-seed/seed VC: fund closed in March 2025 and several investments in 2026. But it is a Latvian AIF anchored by ALTUM, and the cited pages give no Czech office or team. The Czech link is only a portfolio company (Tapaya), so the CZ team requirement fails."
+  }
+}

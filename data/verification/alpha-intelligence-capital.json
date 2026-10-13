@@ -1,0 +1,16 @@
+{
+  "id": "alpha-intelligence-capital",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "type", "verdict": "supported", "reason": "Maddyness profile describes AIC as 'artificial intelligence focused venture capital firm'; tier 3 / self_reported false are correct for third-party article.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Page states core focus on AI companies and investing across healthcare, manufacturing, cybersecurity; mapping to ai_data, health_biotech, industrial_manufacturing, cybersecurity_defense is faithful. Article is from 2023, so it may be out of date.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Verbatim: 'Our core focus lies in AI companies in the Series A/B stages'.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Page states the team raised a first fund of 184m$; USD 184,000,000, vintage/close unknown is consistent.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "McDermott page dated 2026-03-19 (inside the 24-month window before AS_OF 2026-10-11) names Alpha Intelligence Capital Fund II as one of five co-leads of Waiv's USD 33m Series A; McDermott is Owkin's adviser, but AIC is named as investor. co_lead is correct.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "It is an active AI-focused VC (Series A co-lead in March 2026), but the cited source places its offices in the US, France, UAE and Singapore. Nothing indicates an investment team in Czechia, so it falls outside the cz_vc segment."
+  }
+}

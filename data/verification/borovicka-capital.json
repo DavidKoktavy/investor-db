@@ -1,0 +1,23 @@
+{
+  "id": "borovicka-capital",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Own site: 'Borovicka Capital is an investment company with a strategic focus on venture capital investments in the Central European region', which supports type vc. The page never calls it a family fund or family office, so subtype 'family fund' is unsupported by this source. tier 2 / self_reported true are correct.",
+      "observed_value": {"value": "vc", "subtype": null}
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "CzechCrunch article dated 2025-01-20 announces Outfindo's new EUR 1.2M late-seed round, led by Eleven Ventures; 'čeští Lighthouse Ventures a Borovicka Capital' named as co-investors. That makes it a participant, not a lead. Date falls inside the 24-month window (start 2024-10-11). Tier 3, not self-reported: correct.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "yes",
+    "reason": "Self-described VC investment company with one in-window deal (Outfindo, Jan 2025), where CzechCrunch describes it as Czech ('čeští'). hq_country is null and no cited page states where the team is based, so the CZ team location rests only on that adjective. Confidence is moderate, and code should treat the HQ as unconfirmed."
+  }
+}

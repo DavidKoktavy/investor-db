@@ -1,0 +1,14 @@
+{
+  "id": "aternus-family-office",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "The investor's own site gives its office address as 'nám. Svobody 527 / 739 61 Třinec', which is in Czechia.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "partially_supported", "reason": "The registry mirror confirms ATERNUS, a.s., IČO 25865056, and the name matches the site title 'ATERNUS, a.s.'. But the quoted sentence is only about who can act for the company and does not link it to the family office. The registered seat is Praha (Anežská 986/10), not Třinec, so the match is plausible (Wałach family on the board) but not confirmed by the quote.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "The site states 'Aternus je multi family office.', which matches family_office with subtype multi family office; the source is self-reported, tier 2.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "The quote is verbatim, but it describes the focus of the VC funds Aternus holds stakes in, not a direct-investment thesis. Also, 'technologie' and 'marketplace' are not mapped to any sector.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "partially_supported", "reason": "Tech.eu, 16 Dec 2025 (inside the 24-month window), names 'Aternus' as a participant in a new Jutro Medical Series A extension led by Warsaw Equity Group. This is a fresh announcement, not a recap. However, the article does not describe or identify which Aternus it means, so the link to this family office is not confirmed by the source.", "observed_value": null},
+    {"path": "exclusion_signals[0]", "verdict": "supported", "reason": "The site says the portfolio is 'složeno především z investic do private equity, real estate a venture capital fondů' and that it co-invests with PE and VC funds only in exceptional cases. This supports fund_of_funds_or_lp_only.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "no", "reason": "Aternus is a Czech (Třinec) multi family office that by its own account invests mainly as an LP in PE, real estate and VC funds, with only occasional co-investments. It is not a VC or CVC manager for the cz_vc segment; the one dated deal (Jutro Medical, Dec 2025) is a co-investment where the article does not confirm which Aternus is meant."}
+}
