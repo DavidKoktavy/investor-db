@@ -1,0 +1,106 @@
+{
+ "schema_version": "1.0",
+ "id": "odyssey-44",
+ "name": "Odyssey 44",
+ "website": "https://www.odyssey44.com",
+ "hq_country": {
+  "value": "CZ",
+  "source": {
+   "url": "https://odyssey44.com/en/",
+   "tier": 2,
+   "publisher": "Odyssey 44",
+   "published_date": null,
+   "accessed_date": "2026-10-13",
+   "quote": "Odyssey 44 is a family office and was founded in 2014 in Prague.",
+   "self_reported": true
+  }
+ },
+ "legal_entities": [
+  {
+   "name": "Odyssey 44, a.s.",
+   "registry": "CZ-OR",
+   "registry_id": "02494213",
+   "role": "management_company",
+   "source": {
+    "url": "https://odyssey44.com/en/",
+    "tier": 2,
+    "publisher": "Odyssey 44",
+    "published_date": null,
+    "accessed_date": "2026-10-13",
+    "quote": "IČO: 02494213 | DIČ: CZ02494213",
+    "self_reported": true
+   }
+  }
+ ],
+ "type": {
+  "value": "family_office",
+  "subtype": null,
+  "source": {
+   "url": "https://odyssey44.com/en/",
+   "tier": 2,
+   "publisher": "Odyssey 44",
+   "published_date": null,
+   "accessed_date": "2026-10-13",
+   "quote": "Odyssey 44 is a family office and was founded in 2014 in Prague.",
+   "self_reported": true
+  }
+ },
+ "sectors": {
+  "value": null,
+  "null_reason": "not_published"
+ },
+ "stages": {
+  "value": null,
+  "null_reason": "not_published"
+ },
+ "ticket": {
+  "value": {
+   "min": 20000000,
+   "max": null,
+   "currency": "EUR"
+  },
+  "source": {
+   "url": "https://odyssey44.com/en/",
+   "tier": 2,
+   "publisher": "Odyssey 44",
+   "published_date": null,
+   "accessed_date": "2026-10-13",
+   "quote": "The minimum investment size we will consider is €20 million equity.",
+   "self_reported": true
+  },
+  "note": "Minimum investment size, no maximum published."
+ },
+ "capital": {
+  "value": null,
+  "null_reason": "not_published"
+ },
+ "funds": [],
+ "evidence_of_activity": [
+  {
+   "company": "FlixMobility (FlixBus)",
+   "company_website": null,
+   "announced_date": "2019-08-09",
+   "role": "participant",
+   "instrument": "equity",
+   "round": null,
+   "source": {
+    "url": "https://cc.cz/spoluzakladatel-penty-investuje-do-materske-firmy-flixbusu-dalsi-stovky-milionu-dolaru-pozenou-globalni-expanzi/",
+    "tier": 3,
+    "publisher": "CC.cz",
+    "published_date": "2019-08-09",
+    "accessed_date": "2026-10-13",
+    "quote": "Lokální optikou je každopádně nejzajímavějším bodem zapojení českého fondu Odyssey 44.",
+    "self_reported": false
+   }
+  }
+ ],
+ "exclusion_signals": [],
+ "status": "pending",
+ "exclusion_reason": null,
+ "meta": {
+  "extracted_by": "investor-extractor/sonnet",
+  "extracted_at": "2026-10-13T12:00:00+02:00",
+  "candidate_source": "Seedtable Czech ranking (lead only)",
+  "notes": "Family office of Martin Kusik (Prague). Mid-market/PE-style, min EUR 20m equity, site states 'We do not invest into start-ups'; not a venture investor. Newest deal found is FlixMobility, summer 2019 (outside window). Seedtable VC listing not corroborated. ICO taken from own site, not confirmed in registry. Press (seznamzpravy, undated, not cited) suggests a shift to listed bonds/stocks. Sectors and stages not published as labelled statements."
+ }
+}

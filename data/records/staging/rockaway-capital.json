@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "id": "rockaway-capital",
+  "name": "Rockaway Capital",
+  "website": "https://www.rockawaycapital.com",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://www.rockawaycapital.com",
+      "tier": 2,
+      "publisher": "Rockaway Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Provozovatelem těchto stránek je Rockaway GP a.s., se sídlem Generála Píky 430/26, Dejvice, 160 00 Praha 6",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Rockaway GP a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "23278757",
+      "role": "other",
+      "source": {
+        "url": "https://www.rockawaycapital.com",
+        "tier": 2,
+        "publisher": "Rockaway Capital",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "IČO: 232 78 757, zapsaná v OR vedeném Městským soudem v Praze pod sp. zn. B 29714",
+        "self_reported": true
+      }
+    }
+  ],
+  "type": {
+    "value": "private_holding",
+    "subtype": "investment group (PE, VC, blockchain)",
+    "source": {
+      "url": "https://www.rockawaycapital.com",
+      "tier": 2,
+      "publisher": "Rockaway Capital",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Rockaway Capital je investiční skupina s více než desetiletou historií a působností napříč Evropou.",
+      "self_reported": true
+    },
+    "note": "Group umbrella over Rockaway Ventures, RockawayX, United Founders, RockawayQ; funds have separate records."
+  },
+  "sectors": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Group site names asset classes (private equity, venture capital, blockchain), not sectors."
+  },
+  "stages": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "No group-level stage focus; stages differ per fund."
+  },
+  "ticket": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Only LP minimum (1M CZK) shown on contact section, not an investment ticket."
+  },
+  "capital": {
+    "value": null,
+    "null_reason": "not_published",
+    "note": "Site says 'miliardové portfolio' without an amount."
+  },
+  "funds": [
+    {
+      "name": "RockawayQ Digital Industry Holding SICAV",
+      "vintage": 2026,
+      "size": null,
+      "source": {
+        "url": "https://www.e15.cz/byznys/humanoidni-roboti-maji-dobyt-evropske-tovarny-novy-cesky-fond-od-rockaway-na-ne-shani-miliardy-1433499",
+        "tier": 3,
+        "publisher": "E15",
+        "published_date": "2026-06-11",
+        "accessed_date": "2026-10-13",
+        "quote": "Počáteční kapitál, který Rockaway a MTX Group do fondu vložily, činí přibližně půl miliardy korun.",
+        "self_reported": false
+      }
+    }
+  ],
+  "evidence_of_activity": [
+    {
+      "company": "Apptronik",
+      "company_website": null,
+      "announced_date": "2026-02-13",
+      "role": "unknown",
+      "instrument": "equity",
+      "round": "Series A extension",
+      "source": {
+        "url": "https://www.lupa.cz/aktuality/cesti-investori-z-rockaway-investovali-do-americkych-humanoidu-a-to-po-boku-googlu-nebo-mercedes-benz/",
+        "tier": 3,
+        "publisher": "Lupa.cz",
+        "published_date": "2026-02-13",
+        "accessed_date": "2026-10-13",
+        "quote": "Čeští investoři z Rockaway Ventures finančně vstoupili do americké společnosti Apptronik",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Wonderful",
+      "company_website": null,
+      "announced_date": null,
+      "role": "unknown",
+      "instrument": "equity",
+      "round": "seed",
+      "source": {
+        "url": "https://www.rockawaycapital.com/cs/aktuality/wonderful-ai-valuace-5-miliard-united-founders-rockaway",
+        "tier": 2,
+        "publisher": "Rockaway Capital",
+        "published_date": "2026-09-03",
+        "accessed_date": "2026-10-13",
+        "quote": "United Founders jej podpořil už v seedovém kole, tedy ještě před současnou sérií velkých investic světových venture fondů.",
+        "self_reported": true
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected",
+    "notes": "Group holding; deals are made through subsidiaries (Rockaway Ventures, United Founders, RockawayX, RockawayQ) which have own records. Apptronik: Lupa attributes the investment to Rockaway Ventures; round participation not listed explicitly. Wonderful: Rockaway's 3 Sep 2026 post is a recap of an earlier seed investment, so announced_date left null (seed date not found). Hint's EUR 15M United Founders contribution and CZK 2.5B fund: not verified verbatim; E15 gives ~0.5B initial plus 2B target for RockawayQ SICAV, left size null rather than summing. Legal entity Rockaway GP a.s. from site imprint only; no registry mirror checked. Peak Quantum (Apr 2026, United Founders co-investor) seen only in aggregator."
+  }
+}
