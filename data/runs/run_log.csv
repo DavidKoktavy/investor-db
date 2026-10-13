@@ -142,3 +142,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,look-ai-ventures,20050,10,39.1,ok
 2026-10-13,evidence-verifier,opus,muni-ventures,14941,7,25.9,ok
 2026-10-13,evidence-verifier,opus,nation1,16106,8,27.9,ok
+2026-10-13,evidence-verifier,opus,novira-capital,15943,7,38.9,ok
+2026-10-13,evidence-verifier,opus,odyssey-44,16182,7,33.9,ok
+2026-10-13,evidence-verifier,opus,patero,16132,8,28.3,ok
+2026-10-13,evidence-verifier,opus,orbit-capital,19512,9,39.2,ok

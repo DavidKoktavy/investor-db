@@ -1,0 +1,16 @@
+{
+  "id": "odyssey-44",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Own site: 'Odyssey 44 is a family office and was founded in 2014 in Prague.'; footer address Na Příkopě 859/22, Praha 1. Self-reported, tier 2 correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Site footer names 'Odyssey 44, a.s.' with IČO 02494213 / DIČ CZ02494213. It is the family office entity itself; 'management_company' role is a loose label but no better role is evident. Not confirmed against the registry.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Site states verbatim it is a family office; same page says 'We do not invest into start-ups' and holds businesses 'forever', so it is not a VC.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "'The minimum investment size we will consider is €20 million equity.' Per-investment equity minimum, EUR, no max stated; units correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CC.cz dated 09. 8. 2019 names Odyssey 44 (Kúšik's family fund) as a new investor joining FlixMobility's Series F extension. Role and date correct, but the deal is about 7 years before AS_OF 2026-10-11, well outside the 24- and 36-month windows.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Prague-based family office (team in CZ). Its own site says it does not invest in start-ups and needs a minimum €20m equity ticket, so it is not a VC. The only cited deal is from August 2019, outside every activity window."
+  }
+}

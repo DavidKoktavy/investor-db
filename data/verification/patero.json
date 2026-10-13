@@ -1,0 +1,35 @@
+{
+  "id": "patero",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "supported",
+      "reason": "patero.cz shows address 'Evropská 1723/61 160 00 Praha 6. Dejvice' (quote found, score 100); Prague address supports CZ.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "'Patero s.r.o.' appears on patero.cz (score 100); role 'other' is acceptable. registry_id is an empty string, not a sourced value.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "CzechCrunch dated 28. 11. 2024 reports a new EUR 500k pre-seed round in Flowlance and names 'skupina Patero' among the investors; date is within the 24-month window (start 2024-10-11).",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[1]",
+      "verdict": "partially_supported",
+      "reason": "CzechCrunch dated 20. 3. 2024 names Patero as an investor in the CZK 53m seed round of Flowpay, but 2024-03-20 is before the window start of 2024-10-11, so this falls in the 24-36 month dormant band. The extractor's note that it is 'within 24' months is wrong.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Prague-based startup investor ('Chuťoví investoři', 15+ startups, 3 exits) with one in-window deal (Flowlance, Nov 2024). Its own site does not say it runs a VC fund; it looks like a holding or angel-syndicate group rather than a VC manager, and type is null in the record."
+  }
+}

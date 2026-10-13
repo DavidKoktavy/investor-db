@@ -1,0 +1,17 @@
+{
+  "id": "orbit-capital",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Vestbee says 'Czech-Polish investment firm Orbit Capital'; no HQ city or team location stated, so CZ team base is only half-supported (could equally be PL).", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "partially_supported", "reason": "Registry mirror shows IČO 08223467 was 'Orbit Capital SICAV, a.s.' 2019-07-08 to 2023-11-08, now renamed 'Conseq-Orbit SICAV, a.s.' with Conseq Funds investiční společnost as statutory body; the link to today's Orbit Capital manager is not shown on the page.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Quote verbatim ('manages both growth equity and venture debt funds'), but the only fund evidenced is a debt fund; 'vc' fits the growth equity side only, which is not otherwise evidenced.", "observed_value": null},
+    {"path": "sectors", "verdict": "partially_supported", "reason": "Page says 'technology companies' generically; mapping to software_saas is not stated.", "observed_value": null},
+    {"path": "stages", "verdict": "supported", "reason": "Vestbee: 'The fund targets post-Series A technology companies with proven product-market fit' supports growth (of the debt fund).", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Tech.eu: 'the second closing of Growth Debt Fund II at €107 million'; latest fund size EUR 107m at second close (not a final close), dated 2026-07-02.", "observed_value": null},
+    {"path": "funds[0]", "verdict": "supported", "reason": "Tech.eu confirms Growth Debt Fund II, EUR 107m, second closing, 2026-07-02; close is 'second' (record says unknown). Vestbee calls it 'Venture Debt Fund II'.", "observed_value": {"close": "second"}},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "CzechCrunch 2026-06-02 (inside 24-month window before 2026-10-11): IAG EUR 6m round, 'Kapitál poskytly fondy Orbit Capital a Jet Venture 1' via a combination of equity and venture debt; Orbit named as capital provider, its instrument likely the debt part.", "observed_value": null},
+    {"path": "exclusion_signals[0]", "verdict": "partially_supported", "reason": "'non-dilutive growth capital' is verbatim and the fund is debt, but Vestbee states Orbit also manages growth equity funds, so 'debt_only' for the firm is not established.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "Clearly active in 2026 (EUR 107m debt fund close, IAG deal), but evidence shows venture/growth debt, not VC equity; described as Czech-Polish with no stated team location; legacy CZ SICAV now under Conseq."}
+}

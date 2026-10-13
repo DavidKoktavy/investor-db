@@ -1,0 +1,29 @@
+{
+  "id": "novira-capital",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "type",
+      "verdict": "supported",
+      "reason": "Script got HTTP 401, but I opened the page myself and found the quote verbatim ('~70% of capital in real estate and the rest in startups, loans...'). The page also says 'We are not a VC.' This supports private_holding (real-estate-heavy group). Tier 2 and self_reported=true are correct.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "The CzechCrunch article (12.9.2023) names Novira Capital as an investor in Smartlook's 2020 spin-off round (over CZK 80M) with a ~10% stake, so role and entity are supported. But this is a recap of the 2023 exit, and the deal itself is from 2020: outside the 24-month window (start 2024-10-11) and the 36-month dormant window.",
+      "observed_value": {"deal_year": 2020, "article_published": "2023-09-12"}
+    },
+    {
+      "path": "exclusion_signals[0]",
+      "verdict": "partially_supported",
+      "reason": "The quote is on the page, but it says ~70% real estate with the rest in startups, loans and other investments. That supports a real-estate-heavy group, not 'real_estate_only' as the code says. The record's own note admits this. The page's 'We are not a VC' supports excluding it as not a VC.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The site describes itself as 'not a VC': a Swiss-headquartered (Zurich/Zug) group with ~70% of its capital in real estate. The only cited startup deal is from 2020 (Smartlook, exited 2023), with nothing in the 24-month window. It is not an active Czech VC."
+  }
+}
