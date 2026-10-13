@@ -180,4 +180,4 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,borovicka-capital,40343,23,126.4,rerun
 2026-10-13,investor-extractor,sonnet,ip-lab-ventures,43318,26,120.5,rerun
 2026-10-13,investor-extractor,sonnet,rockawayx,37167,19,89.7,rerun
-2026-10-13,investor-extractor,sonnet,tachles,,,,rerun
+2026-10-13,investor-extractor,sonnet,tachles,39954,19,105.2,rerun

@@ -1,0 +1,57 @@
+{
+  "id": "rockawayx",
+  "checked_at": "2026-10-13T19:03:10+00:00",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08006458",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "type",
+      "url": "https://cryptobriefing.com/rockawayx-acquires-relayer-capital-liquid-fund/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "sectors",
+      "url": "https://www.theblock.co/post/351841/crypto-vc-rockawayx-second-fund-solana",
+      "status": "found",
+      "score": 98,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "capital",
+      "url": "https://cryptobriefing.com/rockawayx-acquires-relayer-capital-liquid-fund/",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "funds[0]",
+      "url": "https://www.theblock.co/post/351841/crypto-vc-rockawayx-second-fund-solana",
+      "status": "found",
+      "score": 100,
+      "http_status": 200,
+      "note": ""
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "url": "https://www.theblock.co/post/399630/solana-yield-exchange-exponent-funding-multicoin-capital",
+      "status": "found",
+      "score": 99,
+      "http_status": 200,
+      "note": ""
+    }
+  ],
+  "summary": {
+    "found": 6
+  }
+}
