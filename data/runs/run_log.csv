@@ -120,3 +120,7 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,depo-ventures,16836,9,27.2,ok
 2026-10-13,evidence-verifier,opus,emun,15508,7,26.8,ok
 2026-10-13,evidence-verifier,opus,eic-fund,18239,10,34.8,ok
+2026-10-13,evidence-verifier,opus,founder-institute-prague,13321,5,15.5,ok
+2026-10-13,evidence-verifier,opus,grouport-ventures,13933,6,20.1,ok
+2026-10-13,evidence-verifier,opus,gi21-capital,18457,9,32.5,ok
+2026-10-13,evidence-verifier,opus,fazole-ventures,18306,8,42.8,ok

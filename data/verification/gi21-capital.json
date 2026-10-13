@@ -1,0 +1,15 @@
+{
+  "id": "gi21-capital",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Lupa (2026-05-18) calls it 'pražský fond Gi21 Capital'; third-party, tier 3; own site states no office location.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "ARES record shows ICO 19584229 with obchodniJmeno 'Gi21 Capital a.s.'; the name matches the brand exactly. Role 'other' is a cautious choice.", "observed_value": null},
+    {"path": "type", "verdict": "partially_supported", "reason": "Site lists 'VC / PE technology investments' as one of four focus areas of a diversified 'multi-stage investment group' (also DC infrastructure, hospitality, culture). VC activity is real, but it is a diversified private group, not a pure VC manager.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Home page states 'Deep Tech, B2B SaaS, AI'; the mapping to deeptech_hardware/software_saas/ai_data is reasonable.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Lupa 2026-08-24: Gi21 fund invested 'stovky tisíc dolarů' in Hermetiq's USD 2.2M round. Named as investor, within the 24-month window. Round stage is not named, and round null is correct.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "Lupa 2026-05-18: Zerops EUR 1.7M seed, 'Hlavním investorem je pražský fond Gi21 Capital'. This supports the lead role, and the date is within the window. Note that Špoljarič co-founded the company Zerops spun out of, so this is an insider-linked deal.", "observed_value": null},
+    {"path": "evidence_of_activity[2]", "verdict": "supported", "reason": "JIC 2026-05-19: FaceUp USD 5M Series A led by Fil Rouge Capital, 'participants included ... Prague-based Gi21 Capital'. The participant role is correct and the date is within the window.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "Clearly active (3 deals May-Aug 2026, all as investor) and described as Prague-based by two independent sources. But it is a billionaire's diversified investment group whose VC/PE arm is one of four business lines, which is closer to a family-office/holding than a dedicated VC manager."}
+}

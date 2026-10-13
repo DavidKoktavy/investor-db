@@ -1,0 +1,18 @@
+{
+  "id": "fazole-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "supported", "reason": "Registry mirror (quote found, score 100) gives seat Salvatorska 931/8, Praha; fund's own EN page also lists '110 00 Praha 1' (c/o Opero). Team location itself not explicitly stated; tier 3 label correct.", "observed_value": null},
+    {"path": "legal_entities[0]", "verdict": "supported", "reason": "Quote found verbatim on kurzy.cz registry mirror: Fazole Ventures s.r.o., Praha, ICO 07491492; role management_company is an inference, not stated, but entity and ID match.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Lupa.cz calls it 'fond Fazole Ventures' and says it has operated since 2018 with stakes in Whalebone, Skladon, Sharry, GoodAccess; note it is controlled by three individuals (Bouska, Cerny, Prikryl), so it may be a private vehicle rather than a third-party-capital VC.", "observed_value": null},
+    {"path": "stages", "verdict": "partially_supported", "reason": "Quote found, but it only states a product-maturity requirement; it does not say 'seed'. Page says 'early-stage companies' and 'first expansion', which is consistent with seed but the mapping is an inference.", "observed_value": null},
+    {"path": "ticket", "verdict": "supported", "reason": "Own EN page: 'Our sweet spot ranges from 50 to 800 thousand EUR'; units and currency correct, self_reported true and tier 2 correct.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Lupa.cz dated 16. 9. 2025 (within 24-month window from AS_OF 2026-10-11): Everbot raised low tens of millions CZK for a 12.2% stake, and the stake was acquired by Fazole Ventures as investor; role not stated as lead in this article.", "observed_value": null},
+    {"path": "evidence_of_activity[1]", "verdict": "supported", "reason": "cc.cz tag page lists the GoodAccess article dated 03. 2. 2023, which says Nation 1 and Fazole Ventures put CZK 26m into GoodAccess. It is accurately dated but OUTSIDE both the 24-month window (start 2024-10-11) and the 36-month dormant window (start 2023-10-11). Source is a tag listing summary, not the article itself.", "observed_value": null}
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "yes",
+    "reason": "One supported in-window deal (Everbot, Sep 2025) with Fazole as the investor; Prague seat and address; the fund has a history of Czech deals. Caveat: it is a vehicle controlled by three individuals (Bouska et al.), so 'vc' versus private investment vehicle is debatable. It has only one in-window deal."
+  }
+}

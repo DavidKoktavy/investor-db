@@ -1,0 +1,17 @@
+{
+  "id": "founder-institute-prague",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "exclusion_signals[0]",
+      "verdict": "partially_supported",
+      "reason": "Quote found verbatim on fi.co/faq (score 100) and shows equity is taken only as a warrant pledged to the Equity Collective, which fits a programme rather than a fund. But the page is the global Founder Institute FAQ, not a Prague page, and the quote does not say 'program only' or mention the entrance fee given in the note.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Record claims no type. The only evidence describes a paid accelerator programme run by Founder Institute, Inc. (US) that takes equity through a pledged warrant. No portfolio investments, fund, Czech legal entity or Czech investment team is cited."
+  }
+}

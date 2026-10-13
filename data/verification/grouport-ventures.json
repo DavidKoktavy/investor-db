@@ -1,0 +1,23 @@
+{
+  "id": "grouport-ventures",
+  "verified_at": "2026-10-13T14:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "partially_supported",
+      "reason": "Tech.eu lists 'Gruport Ventures' (not 'Grouport') as an investor in Augmented Robotics' EUR 700k seed round, so identity is unconfirmed. The page gives only 'Jul 2022', not the exact day 2022-07-07. July 2022 is before both the 24-month window (2024-10-11) and the 36-month dormant start (2023-10-11) measured from AS_OF 2026-10-11.",
+      "observed_value": {"announced_date": "2022-07", "investor_name_on_page": "Gruport Ventures", "round_size": {"amount": 700000, "currency": "EUR"}, "company_hq": "Berlin, Germany"}
+    },
+    {
+      "path": "exclusion_signals[0]",
+      "verdict": "unverifiable",
+      "reason": "not_found_or_defunct has no cited source. It rests on the extractor's failed searches, so there is no page to check against.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "The record has no sourced type, HQ or website. Its only activity evidence is a July 2022 deal under a variant spelling, which is outside the 24- and 36-month windows. Nothing cited shows a VC with its team in Czechia."
+  }
+}
