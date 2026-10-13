@@ -1,0 +1,47 @@
+{
+  "id": "rockawayx",
+  "verified_at": "2026-10-13T21:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "verdict": "partially_supported",
+      "reason": "ARES confirms Blockad s.r.o., ICO 08006458, seat Generala Piky 430/26, Praha 6, est. 2019-03-21; but the cited ARES page does not link this entity to the RockawayX brand (that link rests on an uncited homepage footer).",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "Quote only says RockawayX is 'the blockchain arm of Rockaway Capital', which does not state VC. The same page says it 'operates across venture, credit, liquidity, and infrastructure divisions', so venture is only one of its businesses.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "The Block says the fund backs early-stage crypto startups, with DeFi, infrastructure protocols and decentralized networks as further targets; 'other' plus raw crypto matches.",
+      "observed_value": null
+    },
+    {
+      "path": "capital",
+      "verdict": "supported",
+      "reason": "Crypto Briefing (2026-08-25): 'a crypto investment firm managing roughly $2 billion in assets'. USD 2B reported AUM is correct; it is firm-wide AUM across venture, credit and liquidity, not VC capital.",
+      "observed_value": null
+    },
+    {
+      "path": "funds[0]",
+      "verdict": "partially_supported",
+      "reason": "Second fund, USD 125M, closed Q1 2025 ('exceeding its original $120 million target') is supported. The name 'RockawayX Fund II' is not on the page, and 'final' close is inferred because the article only says 'officially closed'.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "The Block (2026-04-30) names RockawayX as a participant in Exponent's USD 5M seed led by Multicoin, structured as a SAFE with token warrants. The announcement date is within the 24-month window. The round itself closed in Aug 2025, also within the window.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "The record shows recent VC activity (Exponent seed, Apr 2026; USD 125M fund II closed Q1 2025). But RockawayX is a multi-strategy crypto firm (venture, credit, liquidity, infrastructure) with offices in Prague, London and Dubai. No cited source says its investment team is in Czechia, and the only Czech anchor is the Praha 6 seat of Blockad s.r.o. That entity's link to the brand is not in a cited source."
+  }
+}

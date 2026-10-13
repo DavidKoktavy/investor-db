@@ -1,0 +1,41 @@
+{
+  "id": "btcz-ventures",
+  "verified_at": "2026-10-13T21:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "partially_supported",
+      "reason": "ARES quote (found, score 100) gives a registered seat in Praha 6, which supports a CZ legal seat; no cited source states where the investment team sits. The IOCB page also calls BTCZ and its group 'Czech'.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "ARES record shows ICO 05277817 and name BTCZ Ventures s.r.o. (found, score 100). Role 'management_company' is the extractor's reading: the IOCB page presents BTCZ as the investing/shareholding company itself, not as a fund manager.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "partially_supported",
+      "reason": "The quote is verbatim and says BTCZ 'invests in promising medical technology and biotechnology startups'. But the same page calls it 'part of BPD Partners Group', founded by BPD Partners with B3 Holding (Bruzek family). That reads as a group/family investment vehicle (one known holding, mostly research funding) rather than a clearly independent VC manager.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "Verbatim quote states medical technology and biotechnology startups; maps to medtech and health_biotech.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "Page dated 2025-12-03 (inside the 24-month window from AS_OF 2026-10-11) names BTCZ Ventures as largest shareholder of the new spin-off Taveren and mentions a 'latest contribution to Taveren Therapeutics' with no amount. Earlier 2018 (EUR 1.75m) and 2023 (EUR 1m) items were research agreements with IOCB, not this deal. Role and instrument are correctly left 'unknown'.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Active in the window (Taveren, Dec 2025) and legally seated in Prague. But the only evidence is one university spin-off by a vehicle of BPD Partners Group / B3 Holding (Bruzek family), so it looks more like a corporate/family arm than an independent VC manager. Team location is not stated explicitly."
+  }
+}

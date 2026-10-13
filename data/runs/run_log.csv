@@ -188,3 +188,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,purposetech,17622,9,28.2,rerun
 2026-10-13,evidence-verifier,opus,borovicka-capital,15102,7,21.8,rerun
 2026-10-13,evidence-verifier,opus,alpha-intelligence-capital,17429,8,26.6,rerun
+2026-10-13,evidence-verifier,opus,zaka-vc,21654,12,45.7,rerun
+2026-10-13,evidence-verifier,opus,btcz-ventures,16984,6,36.5,rerun
+2026-10-13,evidence-verifier,opus,ip-lab-ventures,17975,8,36.7,rerun

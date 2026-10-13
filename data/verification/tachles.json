@@ -1,0 +1,41 @@
+{
+  "id": "tachles",
+  "verified_at": "2026-10-13T21:30:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "hq_country",
+      "verdict": "partially_supported",
+      "reason": "Article (2025-02-12) calls it 'Český fond' and its founders 'Dvojice českých investorů', but never says where the team or office is; Prague is not mentioned. Partners in Israel and the US are named. Czech fund nationality is shown, but a CZ-based investment team is not.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "ARES record shows ico 14376032 with obchodniJmeno 'Tachles VC Management s.r.o.' (quote found, score 100). The link to the Tachles VC fund rests on the identical name; the cited source does not show the role.",
+      "observed_value": null
+    },
+    {
+      "path": "type",
+      "verdict": "supported",
+      "reason": "Homepage says 'Early-stage specialist for cyber, cloud, AI', and the surrounding text says 'Institutional-Grade Venture Capital'. Self-reported, tier 2, labels correct.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "CzechCrunch 2024-06-13 quote names cybersecurity, cloud infrastructure and AI as the fund's focus. The mapping to cybersecurity_defense and ai_data is fine; cloud is not mapped.",
+      "observed_value": null
+    },
+    {
+      "path": "evidence_of_activity[0]",
+      "verdict": "supported",
+      "reason": "CzechCrunch article dated 09.10.2025 announces Boost.space's newly closed EUR 3m round, led by Jet Investment 's přispěním českého fond Tachles VC'. Tachles is named as a co-investor (participant). The date is within the 24-month window before AS_OF 2026-10-11, and the article is not a recap.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "Active VC: Boost.space round in Oct 2025, and seven investments reported for 2024. The Czech connection is less clear. Sources call it a Czech fund with Czech founders and a Prague s.r.o., but its own website names only an Atlanta office and Israeli deal flow, and no cited source puts the investment team in Czechia."
+  }
+}

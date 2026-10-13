@@ -1,0 +1,35 @@
+{
+  "id": "ip-lab-ventures",
+  "verified_at": "2026-10-13T19:30:00+00:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "ARES JSON (quote check found, score 100) gives ICO 24586200 = IP Lab Holding s.r.o. The link to the IP Lab Ventures brand rests only on a site-footer claim the cited ARES source does not show; role 'other' is neutral.",
+      "observed_value": null
+    },
+    {
+      "path": "legal_entities[1]",
+      "verdict": "partially_supported",
+      "reason": "Quote check found the name and RCS B307163 on iplventures.com (score 100). Role 'general_partner' is inferred from 'GP' in the entity name; the quoted text does not state the role.",
+      "observed_value": null
+    },
+    {
+      "path": "sectors",
+      "verdict": "supported",
+      "reason": "Lupa 2026-09-23: fund IP Lab Ventures I 'Investovat má do umělé inteligence, robotiky, polovodičů, biotechnologií nebo nových materiálů'. The mapping to ai_data, deeptech_hardware and health_biotech is reasonable.",
+      "observed_value": null
+    },
+    {
+      "path": "funds[0]",
+      "verdict": "supported",
+      "reason": "cc.cz 2026-09-23: IP Lab Ventures Fund 'Celkem přitom cílí na částku 1,2 miliardy korun' and the rest is to come from private investors, so target and not closed is correct. Vintage 2026 is not stated and is inferred from the date. Lupa gives the target as 'až 40 milionů eur' and the article names it 'IP Lab Ventures I'.",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "unsure",
+    "reason": "cc.cz calls it a 'venture kapitálový fond' (so the null type is too cautious), focused on Czech university spin-offs, with a CZK 656m EIF commitment announced 2026-09-23. But the record has no dated investment, no stated first or final close, and no sourced team location (hq_country null), so K2 activity and the CZ team are not shown by evidence."
+  }
+}
