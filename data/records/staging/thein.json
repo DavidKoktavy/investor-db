@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "id": "thein",
+  "name": "Thein",
+  "website": "https://www.thein.eu",
+  "hq_country": {
+    "value": "CZ",
+    "source": {
+      "url": "https://cvca.cz/en/thein-2/",
+      "tier": 3,
+      "publisher": "CVCA (Czech Private Equity and Venture Capital Association)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Pikrtova 1737/1a 140 00 Praha 4 –Nusle",
+      "self_reported": true
+    }
+  },
+  "legal_entities": [
+    {
+      "name": "Thein Private Equity SICAV a.s.",
+      "registry": "CZ-OR",
+      "registry_id": "11733861",
+      "role": "fund_vehicle",
+      "source": {
+        "url": "https://lei.bloomberg.com/leis/view/315700SNPDASU45AKL37",
+        "tier": 3,
+        "publisher": "Bloomberg LEI",
+        "published_date": null,
+        "accessed_date": "2026-10-13",
+        "quote": "Thein Private Equity SICAV a.s.",
+        "self_reported": false
+      }
+    }
+  ],
+  "type": {
+    "value": "pe",
+    "subtype": "LBO and growth capital, industrial/IT holding group",
+    "source": {
+      "url": "https://cvca.cz/en/thein-2/",
+      "tier": 3,
+      "publisher": "CVCA (Czech Private Equity and Venture Capital Association)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Type of Investment LBO, Growth capital",
+      "self_reported": true
+    }
+  },
+  "sectors": {
+    "value": [
+      "industrial_manufacturing",
+      "cybersecurity_defense"
+    ],
+    "raw": "industry, railway industry, IT infrastructure, cybersecurity",
+    "source": {
+      "url": "https://cvca.cz/en/thein-2/",
+      "tier": 3,
+      "publisher": "CVCA (Czech Private Equity and Venture Capital Association)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Sectore Preferences industry, railway industry, IT infrastructure, cybersecurity",
+      "self_reported": true
+    }
+  },
+  "stages": {
+    "value": [
+      "buyout",
+      "growth"
+    ],
+    "raw": "LBO, Growth capital",
+    "source": {
+      "url": "https://cvca.cz/en/thein-2/",
+      "tier": 3,
+      "publisher": "CVCA (Czech Private Equity and Venture Capital Association)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Type of Investment LBO, Growth capital",
+      "self_reported": true
+    }
+  },
+  "ticket": {
+    "value": {
+      "min": 1000000,
+      "max": 5000000,
+      "currency": "EUR"
+    },
+    "source": {
+      "url": "https://cvca.cz/en/thein-2/",
+      "tier": 3,
+      "publisher": "CVCA (Czech Private Equity and Venture Capital Association)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Preferred Ammount of Investment EUR 1-5 million in equity",
+      "self_reported": true
+    }
+  },
+  "capital": {
+    "value": {
+      "amount": 40000000,
+      "currency": "EUR",
+      "basis": "reported_aum",
+      "as_of": null
+    },
+    "source": {
+      "url": "https://cvca.cz/en/thein-2/",
+      "tier": 3,
+      "publisher": "CVCA (Czech Private Equity and Venture Capital Association)",
+      "published_date": null,
+      "accessed_date": "2026-10-13",
+      "quote": "Volume of Funds Managed EUR 40 million",
+      "self_reported": true
+    }
+  },
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Top Alulit s.r.o.",
+      "company_website": null,
+      "announced_date": "2024-01-16",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "acquisition",
+      "source": {
+        "url": "https://cc.cz/investicni-skupina-thein-nekdejsiho-kellnerova-manazera-koupila-benesovskou-slevarnu-top-alulit/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2024-01-16",
+        "accessed_date": "2026-10-13",
+        "quote": "Průmyslová část investiční skupiny Thein, kterou založil bývalý generální ředitel O2 Tomáš Budník, koupila benešovskou slévárnu hliníku Top Alulit.",
+        "self_reported": false
+      }
+    },
+    {
+      "company": "Cotring spol. s r.o. and Železniční dodavatelská s.r.o.",
+      "company_website": null,
+      "announced_date": "2021-06-10",
+      "role": "lead",
+      "instrument": "equity",
+      "round": "acquisition (100% stakes)",
+      "source": {
+        "url": "https://www.e15.cz/byznys/prumysl-a-energetika/byvaly-sef-o2-budnik-koupil-za-stovky-milionu-dve-firmy-z-zeleznicniho-prumyslu-1381243",
+        "tier": 3,
+        "publisher": "E15",
+        "published_date": "2021-06-10",
+        "accessed_date": "2026-10-13",
+        "quote": "Investiční skupina Thein byznysmena Tomáše Budníka dokončila dvě akvizice průmyslových podniků.",
+        "self_reported": false
+      }
+    }
+  ],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "cvca",
+    "notes": "www.thein.eu did not resolve (DNS error), so the own site could not be read; profile data from CVCA member page (undated). Newest dated deal found: Top Alulit, 2024-01-16 (more than 24 months before AS_OF 2026-10-11); later deals not found, and search snippets mention Your System (IT) acquisition and a Forbes.cz report that Thein Private Equity SICAV lost its investment-fund status (paywalled, not fetched, undated) - code should treat as possible dormant/defunct fund vehicle. Group is majority-control buyouts of industrial/IT firms by a holding of Tomáš Budník, borderline PE/private_holding rather than VC. Legal entity IČO 11733861 only from Bloomberg LEI page (not confirmed in ARES/justice.cz; LEI status LAPSED); fund size 40M EUR is CVCA 'Volume of Funds Managed' (self-reported)."
+  }
+}

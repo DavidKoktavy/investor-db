@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "id": "budeto",
+  "name": "Budeto",
+  "website": null,
+  "hq_country": {"value": null, "null_reason": "not_found", "note": "No page fetched states where the Budeto team sits; Czech links (founder Petr Kovacik, Czech press) are only indirect."},
+  "legal_entities": [],
+  "type": {"value": null, "null_reason": "not_applicable", "note": "Self-described startup studio (ideates, builds founding teams, funds first months); not a fund. Schema has no studio type."},
+  "sectors": {"value": null, "null_reason": "not_published"},
+  "stages": {"value": null, "null_reason": "not_published"},
+  "ticket": {"value": null, "null_reason": "not_published"},
+  "capital": {"value": null, "null_reason": "not_published"},
+  "funds": [],
+  "evidence_of_activity": [
+    {
+      "company": "Vetstor",
+      "company_website": null,
+      "announced_date": "2025-12-09",
+      "role": "participant",
+      "instrument": "unknown",
+      "round": "seed (round of EUR 1 million total)",
+      "source": {
+        "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/",
+        "tier": 3,
+        "publisher": "CzechCrunch",
+        "published_date": "2025-12-09",
+        "accessed_date": "2026-10-13",
+        "quote": "Kromě Budeto a těchto dvou fondů se jej účastní také Ondřej Kania,",
+        "self_reported": false
+      }
+    }
+  ],
+  "exclusion_signals": [],
+  "status": "pending",
+  "exclusion_reason": null,
+  "meta": {
+    "extracted_by": "investor-extractor/sonnet",
+    "extracted_at": "2026-10-13T12:00:00+02:00",
+    "candidate_source": "extract_selected.csv",
+    "notes": "No own website found (budeto.com does not resolve; budeto.cz certificate error; only newsletter budeto.beehiiv.com, 2024-10-31, calls it a startup studio). Entity is a startup studio founded April 2023 by Petr Kovacik (cc.cz 2023-10-31), financed by angels incl. Cupr, Cendra, Mucha. Registry: only BUDETO Learning s.r.o. (IC 24087602, formed 2025-12-18) found on a mirror; link to the studio unconfirmed, so not recorded. Round: CzechCrunch says current round totals EUR 1 million (Vetstor); Budeto also co-founded Vetstor idea and Langtail (cc.cz 2024-04-25, co-founded and supported, not shown as investment). Instrument and Budeto's role not stated."
+  }
+}

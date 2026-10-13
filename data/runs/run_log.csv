@@ -83,3 +83,5 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,investor-extractor,sonnet,stredocesky-inovacni-centrum,36158,23,106.8,ok
 2026-10-13,investor-extractor,sonnet,odyssey-44,33366,16,197.2,ok
 2026-10-13,investor-extractor,sonnet,rockaway-capital,36659,16,197.0,ok
+2026-10-13,investor-extractor,sonnet,thein,37142,19,83.7,ok
+2026-10-13,investor-extractor,sonnet,chilli-ventures,31917,14,62.1,ok
