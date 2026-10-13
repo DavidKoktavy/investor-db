@@ -1,0 +1,23 @@
+{
+  "id": "muni-ventures",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {
+      "path": "legal_entities[0]",
+      "verdict": "supported",
+      "reason": "Registry mirror page names MUNI Ventures, s.r.o., ICO 21503559, seat Komenskeho nam. 220/2 Brno, incorporated 24.4.2024; quote is the page title. Tier 3 mirror, self_reported false correct.",
+      "observed_value": null
+    },
+    {
+      "path": "exclusion_signals[0]",
+      "verdict": "partially_supported",
+      "reason": "Quote is verbatim and the 2024-04-25 MU article does describe a technology-transfer/commercialisation vehicle, but it also says the company may enter investment funds on the university's behalf, support spin-off creation and provide funds for developing discoveries; it does not state grant/program-only activity. 'grant_or_program_only' is an inference, not stated. Tier 2 self_reported true acceptable (university is parent).",
+      "observed_value": null
+    }
+  ],
+  "record_opinion": {
+    "active_investor_of_claimed_type": "no",
+    "reason": "Cited sources show a Brno-registered university commercialisation subsidiary (founded April 2024, CZK 2m capital) with no evidence of any equity investment; no VC type or activity is claimed or supported."
+  }
+}

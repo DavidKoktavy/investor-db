@@ -1,0 +1,13 @@
+{
+  "id": "nation1",
+  "verified_at": "2026-10-13T16:00:00+02:00",
+  "verifier": "evidence-verifier/opus",
+  "items": [
+    {"path": "hq_country", "verdict": "partially_supported", "reason": "Lupa calls N1 a 'Czech investment fund' but does not say where the investment team sits; the site lists offices in SF, Prague and Luxembourg, the funds are Luxembourg AIFs and the firm says it has 'one foot in Europe and the other in San Francisco'. CZ is plausible but the cited page does not establish where the team is based.", "observed_value": null},
+    {"path": "type", "verdict": "supported", "reason": "Disclosure page states verbatim 'An operator-led early-stage VC with one foot in Europe and the other in San Francisco'; self_reported=true and tier 2 are correct.", "observed_value": null},
+    {"path": "sectors", "verdict": "supported", "reason": "Homepage: 'manage $60M across two funds focused on AI and healthcare'; mapping to ai_data and health_biotech is fair (site also mentions frontier tech).", "observed_value": null},
+    {"path": "capital", "verdict": "supported", "reason": "Homepage states USD 60M managed across two funds; basis reported_aum is correct and no as_of date is given; self-reported.", "observed_value": null},
+    {"path": "evidence_of_activity[0]", "verdict": "supported", "reason": "Lupa.cz, published 15 May 2026 (in the window from 2024-10-11 to 2026-10-11), reports a fresh USD 6M seed round in Flick. N1 is named as a participant alongside True Ventures, GV, YC and others, not as the lead.", "observed_value": null}
+  ],
+  "record_opinion": {"active_investor_of_claimed_type": "unsure", "reason": "This is clearly an active early-stage VC with a May 2026 seed deal and Czech partners, and it has a Prague office. But its funds are Luxembourg vehicles and it describes itself as half in San Francisco, so the cited sources do not establish that the investment team is in Czechia."}
+}

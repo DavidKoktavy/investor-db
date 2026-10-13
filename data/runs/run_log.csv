@@ -139,3 +139,6 @@ date,agent,model,id,tokens,tool_uses,duration_s,outcome
 2026-10-13,evidence-verifier,opus,metatron-global,13611,6,20.1,ok
 2026-10-13,evidence-verifier,opus,longevitytech-fund,16890,7,39.6,ok
 2026-10-13,evidence-verifier,opus,miton,18285,9,36.4,ok
+2026-10-13,evidence-verifier,opus,look-ai-ventures,20050,10,39.1,ok
+2026-10-13,evidence-verifier,opus,muni-ventures,14941,7,25.9,ok
+2026-10-13,evidence-verifier,opus,nation1,16106,8,27.9,ok
