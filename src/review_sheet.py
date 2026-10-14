@@ -91,23 +91,32 @@ def decision_row(d: dict) -> dict:
     return {"field": "decision", "value_shown": detail, "question": QUESTIONS["decision"], **src_cols(None)}
 
 
-def build(max_records: int, triage_sample: int) -> list[dict]:
+QUICK_FIELDS = ("record", "ticket", "capital", "evidence_of_activity[0]")
+
+
+def build(max_records: int, triage_sample: int, quick: bool = False, pipeline_sample: int | None = None) -> list[dict]:
     rng = random.Random(SEED)
     decisions = read_csv(DECISIONS_PATH)
     active = [d for d in decisions if d["status"] == "active"]
     if len(active) > max_records:
         active = sorted(rng.sample(active, max_records), key=lambda d: d["candidate_id"])
     pipeline_out = [d for d in decisions if d["decided_by"] == "pipeline" and d["status"] in ("excluded", "dormant")]
+    if pipeline_sample is not None and len(pipeline_out) > pipeline_sample:
+        pipeline_out = sorted(rng.sample(pipeline_out, pipeline_sample), key=lambda d: d["candidate_id"])
     triage_out = [d for d in decisions if d["decided_by"] == "triage"]
     triage_out = sorted(rng.sample(triage_out, min(triage_sample, len(triage_out))), key=lambda d: d["candidate_id"])
 
     rows = []
     for d in active:
         rec = json.loads((STAGING_DIR / f"{d['candidate_id']}.json").read_text(encoding="utf-8"))
-        rows += [{"id": d["candidate_id"], "name": d["name"], **r} for r in record_rows(rec)]
+        recs = record_rows(rec)
+        if quick:  # newest evidence first, so [0] is the investment that makes the record active
+            recs = [r for r in recs if r["field"] in QUICK_FIELDS]
+        rows += [{"id": d["candidate_id"], "name": d["name"], **r} for r in recs]
         decided = json.loads((DECIDED_DIR / f"{d['candidate_id']}.json").read_text(encoding="utf-8"))
         cap = decided.get("capital") or {}
-        if (rec.get("capital") or {}).get("value") is None and cap.get("value") is not None:
+        if (rec.get("capital") or {}).get("value") is None and cap.get("value") is not None and not any(
+                r["id"] == d["candidate_id"] and r["field"] == "capital" for r in rows):
             rows.append({"id": d["candidate_id"], "name": d["name"], "field": "capital",
                          "value_shown": fmt(cap["value"]) + " — computed from fund sizes",
                          "question": QUESTIONS["capital"], **src_cols(cap.get("source"))})
@@ -176,7 +185,10 @@ render();
 def main(argv: list[str]) -> int:
     max_records = int(argv[argv.index("--max-records") + 1]) if "--max-records" in argv else 40
     triage_sample = int(argv[argv.index("--triage-sample") + 1]) if "--triage-sample" in argv else 15
-    rows = build(max_records, triage_sample)
+    quick = "--quick" in argv
+    if quick:  # D-020: ~60 rows, about 25 minutes
+        max_records, triage_sample = 12, 5
+    rows = build(max_records, triage_sample, quick=quick, pipeline_sample=10 if quick else None)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with TODO.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)
