@@ -1,0 +1,285 @@
+{
+  "funnel": {
+    "none:pending:": 88,
+    "pipeline:active:": 34,
+    "pipeline:dormant:": 2,
+    "pipeline:excluded:grant_or_program_only": 2,
+    "pipeline:excluded:no_recent_investment": 1,
+    "pipeline:excluded:not_found_or_defunct": 4,
+    "pipeline:excluded:out_of_scope_geography": 7,
+    "pipeline:excluded:out_of_scope_type": 18,
+    "pipeline:excluded:real_estate_only": 1,
+    "triage:excluded:advisor_or_intermediary": 1,
+    "triage:excluded:debt_only": 1,
+    "triage:excluded:out_of_scope_geography": 60,
+    "triage:excluded:out_of_scope_type": 5
+  },
+  "n_review_rows": 48,
+  "n_reviewed": 48,
+  "n_candidates": 224,
+  "n_active": 34,
+  "record_precision": {
+    "k": 9,
+    "n": 12,
+    "pct": 75.0,
+    "ci95": [
+      46.8,
+      91.1
+    ]
+  },
+  "decision_accuracy_pipeline": {
+    "k": 9,
+    "n": 10,
+    "pct": 90.0,
+    "ci95": [
+      59.6,
+      98.2
+    ]
+  },
+  "decision_accuracy_triage": {
+    "k": 5,
+    "n": 5,
+    "pct": 100.0,
+    "ci95": [
+      56.6,
+      100.0
+    ]
+  },
+  "field_coverage": {
+    "type": {
+      "k": 34,
+      "n": 34,
+      "pct": 100.0,
+      "ci95": [
+        89.8,
+        100.0
+      ]
+    },
+    "hq_country": {
+      "k": 34,
+      "n": 34,
+      "pct": 100.0,
+      "ci95": [
+        89.8,
+        100.0
+      ]
+    },
+    "sectors": {
+      "k": 25,
+      "n": 34,
+      "pct": 73.5,
+      "ci95": [
+        56.9,
+        85.4
+      ]
+    },
+    "stages": {
+      "k": 26,
+      "n": 34,
+      "pct": 76.5,
+      "ci95": [
+        60.0,
+        87.6
+      ]
+    },
+    "ticket": {
+      "k": 21,
+      "n": 34,
+      "pct": 61.8,
+      "ci95": [
+        45.0,
+        76.1
+      ]
+    },
+    "capital": {
+      "k": 14,
+      "n": 34,
+      "pct": 41.2,
+      "ci95": [
+        26.4,
+        57.8
+      ]
+    },
+    "legal_entities": {
+      "k": 34,
+      "n": 34,
+      "pct": 100.0,
+      "ci95": [
+        89.8,
+        100.0
+      ]
+    },
+    "evidence_in_window": {
+      "k": 34,
+      "n": 34,
+      "pct": 100.0,
+      "ci95": [
+        89.8,
+        100.0
+      ]
+    }
+  },
+  "field_accuracy_final": {
+    "evidence_of_activity": {
+      "k": 11,
+      "n": 12,
+      "pct": 91.7,
+      "ci95": [
+        64.6,
+        98.5
+      ],
+      "partially_correct": 1,
+      "incorrect": 0,
+      "unverifiable": 0
+    },
+    "ticket": {
+      "k": 6,
+      "n": 7,
+      "pct": 85.7,
+      "ci95": [
+        48.7,
+        97.4
+      ],
+      "partially_correct": 1,
+      "incorrect": 0,
+      "unverifiable": 0
+    },
+    "capital": {
+      "k": 1,
+      "n": 1,
+      "pct": 100.0,
+      "ci95": [
+        20.7,
+        100.0
+      ],
+      "partially_correct": 0,
+      "incorrect": 0,
+      "unverifiable": 0
+    }
+  },
+  "field_accuracy_extractor": {
+    "evidence_of_activity": {
+      "k": 11,
+      "n": 12,
+      "pct": 91.7,
+      "ci95": [
+        64.6,
+        98.5
+      ],
+      "partially_correct": 1,
+      "incorrect": 0,
+      "unverifiable": 0
+    },
+    "ticket": {
+      "k": 6,
+      "n": 7,
+      "pct": 85.7,
+      "ci95": [
+        48.7,
+        97.4
+      ],
+      "partially_correct": 1,
+      "incorrect": 0,
+      "unverifiable": 0
+    },
+    "capital": {
+      "k": 2,
+      "n": 2,
+      "pct": 100.0,
+      "ci95": [
+        34.2,
+        100.0
+      ],
+      "partially_correct": 0,
+      "incorrect": 0,
+      "unverifiable": 0
+    }
+  },
+  "value_accuracy_final_all_fields": {
+    "k": 18,
+    "n": 20,
+    "pct": 90.0,
+    "ci95": [
+      69.9,
+      97.2
+    ]
+  },
+  "value_accuracy_extractor_all_fields": {
+    "k": 19,
+    "n": 21,
+    "pct": 90.5,
+    "ci95": [
+      71.1,
+      97.3
+    ]
+  },
+  "verifier_vs_human": {
+    "supported": {
+      "partially_correct": 2,
+      "correct": 16
+    },
+    "partially_supported": {
+      "correct": 2
+    },
+    "none": {
+      "correct": 1
+    }
+  },
+  "verifier_dropped_correct_values": 0,
+  "verifier_passed_incorrect_values": 0,
+  "quote_checks": {
+    "found": 424,
+    "unreachable": 6,
+    "missing": 3
+  },
+  "citation_validity": {
+    "k": 424,
+    "n": 433,
+    "pct": 97.9,
+    "ci95": [
+      96.1,
+      98.9
+    ]
+  },
+  "verifier_verdicts": {
+    "supported": 322,
+    "partially_supported": 107,
+    "unverifiable": 6,
+    "unsupported": 1
+  },
+  "n_staging_records": 69,
+  "cost_by_agent": {
+    "candidate-scout": {
+      "runs": 3,
+      "tokens": 536034,
+      "tool_uses": 498,
+      "duration_s": 7056.299999999999,
+      "usd": 1.5
+    },
+    "candidate-triage": {
+      "runs": 23,
+      "tokens": 2109429,
+      "tool_uses": 982,
+      "duration_s": 8738.9,
+      "usd": 0.3
+    },
+    "investor-extractor": {
+      "runs": 87,
+      "tokens": 2965744,
+      "tool_uses": 1452,
+      "duration_s": 8097.499999999998,
+      "usd": 8.3
+    },
+    "evidence-verifier": {
+      "runs": 81,
+      "tokens": 1417346,
+      "tool_uses": 680,
+      "duration_s": 2636.3000000000006,
+      "usd": 7.94
+    }
+  },
+  "cost_total_usd": 18.04,
+  "cost_per_active_record_usd": 0.53,
+  "review_minutes": 10.0,
+  "review_minutes_per_record": 0.8
+}
