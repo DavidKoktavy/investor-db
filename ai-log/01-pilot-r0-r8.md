@@ -6215,7 +6215,7 @@ code 0)
 ⏺ All 44 records are valid. I'll run the quote check (R5) once extraction
   finishes, so it doesn't read records an agent is still editing.
 
-✻ Brewed for 24s · done 3:49 PM
+✻ Brewed for 24s · done Tuesday 3:49 PM
 › Message from investor-extractor
   - Wrote /Users/davidkoktavy/Desktop/Investor DB
   Starter/data/records/staging/muni-ventures.json. `src.validate` passed.
@@ -6238,7 +6238,7 @@ code 0)
 ⏺ MUNI Ventures is done: no direct investments found, so code will exclude it.
   Three extractions are still running.
 
-✻ Churned for 1s · done 3:49 PM
+✻ Churned for 1s · done Tuesday 3:49 PM
 
 ⏺ Agent "Extract muni-ventures" finished · 43s
 
@@ -6334,7 +6334,7 @@ code 0)
   extractions are running now (Odyssey 44, Rockaway Capital, Springtide
   Ventures), and JSK Investments is still in progress.
 
-✻ Crunched for 22s · done 3:50 PM
+✻ Crunched for 22s · done Tuesday 3:50 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -6443,7 +6443,7 @@ code 0)
   Rockaway Capital, Springtide Ventures and Středočeské inovační centrum. 17
   queue rows remain after these.
 
-✻ Worked for 14s · done 3:51 PM
+✻ Worked for 14s · done Tuesday 3:51 PM
 
 › Message from investor-extractor
   - Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -6470,7 +6470,7 @@ code 0)
   January 2025, from the company's own press release. Three extractions are
   still running.
 
-✻ Brewed for 2s · done 3:52 PM
+✻ Brewed for 2s · done Tuesday 3:52 PM
 
 ⏺ Agent "Extract springtide-ventures" finished · 1m 46s
 
@@ -6532,7 +6532,7 @@ code 0)
   extractions are running: Odyssey 44, Rockaway Capital, Thein and Budeto. 15
   queue rows remain after these.
 
-✻ Cooked for 12s · done 3:53 PM
+✻ Cooked for 12s · done Tuesday 3:53 PM
 
 ⏺ Agent "Extract soulmates-ventures" finished · 19h 29m 6s
 
@@ -6561,7 +6561,7 @@ code 0)
   updated its run-log row. Four extractions are still running: Odyssey 44,
   Rockaway Capital, Thein and Budeto.
 
-✻ Baked for 5s · done 3:53 PM
+✻ Baked for 5s · done Tuesday 3:53 PM
 
 › Message from investor-extractor
   - Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -6582,7 +6582,7 @@ code 0)
   invest into start-ups", and its only deal found is from 2019, so code will
   exclude it. Three extractions are still running.
 
-✻ Cogitated for 1s · done 3:53 PM
+✻ Cogitated for 1s · done Tuesday 3:53 PM
 
 ⏺ Agent "Extract odyssey-44" finished · 3m 17s
 
@@ -6641,7 +6641,7 @@ code 0)
   running: Thein, Budeto, Chilli Ventures and TCF Capital. 13 queue rows remain
   after these.
 
-✻ Cooked for 12s · done 3:53 PM
+✻ Cooked for 12s · done Tuesday 3:53 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -6669,7 +6669,7 @@ code 0)
   is from January 2024, outside the window. Code will exclude it. Three
   extractions are still running.
 
-✻ Baked for 1s · done 3:54 PM
+✻ Baked for 1s · done Tuesday 3:54 PM
 
 ⏺ Agent "Extract thein" finished · 1m 24s
 
@@ -6720,7 +6720,7 @@ code 0)
   running: Budeto, TCF Capital, BPD Partners and Grouport Ventures. 11 queue
   rows remain after these.
 
-✻ Baked for 12s · done 3:54 PM
+✻ Baked for 12s · done Tuesday 3:54 PM
 
 › Message from investor-extractor
   Written /Users/davidkoktavy/Desktop/Investor DB
@@ -6742,7 +6742,7 @@ code 0)
   type and country are left empty. It has one dated deal in the window (Vetstor,
   Dec 2025). Three extractions are still running.
 
-✻ Sautéed for 1s · done 3:55 PM
+✻ Sautéed for 1s · done Tuesday 3:55 PM
 
 ⏺ Agent "Extract budeto" finished · 1m 42s
 
@@ -6798,7 +6798,7 @@ code 0)
   running: BPD Partners, Grouport Ventures, IP Lab Ventures and KAYA VC. Nine
   queue rows remain after these.
 
-✻ Worked for 13s · done 3:55 PM
+✻ Worked for 13s · done Tuesday 3:55 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -6821,7 +6821,7 @@ code 0)
   its only deal is from 2022, so the agent flagged it as defunct and code will
   exclude it. Three extractions are still running.
 
-✻ Sautéed for 2s · done 3:55 PM
+✻ Sautéed for 2s · done Tuesday 3:55 PM
 
 ⏺ Agent "Extract grouport-ventures" finished · 44s
 
@@ -6917,7 +6917,7 @@ code 0)
   likely dormant. Four extractions are running: IP Lab Ventures, Pilulka Lab, Y
   Soft Ventures and 3TS Capital Partners. After them, 6 rows remain.
 
-✻ Cogitated for 18s · done 3:56 PM
+✻ Cogitated for 18s · done Tuesday 3:56 PM
 › Message from investor-extractor
   - Wrote /Users/davidkoktavy/Desktop/Investor DB
   Starter/data/records/staging/ip-lab-ventures.json. src.validate passed.
@@ -6942,7 +6942,7 @@ code 0)
   only if code treats that announcement as a fund close within 12 months. Three
   extractions are still running.
 
-✻ Churned for 2s · done 3:56 PM
+✻ Churned for 2s · done Tuesday 3:56 PM
 
 ⏺ Agent "Extract ip-lab-ventures" finished · 1m 17s
 
@@ -6997,7 +6997,7 @@ code 0)
   running: Y Soft Ventures, 3TS Capital Partners, 500 Emerging Europe and Alpha
   Intelligence Capital. Four queue rows remain after these.
 
-✻ Churned for 13s · done 3:57 PM
+✻ Churned for 13s · done Tuesday 3:57 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -7021,7 +7021,7 @@ code 0)
   FI), so code will exclude it as out of scope by geography. Three extractions
   are still running.
 
-✻ Sautéed for 1s · done 3:58 PM
+✻ Sautéed for 1s · done Tuesday 3:58 PM
 
 ⏺ Agent "Extract 3ts-capital-partners" finished · 1m 40s
 
@@ -7342,7 +7342,7 @@ code 0)
   Once these five finish, I'll move on to validation, quote checks and
   verification.
 
-✻ Crunched for 27s · done 3:58 PM
+✻ Crunched for 27s · done Tuesday 3:58 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -7364,7 +7364,7 @@ code 0)
   in the window, so code will exclude it. Four extractions are still running:
   500 Emerging Europe, BADideas.fund, Borovička Capital and EIC Fund.
 
-✻ Cooked for 2s · done 3:59 PM
+✻ Cooked for 2s · done Tuesday 3:59 PM
 
 ⏺ Agent "Extract diaspora-ventures" finished · 42s
 
@@ -7430,7 +7430,7 @@ code 0)
   one-line formatting fix in PLAN.md; I merged it and pushed. Three extractions
   are still running: 500 Emerging Europe, BADideas.fund and EIC Fund.
 
-✻ Cooked for 14s · done 3:59 PM
+✻ Cooked for 14s · done Tuesday 3:59 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -7456,7 +7456,7 @@ code 0)
   exclude it as out of scope by geography. 500 Emerging Europe and EIC Fund are
   still running.
 
-✻ Brewed for 1s · done 3:59 PM
+✻ Brewed for 1s · done Tuesday 3:59 PM
 
 ⏺ Agent "Extract badideas-fund" finished · 1m 17s
 
@@ -7518,7 +7518,7 @@ code 0)
 ⏺ Extraction is nearly done: 68 of 69 queued candidates have records. 500
   Emerging Europe is still running, and R4 validation follows once it finishes.
 
-✻ Crunched for 11s · done 4:00 PM
+✻ Crunched for 11s · done Tuesday 4:00 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -7878,7 +7878,7 @@ code 0)
 ⏺ The first four verifiers are running: 3TS Capital Partners, 500 Emerging
   Europe, Alpha Intelligence Capital and Aspire11. 65 records are still waiting
   for verification; the next four start as these finish.
-✻ Cogitated for 1m 53s · done 4:02 PM
+✻ Cogitated for 1m 53s · done Tuesday 4:02 PM
 
 › Message from evidence-verifier
   alpha-intelligence-capital: 5 supported, 0 partially supported, 0 unsupported,
@@ -7897,7 +7897,7 @@ code 0)
   out on geography. I'll log the run and start the next verifier when the usage
   notification arrives.
 
-✻ Cooked for 2s · done 4:02 PM
+✻ Cooked for 2s · done Tuesday 4:02 PM
 
 ⏺ Agent "Verify alpha-intelligence-capital" finished · 22s
 
@@ -7998,7 +7998,7 @@ code 0)
   Office, BADideas.fund, BD Partners and Borovička Capital. 61 records are
   still waiting.
 
-✻ Baked for 16s · done 4:03 PM
+✻ Baked for 16s · done Tuesday 4:03 PM
 
 › Message from evidence-verifier
   borovicka-capital: 1 supported, 1 partially supported, 0 unsupported,
@@ -8018,7 +8018,7 @@ code 0)
   no hq_country, so decide.py will likely leave it pending. Three verifiers are
   still running.
 
-✻ Worked for 2s · done 4:03 PM
+✻ Worked for 2s · done Tuesday 4:03 PM
 
 ⏺ Agent "Verify borovicka-capital" finished · 22s
 
@@ -8118,7 +8118,7 @@ code 0)
   now (BPD Partners, Braiins, BTCZ, Budeto). Each one takes about half a minute.
   When all 69 are done, I'll run R7 (decide) and R8 (review sheet).
 
-✻ Sautéed for 25s · done 4:03 PM
+✻ Sautéed for 25s · done Tuesday 4:03 PM
 
 › Message from evidence-verifier
   btcz-ventures: 1 supported, 2 partially_supported, 0 unsupported, 0
@@ -8139,7 +8139,7 @@ code 0)
   unsupported, though. In R7 I'll check whether decide.py still counts a
   partially supported item as activity.
 
-✻ Brewed for 3s · done 4:04 PM
+✻ Brewed for 3s · done Tuesday 4:04 PM
 
 ⏺ Agent "Verify btcz-ventures" finished · 30s
 
@@ -8240,7 +8240,7 @@ code 0)
   Ventures, Credo Ventures, Czech Founders VC and Dendis Capital. 54 records
   remain.
 
-✻ Sautéed for 20s · done 4:04 PM
+✻ Sautéed for 20s · done Tuesday 4:04 PM
 
 › Message from evidence-verifier
   chilli-ventures: 5 supported, 1 partially_supported, 0 unsupported, 0
@@ -8260,7 +8260,7 @@ code 0)
   in other funds, so it may be a family office rather than a VC. That case goes
   to your manual review. Three verifiers are still running.
 
-✻ Baked for 2s · done 4:04 PM
+✻ Baked for 2s · done Tuesday 4:04 PM
 
 ⏺ Agent "Verify chilli-ventures" finished · 27s
 
@@ -8355,7 +8355,7 @@ code 0)
 ⏺ 19 of the 69 records are verified. Four verifiers are running: DEPO, Diaspora,
   EIC Fund and EMUN. 46 remain after these.
 
-✻ Crunched for 22s · done 4:05 PM
+✻ Crunched for 22s · done Tuesday 4:05 PM
 
 › Message from evidence-verifier
   diaspora-ventures: 3 supported, 1 partially_supported, 0 unsupported,
@@ -8373,7 +8373,7 @@ code 0)
   notification arrives. Three verifiers are still running: DEPO, EIC Fund and
   EMUN.
 
-✻ Cooked for 2s · done 4:05 PM
+✻ Cooked for 2s · done Tuesday 4:05 PM
 
 ⏺ Agent "Verify diaspora-ventures" finished · 22s
 
@@ -8510,7 +8510,7 @@ code 0)
   Capital and Grouport Ventures. 45 records remain after these. I'm launching
   each new verifier as one finishes.
 
-✻ Brewed for 29s · done 4:06 PM
+✻ Brewed for 29s · done Tuesday 4:06 PM
 
 › Message from evidence-verifier
   Verdicts: 1 partially_supported, 0 of any other kind. This is the record's
@@ -8528,7 +8528,7 @@ code 0)
   investments or Czech team cited, so it should drop out. Three verifiers are
   still running: Fazole, Gi21 and Grouport.
 
-✻ Crunched for 2s · done 4:06 PM
+✻ Crunched for 2s · done Tuesday 4:06 PM
 
 ⏺ Agent "Verify founder-institute-prague" finished · 15s
 
@@ -8578,7 +8578,7 @@ code 0)
 ⏺ 22 of 69 records are verified. Four verifiers are running: Fazole Ventures,
   Gi21 Capital, i&i Biotech and i&i Prague. 43 records remain after these.
 
-✻ Baked for 11s · done 4:06 PM
+✻ Baked for 11s · done Tuesday 4:06 PM
 
 › Message from evidence-verifier
   gi21-capital: 6 supported, 1 partially_supported (type), 0
@@ -8597,7 +8597,7 @@ code 0)
   multi-business investment group with a VC/PE line, so it goes to your manual
   review as a type judgment call. Three verifiers are still running.
 
-✻ Cogitated for 2s · done 4:06 PM
+✻ Cogitated for 2s · done Tuesday 4:06 PM
 
 ⏺ Agent "Verify gi21-capital" finished · 32s
 
@@ -8728,7 +8728,7 @@ code 0)
   Verification: 25 of 69 records done. Running now: i&i Biotech, Impulse
   Ventures, InCOMMing Ventures and Inven Capital.
 
-✻ Cooked for 25s · done 4:07 PM
+✻ Cooked for 25s · done Tuesday 4:07 PM
 
 › Message from evidence-verifier
   i-and-i-biotech: 6 supported, 3 partially supported, 0
@@ -8752,7 +8752,7 @@ code 0)
   Three verifiers are still running: Impulse Ventures, InCOMMing Ventures and
   Inven Capital.
 
-✻ Churned for 2s · done 4:07 PM
+✻ Churned for 2s · done Tuesday 4:07 PM
 
 ⏺ Agent "Verify i-and-i-biotech" finished · 43s
 
@@ -8824,7 +8824,7 @@ code 0)
 ⏺ Verification is at 28 of 69. The four running now are Inven Capital, IP Lab
   Ventures, J&T Ventures and JIC Ventures; 37 more are waiting.
 
-✻ Worked for 18s · done 4:07 PM
+✻ Worked for 18s · done Tuesday 4:07 PM
 
 › Message from evidence-verifier
   inven-capital: 7 supported, 1 partially_supported, 0 unsupported, 0
@@ -8847,7 +8847,7 @@ code 0)
   that's a verifier miss to note for the README. I'll log the run once its usage
   arrives.
 
-✻ Cooked for 3s · done 4:07 PM
+✻ Cooked for 3s · done Tuesday 4:07 PM
 
 ⏺ Agent "Verify inven-capital" finished · 32s
 
@@ -8952,7 +8952,7 @@ code 0)
   running: JSK Investments, KAYA VC, Koopeo Ventures and Lighthouse Ventures. 33
   records remain after these.
 
-✻ Cogitated for 22s · done 4:08 PM
+✻ Cogitated for 22s · done Tuesday 4:08 PM
 
 › Message from evidence-verifier
   koopeo-ventures: 3 supported, 1 partially supported, 0
@@ -8972,7 +8972,7 @@ code 0)
   investing its own money stays open for your manual review. I'll log the run
   once its usage figures arrive.
 
-✻ Sautéed for 2s · done 4:09 PM
+✻ Sautéed for 2s · done Tuesday 4:09 PM
 
 ⏺ Agent "Verify koopeo-ventures" finished · 25s
 
@@ -9062,7 +9062,7 @@ code 0)
 ⏺ R6 is at 36 of 69 verified. Four verifiers are running now: Longevitytech,
   Look AI, Metatron and Miton. 29 records are still queued after these.
 
-✻ Brewed for 19s · done 4:09 PM
+✻ Brewed for 19s · done Tuesday 4:09 PM
 
 › Message from evidence-verifier
   metatron-global: 1 item checked, 1 partially_supported. Opinion: no. Written
@@ -9080,7 +9080,7 @@ code 0)
   nothing ties it to a Czech team, so it won't qualify. Three verifiers are
   still running.
 
-✻ Baked for 1s · done 4:09 PM
+✻ Baked for 1s · done Tuesday 4:09 PM
 
 ⏺ Agent "Verify metatron-global" finished · 20s
 
@@ -9200,7 +9200,7 @@ code 0)
 ⏺ Verification is 42 of 69 done. Running now: MUNI Ventures, N1 Ventures, Novira
   Capital and Odyssey 44. 23 records are left after these.
 
-✻ Crunched for 26s · done 4:10 PM
+✻ Crunched for 26s · done Tuesday 4:10 PM
 
 › Message from evidence-verifier
   muni-ventures: 1 supported, 1 partially supported, 0 unsupported, 0
@@ -9219,7 +9219,7 @@ code 0)
   equity investment in its sources, so it should drop out. The grant-only
   exclusion code is only partly backed. Three verifiers are still running.
 
-✻ Cooked for 2s · done 4:10 PM
+✻ Cooked for 2s · done Tuesday 4:10 PM
 
 ⏺ Agent "Verify muni-ventures" finished · 25s
 › Message from evidence-verifier
@@ -9271,7 +9271,7 @@ code 0)
   running now: Novira Capital, Odyssey 44, Orbit Capital and Patero. That leaves
   21 after these.
 
-✻ Brewed for 13s · done 4:10 PM
+✻ Brewed for 13s · done Tuesday 4:10 PM
 
 › Message from evidence-verifier
   novira-capital: 1 supported, 2 partially_supported, 0
@@ -9295,7 +9295,7 @@ code 0)
 
   Three verifiers are still running.
 
-✻ Cogitated for 2s · done 4:10 PM
+✻ Cogitated for 2s · done Tuesday 4:10 PM
 
 ⏺ Agent "Verify novira-capital" finished · 38s
 
@@ -9337,7 +9337,7 @@ code 0)
   drop out as not VC. Four verifiers are running: Orbit Capital, Patero,
   Pilulka Lab and Presto Ventures. After these, 19 remain.
 
-✻ Sautéed for 9s · done 4:11 PM
+✻ Sautéed for 9s · done Tuesday 4:11 PM
 
 › Message from evidence-verifier
   patero: 3 supported, 1 partially_supported, 0 unsupported, 0 contradicted, 0
@@ -9357,7 +9357,7 @@ code 0)
   also confirmed the window miscount I logged as E-15. Three verifiers are still
   running.
 
-✻ Cogitated for 2s · done 4:11 PM
+✻ Cogitated for 2s · done Tuesday 4:11 PM
 
 ⏺ Agent "Verify patero" finished · 28s
 
@@ -9466,7 +9466,7 @@ code 0)
   are running: Pilulka Lab, Presto Ventures, Purple Ventures and PurposeTech. 17
   records remain after these.
 
-✻ Worked for 13s · done 4:11 PM
+✻ Worked for 13s · done Tuesday 4:11 PM
 
 › Message from evidence-verifier
   pilulka-lab: 0 supported, 3 partially_supported, 1 unverifiable (exclusion
@@ -9483,7 +9483,7 @@ code 0)
   no team country, and the sources support "accelerator" rather than "cvc".
   Three verifiers are still running.
 
-✻ Baked for 2s · done 4:11 PM
+✻ Baked for 2s · done Tuesday 4:11 PM
 
 ⏺ Agent "Verify pilulka-lab" finished · 29s
 
@@ -9596,7 +9596,7 @@ code 0)
 ⏺ Verification is at 53 of 69. Running now: Reflex Capital, Rockaway Capital,
   Rockaway Ventures and RockawayX. 12 remain after these.
 
-✻ Brewed for 25s · done 4:12 PM
+✻ Brewed for 25s · done Tuesday 4:12 PM
 
 › Message from evidence-verifier
   reflex-capital: 4 supported, 2 partially supported, 0 unsupported,
@@ -9614,7 +9614,7 @@ code 0)
   deals are inside the window; only the "VC" type label and the Merchantee round
   stage are inferred rather than stated. Three verifiers are still running.
 
-✻ Baked for 2s · done 4:12 PM
+✻ Baked for 2s · done Tuesday 4:12 PM
 
 ⏺ Agent "Verify reflex-capital" finished · 30s
 
@@ -9716,7 +9716,7 @@ code 0)
 ⏺ Verification is at 57 of 69. Four verifiers are running: Seed Starter,
   Soulmates Ventures, Spinoffy and Springtide Ventures. Eight remain after them.
 
-✻ Churned for 23s · done 4:12 PM
+✻ Churned for 23s · done Tuesday 4:12 PM
 
 › Message from evidence-verifier
   spinoffy: 2 supported, 1 partially_supported, 0
@@ -9734,7 +9734,7 @@ code 0)
 ⏺ Spinoffy is verified. It has no deals and no fund close yet, only a launch
   article, so it isn't an active investor. Three verifiers are still running.
 
-✻ Churned for 1s · done 4:13 PM
+✻ Churned for 1s · done Tuesday 4:13 PM
 
 ⏺ Agent "Verify spinoffy" finished · 26s
 
@@ -9805,7 +9805,7 @@ code 0)
   running: Springtide, Startguide, StartupYard and Středočeské inovační centrum,
   plus Tachles. Five records are still waiting after those.
 
-✻ Baked for 19s · done 4:13 PM
+✻ Baked for 19s · done Tuesday 4:13 PM
 
 › Message from evidence-verifier
   springtide-ventures: 6 supported, 2 partially_supported, 0 unsupported, 0
@@ -9827,7 +9827,7 @@ code 0)
   investment group, not an operating company. It's a judgment call for your
   manual review.
 
-✻ Churned for 2s · done 4:13 PM
+✻ Churned for 2s · done Tuesday 4:13 PM
 
 ⏺ Agent "Verify springtide-ventures" finished · 49s
 
@@ -9950,7 +9950,7 @@ code 0)
   The Tachles verifier confirmed the article-date problem I suspected: the cited
   article only recaps 2024 deals, so its date may not be the deal date.
 
-✻ Sautéed for 23s · done 4:14 PM
+✻ Sautéed for 23s · done Tuesday 4:14 PM
 
 › Message from evidence-verifier
   tensor-ventures: 6 supported, 2 partially supported; 0 unsupported,
@@ -9973,7 +9973,7 @@ code 0)
   TCF Capital, Thein and Tilia Impact Ventures are still being verified. United
   Founders, Y Soft Ventures and Zaka VC are next.
 
-✻ Brewed for 2s · done 4:14 PM
+✻ Brewed for 2s · done Tuesday 4:14 PM
 
 ⏺ Agent "Verify tensor-ventures" finished · 30s
 
@@ -10015,7 +10015,7 @@ code 0)
   Four verifiers are running now: Thein, Tilia Impact Ventures, United Founders
   and Y Soft Ventures. Zaka VC is the last one left after that.
 
-✻ Worked for 8s · done 4:14 PM
+✻ Worked for 8s · done Tuesday 4:14 PM
 
 › Message from evidence-verifier
   tilia-impact-ventures: 5 supported, 1 partially_supported, 0 unsupported,
@@ -10036,7 +10036,7 @@ code 0)
   outright. I'll log it once its usage figures arrive and start Zaka VC, the
   last record.
 
-✻ Cooked for 2s · done 4:14 PM
+✻ Cooked for 2s · done Tuesday 4:14 PM
 
 ⏺ Agent "Verify tilia-impact-ventures" finished · 28s
 
@@ -10098,7 +10098,7 @@ code 0)
   whose extractors found no confirmed entity. I'll check the outcome once the
   last three verifiers finish.
 
-✻ Sautéed for 13s · done 4:14 PM
+✻ Sautéed for 13s · done Tuesday 4:14 PM
 
 › Message from evidence-verifier
   united-founders: 9 supported, 1 partially_supported, 0 unsupported, 0
@@ -10119,7 +10119,7 @@ code 0)
   founded in Prague, but its partners are spread across Europe. Y Soft Ventures
   and Zaka VC are still being verified.
 
-✻ Crunched for 2s · done 4:15 PM
+✻ Crunched for 2s · done Tuesday 4:15 PM
 
 ⏺ Agent "Verify united-founders" finished · 36s
 
@@ -10155,7 +10155,7 @@ code 0)
   VC with one deal in the window. Zaka VC is the last verifier still running; R7
   (decide) starts when it finishes.
 
-✻ Sautéed for 8s · done 4:15 PM
+✻ Sautéed for 8s · done Tuesday 4:15 PM
 
 › Message from evidence-verifier
   zaka-vc: 8 supported, 0 partially_supported, 0 unsupported, 0 contradicted, 0
@@ -10792,7 +10792,7 @@ code 0)
   src.metrics. The session export is also yours, since I can't run slash
   commands: type /export and save it as ai-log/01-pilot-r0-r8.md.
 
-✻ Brewed for 27m 29s · done 4:16 PM
+✻ Brewed for 27m 29s · done Tuesday 4:16 PM
 
 ❯ continue                                                                      
   ⎿  You've hit your session limit · resets 8:40pm (Europe/Prague)
@@ -10801,7 +10801,7 @@ code 0)
 ⏺ Usage limit reached · continuing automatically at 8:40pm · esc to 
   cancel
 
-✻ Churned for 1s · done 8:34 PM
+✻ Churned for 1s · done Tuesday 8:34 PM
 
 ⏺ Usage limit reset · continuing automatically
 
@@ -10823,7 +10823,7 @@ code 0)
   4. Metrics (R9): after your review, run .venv/bin/python -m src.metrics, or
      tell me to run it.
 
-✻ Sautéed for 11s · done 8:41 PM
+✻ Sautéed for 11s · done Tuesday 8:41 PM
 
 ※ recap: We're building a public-source database of Czech VC investors, and the pilot run (R0–R8) is done: 27 active records, ready for your blind review. Next, open data/manual_review/review.html, rate the 292 rows, and save cz_vc.csv. (disable recaps in /config)
 
@@ -10842,7 +10842,7 @@ code 0)
   after R8, so there's nothing that needs the Mac awake until you finish the
   manual review and want R9 run.
 
-✻ Cooked for 4s · done 8:54 PM
+✻ Cooked for 4s · done Tuesday 8:54 PM
 
 ❯ epair pass before the manual review; log it as D-019 in docs/decisions.md.    
                                                                                 
@@ -11363,7 +11363,7 @@ code 0)
   and N1. The other 8 follow in rounds of 4. After that come R4–R8 for these 12
   records.
 
-✻ Worked for 1m 1s · done 8:55 PM
+✻ Worked for 1m 1s · done Tuesday 8:55 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -11430,7 +11430,7 @@ code 0)
   started. Four are running now: DEPO, KAYA VC, N1 and PurposeTech. Seven of the
   12 repair records are still to start.
 
-✻ Sautéed for 14s · done 8:57 PM
+✻ Sautéed for 14s · done Tuesday 8:57 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -11464,7 +11464,7 @@ code 0)
   base still rests only on the Prague office address. I'll log the run once its
   usage figures arrive.
 
-✻ Sautéed for 2s · done 8:57 PM
+✻ Sautéed for 2s · done Tuesday 8:57 PM
 
 ⏺ Agent "Re-extract kaya-vc" finished · 1m 49s
 
@@ -11531,7 +11531,7 @@ code 0)
   Four are running: N1, PurposeTech, Zaka VC and Alpha Intelligence Capital.
   Five are still to start: Borovička, BTCZ, IP Lab Ventures, RockawayX and
   Tachles.
-✻ Crunched for 14s · done 8:58 PM
+✻ Crunched for 14s · done Tuesday 8:58 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -11557,7 +11557,7 @@ code 0)
   because its owners don't match. So N1 will likely stay excluded under K1. I'll
   log the run once its usage figures arrive.
 
-✻ Cooked for 2s · done 8:58 PM
+✻ Cooked for 2s · done Tuesday 8:58 PM
 
 ⏺ Agent "Re-extract nation1" finished · 2m 28s
 
@@ -11658,7 +11658,7 @@ code 0)
   Four are running: Zaka VC, Borovička, BTCZ and IP Lab Ventures. Then come
   RockawayX and Tachles.
 
-✻ Sautéed for 18s · done 8:59 PM
+✻ Sautéed for 18s · done Tuesday 8:59 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -11696,7 +11696,7 @@ code 0)
   Silicon Valley, London and Bratislava. I'll log the run once its usage figures
   arrive and then start the next extraction.
 
-✻ Worked for 2s · done 8:59 PM
+✻ Worked for 2s · done Tuesday 8:59 PM
 
 ⏺ Agent "Re-extract zaka-vc" finished · 1m 41s
 
@@ -11758,7 +11758,7 @@ code 0)
   Lab Ventures, RockawayX and Tachles. Once those finish I'll run R4–R8 on the
   12 records.
 
-✻ Worked for 15s · done 9:00 PM
+✻ Worked for 15s · done Tuesday 9:00 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -11786,7 +11786,7 @@ code 0)
   situation differently. I'll note that inconsistency in E-19. Three
   re-extractions are still running.
 
-✻ Baked for 3s · done 9:01 PM
+✻ Baked for 3s · done Tuesday 9:01 PM
 
 ⏺ Agent "Re-extract borovicka-capital" finished · 2m 6s
 
@@ -11851,7 +11851,7 @@ code 0)
   RockawayX and Tachles VC are still running. When they finish I'll start R4–R8
   on all 12.
 
-✻ Sautéed for 11s · done 9:01 PM
+✻ Sautéed for 11s · done Tuesday 9:01 PM
 
 › Message from investor-extractor
   Wrote /Users/davidkoktavy/Desktop/Investor DB
@@ -11883,7 +11883,7 @@ code 0)
   exclude it on geography. Only Tachles VC is still running; R4–R8 starts when
   it finishes.
 
-✻ Baked for 2s · done 9:02 PM
+✻ Baked for 2s · done Tuesday 9:02 PM
 
 ⏺ Agent "Re-extract rockawayx" finished · 1m 30s
 
@@ -12035,7 +12035,7 @@ code 0)
   is running on the first four: Czech Founders VC, DEPO, KAYA VC and N1. The
   other eight will follow as these finish.
 
-✻ Worked for 53s · done 9:03 PM
+✻ Worked for 53s · done Tuesday 9:03 PM
 
 › Message from evidence-verifier
   nation1: 4 supported, 1 partially_supported, 0 unsupported, 0 contradicted, 0
@@ -12057,7 +12057,7 @@ code 0)
   VC, DEPO and KAYA VC are still being verified. I'll log N1's run when its
   usage numbers arrive.
 
-✻ Baked for 2s · done 9:03 PM
+✻ Baked for 2s · done Tuesday 9:03 PM
 
 ⏺ Agent "Verify nation1 (repair)" finished · 26s
 
@@ -12146,7 +12146,7 @@ code 0)
   Capital and Borovička. BTCZ, IP Lab Ventures, RockawayX and Tachles come next,
   then R7 decide and the R8 review sheet.
 
-✻ Cogitated for 17s · done 9:04 PM
+✻ Cogitated for 17s · done Tuesday 9:04 PM
 
 › Message from evidence-verifier
   purposetech: 7 supported, 0 partially_supported, 0 unsupported, 0
@@ -12165,7 +12165,7 @@ code 0)
   should pass K1 at the decide step. Three verifiers are still running: Zaka VC,
   Alpha Intelligence Capital and Borovička.
 
-✻ Churned for 2s · done 9:04 PM
+✻ Churned for 2s · done Tuesday 9:04 PM
 
 ⏺ Agent "Verify purposetech (repair)" finished · 28s
 › Message from evidence-verifier
@@ -12243,7 +12243,7 @@ code 0)
   Tachles VC. After they finish I'll run R7 (decide) and R8 (review sheet), then
   add the before/after decisions to E-19.
 
-✻ Brewed for 16s · done 9:04 PM
+✻ Brewed for 16s · done Tuesday 9:04 PM
 
 › Message from evidence-verifier
   zaka-vc: 6 supported, 4 partially_supported, 0 unsupported, 0 contradicted, 0
@@ -12264,7 +12264,7 @@ code 0)
   on those pages. Two of the dates can only be inferred from image upload paths.
   I'll note this in E-19. Four verifiers are still running.
 
-✻ Baked for 3s · done 9:04 PM
+✻ Baked for 3s · done Tuesday 9:04 PM
 
 ⏺ Agent "Verify zaka-vc (repair)" finished · 45s
 
@@ -13006,4 +13006,22 @@ code 0)
   data/manual_review/review.html, then /export of the session log, then R9
   metrics.
 
-✻ Worked for 11m 13s · done 9:06 PM
+✻ Worked for 11m 13s · done Tuesday 9:06 PM
+
+❯ /export ai-log/01-pilot-r0-r8.md                                              
+  ⎿  Conversation exported to: /Users/davidkoktavy/Desktop/Investor DB
+     Starter/ai-log/01-pilot-r0-r8.md
+
+❯ git add -A && git commit -m "docs: session log 01" && git push                
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ The session log ai-log/01-pilot-r0-r8.md (about 770 KB) is committed as docs: 
+  session log 01 and pushed. I scanned it first and found nothing that looks
+  like an API key, password or token. The working tree is now clean.
+
+  What's left is yours: the manual review in data/manual_review/review.html,
+  then R9 (.venv/bin/python -m src.metrics).
+
+✻ Brewed for 11s · done Tuesday 9:08 PM
+
+※ recap: We're building the Czech VC investor database. The pilot run, the repair pass and the session log are done and pushed, and 34 active records are ready for your review. Next: do the manual review in data/manual_review/review.html.
