@@ -6,11 +6,11 @@ Kandidátů: **224** · zařazeno (active): **34** · plných záznamů (extrakc
 
 | Metrika | Hodnota |
 |---|---|
-| Přesnost záznamu (aktivní VC/CVC s týmem v ČR) | 75.0 % (9/12; 95% CI 46.8–91.1 %) |
-| Správnost vyřazení — pipeline | 90.0 % (9/10; 95% CI 59.6–98.2 %) |
+| Přesnost záznamu (aktivní VC/CVC s týmem v ČR) | 100.0 % (12/12; 95% CI 75.7–100.0 %) |
+| Správnost vyřazení — pipeline | 100.0 % (10/10; 95% CI 72.2–100.0 %) |
 | Správnost vyřazení — triáž (vzorek) | 100.0 % (5/5; 95% CI 56.6–100.0 %) |
-| Přesnost údajů ve finální databázi (všechna pole) | 90.0 % (18/20; 95% CI 69.9–97.2 %) |
-| Přesnost údajů od extraktoru před ověřením | 90.5 % (19/21; 95% CI 71.1–97.3 %) |
+| Přesnost údajů ve finální databázi (všechna pole) | 100.0 % (20/20; 95% CI 83.9–100.0 %) |
+| Přesnost údajů od extraktoru před ověřením | 100.0 % (21/21; 95% CI 84.5–100.0 %) |
 | Platnost citací (citace nalezena na stránce) | 97.9 % (424/433; 95% CI 96.1–98.9 %) |
 | Ověřovatel zahodil správný údaj | 0× |
 | Ověřovatel propustil chybný údaj | 0× |
@@ -25,10 +25,10 @@ Kandidátů: **224** · zařazeno (active): **34** · plných záznamů (extrakc
 | hq_country | 100.0 % (34/34; 95% CI 89.8–100.0 %) | – | – |
 | sectors | 73.5 % (25/34; 95% CI 56.9–85.4 %) | – | – |
 | stages | 76.5 % (26/34; 95% CI 60.0–87.6 %) | – | – |
-| ticket | 61.8 % (21/34; 95% CI 45.0–76.1 %) | 85.7 % (6/7; 95% CI 48.7–97.4 %) | 85.7 % (6/7; 95% CI 48.7–97.4 %) |
+| ticket | 61.8 % (21/34; 95% CI 45.0–76.1 %) | 100.0 % (7/7; 95% CI 64.6–100.0 %) | 100.0 % (7/7; 95% CI 64.6–100.0 %) |
 | capital | 41.2 % (14/34; 95% CI 26.4–57.8 %) | 100.0 % (1/1; 95% CI 20.7–100.0 %) | 100.0 % (2/2; 95% CI 34.2–100.0 %) |
 | legal_entities | 100.0 % (34/34; 95% CI 89.8–100.0 %) | – | – |
-| evidence_of_activity | 100.0 % (34/34; 95% CI 89.8–100.0 %) | 91.7 % (11/12; 95% CI 64.6–98.5 %) | 91.7 % (11/12; 95% CI 64.6–98.5 %) |
+| evidence_of_activity | 100.0 % (34/34; 95% CI 89.8–100.0 %) | 100.0 % (12/12; 95% CI 75.7–100.0 %) | 100.0 % (12/12; 95% CI 75.7–100.0 %) |
 
 ## Ověřovatel vs. ruční kontrola
 
@@ -36,7 +36,7 @@ Kandidátů: **224** · zařazeno (active): **34** · plných záznamů (extrakc
 |---|---|---|---|---|
 | none | 1 | 0 | 0 | 0 |
 | partially_supported | 2 | 0 | 0 | 0 |
-| supported | 16 | 2 | 0 | 0 |
+| supported | 18 | 0 | 0 | 0 |
 
 ## Trychtýř rozhodnutí
 
